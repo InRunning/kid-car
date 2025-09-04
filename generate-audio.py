@@ -111,7 +111,9 @@ def process_car_audio(car_data, config):
             print(f"  生成中文音频: {chinese_filename}")
             
             if generate_audio(car['car-name'], chinese_filename, "chinese", config):
-                car['chinese-audio-path'] = chinese_filename
+                # 将完整路径转换为相对于assets目录的路径
+                relative_path = chinese_filename.replace('kid_car_flutter/', '')
+                car['chinese-audio-path'] = relative_path
                 # 立即保存更新
                 save_car_data(car_data)
                 print(f"  已更新中文音频路径: {chinese_filename}")
@@ -125,7 +127,9 @@ def process_car_audio(car_data, config):
             print(f"  生成英文音频: {english_filename}")
             
             if generate_audio(car['car-english-name'], english_filename, "english", config):
-                car['english-audio-path'] = english_filename
+                # 将完整路径转换为相对于assets目录的路径
+                relative_path = english_filename.replace('kid_car_flutter/', '')
+                car['english-audio-path'] = relative_path
                 # 立即保存更新
                 save_car_data(car_data)
                 print(f"  已更新英文音频路径: {english_filename}")

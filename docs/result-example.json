@@ -4,8 +4,12 @@
         "car-english-name": "Sedan",
         "car-type": "小型车辆",
         "car-description": "小汽车，可以载着家人去旅行或购物，是我们日常生活中最常见的车辆。",
+        "car-english-pronunciation": "/ˈsedən/",
+        "car-american-pronunciation": "/ˈsedən/",
         "car-image-path": "images/sedan.png",
         "chinese-audio-path": "audios/chinese-sedan.wav",
-        "english-audio-path": "audios/english-sedan.wav"
+        "english-audio-path": "audios/english-sedan.wav",
+        "english-pronunciation-audio-path": "audios/english-pronunciation-sedan.wav",
+        "american-pronunciation-audio-path": "audios/american-pronunciation-sedan.wav"
     }
 ]

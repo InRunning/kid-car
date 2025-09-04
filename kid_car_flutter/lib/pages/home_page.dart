@@ -139,7 +139,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     return Consumer<CarProvider>(
       builder: (context, carProvider, child) {
         return Scaffold(
-          body: carProvider.isLoading
+          body: SafeArea(
+            child: carProvider.isLoading
               ? const Center(child: CircularProgressIndicator())
               : carProvider.errorMessage.isNotEmpty
                   ? Center(
@@ -159,6 +160,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       ),
                     )
                   : _buildCarContent(carProvider),
+          ),
         );
       },
     );

@@ -107,7 +107,8 @@ class _SearchPageState extends State<SearchPage> {
         }
         
         return Scaffold(
-          body: carProvider.isLoading
+          body: SafeArea(
+            child: carProvider.isLoading
               ? const Center(child: CircularProgressIndicator())
               : carProvider.errorMessage.isNotEmpty
                   ? Center(
@@ -127,6 +128,7 @@ class _SearchPageState extends State<SearchPage> {
                       ),
                     )
                   : _buildSearchContent(carProvider),
+          ),
         );
       },
     );
@@ -135,7 +137,12 @@ class _SearchPageState extends State<SearchPage> {
   Widget _buildSearchContent(CarProvider carProvider) {
     return Column(
       children: [
-        // 搜索框
+        // 车辆内容区域
+        Expanded(
+          child: _showGrouped ? _buildGroupedCarList(carProvider) : _buildSearchResultList(carProvider),
+        ),
+        
+        // 搜索框 - 移动到底部
         Padding(
           padding: const EdgeInsets.all(16.0),
           child: Card(
@@ -169,11 +176,6 @@ class _SearchPageState extends State<SearchPage> {
               ),
             ),
           ),
-        ),
-        
-        // 车辆内容区域
-        Expanded(
-          child: _showGrouped ? _buildGroupedCarList(carProvider) : _buildSearchResultList(carProvider),
         ),
       ],
     );

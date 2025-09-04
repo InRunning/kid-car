@@ -74,7 +74,10 @@ def generate_car_image(car_info):
     car_type = car_info['car-type']
     
     # 构建图片生成提示词
-    prompt = f"一辆{car_name}，{car_type}，卡通风格，适合儿童，不要出现人物，背景简洁，色彩鲜艳"
+    if car_type in ['家具', '动物', '天气', '食物', '职业']:
+        prompt = f"一个{car_name}，{car_type}，卡通风格，适合儿童，色彩鲜艳，简单易懂"
+    else:
+        prompt = f"一辆{car_name}，{car_type}，卡通风格，适合儿童，不要出现人物，背景简洁，色彩鲜艳"
     
     print(f"正在为 {car_name} 生成图片...")
     
@@ -88,6 +91,7 @@ def generate_car_image(car_info):
                 "model": IMAGE_MODEL,  # 使用配置中的图片生成模型
                 "prompt": prompt,
                 "n": 1,  # 生成1张图片
+
                 "size": "1024x1024"  # 图片尺寸
             }, ensure_ascii=False).encode('utf-8'),
             proxies=PROXIES if PROXIES else None
@@ -196,7 +200,9 @@ def main():
         
         if image_path:
             # 更新car.json中的图片路径
-            car['car-image-path'] = image_path
+            # 将完整路径转换为相对于assets目录的路径
+            relative_path = image_path.replace('kid_car_flutter/', '')
+            car['car-image-path'] = relative_path
             success_count += 1
             
             print(f"✓ 成功生成图片: {car['car-name']}")

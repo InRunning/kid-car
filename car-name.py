@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-车辆信息生成脚本
-调用智谱AI的GLM-4.5模型生成车辆名称、英文名称和描述
+事物信息生成脚本
+调用智谱AI的GLM-4.5模型生成事物名称、英文名称、描述和音标
 """
 
 import json
@@ -49,21 +49,25 @@ def create_client():
         api_key=api_key
     )
 
-def generate_car_info(client, car_type):
-    """生成单个车辆信息"""
+def generate_item_info(client, item_type):
+    """生成单个事物信息"""
     prompt = f"""
-    请为儿童认识车辆生成以下信息，车辆类型：{car_type}
+    请为儿童认识事物生成以下信息，事物类型：{item_type}
     
     请生成：
-    1. car-name: 中文车辆名称（简单易懂，适合儿童）
-    2. car-english-name: 英文车辆名称
-    3. car-description: 车辆描述（简单介绍，适合儿童理解）
+    1. car-name: 中文事物名称（简单易懂，适合儿童）
+    2. car-english-name: 英文事物名称
+    3. car-description: 事物描述（简单介绍，适合儿童理解，根据类型调整描述内容）
+    4. car-english-pronunciation: 英式音标（使用国际音标IPA格式）
+    5. car-american-pronunciation: 美式音标（使用国际音标IPA格式）
     
     请以JSON格式返回，格式如下：
     {{
-        "car-name": "车辆中文名",
-        "car-english-name": "Vehicle English Name",
-        "car-description": "车辆描述"
+        "car-name": "事物中文名",
+        "car-english-name": "Item English Name",
+        "car-description": "事物描述",
+        "car-english-pronunciation": "/ɪnˈglɪʃ prəˌnʌnsiˈeɪʃən/",
+        "car-american-pronunciation": "/ˈæmərɪkən prəˌnʌnsiˈeɪʃən/"
     }}
     """
     
@@ -73,7 +77,7 @@ def generate_car_info(client, car_type):
             messages=[
                 {
                     'role': 'system',
-                    'content': '你是一个专业的车辆教育助手，专门为儿童提供简单易懂的车辆知识。'
+                    'content': '你是一个专业的儿童教育助手，专门为儿童提供简单易懂的各种事物知识，包括车辆、家具、动物、天气、食物和职业等。'
                 },
                 {
                     'role': 'user',
@@ -103,11 +107,11 @@ def generate_car_info(client, car_type):
             return None
             
     except Exception as e:
-        print(f"生成车辆信息时出错: {e}")
+        print(f"生成事物信息时出错: {e}")
         return None
 
-def load_existing_cars():
-    """加载已生成的车辆信息"""
+def load_existing_items():
+    """加载已生成的事物信息"""
     if os.path.exists('kid_car_flutter/assets/car.json'):
         try:
             with open('kid_car_flutter/assets/car.json', 'r', encoding='utf-8') as f:
@@ -117,11 +121,11 @@ def load_existing_cars():
             return []
     return []
 
-def save_cars_to_json(cars):
-    """保存车辆信息到json文件"""
+def save_items_to_json(items):
+    """保存事物信息到json文件"""
     try:
         with open('kid_car_flutter/assets/car.json', 'w', encoding='utf-8') as f:
-            json.dump(cars, f, ensure_ascii=False, indent=2)
+            json.dump(items, f, ensure_ascii=False, indent=2)
         return True
     except Exception as e:
         print(f"保存car.json文件失败: {e}")
@@ -129,10 +133,10 @@ def save_cars_to_json(cars):
 
 def main():
     """主函数"""
-    print("开始生成车辆信息...")
+    print("开始生成事物信息...")
     
-    # 车辆名称和类型列表
-    car_names = [
+    # 事物名称和类型列表
+    item_names = [
         # 小型车辆
         ("小汽车", "小型车辆"), ("出租车", "小型车辆"), ("跑车", "小型车辆"), ("越野车", "小型车辆"),
         ("面包车", "小型车辆"), ("皮卡车", "小型车辆"), ("敞篷车", "小型车辆"), ("老爷车", "小型车辆"),
@@ -192,59 +196,84 @@ def main():
         
         # 其他特殊车辆
         ("月球车", "其他特殊车辆"), ("火星车", "其他特殊车辆"), ("矿用车", "其他特殊车辆"), ("隧道掘进机", "其他特殊车辆"),
-        ("盾构机", "其他特殊车辆"), ("压裂车", "其他特殊车辆"), ("钻井平台", "其他特殊车辆")
+        ("盾构机", "其他特殊车辆"), ("压裂车", "其他特殊车辆"), ("钻井平台", "其他特殊车辆"),
+        
+        # 家具分类
+        ("桌子", "家具"), ("椅子", "家具"), ("沙发", "家具"), ("床", "家具"),
+        ("书架", "家具"), ("衣柜", "家具"), ("茶几", "家具"), ("电视柜", "家具"),
+        ("学习桌", "家具"), ("儿童床", "家具"), ("玩具箱", "家具"), ("鞋柜", "家具"),
+        
+        # 动物分类
+        ("小狗", "动物"), ("小猫", "动物"), ("兔子", "动物"), ("小鸟", "动物"),
+        ("金鱼", "动物"), ("仓鼠", "动物"), ("乌龟", "动物"), ("蝴蝶", "动物"),
+        ("大象", "动物"), ("长颈鹿", "动物"), ("狮子", "动物"), ("熊猫", "动物"),
+        
+        # 天气分类
+        ("太阳", "天气"), ("云朵", "天气"), ("雨", "天气"), ("雪", "天气"),
+        ("彩虹", "天气"), ("风", "天气"), ("雷电", "天气"), ("雾", "天气"),
+        ("冰雹", "天气"), ("霜", "天气"), ("露珠", "天气"), ("星空", "天气"),
+        
+        # 食物分类
+        ("苹果", "食物"), ("香蕉", "食物"), ("面包", "食物"), ("牛奶", "食物"),
+        ("鸡蛋", "食物"), ("饼干", "食物"), ("果汁", "食物"), ("蔬菜", "食物"),
+        ("米饭", "食物"), ("面条", "食物"), ("蛋糕", "食物"), ("冰淇淋", "食物"),
+        
+        # 职业分类
+        ("医生", "职业"), ("护士", "职业"), ("老师", "职业"), ("警察", "职业"),
+        ("消防员", "职业"), ("厨师", "职业"), ("司机", "职业"), ("农民", "职业"),
+        ("宇航员", "职业"), ("运动员", "职业"), ("画家", "职业"), ("音乐家", "职业")
     ]
     
     # 创建客户端
     client = create_client()
     
-    # 加载已生成的车辆信息
-    all_cars = load_existing_cars()
+    # 加载已生成的事物信息
+    all_items = load_existing_items()
     
-    # 获取已生成的车辆名称集合
-    generated_car_names = {car['car-name'] for car in all_cars}
+    # 获取已生成的事物名称集合
+    generated_item_names = {item['car-name'] for item in all_items}
     
     # 统计信息
-    success_count = len(all_cars)
+    success_count = len(all_items)
     fail_count = 0
     
-    # 为每种车辆生成信息
-    for i, (car_name, car_type) in enumerate(car_names, 1):
-        # 跳过已生成的车辆
-        if car_name in generated_car_names:
-            print(f"跳过已生成: {car_name} ({car_type})")
+    # 为每种事物生成信息
+    for i, (item_name, item_type) in enumerate(item_names, 1):
+        # 跳过已生成的事物
+        if item_name in generated_item_names:
+            print(f"跳过已生成: {item_name} ({item_type})")
             continue
         
-        print(f"正在生成第 {i}/{len(car_names)} 个车辆信息: {car_name} ({car_type})")
+        print(f"正在生成第 {i}/{len(item_names)} 个事物信息: {item_name} ({item_type})")
         
-        car_info = generate_car_info(client, car_name)
+        item_info = generate_item_info(client, item_name)
         
-        if car_info:
-            # 添加车辆类型和初始路径
-            car_info['car-name'] = car_name
-            car_info['car-type'] = car_type
-            car_info['car-image-path'] = ''  # 图片路径，后续生成
-            car_info['chinese-audio-path'] = ''  # 中文音频路径，后续生成
-            car_info['english-audio-path'] = ''  # 英文音频路径，后续生成
+        if item_info:
+            # 添加事物类型和初始路径
+            item_info['car-name'] = item_name
+            item_info['car-type'] = item_type
+            item_info['car-image-path'] = ''  # 图片路径，后续生成
+            item_info['chinese-audio-path'] = ''  # 中文音频路径，后续生成
+            item_info['english-audio-path'] = ''  # 英文音频路径，后续生成
             
-            all_cars.append(car_info)
+            all_items.append(item_info)
             success_count += 1
-            print(f"✓ 成功生成: {car_info['car-name']} ({car_type})")
+            print(f"✓ 成功生成: {item_info['car-name']} ({item_type})")
             
             # 每生成一个就保存一次
-            if save_cars_to_json(all_cars):
+            if save_items_to_json(all_items):
                 print(f"  已保存到 car.json")
             else:
                 print(f"  保存失败！")
         else:
             fail_count += 1
-            print(f"✗ 生成失败: {car_name} ({car_type})")
+            print(f"✗ 生成失败: {item_name} ({item_type})")
         
         # 添加延迟避免请求过快
         import time
         time.sleep(1)
     
-    print(f"\n完成！共生成 {success_count} 个车辆信息，失败 {fail_count} 个")
+    print(f"\n完成！共生成 {success_count} 个事物信息，失败 {fail_count} 个")
     print(f"结果已保存到: car.json")
 
 if __name__ == "__main__":
