@@ -8,8 +8,8 @@ from io import BytesIO
 
 # 配置常量
 CONFIG_FILE = "local.yaml"
-CAR_JSON_FILE = "car.json"
-IMAGES_DIR = "images"
+CAR_JSON_FILE = "kid_car_flutter/assets/car.json"
+IMAGES_DIR = "kid_car_flutter/assets/images"
 
 # 豆包API配置
 BASE_URL = "https://ark.cn-beijing.volces.com/api/v3"
@@ -54,12 +54,12 @@ def load_cars_data():
     if not os.path.exists(CAR_JSON_FILE):
         return []
     
-    with open(CAR_JSON_FILE, 'r', encoding='utf-8') as f:
+    with open('kid_car_flutter/assets/car.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def save_cars_data(cars_data):
     """保存车辆数据"""
-    with open(CAR_JSON_FILE, 'w', encoding='utf-8') as f:
+    with open('kid_car_flutter/assets/car.json', 'w', encoding='utf-8') as f:
         json.dump(cars_data, f, ensure_ascii=False, indent=2)
 
 def generate_car_image(car_name, car_type):

@@ -46,7 +46,7 @@ else:
     PROXIES = {}
 
 # 确保images目录存在
-IMAGES_DIR = 'images'
+IMAGES_DIR = 'kid_car_flutter/assets/images'
 if not os.path.exists(IMAGES_DIR):
     os.makedirs(IMAGES_DIR)
 
@@ -144,9 +144,9 @@ def generate_car_image(car_info):
 
 def load_cars_data():
     """加载车辆数据"""
-    if os.path.exists('car.json'):
+    if os.path.exists('kid_car_flutter/assets/car.json'):
         try:
-            with open('car.json', 'r', encoding='utf-8') as f:
+            with open('kid_car_flutter/assets/car.json', 'r', encoding='utf-8') as f:
                 return json.load(f)
         except Exception as e:
             print(f"读取car.json文件失败: {e}")
@@ -156,7 +156,7 @@ def load_cars_data():
 def save_cars_data(cars):
     """保存车辆数据到json文件"""
     try:
-        with open('car.json', 'w', encoding='utf-8') as f:
+        with open('kid_car_flutter/assets/car.json', 'w', encoding='utf-8') as f:
             json.dump(cars, f, ensure_ascii=False, indent=2)
         return True
     except Exception as e:

@@ -16,12 +16,12 @@ def load_config():
 
 def load_car_data():
     """加载车辆数据"""
-    with open('car.json', 'r', encoding='utf-8') as f:
+    with open('kid_car_flutter/assets/car.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def save_car_data(car_data):
     """保存车辆数据"""
-    with open('car.json', 'w', encoding='utf-8') as f:
+    with open('kid_car_flutter/assets/car.json', 'w', encoding='utf-8') as f:
         json.dump(car_data, f, ensure_ascii=False, indent=2)
 
 def generate_audio(text, output_path, voice_type="chinese", config=None):
@@ -88,7 +88,7 @@ def generate_audio(text, output_path, voice_type="chinese", config=None):
 def process_car_audio(car_data, config):
     """处理车辆音频生成"""
     # 确保audios目录存在
-    Path('audios').mkdir(exist_ok=True)
+    Path('kid_car_flutter/assets/audios').mkdir(exist_ok=True)
     
     total_cars = len(car_data)
     processed_count = 0
@@ -107,7 +107,7 @@ def process_car_audio(car_data, config):
         
         # 生成中文音频
         if not chinese_audio_generated:
-            chinese_filename = f"audios/{car['car-name']}_zh.mp3"
+            chinese_filename = f"kid_car_flutter/assets/audios/{car['car-name']}_zh.mp3"
             print(f"  生成中文音频: {chinese_filename}")
             
             if generate_audio(car['car-name'], chinese_filename, "chinese", config):
@@ -121,7 +121,7 @@ def process_car_audio(car_data, config):
         
         # 生成英文音频
         if not english_audio_generated:
-            english_filename = f"audios/{car['car-english-name']}_en.mp3"
+            english_filename = f"kid_car_flutter/assets/audios/{car['car-english-name']}_en.mp3"
             print(f"  生成英文音频: {english_filename}")
             
             if generate_audio(car['car-english-name'], english_filename, "english", config):

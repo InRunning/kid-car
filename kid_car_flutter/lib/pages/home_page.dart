@@ -15,7 +15,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   late AnimationController _animationController;
   late AnimationController _pulseController;
-  late Animation<double> _rotationAnimation;
   late Animation<double> _scaleAnimation;
   late Animation<double> _pulseAnimation;
   bool _isAnimating = false;
@@ -37,19 +36,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       vsync: this,
     );
     
-    // 旋转动画 - 360度旋转
-    _rotationAnimation = Tween<double>(
-      begin: 0.0,
-      end: 1.0,
-    ).animate(CurvedAnimation(
-      parent: _animationController,
-      curve: Curves.elasticOut,
-    ));
-    
-    // 缩放动画 - 先放大再回到原始大小
+    // 缩放动画 - 轻微放大效果
     _scaleAnimation = Tween<double>(
       begin: 1.0,
-      end: 1.3,
+      end: 1.1,
     ).animate(CurvedAnimation(
       parent: _animationController,
       curve: Curves.elasticInOut,
@@ -90,7 +80,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     }
   }
 
-  // 酷炫的旋转放大效果
+  // 酷炫的放大效果
   void _performCoolAnimation() {
     setState(() {
       _isAnimating = true;
@@ -125,7 +115,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     // 震动效果
     await _vibrate();
     
-    // 酷炫的旋转放大效果
+    // 酷炫的放大效果
     _performCoolAnimation();
     
     // 播放英文音频
@@ -256,35 +246,32 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         
                         // 主要的车辆图片动画
                         AnimatedBuilder(
-                          animation: Listenable.merge([_rotationAnimation, _scaleAnimation]),
+                          animation: _scaleAnimation,
                           builder: (context, child) {
                             return Transform.scale(
                               scale: _isAnimating ? _scaleAnimation.value : 1.0,
-                              child: Transform.rotate(
-                                angle: _isAnimating ? _rotationAnimation.value * 2 * 3.14159 : 0.0,
-                                child: Container(
-                                  decoration: _isAnimating ? BoxDecoration(
-                                    borderRadius: BorderRadius.circular(20),
-                                    boxShadow: [
-                                      BoxShadow(
-                                        color: Colors.green.withOpacity(0.5),
-                                        blurRadius: 20,
-                                        spreadRadius: 5,
-                                      ),
-                                    ],
-                                  ) : null,
-                                  child: Image.asset(
-                                    carProvider.currentCar!.carImagePath,
-                                    height: 200,
-                                    fit: BoxFit.contain,
-                                    errorBuilder: (context, error, stackTrace) {
-                                      return const Icon(
-                                        Icons.directions_car,
-                                        size: 200,
-                                        color: Colors.grey,
-                                      );
-                                    },
-                                  ),
+                              child: Container(
+                                decoration: _isAnimating ? BoxDecoration(
+                                  borderRadius: BorderRadius.circular(20),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.green.withOpacity(0.5),
+                                      blurRadius: 20,
+                                      spreadRadius: 5,
+                                    ),
+                                  ],
+                                ) : null,
+                                child: Image.asset(
+                                  carProvider.currentCar!.carImagePath,
+                                  height: 200,
+                                  fit: BoxFit.contain,
+                                  errorBuilder: (context, error, stackTrace) {
+                                    return const Icon(
+                                      Icons.directions_car,
+                                      size: 200,
+                                      color: Colors.grey,
+                                    );
+                                  },
                                 ),
                               ),
                             );
@@ -400,43 +387,53 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       IconButton(
                         onPressed: () => _previousCar(carProvider),
                         icon: const Icon(Icons.arrow_back_ios),
-                        iconSize: 32,
+                        iconSize: 24,
                         color: Colors.green,
+                        padding: EdgeInsets.zero,
+                        constraints: BoxConstraints(),
                       ),
-                      Column(
-                        children: [
-                          Text(
-                            '${carProvider.cars.indexOf(carProvider.currentCar!) + 1} / ${carProvider.cars.length}',
-                            style: const TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          const SizedBox(height: 4),
-                          Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: List.generate(
-                              carProvider.cars.length,
-                              (index) => Container(
-                                margin: const EdgeInsets.symmetric(horizontal: 2),
-                                width: 8,
-                                height: 8,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  color: index == carProvider.cars.indexOf(carProvider.currentCar!)
-                                      ? Colors.green
-                                      : Colors.grey.shade300,
-                                ),
+                      Expanded(
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Text(
+                              '${carProvider.cars.indexOf(carProvider.currentCar!) + 1} / ${carProvider.cars.length}',
+                              style: const TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.bold,
                               ),
                             ),
-                          ),
-                        ],
+                            const SizedBox(height: 4),
+                            SingleChildScrollView(
+                              scrollDirection: Axis.horizontal,
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: List.generate(
+                                  carProvider.cars.length,
+                                  (index) => Container(
+                                    margin: const EdgeInsets.symmetric(horizontal: 1),
+                                    width: 6,
+                                    height: 6,
+                                    decoration: BoxDecoration(
+                                      shape: BoxShape.circle,
+                                      color: index == carProvider.cars.indexOf(carProvider.currentCar!)
+                                          ? Colors.green
+                                          : Colors.grey.shade300,
+                                    ),
+                                  ),
+                                ).take(20).toList(), // 限制最多显示20个点
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                       IconButton(
                         onPressed: () => _nextCar(carProvider),
                         icon: const Icon(Icons.arrow_forward_ios),
-                        iconSize: 32,
+                        iconSize: 24,
                         color: Colors.green,
+                        padding: EdgeInsets.zero,
+                        constraints: BoxConstraints(),
                       ),
                     ],
                   ),

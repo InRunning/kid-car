@@ -24,22 +24,29 @@ class AudioService {
   }) async {
     try {
       // 播放英文音频3次
-      for (int i = 0; i < 3; i++) {
-        onStateChanged(true, 'english ${i + 1}/3');
-        await _playAudio(
+      int englishPlays = 0;
+      while (englishPlays < 3) {
+        onStateChanged(true, 'english ${englishPlays + 1}/3');
+        bool playSuccess = await _playAudio(
           audioPath: car.englishAudioPath,
-          audioType: 'english ${i + 1}/3',
+          audioType: 'english ${englishPlays + 1}/3',
           onStateChanged: onStateChanged,
           onError: onError,
-          recreatePlayer: i == 0, // 只在第一次播放时重新创建播放器
+          recreatePlayer: englishPlays == 0, // 只在第一次播放时重新创建播放器
         );
         
-        // 等待播放完成
-        await _waitForPlaybackComplete();
-        
-        // 短暂间隔
-        if (i < 2) {
-          await Future.delayed(const Duration(milliseconds: 500));
+        if (playSuccess) {
+          englishPlays++;
+          // 等待播放完成
+          await _waitForPlaybackComplete();
+          
+          // 短暂间隔
+          if (englishPlays < 3) {
+            await Future.delayed(const Duration(milliseconds: 500));
+          }
+        } else {
+          // 播放失败，跳过剩余次数
+          break;
         }
       }
       
@@ -77,7 +84,7 @@ class AudioService {
   }
   
   // 播放单个音频
-  Future<void> _playAudio({
+  Future<bool> _playAudio({
     required String audioPath,
     required String audioType,
     required Function(bool, String) onStateChanged,
@@ -118,18 +125,21 @@ class AudioService {
         String assetPath = audioPath.startsWith('assets/') ? audioPath.substring(7) : audioPath;
         await _audioPlayer.play(AssetSource(assetPath));
         print('使用AssetSource播放音频成功');
+        return true;
       } catch (e1) {
         print('AssetSource播放失败: $e1');
         try {
           // 方法2: 使用直接路径
           await _audioPlayer.play(DeviceFileSource(audioPath));
           print('使用DeviceFileSource播放音频成功');
+          return true;
         } catch (e2) {
           print('DeviceFileSource播放失败: $e2');
           try {
             // 方法3: 使用URL
             await _audioPlayer.play(UrlSource(audioPath));
             print('使用UrlSource播放音频成功');
+            return true;
           } catch (e3) {
             print('所有播放方式都失败: $e3');
             throw e3;
@@ -142,9 +152,9 @@ class AudioService {
       // 在Web平台上，音频播放可能会失败，但我们不希望这影响用户体验
       // 模拟音频播放完成
       await Future.delayed(const Duration(seconds: 1));
-      
       // 显示错误
       onError('播放音频失败: $e');
+      return false;
     }
   }
   
