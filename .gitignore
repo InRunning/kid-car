@@ -1,0 +1,86 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Flutter build directories
+kid_car_flutter/build/
+
+# Flutter specific
+kid_car_flutter/.metadata
+kid_car_flutter/android/.gradle/
+kid_car_flutter/android/app/.cxx/
+kid_car_flutter/ios/.symlinks/
+kid_car_flutter/ios/Flutter/Flutter.framework/
+kid_car_flutter/ios/Flutter/Flutter.podspec
+kid_car_flutter/ios/Flutter/Generated.xcconfig
+kid_car_flutter/linux/flutter/ephemeral/
+kid_car_flutter/macos/Flutter/Flutter.framework/
+kid_car_flutter/macos/Flutter/Flutter.podspec
+kid_car_flutter/macos/Flutter/Generated.xcconfig
+kid_car_flutter/macos/Flutter/ephemeral/
+kid_car_flutter/windows/flutter/ephemeral/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+local.yaml
+ref-docs/
