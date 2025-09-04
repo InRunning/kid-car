@@ -1,7 +1,6 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:vibration/vibration.dart';
 import '../providers/car_provider.dart';
 import '../services/audio_service.dart';
 
@@ -26,13 +25,13 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     
     // 主动画控制器 - 旋转和缩放
     _animationController = AnimationController(
-      duration: const Duration(milliseconds: 1200),
+      duration: const Duration(milliseconds: 600),
       vsync: this,
     );
     
     // 脉冲动画控制器 - 背景光晕效果
     _pulseController = AnimationController(
-      duration: const Duration(milliseconds: 800),
+      duration: const Duration(milliseconds: 400),
       vsync: this,
     );
     
@@ -69,17 +68,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     super.dispose();
   }
 
-  // 震动效果
-  Future<void> _vibrate() async {
-    try {
-      if (await Vibration.hasVibrator() == true) {
-        Vibration.vibrate(duration: 200);
-      }
-    } catch (e) {
-      print('震动失败: $e');
-    }
-  }
-
   // 酷炫的放大效果
   void _performCoolAnimation() {
     setState(() {
@@ -97,7 +85,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     _animationController.forward();
     
     // 动画完成后重置状态
-    Future.delayed(const Duration(milliseconds: 1200), () {
+    Future.delayed(const Duration(milliseconds: 600), () {
       if (mounted) {
         _pulseController.stop();
         _pulseController.reset();
@@ -111,9 +99,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   // 播放车辆音频
   Future<void> _playCarAudio(CarProvider carProvider) async {
     if (carProvider.currentCar == null || carProvider.isPlayingAudio || _isAnimating) return;
-    
-    // 震动效果
-    await _vibrate();
     
     // 酷炫的放大效果
     _performCoolAnimation();
@@ -429,9 +414,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                           GestureDetector(
                             onTap: () async {
                               if (carProvider.currentCar!.englishAudioPath.isNotEmpty) {
-                                // 震动效果
-                                await _vibrate();
-                                
                                 // 播放一次英文音频
                                 await _audioService.playEnglishAudioOnce(
                                   car: carProvider.currentCar!,
@@ -568,7 +550,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   ),
                   SizedBox(height: 8),
                   Text(
-                    '• 点击车辆图片：震动 + 酷炫旋转放大效果并播放英文音频\n• 左右滑动屏幕：切换不同车辆\n• 点击箭头按钮：切换车辆',
+                    '• 点击车辆图片：酷炫旋转放大效果并播放英文音频\n• 左右滑动屏幕：切换不同车辆\n• 点击箭头按钮：切换车辆',
                     style: TextStyle(
                       fontSize: 16,
                       height: 1.5,

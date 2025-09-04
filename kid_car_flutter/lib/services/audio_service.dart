@@ -58,7 +58,7 @@ class AudioService {
 
           // 短暂间隔
           if (englishPlays < 3) {
-            await Future.delayed(const Duration(milliseconds: 500));
+            await Future.delayed(const Duration(milliseconds: 200));
             // 间隔后再次检查是否需要停止
             if (_shouldStop) {
               onStateChanged(false, '');
@@ -78,7 +78,7 @@ class AudioService {
       }
 
       // 短暂间隔后播放中文音频
-      await Future.delayed(const Duration(milliseconds: 800));
+      await Future.delayed(const Duration(milliseconds: 300));
 
       // 再次检查是否需要停止
       if (_shouldStop) {
@@ -206,6 +206,9 @@ class AudioService {
         }
       });
 
+      // 设置音量为最大
+      await _audioPlayer.setVolume(1.0);
+      
       // 播放音频 - 尝试使用不同的方式
       try {
         // 方法1: 使用AssetSource，需要移除assets/前缀，因为AssetSource会自动添加
