@@ -76,6 +76,38 @@ class AudioService {
     }
   }
   
+  // 播放一次英文音频
+  Future<void> playEnglishAudioOnce({
+    required Car car,
+    required Function(bool, String) onStateChanged,
+    required Function(String) onError,
+  }) async {
+    try {
+      onStateChanged(true, 'english');
+      
+      bool playSuccess = await _playAudio(
+        audioPath: car.englishAudioPath,
+        audioType: 'english',
+        onStateChanged: onStateChanged,
+        onError: onError,
+        recreatePlayer: true,
+      );
+      
+      if (playSuccess) {
+        // 等待播放完成
+        await _waitForPlaybackComplete();
+      }
+      
+      // 重置状态
+      onStateChanged(false, '');
+      
+    } catch (e) {
+      onError('播放音频失败: $e');
+      onStateChanged(false, '');
+      return;
+    }
+  }
+  
   // 等待播放完成
   Future<void> _waitForPlaybackComplete() async {
     while (_isPlaying) {

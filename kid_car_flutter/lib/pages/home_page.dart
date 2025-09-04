@@ -170,6 +170,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   void _previousCar(CarProvider carProvider) {
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
     
+    // 停止当前音频播放
+    _audioService.stop();
+    carProvider.resetAudioState();
+    
     final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
     final previousIndex = currentIndex > 0 ? currentIndex - 1 : carProvider.cars.length - 1;
     
@@ -179,6 +183,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   // 切换到下一个车辆
   void _nextCar(CarProvider carProvider) {
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
+    
+    // 停止当前音频播放
+    _audioService.stop();
+    carProvider.resetAudioState();
     
     final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
     final nextIndex = currentIndex < carProvider.cars.length - 1 ? currentIndex + 1 : 0;
@@ -358,6 +366,92 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       color: Colors.grey,
                     ),
                   ),
+                  
+                  // 音标显示和小喇叭图标
+                  if (carProvider.currentCar!.carEnglishPronunciation != null || carProvider.currentCar!.carAmericanPronunciation != null)
+                    Padding(
+                      padding: const EdgeInsets.only(top: 4.0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          // 英式音标
+                          if (carProvider.currentCar!.carEnglishPronunciation != null)
+                            Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  '英：',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color: Colors.grey[600],
+                                  ),
+                                ),
+                                Text(
+                                  carProvider.currentCar!.carEnglishPronunciation!,
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color: Colors.grey[600],
+                                    fontStyle: FontStyle.italic,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          
+                          // 美式音标
+                          if (carProvider.currentCar!.carAmericanPronunciation != null)
+                            Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Text(
+                                  '  美：',
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color: Colors.grey[600],
+                                  ),
+                                ),
+                                Text(
+                                  carProvider.currentCar!.carAmericanPronunciation!,
+                                  style: TextStyle(
+                                    fontSize: 14,
+                                    color: Colors.grey[600],
+                                    fontStyle: FontStyle.italic,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          
+                          const SizedBox(width: 8),
+                          // 小喇叭图标
+                          GestureDetector(
+                            onTap: () async {
+                              if (carProvider.currentCar!.englishAudioPath.isNotEmpty) {
+                                // 震动效果
+                                await _vibrate();
+                                
+                                // 播放一次英文音频
+                                await _audioService.playEnglishAudioOnce(
+                                  car: carProvider.currentCar!,
+                                  onStateChanged: (isPlaying, audioType) {
+                                    carProvider.setAudioPlayingState(isPlaying, audioType);
+                                  },
+                                  onError: (error) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(content: Text(error)),
+                                    );
+                                    carProvider.resetAudioState();
+                                  },
+                                );
+                              }
+                            },
+                            child: Icon(
+                              Icons.volume_up,
+                              size: 20,
+                              color: Colors.green,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                   const SizedBox(height: 16),
                   Text(
                     carProvider.currentCar!.carDescription,

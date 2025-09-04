@@ -6,6 +6,8 @@ class Car {
   final String carImagePath;
   final String chineseAudioPath;
   final String englishAudioPath;
+  final String? carEnglishPronunciation;
+  final String? carAmericanPronunciation;
 
   Car({
     required this.carName,
@@ -15,6 +17,8 @@ class Car {
     required this.carImagePath,
     required this.chineseAudioPath,
     required this.englishAudioPath,
+    this.carEnglishPronunciation,
+    this.carAmericanPronunciation,
   });
 
   // 从JSON创建Car对象
@@ -43,6 +47,8 @@ class Car {
       carImagePath: imagePath,
       chineseAudioPath: chineseAudio,
       englishAudioPath: englishAudio,
+      carEnglishPronunciation: json['car-english-pronunciation'],
+      carAmericanPronunciation: json['car-american-pronunciation'],
     );
   }
 
@@ -56,6 +62,8 @@ class Car {
       'car-image-path': carImagePath,
       'chinese-audio-path': chineseAudioPath,
       'english-audio-path': englishAudioPath,
+      'car-english-pronunciation': carEnglishPronunciation,
+      'car-american-pronunciation': carAmericanPronunciation,
     };
   }
 
