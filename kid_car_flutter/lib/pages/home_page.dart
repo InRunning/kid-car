@@ -167,31 +167,35 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   // 切换到上一个车辆
-  void _previousCar(CarProvider carProvider) {
+  Future<void> _previousCar(CarProvider carProvider) async {
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
     
     // 停止当前音频播放
-    _audioService.stop();
+    await _audioService.stop(onStateChanged: (isPlaying, audioType) {
+      carProvider.setAudioPlayingState(isPlaying, audioType);
+    });
     carProvider.resetAudioState();
     
     final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
     final previousIndex = currentIndex > 0 ? currentIndex - 1 : carProvider.cars.length - 1;
     
-    carProvider.setCurrentCar(carProvider.cars[previousIndex], previousIndex);
+    await carProvider.setCurrentCar(carProvider.cars[previousIndex], previousIndex);
   }
 
   // 切换到下一个车辆
-  void _nextCar(CarProvider carProvider) {
+  Future<void> _nextCar(CarProvider carProvider) async {
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
     
     // 停止当前音频播放
-    _audioService.stop();
+    await _audioService.stop(onStateChanged: (isPlaying, audioType) {
+      carProvider.setAudioPlayingState(isPlaying, audioType);
+    });
     carProvider.resetAudioState();
     
     final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
     final nextIndex = currentIndex < carProvider.cars.length - 1 ? currentIndex + 1 : 0;
     
-    carProvider.setCurrentCar(carProvider.cars[nextIndex], nextIndex);
+    await carProvider.setCurrentCar(carProvider.cars[nextIndex], nextIndex);
   }
 
   Widget _buildCarContent(CarProvider carProvider) {
@@ -202,14 +206,14 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     }
 
     return GestureDetector(
-      onHorizontalDragEnd: (details) {
+      onHorizontalDragEnd: (details) async {
         // 检测滑动方向
         if (details.primaryVelocity! > 0) {
           // 向右滑动，显示上一个车辆
-          _previousCar(carProvider);
+          await _previousCar(carProvider);
         } else if (details.primaryVelocity! < 0) {
           // 向左滑动，显示下一个车辆
-          _nextCar(carProvider);
+          await _nextCar(carProvider);
         }
       },
       child: SingleChildScrollView(
@@ -481,7 +485,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       IconButton(
-                        onPressed: () => _previousCar(carProvider),
+                        onPressed: () async {
+                          await _previousCar(carProvider);
+                        },
                         icon: const Icon(Icons.arrow_back_ios),
                         iconSize: 24,
                         color: Colors.green,
@@ -524,7 +530,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         ),
                       ),
                       IconButton(
-                        onPressed: () => _nextCar(carProvider),
+                        onPressed: () async {
+                          await _nextCar(carProvider);
+                        },
                         icon: const Icon(Icons.arrow_forward_ios),
                         iconSize: 24,
                         color: Colors.green,
