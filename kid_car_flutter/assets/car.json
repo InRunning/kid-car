@@ -1,0 +1,1289 @@
+[
+  {
+    "car-name": "小汽车",
+    "car-english-name": "Car",
+    "car-description": "小汽车是我们日常生活中最常见的交通工具之一。它有四个轮子，可以载着我们去学校、公园或任何想去的地方。小汽车有不同的颜色和大小，有的可以坐4个人，有的可以坐更多人。坐在小汽车里，我们可以听音乐、看窗外的风景，非常方便！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/小汽车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/小汽车_zh.mp3",
+    "english-audio-path": "assets/audios/Car_en.mp3"
+  },
+  {
+    "car-name": "出租车",
+    "car-english-name": "Taxi",
+    "car-description": "出租车是一种有特殊标志的汽车，车顶上有一盏灯，人们可以付钱坐它到想去的地方。当你和爸爸妈妈出门不想走路或坐公交车时，可以叫出租车，司机叔叔会安全地把你们送到目的地。",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/出租车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/出租车_zh.mp3",
+    "english-audio-path": "assets/audios/Taxi_en.mp3"
+  },
+  {
+    "car-name": "跑车",
+    "car-english-name": "Sports Car",
+    "car-description": "跑车是一种外形很酷、速度很快的汽车。它们有着流线型的车身，看起来就像在飞一样！跑车通常有两个座位，开起来非常刺激。它们就像赛道上的明星，专为速度和乐趣而设计！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/跑车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/跑车_zh.mp3",
+    "english-audio-path": "assets/audios/Sports Car_en.mp3"
+  },
+  {
+    "car-name": "越野车",
+    "car-english-name": "Off-road Vehicle",
+    "car-description": "越野车是一种特别强壮的汽车，它可以在不平坦的路上行驶，比如山路、沙地和草地。它比普通汽车更高大，有四个轮子一起驱动，所以不容易卡住。越野车喜欢冒险，可以爬小山坡，过小水沟，带我们去大自然中探险！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/越野车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/越野车_zh.mp3",
+    "english-audio-path": "assets/audios/Off-road Vehicle_en.mp3"
+  },
+  {
+    "car-name": "面包车",
+    "car-english-name": "Minivan",
+    "car-description": "面包车是一种外形像面包一样方方正正的车，它有很高的车顶和宽敞的空间。面包车可以坐很多人，通常有7到9个座位，非常适合一家人一起出游。有些面包车的座位还可以折叠起来，这样就能装很多东西，比如搬家时运送家具或者运送货物。面包车的窗户通常很大，让车里很明亮，乘客也能清楚地看到外面的风景。",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/面包车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/面包车_zh.mp3",
+    "english-audio-path": "assets/audios/Minivan_en.mp3"
+  },
+  {
+    "car-name": "皮卡车",
+    "car-english-name": "Pickup",
+    "car-description": "小皮卡是一种特别的汽车，它前面有座位可以坐人，后面有一个开放的货箱可以装东西。它很结实强壮，可以帮助人们搬运重物，比如家具、花草或者运动器材。有些小皮卡还可以开到山上或沙滩上玩耍，是非常实用的好帮手！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/皮卡车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/皮卡车_zh.mp3",
+    "english-audio-path": "assets/audios/Pickup_en.mp3"
+  },
+  {
+    "car-name": "敞篷车",
+    "car-english-name": "Convertible",
+    "car-description": "敞篷车是一种特别的汽车，它的车顶可以打开和关闭。当天气好的时候，车顶可以收起来，让阳光照进来，风儿吹过头发，开车的人可以感受到大自然的美好。当天气不好或者需要保护时，车顶又可以关上，就像普通的汽车一样。敞篷车看起来很酷，很多人喜欢在夏天开着它去海边兜风！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/敞篷车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/敞篷车_zh.mp3",
+    "english-audio-path": "assets/audios/Convertible_en.mp3"
+  },
+  {
+    "car-name": "老爷车",
+    "car-english-name": "Vintage Car",
+    "car-description": "古董车是很久很久以前制造的汽车，就像汽车界的爷爷奶奶！它们有圆圆的车灯，闪亮的镀铬装饰，还有特别漂亮的外形。和现在的汽车不一样，古董车可能没有空调、GPS或者电动车窗。现在，这些古董车非常珍贵，人们会像对待宝贝一样好好照顾它们。有些古董车还能开动呢，但它们跑得比较慢，就像在慢慢散步一样。",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/老爷车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/老爷车_zh.mp3",
+    "english-audio-path": "assets/audios/Vintage Car_en.mp3"
+  },
+  {
+    "car-name": "电动汽车",
+    "car-english-name": "Electric Car",
+    "car-description": "电动小车是一种特别的汽车，它不使用汽油，而是用电来行驶。就像你的电动玩具一样，它需要充电才能跑起来。电动小车很安静，不会发出'嗡嗡'的声音，也不会排放黑烟，所以对地球很友好。当你看到一辆车在充电站充电，那可能就是电动小车哦！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/电动汽车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/电动汽车_zh.mp3",
+    "english-audio-path": "assets/audios/Electric Car_en.mp3"
+  },
+  {
+    "car-name": "混合动力车",
+    "car-english-name": "Hybrid Car",
+    "car-description": "双动力车是一种特别的汽车，它有两种动力来源：一个是汽油发动机，就像普通汽车一样；另一个是电动机，使用电力来驱动。当汽车慢慢开或者停下来时，它会使用电力，这样就不会污染空气。当需要快速行驶时，汽油发动机会帮助提供更多力量。双动力车很聪明，它能自己决定什么时候使用哪种动力，这样可以节省燃料，保护我们的地球！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/混合动力车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/混合动力车_zh.mp3",
+    "english-audio-path": "assets/audios/Hybrid Car_en.mp3"
+  },
+  {
+    "car-name": "三轮车",
+    "car-english-name": "Tricycle",
+    "car-description": "三轮车有三个轮子，前面一个轮子，后面两个轮子。它很稳定，不容易摔倒，是小朋友们学习骑行的第一步。三轮车有脚踏板，小朋友可以用脚踩着前进，还有把手可以控制方向。很多小朋友在上学前都喜欢骑三轮车玩耍！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/三轮车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/三轮车_zh.mp3",
+    "english-audio-path": "assets/audios/Tricycle_en.mp3"
+  },
+  {
+    "car-name": "摩托车",
+    "car-english-name": "Motorcycle",
+    "car-description": "摩托车是只有两个轮子的车子，骑起来很快很酷！它有把手用来控制方向，有油门可以让它跑起来。骑摩托车的时候一定要戴好头盔，保护我们的小脑袋。摩托车可以载一个人在马路上穿梭，发出'嗡嗡'的声音，就像一只快速奔跑的小马！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/摩托车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/摩托车_zh.mp3",
+    "english-audio-path": "assets/audios/Motorcycle_en.mp3"
+  },
+  {
+    "car-name": "电动摩托车",
+    "car-english-name": "Electric Motorcycle",
+    "car-description": "电动小摩托是一种不用踩踏板就能跑的两轮车。它用电来驱动，不需要汽油，所以不会排放黑烟，很环保。骑电动小摩托时，我们需要戴上头盔保护头部，转动车把就能控制方向，转动油门就能前进。电动小摩托比普通摩托车安静很多，跑起来'嗡嗡'的声音很小。它是城市里短途出行的好帮手！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/电动摩托车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/电动摩托车_zh.mp3",
+    "english-audio-path": "assets/audios/Electric Motorcycle_en.mp3"
+  },
+  {
+    "car-name": "自行车",
+    "car-english-name": "Bike",
+    "car-description": "自行车有两个轮子，需要我们用脚踩踏板才能前进。它有车把用来控制方向，有座椅让我们坐得舒服。骑自行车是一种很好的运动，可以帮助我们去附近的地方，既环保又有趣！骑自行车时一定要记得戴头盔保护自己哦！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/自行车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/自行车_zh.mp3",
+    "english-audio-path": "assets/audios/Bike_en.mp3"
+  },
+  {
+    "car-name": "电动自行车",
+    "car-english-name": "Electric Bicycle",
+    "car-description": "电动自行车是一种有电池帮助的自行车。当你踩踏板时，电动机会帮助你，让你骑得更轻松、更快。它不需要汽油，只需要充电，非常环保。骑电动自行车时，记得要戴好头盔，注意安全哦！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/电动自行车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/电动自行车_zh.mp3",
+    "english-audio-path": "assets/audios/Electric Bicycle_en.mp3"
+  },
+  {
+    "car-name": "滑板车",
+    "car-english-name": "Scooter",
+    "car-description": "滑板车是一种有趣的个人交通工具，它有一个长长的踏板可以放脚，上面有把手掌握方向，下面有轮子可以滑行。玩滑板车时，你可以一只脚站在踏板上，另一只脚蹬地向前滑。滑板车适合在平坦的地方玩耍，比如公园或者小区里。骑滑板车时，记得要戴好头盔和保护装备，注意安全哦！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/滑板车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/滑板车_zh.mp3",
+    "english-audio-path": "assets/audios/Scooter_en.mp3"
+  },
+  {
+    "car-name": "平衡车",
+    "car-english-name": "Balance Bike",
+    "car-description": "平衡车是一种没有踏板的小自行车，小朋友们可以用脚蹬地来前进。它帮助小朋友们学习平衡，为以后骑真正的自行车做准备。平衡车有两个轮子，有车把可以控制方向，非常适合小朋友们玩耍和锻炼身体。",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/平衡车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/平衡车_zh.mp3",
+    "english-audio-path": "assets/audios/Balance Bike_en.mp3"
+  },
+  {
+    "car-name": "卡丁车",
+    "car-english-name": "Go-kart",
+    "car-description": "卡丁车是一种小型赛车，有四个轮子，车身很低，速度很快但很安全。小朋友们可以在专门的卡丁车场里驾驶它，感受赛车的乐趣。驾驶卡丁车时需要戴上安全头盔，系好安全带，这样才能玩得开心又安全。",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/卡丁车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/卡丁车_zh.mp3",
+    "english-audio-path": "assets/audios/Go-kart_en.mp3"
+  },
+  {
+    "car-name": "儿童车",
+    "car-english-name": "Kids' Car",
+    "car-description": "小童车是专门为小朋友们设计的小车子，有脚踏车、滑板车、平衡车和电动小汽车等。它们比大人的车小很多，颜色鲜艳，小朋友们可以自己骑着玩耍，锻炼身体平衡能力，还能和朋友们一起比赛，既有趣又健康！",
+    "car-type": "小型车辆",
+    "car-image-path": "assets/images/儿童车_小型车辆.jpg",
+    "chinese-audio-path": "assets/audios/儿童车_zh.mp3",
+    "english-audio-path": "assets/audios/Kids' Car_en.mp3"
+  },
+  {
+    "car-name": "公交车",
+    "car-english-name": "Bus",
+    "car-description": "公交车是一种大型车辆，有很多座位，可以载很多人一起出行。公交车有固定的路线和站点，人们可以在站点等车，上车后投币或刷卡。公交车是城市里常见的交通工具，可以帮助很多人方便地去到想去的地方。",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/公交车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/公交车_zh.mp3",
+    "english-audio-path": "assets/audios/Bus_en.mp3"
+  },
+  {
+    "car-name": "双层巴士",
+    "car-english-name": "Double-decker Bus",
+    "car-description": "双层巴士是一种有两层的大公交车，就像一个会移动的小房子！它很高，可以载很多乘客一起出行。坐在上层的小朋友可以看到更远的风景，就像坐在小山上看世界一样。双层巴士是城市里的大明星，很多人喜欢乘坐它游览城市。",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/双层巴士_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/双层巴士_zh.mp3",
+    "english-audio-path": "assets/audios/Double-decker Bus_en.mp3"
+  },
+  {
+    "car-name": "校车",
+    "car-english-name": "School Bus",
+    "car-description": "校车是专门接送小朋友上下学的特殊车辆。它通常是黄色的，非常醒目，这样其他车辆都能看到它，保证小朋友们的安全。校车上有很多座位，还有一位负责照顾小朋友的司机叔叔或阿姨。每天早上和下午，校车都会准时到达指定地点，接送小朋友们往返学校和家庭。",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/校车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/校车_zh.mp3",
+    "english-audio-path": "assets/audios/School Bus_en.mp3"
+  },
+  {
+    "car-name": "长途客车",
+    "car-english-name": "Coach",
+    "car-description": "长途大巴是一种很大的公交车，有好多座位，可以带很多人去很远的地方旅行。它通常有一个大大的行李箱，可以放大家的行李包。长途大巴有舒适的座位，有些还有空调和电视，让长途旅行变得不那么累。",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/长途客车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/长途客车_zh.mp3",
+    "english-audio-path": "assets/audios/Coach_en.mp3"
+  },
+  {
+    "car-name": "地铁",
+    "car-english-name": "Subway",
+    "car-description": "地铁是一种在城市地下行驶的大火车，有很多车厢连在一起。它跑得很快，可以一次载很多人，帮助我们快速到达城市各个地方。地铁不会像马路上的汽车那样堵车，是一种环保又方便的交通工具。",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/地铁_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/地铁_zh.mp3",
+    "english-audio-path": "assets/audios/Subway_en.mp3"
+  },
+  {
+    "car-name": "轻轨",
+    "car-english-name": "Light Rail Train",
+    "car-description": "城市小火车是一种在城市里跑的交通工具，它有专门的车轨，通常在街道上或者专用轨道上行驶。它比普通火车小，但比公交车大，可以一次载很多乘客。城市小火车跑起来不吵，也不会污染空气，是城市里很环保的交通工具哦！",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/轻轨_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/轻轨_zh.mp3",
+    "english-audio-path": "assets/audios/Light Rail Train_en.mp3"
+  },
+  {
+    "car-name": "有轨电车",
+    "car-english-name": "Tram",
+    "car-description": "轨道电车是一种在城市中行驶的交通工具，它沿着地面上的轨道前进。它的头顶上有电线连接，提供电力让它运行。轨道电车比公交车大一些，但比火车小，通常在城市街道上和其他车辆一起行驶。它是一种环保的交通工具，可以帮助很多人在城市里方便地出行。",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/有轨电车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/有轨电车_zh.mp3",
+    "english-audio-path": "assets/audios/Tram_en.mp3"
+  },
+  {
+    "car-name": "火车",
+    "car-english-name": "Train",
+    "car-description": "火车是一种长长的交通工具，它有很多节车厢连接在一起，在铁轨上行驶。火车可以载很多人和货物，带我们去远方旅行。火车发出'呜呜'的声音，非常有趣！",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/火车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/火车_zh.mp3",
+    "english-audio-path": "assets/audios/Train_en.mp3"
+  },
+  {
+    "car-name": "高铁",
+    "car-english-name": "High-speed Train",
+    "car-description": "高速火车是一种跑得非常快的火车，它的外形像一条长长的子弹，所以又叫做'子弹头列车'。它的速度比普通火车快很多，就像兔子比乌龟跑得快一样。高速火车有舒适的座位，干净的车厢，可以载着人们去很远的地方旅行，既安全又准时。坐在高速火车上，窗外的风景会飞快地向后跑，就像在看快进的电影一样有趣！",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/高铁_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/高铁_zh.mp3",
+    "english-audio-path": "assets/audios/High-speed Train_en.mp3"
+  },
+  {
+    "car-name": "动车",
+    "car-english-name": "Bullet Train",
+    "car-description": "高速火车是一种跑得非常快的火车，它的车头像子弹一样尖尖的，所以也叫子弹头列车。它用电能运行，不会冒黑烟，很环保。高速火车可以在铁轨上飞快地行驶，带我们去很远的地方，比普通火车快很多哦！",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/动车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/动车_zh.mp3",
+    "english-audio-path": "assets/audios/Bullet Train_en.mp3"
+  },
+  {
+    "car-name": "磁悬浮列车",
+    "car-english-name": "Maglev Train",
+    "car-description": "磁浮列车是一种很特别的火车，它不使用轮子，而是利用磁力悬浮在轨道上'飞行'。就像两块磁铁同极相斥一样，列车和轨道之间的磁力让列车浮在空中，这样就不会有摩擦力，所以能跑得非常快！磁浮列车既安静又平稳，坐在上面感觉很舒服，就像在飞一样。它是目前世界上最快的地面交通工具之一！",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/磁悬浮列车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/磁悬浮列车_zh.mp3",
+    "english-audio-path": "assets/audios/Maglev Train_en.mp3"
+  },
+  {
+    "car-name": "单轨列车",
+    "car-english-name": "Monorail",
+    "car-description": "单轨列车是一种特别的火车，它只有一条轨道，通常架在空中行驶。它像是在空中'飞'的火车，不会堵车，非常有趣。单轨列车常常在游乐园、机场或者城市里运行，可以带人们去不同的地方。坐在单轨列车上，你可以看到高处的美丽风景！",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/单轨列车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/单轨列车_zh.mp3",
+    "english-audio-path": "assets/audios/Monorail_en.mp3"
+  },
+  {
+    "car-name": "缆车",
+    "car-english-name": "Cable Car",
+    "car-description": "缆车是一种特殊的交通工具，它由钢索连接在空中运行。缆车通常在山区或旅游景点之间运行，可以带人们欣赏美丽的风景。缆车不需要自己开车，而是由钢索拉着前进，就像天空中的小火车一样，既安全又有趣！",
+    "car-type": "公共交通",
+    "car-image-path": "assets/images/缆车_公共交通.jpg",
+    "chinese-audio-path": "assets/audios/缆车_zh.mp3",
+    "english-audio-path": "assets/audios/Cable Car_en.mp3"
+  },
+  {
+    "car-name": "消防车",
+    "car-english-name": "Fire Truck",
+    "car-description": "消防车是红色的特殊车辆，上面有闪烁的警灯和大声的警报器。消防车带着消防员叔叔去灭火和救人，车上还有长长的梯子可以伸到高处，还有大水管可以喷水灭火。消防车是我们城市的大英雄，保护大家的安全！",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/消防车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/消防车_zh.mp3",
+    "english-audio-path": "assets/audios/Fire Truck_en.mp3"
+  },
+  {
+    "car-name": "救护车",
+    "car-english-name": "Ambulance",
+    "car-description": "救护车是专门用来帮助生病或受伤的人的特殊车辆。它通常是白色或红色的，车身上有红色的十字标志。救护车有闪亮的灯和响亮的警报器，这样在道路上其他车辆会让路，让它能快速通过。救护车里面有医生和护士，他们可以在车上给病人做简单的治疗，然后把病人安全地送到医院去。救护车就像一个移动的小医院，帮助需要紧急医疗的人。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/救护车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/救护车_zh.mp3",
+    "english-audio-path": "assets/audios/Ambulance_en.mp3"
+  },
+  {
+    "car-name": "警车",
+    "car-english-name": "Police Car",
+    "car-description": "警车是警察叔叔阿姨们工作用的特殊汽车。它们通常是蓝白相间的颜色，车顶有闪烁的警灯，遇到紧急情况时会发出'呜哇呜哇'的声音。警车帮助警察叔叔阿姨们快速到达需要帮助的地方，保护大家的安全。当我们看到警车时，就知道有警察叔叔阿姨在保护我们！",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/警车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/警车_zh.mp3",
+    "english-audio-path": "assets/audios/Police Car_en.mp3"
+  },
+  {
+    "car-name": "工程车",
+    "car-english-name": "Construction Vehicle",
+    "car-description": "工程车是专门用来建造房屋、修路和其他建筑工程的大车。它们有各种形状和大小，比如挖掘机可以挖土，推土机可以推土，起重机可以吊起很重的东西。工程车通常都是黄色或橙色的，非常强壮，能做很多普通汽车做不到的工作！",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/工程车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/工程车_zh.mp3",
+    "english-audio-path": "assets/audios/Construction Vehicle_en.mp3"
+  },
+  {
+    "car-name": "押运车",
+    "car-english-name": "Armored Car",
+    "car-description": "保安运钱车是一种特别坚固的车，它的车身很厚，不容易被弄坏。这种车专门用来安全地运送钱和贵重物品，就像一个移动的保险箱。通常会有穿制服的保安叔叔开着它，保护里面的东西不被坏人偷走。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/押运车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/押运车_zh.mp3",
+    "english-audio-path": "assets/audios/Armored Car_en.mp3"
+  },
+  {
+    "car-name": "邮政车",
+    "car-english-name": "Postal Truck",
+    "car-description": "邮递车是专门用来送信和包裹的车辆，通常是白色或绿色的，上面有邮政标志。邮递员叔叔阿姨开着它，把我们写的信和收到的包裹送到每家每户。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/邮政车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/邮政车_zh.mp3",
+    "english-audio-path": "assets/audios/Postal Truck_en.mp3"
+  },
+  {
+    "car-name": "垃圾车",
+    "car-english-name": "Garbage Truck",
+    "car-description": "垃圾车是专门用来收集和运输垃圾的车辆。它通常有一个大大的箱子来装垃圾，还有机械手臂可以自动把垃圾桶里的垃圾倒进去。垃圾车每天都会到我们小区或街道上收集垃圾，帮助保持我们的环境干净整洁。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/垃圾车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/垃圾车_zh.mp3",
+    "english-audio-path": "assets/audios/Garbage Truck_en.mp3"
+  },
+  {
+    "car-name": "洒水车",
+    "car-english-name": "Watering Truck",
+    "car-description": "洒水车是一种特殊的工作车辆，它有一个大大的水箱，可以装很多水。洒水车在马路上行驶时，会从车尾喷出水雾，湿润路面，防止灰尘飞扬。夏天的时候，洒水车还能给人们带来清凉。洒水车工作时，常常会播放好听的音乐，提醒人们注意避让。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/洒水车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/洒水车_zh.mp3",
+    "english-audio-path": "assets/audios/Watering Truck_en.mp3"
+  },
+  {
+    "car-name": "清扫车",
+    "car-english-name": "Street Sweeper",
+    "car-description": "清扫车是一种特殊的车辆，它帮助保持我们的街道和城市干净。它通常有一个大大的旋转刷子，可以扫走地上的垃圾和灰尘。有些清扫车还有吸尘器，可以把垃圾吸进车里的箱子里。清扫车通常在清晨或晚上工作，那时街道上的人和车辆比较少。它们就像城市的'清洁卫士'，让我们的环境更加整洁美丽。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/清扫车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/清扫车_zh.mp3",
+    "english-audio-path": "assets/audios/Street Sweeper_en.mp3"
+  },
+  {
+    "car-name": "除雪车",
+    "car-english-name": "Snow Plow",
+    "car-description": "除雪车是一种专门用来清理道路上积雪的车辆。它前面有一个大大的铲子，可以把厚厚的雪推到路边，让道路变得干净安全。当下大雪的时候，除雪车就会出动工作，帮助人们顺利出行。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/除雪车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/除雪车_zh.mp3",
+    "english-audio-path": "assets/audios/Snow Plow_en.mp3"
+  },
+  {
+    "car-name": "道路救援车",
+    "car-english-name": "Rescue Truck",
+    "car-description": "救援车是马路上帮助其他车辆的好朋友。当有小汽车坏了或者出事故时，救援车就会赶来帮忙。它可以把坏车拖到修理厂，或者给没油的汽车加油。救援车上通常有警示灯和特殊工具，是马路上的超级英雄！",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/道路救援车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/道路救援车_zh.mp3",
+    "english-audio-path": "assets/audios/Rescue Truck_en.mp3"
+  },
+  {
+    "car-name": "电视转播车",
+    "car-english-name": "TV Broadcast Truck",
+    "car-description": "移动电视台是一个特别的大车，里面有很多电视设备和屏幕。当我们在电视上看体育比赛、音乐会或重要活动时，这个车就在现场帮忙拍摄和发送画面到我们的电视机上。它就像一个在路上跑的小电视台，让我们能看到远方发生的事情。",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/电视转播车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/电视转播车_zh.mp3",
+    "english-audio-path": "assets/audios/TV Broadcast Truck_en.mp3"
+  },
+  {
+    "car-name": "移动餐车",
+    "car-english-name": "Food Truck",
+    "car-description": "美食车是一种会移动的小厨房，它可以在街上开到不同的地方。美食车里有炉灶和冰箱，可以制作各种好吃的食物，比如汉堡、冰淇淋和果汁。它就像一个会走路的小餐厅，无论你在公园、广场还是学校附近，都可能遇到它，买到美味的小吃和饮料！",
+    "car-type": "特种车辆",
+    "car-image-path": "assets/images/移动餐车_特种车辆.jpg",
+    "chinese-audio-path": "assets/audios/移动餐车_zh.mp3",
+    "english-audio-path": "assets/audios/Food Truck_en.mp3"
+  },
+  {
+    "car-name": "挖掘机",
+    "car-english-name": "Excavator",
+    "car-description": "挖土机是一种工程车辆，它有一个长长的手臂和一个大大的铲斗，像一只巨大的机械手臂。挖土机可以挖土、搬石头、挖沟渠，还能帮助建造房子和道路。它的驾驶室可以旋转，让挖土机不用移动整个车身就能挖不同方向的东西。挖土机在建筑工地上非常常见，是建筑工人的好帮手！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/挖掘机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/挖掘机_zh.mp3",
+    "english-audio-path": "assets/audios/Excavator_en.mp3"
+  },
+  {
+    "car-name": "推土机",
+    "car-english-name": "Bulldozer",
+    "car-description": "推土机是一种强壮的工程车，它前面有一个大大的金属铲板，可以推动泥土、沙子和石块。推土机有宽宽的履带而不是轮子，这样它可以在泥地和崎岖的地面上稳稳地行走。你经常可以在建筑工地看到它忙碌地工作，帮助人们平整土地，为建造房屋和道路做准备。推土机虽然看起来有点笨重，但它可是建筑工地上的大力士呢！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/推土机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/推土机_zh.mp3",
+    "english-audio-path": "assets/audios/Bulldozer_en.mp3"
+  },
+  {
+    "car-name": "起重机",
+    "car-english-name": "Crane",
+    "car-description": "大吊车是一种特别的工程车，它有一个长长的手臂，可以举起非常重的东西。大吊车能够把建筑材料、机器设备等重物吊到高处，帮助工人们建造高楼大厦。大吊车通常有长长的支架，让它在工作时更加稳定，就像我们伸出手臂去拿高处的玩具一样！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/起重机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/起重机_zh.mp3",
+    "english-audio-path": "assets/audios/Crane_en.mp3"
+  },
+  {
+    "car-name": "装载机",
+    "car-english-name": "Loader",
+    "car-description": "铲土车是一种工程车辆，它有一个大大的铲子，可以铲起土壤、砂石和建筑材料。铲土车通常有四个大轮子，可以在不平坦的地面上行驶。它们在建筑工地、矿山和需要搬运重物的地方工作，帮助人们快速完成工作。",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/装载机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/装载机_zh.mp3",
+    "english-audio-path": "assets/audios/Loader_en.mp3"
+  },
+  {
+    "car-name": "压路机",
+    "car-english-name": "Road Roller",
+    "car-description": "压路机是一种大大的工程车，它有一个又大又重的圆筒轮子，可以在修路时把地面压得平平的、结结实实的。当工人叔叔们铺好沥青或石子后，压路机就会慢慢地开过去，用它的大轮子来回碾压，把路面压得非常平整，这样我们走路和开车的时候就会很舒服、很安全啦！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/压路机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/压路机_zh.mp3",
+    "english-audio-path": "assets/audios/Road Roller_en.mp3"
+  },
+  {
+    "car-name": "平地机",
+    "car-english-name": "Grader",
+    "car-description": "平地机是一种大型工程车，它有一个长长的、可以调整的刮刀，用来把不平的土地变得平整。它经常在修建道路、操场或者整理土地时工作。平地机就像一个巨大的刮刀，可以把土地刮得平平整整，让我们的道路和场地更加安全和美观。",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/平地机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/平地机_zh.mp3",
+    "english-audio-path": "assets/audios/Grader_en.mp3"
+  },
+  {
+    "car-name": "铲运机",
+    "car-english-name": "Scraper",
+    "car-description": "铲土车是一种大大的工程车，它有一个超级大铲子，可以铲起很多泥土和石头。它像一个大勺子一样，把土铲起来，然后运到其他地方去。铲土车通常在建筑工地或需要挖土的地方工作，帮助人们建造道路和房子。它的轮子非常大，可以在不平的地面上行驶，非常厉害！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/铲运机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/铲运机_zh.mp3",
+    "english-audio-path": "assets/audios/Scraper_en.mp3"
+  },
+  {
+    "car-name": "混凝土搅拌车",
+    "car-english-name": "Concrete Mixer Truck",
+    "car-description": "旋转水泥车是一种特殊的工作车辆，它有一个大大的滚筒，里面装着制作混凝土的水泥、沙子和石头。当车子开动时，这个大滚筒会不停地转动，就像在搅拌一个大蛋糕一样，这样水泥就不会变硬了。到达建筑工地后，工人会把搅拌好的混凝土倒出来，用来建造房子和桥梁。",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/混凝土搅拌车_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/混凝土搅拌车_zh.mp3",
+    "english-audio-path": "assets/audios/Concrete Mixer Truck_en.mp3"
+  },
+  {
+    "car-name": "泵车",
+    "car-english-name": "Concrete Pump Truck",
+    "car-description": "长臂混凝土车是一种特殊的工程车，它有一条可以伸缩的长臂，就像大象的鼻子一样。它能把混凝土（一种用来盖房子的材料）送到高处或远处，帮助工人建造高楼大厦。当工人们需要把混凝土送到楼顶或者穿过障碍物时，长臂混凝土车就派上用场啦！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/泵车_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/泵车_zh.mp3",
+    "english-audio-path": "assets/audios/Concrete Pump Truck_en.mp3"
+  },
+  {
+    "car-name": "塔吊",
+    "car-english-name": "Tower Crane",
+    "car-description": "大吊车是一种非常高的工程车，它有一个长长的手臂，可以像巨人一样把很重的东西吊到高高的地方。大吊车通常在建筑工地上工作，帮助工人叔叔们建造高楼大厦。它的手臂可以转来转去，也可以把东西吊起来再放下去，就像我们在游乐园玩的抓娃娃机一样，只是它能抓起的东西要重得多！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/塔吊_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/塔吊_zh.mp3",
+    "english-audio-path": "assets/audios/Tower Crane_en.mp3"
+  },
+  {
+    "car-name": "升降机",
+    "car-english-name": "Lift Truck",
+    "car-description": "高高车是一种可以伸得很高的特殊车辆。它有一个长长的手臂，可以把人或物品送到很高的地方。高高车通常用来修理路灯、修剪高高的树枝，或者帮助工人在高楼外面工作。它的手臂可以像尺子一样伸长缩短，还可以左右转动，非常灵活！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/升降机_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/升降机_zh.mp3",
+    "english-audio-path": "assets/audios/Lift Truck_en.mp3"
+  },
+  {
+    "car-name": "叉车",
+    "car-english-name": "Forklift",
+    "car-description": "叉叉车是一种特别的工作车，它前面有两个像叉子一样的铁臂，可以举起很重的东西，比如箱子、货物等。它通常在仓库、工厂或者港口工作，帮助人们把货物从一个地方搬到另一个地方，或者把货物堆放得整整齐齐。叉叉车虽然看起来不大，但是力气可大了，能举起比自己还重的物品呢！",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/叉车_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/叉车_zh.mp3",
+    "english-audio-path": "assets/audios/Forklift_en.mp3"
+  },
+  {
+    "car-name": "吊车",
+    "car-english-name": "Crane",
+    "car-description": "大吊车是一种有着很长手臂的特种车辆，它的手臂可以伸得很高，还能旋转。大吊车非常强壮，可以举起很重的东西，比如建筑材料、大型机器等。它经常出现在建筑工地上，帮助工人们建造高楼大厦。大吊车的手臂末端有一个大钩子，就像我们的大手一样，可以轻松地抓起和放下重物。",
+    "car-type": "工程机械",
+    "car-image-path": "assets/images/吊车_工程机械.jpg",
+    "chinese-audio-path": "assets/audios/吊车_zh.mp3",
+    "english-audio-path": "assets/audios/Crane_en.mp3"
+  },
+  {
+    "car-name": "货车",
+    "car-english-name": "Truck",
+    "car-description": "大货车是一种用来运输重物的大型车辆，它有很大的车厢，可以装载很多货物。大货车通常有四个或更多的大轮子，可以帮助它搬运很重的东西，比如家具、食物、玩具等。当你在马路上看到这种高高大大的车时，它可能正在把物品从商店运送到我们家里哦！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/货车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/货车_zh.mp3",
+    "english-audio-path": "assets/audios/Truck_en.mp3"
+  },
+  {
+    "car-name": "大货车",
+    "car-english-name": "Truck",
+    "car-description": "大卡车是一种非常大的车辆，有很多轮子，后面有一个大大的货箱，可以装很多很重的东西。大卡车就像一个大力士，能把玩具、食物、家具等物品从一个地方运到另一个地方。它们经常在公路上行驶，为我们的生活运送各种需要的物品。",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/大货车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/大货车_zh.mp3",
+    "english-audio-path": "assets/audios/Truck_en.mp3"
+  },
+  {
+    "car-name": "厢式货车",
+    "car-english-name": "Van",
+    "car-description": "送货大车长得像一个移动的大盒子，后面有很大的空间可以装很多东西。快递员叔叔阿姨会开着它把包裹送到我们家里。它有四个轮子，比普通小汽车大很多，可以帮助我们运输玩具、食物和其他需要的东西。",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/厢式货车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/厢式货车_zh.mp3",
+    "english-audio-path": "assets/audios/Van_en.mp3"
+  },
+  {
+    "car-name": "冷藏车",
+    "car-english-name": "Refrigerated Truck",
+    "car-description": "移动冰箱车是一种特殊的卡车，它就像一个大大的冰箱，可以在路上移动。它用来运送需要保持低温的食物，比如冰淇淋、新鲜水果、蔬菜和牛奶。这样，这些食物就能从很远的地方运到我们附近的商店，而且仍然保持新鲜美味。移动冰箱车有特殊的制冷系统，就像家里的冰箱一样，可以让车内一直保持低温，即使在炎热的夏天也是如此！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/冷藏车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/冷藏车_zh.mp3",
+    "english-audio-path": "assets/audios/Refrigerated Truck_en.mp3"
+  },
+  {
+    "car-name": "油罐车",
+    "car-english-name": "Tank Truck",
+    "car-description": "油罐车是一种特殊的大卡车，它有一个大大的圆筒形罐子，用来装运汽油、柴油或其他液体。就像一个大大的水壶，可以安全地把油从工厂运到加油站。油罐车通常有银色或白色的外观，在路上行驶时要特别小心，因为它运送的是易燃的液体哦！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/油罐车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/油罐车_zh.mp3",
+    "english-audio-path": "assets/audios/Tank Truck_en.mp3"
+  },
+  {
+    "car-name": "自卸车",
+    "car-english-name": "Dump Truck",
+    "car-description": "翻斗车是一种有特殊车斗的大卡车，它的车斗可以向前或向侧面倾斜，把里面的沙子、石头或泥土倒出来。翻斗车通常在建筑工地工作，帮助运送和卸下重物。它的轮子很大，可以在不平坦的路面上行驶。当需要卸货时，司机按一下按钮，车斗就会慢慢抬起，把货物倒出来，非常方便！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/自卸车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/自卸车_zh.mp3",
+    "english-audio-path": "assets/audios/Dump Truck_en.mp3"
+  },
+  {
+    "car-name": "半挂车",
+    "car-english-name": "Semi-trailer Truck",
+    "car-description": "大拖车是一种很长的车辆，它由两部分组成：前面是驾驶室，司机叔叔在这里开车；后面是长长的货箱，可以装很多很多东西。大拖车就像一条长长的毛毛虫，可以运输家具、食物、玩具等各种物品。当大拖车转弯时，后面的货箱会跟着前面的驾驶室一起转弯，非常有趣！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/半挂车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/半挂车_zh.mp3",
+    "english-audio-path": "assets/audios/Semi-trailer Truck_en.mp3"
+  },
+  {
+    "car-name": "全挂车",
+    "car-english-name": "Full Trailer",
+    "car-description": "大拖车是一种很长的车辆，它由前面的卡车和后面的拖车组成。拖车有自己的轮子，可以装很多很重的东西，比如汽车、建筑材料或者大型机器。大拖车就像公路上的小火车，可以运输各种大型物品到需要的地方去。",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/全挂车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/全挂车_zh.mp3",
+    "english-audio-path": "assets/audios/Full Trailer_en.mp3"
+  },
+  {
+    "car-name": "集装箱卡车",
+    "car-english-name": "Container Truck",
+    "car-description": "大货柜车是一种非常大的卡车，它有一个长长的车厢，专门用来运输装满货物的大箱子，这些大箱子叫做集装箱。大货柜车可以把货物从港口运到商店或仓库，它们非常强壮，可以举起和运输很重的东西。你在高速公路上可能见过它们，它们就像移动的大房子一样！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/集装箱卡车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/集装箱卡车_zh.mp3",
+    "english-audio-path": "assets/audios/Container Truck_en.mp3"
+  },
+  {
+    "car-name": "平板车",
+    "car-english-name": "Flatbed Truck",
+    "car-description": "平板车是一种有着平坦大车板的车辆，就像一个大大的移动平台。它没有顶棚和侧边，所以可以轻松地装上和卸下各种大件物品，比如木材、机器或者建筑材料。平板车就像一个强壮的搬运工，能帮我们运送很多又大又重的东西！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/平板车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/平板车_zh.mp3",
+    "english-audio-path": "assets/audios/Flatbed Truck_en.mp3"
+  },
+  {
+    "car-name": "牵引车",
+    "car-english-name": "Tractor Truck",
+    "car-description": "大拖车是一种非常强壮的汽车，它有一个大大的驾驶室和可以连接后面大货箱的特殊装置。它就像一个大力士，可以拉着非常重的货物在公路上行驶，帮助我们运输各种东西，比如玩具、食物和衣服。没有大拖车，商店里的东西可能会变少哦！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/牵引车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/牵引车_zh.mp3",
+    "english-audio-path": "assets/audios/Tractor Truck_en.mp3"
+  },
+  {
+    "car-name": "农用车",
+    "car-english-name": "Farm Vehicle",
+    "car-description": "农田帮手是农民伯伯的好朋友，它们在农田里工作，帮助种植和收获庄稼。有些农田帮手可以耕地，有些可以播种，还有些可以收割成熟的农作物。它们有不同的颜色和大小，通常有大的轮子，可以在泥泞的田地里行走。有了农田帮手，农民伯伯的工作就变得轻松多了！",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/农用车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/农用车_zh.mp3",
+    "english-audio-path": "assets/audios/Farm Vehicle_en.mp3"
+  },
+  {
+    "car-name": "三轮货车",
+    "car-english-name": "Three-wheeled Truck",
+    "car-description": "三轮货车有三个轮子，前面一个轮子，后面两个轮子。它通常用来运送货物，比如水果、蔬菜和其他东西。三轮货车比大货车小，但比普通自行车能装更多的东西。",
+    "car-type": "货运车辆",
+    "car-image-path": "assets/images/三轮货车_货运车辆.jpg",
+    "chinese-audio-path": "assets/audios/三轮货车_zh.mp3",
+    "english-audio-path": "assets/audios/Three-wheeled Truck_en.mp3"
+  },
+  {
+    "car-name": "房车",
+    "car-english-name": "Recreational Vehicle (RV)",
+    "car-description": "移动小房子是一种特别的车辆，它就像一个可以移动的家！里面有床可以睡觉，有厨房可以做饭，还有小小的卫生间。当我们想去旅行或者露营时，就可以开着它到处游玩，白天欣赏美丽的风景，晚上在舒适的小房子里休息。它让我们无论在哪里都能感受到家的温暖！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/房车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/房车_zh.mp3",
+    "english-audio-path": ""
+  },
+  {
+    "car-name": "露营车",
+    "car-english-name": "Campervan",
+    "car-description": "移动小房子车是一种特别的车辆，它就像一个可以带着走的小房子！里面有床可以睡觉，有小厨房可以做美食，还有桌子可以玩游戏。当我们想去大自然中探险时，就可以开着移动小房子车，白天在外面玩耍，晚上在车里舒服地睡觉。它让我们可以在森林、海边或山里安家，真是太神奇了！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/露营车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/露营车_zh.mp3",
+    "english-audio-path": "assets/audios/Campervan_en.mp3"
+  },
+  {
+    "car-name": "餐车",
+    "car-english-name": "Food Truck",
+    "car-description": "美食车是一辆会移动的小厨房，它可以在街上行驶，停下来为大家制作和售卖各种好吃的食物，比如汉堡、冰淇淋和果汁。它就像一个带着轮子的小餐厅，无论在哪里都能给你带来美味的食物！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/餐车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/餐车_zh.mp3",
+    "english-audio-path": "assets/audios/Food Truck_en.mp3"
+  },
+  {
+    "car-name": "冰淇淋车",
+    "car-english-name": "Ice Cream Truck",
+    "car-description": "冰淇淋车是一种特别的小卡车，车里装满了各种口味的冰淇淋和冰棍。它通常会播放欢快的音乐，开到公园、学校或社区附近。当听到音乐声，孩子们就知道冰淇淋车来了，可以跑过去买美味的冰淇淋解暑。冰淇淋车有彩色的外观，车身上常常画着冰淇淋图案，非常可爱。",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/冰淇淋车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/冰淇淋车_zh.mp3",
+    "english-audio-path": "assets/audios/Ice Cream Truck_en.mp3"
+  },
+  {
+    "car-name": "移动图书馆",
+    "car-english-name": "Bookmobile",
+    "car-description": "图书车是一辆非常特别的车辆，它就像一个会移动的小图书馆！车里面装满了各种各样的故事书、科普书和图画书。它会开到学校、社区和公园，让小朋友们可以方便地借书和看书。即使你离图书馆很远，图书车也能把知识和快乐带到你身边！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/移动图书馆_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/移动图书馆_zh.mp3",
+    "english-audio-path": "assets/audios/Bookmobile_en.mp3"
+  },
+  {
+    "car-name": "献血车",
+    "car-english-name": "Blood Donation Bus",
+    "car-description": "爱心献血车是一个特别的车，它开到不同的地方，让健康的人们可以捐献自己的血液来帮助生病的人。车里面有医生和护士，他们会确保捐血过程安全又舒适。你捐的血可以拯救别人的生命哦！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/献血车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/献血车_zh.mp3",
+    "english-audio-path": "assets/audios/Blood Donation Bus_en.mp3"
+  },
+  {
+    "car-name": "移动医疗车",
+    "car-english-name": "Mobile Clinic",
+    "car-description": "看病小车是一辆特别的汽车，它就像一个小小的医院在路上跑！当有人生病或受伤了，但离医院很远时，看病小车就会开到他们身边。车里面有医生和护士，还有检查身体的小设备和药品。这样，即使住在偏远地方的小朋友和大人们也能及时得到治疗啦！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/移动医疗车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/移动医疗车_zh.mp3",
+    "english-audio-path": "assets/audios/Mobile Clinic_en.mp3"
+  },
+  {
+    "car-name": "观光车",
+    "car-english-name": "Sightseeing Car",
+    "car-description": "观光车是一种专门用来带游客参观景点的车辆。它通常没有车门，或者有很开阔的窗户，让游客可以清楚地看到周围的风景。观光车开得比较慢，很安全，常常在公园、动物园、景区等地方运行，让游客可以轻松地欣赏美丽的景色。",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/观光车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/观光车_zh.mp3",
+    "english-audio-path": "assets/audios/Sightseeing Car_en.mp3"
+  },
+  {
+    "car-name": "高尔夫球车",
+    "car-english-name": "Golf Cart",
+    "car-description": "高尔夫小车是一种在草地上跑的小型电动车，它帮助高尔夫球员在很大的球场里移动。这种车开得很慢，很安全，通常有顶棚可以挡阳光，座位不多，一般只能坐2-4个人。高尔夫小车不会发出很大的噪音，也不会污染空气，是环保的小车哦！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/高尔夫球车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/高尔夫球车_zh.mp3",
+    "english-audio-path": "assets/audios/Golf Cart_en.mp3"
+  },
+  {
+    "car-name": "机场摆渡车",
+    "car-english-name": "Airport Shuttle Bus",
+    "car-description": "机场大巴士是一种在机场里跑来跑去的大车子，它的主要工作是接送乘客。当人们下飞机后，需要从飞机走到机场大楼时，或者要从机场大楼去坐飞机时，机场大巴士就会来接他们。这种车通常很大，可以一次载很多乘客，让大家一起安全地到达目的地。",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/机场摆渡车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/机场摆渡车_zh.mp3",
+    "english-audio-path": "assets/audios/Airport Shuttle Bus_en.mp3"
+  },
+  {
+    "car-name": "无轨电车",
+    "car-english-name": "Trolleybus",
+    "car-description": "无轨电车是一种特殊的公交车，它头顶上有长长的'辫子'连接到空中的电线，这些电线给它提供动力让它前进。虽然它像公交车一样在马路上行驶，但它不像小汽车那样需要汽油，所以不会排放黑黑的尾气，非常环保哦！无轨电车通常在城市里运行，可以载很多人一起去上学、去公园或者去购物。",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/无轨电车_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/无轨电车_zh.mp3",
+    "english-audio-path": "assets/audios/Trolleybus_en.mp3"
+  },
+  {
+    "car-name": "双层观光巴士",
+    "car-english-name": "Double-decker Sightseeing Bus",
+    "car-description": "双层观光巴士是一种特别的公交车，它有两层楼那么高！坐在上层的小朋友可以看得更远，看到城市里美丽的风景和高大的建筑。这种巴士通常在城市里载着游客到处参观，让大家都能够轻松地欣赏到周围的景色。有些双层巴士的顶棚还是敞开的，这样游客可以更好地感受阳光和微风，拍照也更方便哦！",
+    "car-type": "特殊用途车辆",
+    "car-image-path": "assets/images/双层观光巴士_特殊用途车辆.jpg",
+    "chinese-audio-path": "assets/audios/双层观光巴士_zh.mp3",
+    "english-audio-path": "assets/audios/Double-decker Sightseeing Bus_en.mp3"
+  },
+  {
+    "car-name": "消防云梯车",
+    "car-english-name": "Ladder Truck",
+    "car-description": "云梯消防车是一种特殊的消防车，它有一架可以伸得很高的长梯子。当发生火灾，有人被困在高楼里时，消防员就会开着云梯消防车去救他们。这辆车的梯子可以像手风琴一样伸长，能够到达很高的楼层，帮助消防员灭火和救人。云梯消防车是消防员的好帮手，能够保护大家的安全！",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/消防云梯车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/消防云梯车_zh.mp3",
+    "english-audio-path": "assets/audios/Ladder Truck_en.mp3"
+  },
+  {
+    "car-name": "消防指挥车",
+    "car-english-name": "Fire Command Vehicle",
+    "car-description": "消防队长车是消防队里的特殊车辆，它帮助消防队长在火灾现场指挥所有消防员工作。车上有很多通讯设备和地图，让消防队长能够清楚地了解火场情况，告诉消防员们应该怎么做。它就像消防队的'大脑'，帮助大家安全有效地灭火救人。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/消防指挥车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/消防指挥车_zh.mp3",
+    "english-audio-path": "assets/audios/Fire Command Vehicle_en.mp3"
+  },
+  {
+    "car-name": "急救车",
+    "car-english-name": "Ambulance",
+    "car-description": "救护车是一种特殊的车辆，用来运送病人去医院。它们通常是白色或红色的，车身上有红色的十字标志。救护车有响亮的警笛和闪烁的灯光，这样在道路上其他车辆会给它们让路，让它们能够快速到达需要帮助的人那里或医院。救护车里还有医疗设备，医生和护士可以在车上为病人提供紧急治疗。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/急救车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/急救车_zh.mp3",
+    "english-audio-path": "assets/audios/Ambulance_en.mp3"
+  },
+  {
+    "car-name": "救援车",
+    "car-english-name": "Rescue Vehicle",
+    "car-description": "救援车是专门用来帮助人们的特殊车辆。当有人遇到危险或生病时，救援车会快速赶到现场提供帮助。它们通常有红色的车身和闪亮的警灯，还会发出特别的声音，让其他车辆知道它们有紧急任务，需要让路。救援车里有很多专业的设备和药品，可以救助受伤或生病的人。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/救援车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/救援车_zh.mp3",
+    "english-audio-path": "assets/audios/Rescue Vehicle_en.mp3"
+  },
+  {
+    "car-name": "抢险车",
+    "car-english-name": "Rescue Vehicle",
+    "car-description": "救援车是专门用来帮助遇到困难的人们的特殊车辆。当发生事故、火灾或有人需要紧急帮助时，救援车会迅速赶到现场。它们通常有红色的车身，上面有闪烁的警灯和响亮的警笛，这样其他车辆和行人就能看到它们并让路。救援车上装有各种工具和设备，可以帮助救出被困的人或处理紧急情况。救援车和勇敢的救援人员一起，保护我们的安全。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/抢险车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/抢险车_zh.mp3",
+    "english-audio-path": "assets/audios/Rescue Vehicle_en.mp3"
+  },
+  {
+    "car-name": "警用摩托车",
+    "car-english-name": "Police Motorcycle",
+    "car-description": "警察摩托车是警察叔叔用来巡逻和执行任务的特别摩托车。它有闪亮的警灯和响亮的警笛，可以在车流中快速穿行，帮助警察叔叔迅速到达需要帮助的地方。警察摩托车比普通汽车更灵活，可以在狭窄的道路上行驶，是维护城市安全的重要工具。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/警用摩托车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/警用摩托车_zh.mp3",
+    "english-audio-path": "assets/audios/Police Motorcycle_en.mp3"
+  },
+  {
+    "car-name": "防暴车",
+    "car-english-name": "Riot Police Vehicle",
+    "car-description": "警察防暴车是一种特殊的警车，它有坚固的车身可以保护警察叔叔的安全。当有人不遵守规则，造成混乱时，警察叔叔会驾驶这种车辆去维持秩序。它的窗户很特别，不容易打破，车身也很结实。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/防暴车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/防暴车_zh.mp3",
+    "english-audio-path": "assets/audios/Riot Police Vehicle_en.mp3"
+  },
+  {
+    "car-name": "装甲车",
+    "car-english-name": "Armored Vehicle",
+    "car-description": "装甲车是一种有特殊保护外壳的车辆，就像穿着盔甲的骑士一样。它的外壳非常坚硬，可以保护里面的人不受伤害。装甲车通常用于军事或特殊任务，可以安全地运送人员或物资。有些装甲车有轮子，有些则有履带，就像坦克一样，可以在各种地形上行驶。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/装甲车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/装甲车_zh.mp3",
+    "english-audio-path": "assets/audios/Armored Vehicle_en.mp3"
+  },
+  {
+    "car-name": "运兵车",
+    "car-english-name": "Troop Carrier",
+    "car-description": "士兵车是一种专门用来运送军人的特殊车辆。它通常有坚固的车身，可以保护里面的士兵安全。士兵车有很多座位，可以一次运送很多军人到达他们需要去的地方。有些士兵车还可以在困难的路面上行驶，比如泥地或山地。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/运兵车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/运兵车_zh.mp3",
+    "english-audio-path": "assets/audios/Troop Carrier_en.mp3"
+  },
+  {
+    "car-name": "通信指挥车",
+    "car-english-name": "Communication Command Vehicle",
+    "car-description": "通信指挥车是一种很特别的车，就像一个移动的指挥中心。车里有很多电话、电脑和天线，可以帮助人们在紧急情况下互相联系。当有灾难或者大型活动时，警察叔叔和消防员叔叔会用这辆车来告诉大家该做什么，让救援工作更有序。",
+    "car-type": "紧急救援车辆",
+    "car-image-path": "assets/images/通信指挥车_紧急救援车辆.jpg",
+    "chinese-audio-path": "assets/audios/通信指挥车_zh.mp3",
+    "english-audio-path": "assets/audios/Communication Command Vehicle_en.mp3"
+  },
+  {
+    "car-name": "装甲运兵车",
+    "car-english-name": "Armored Personnel Carrier",
+    "car-description": "装甲士兵车是一种特殊的军用车辆，它有着坚硬的钢铁外壳，可以保护里面的士兵们安全。这种车能够在各种地形上行驶，比如泥地、山地和沙漠。它的主要任务是运送士兵到需要的地方，就像一辆会保护大家的校车一样！装甲士兵车通常有轮子或者履带，有些还配备了特殊的工具来帮助士兵完成任务。",
+    "car-type": "军用车辆",
+    "car-image-path": "assets/images/装甲运兵车_军用车辆.jpg",
+    "chinese-audio-path": "",
+    "english-audio-path": ""
+  },
+  {
+    "car-name": "军用卡车",
+    "car-english-name": "Military Truck",
+    "car-description": "军车大卡车是一种非常结实的大卡车，它可以帮助军队运送士兵和各种物资。它的车身通常是绿色、棕色或迷彩色的，这样可以在野外不容易被看见。军车大卡车有强大的轮子，可以在泥泞的山路和崎岖的地形上行驶，帮助军人完成重要的任务。",
+    "car-type": "军用车辆",
+    "car-image-path": "assets/images/军用卡车_军用车辆.jpg",
+    "chinese-audio-path": "assets/audios/军用卡车_zh.mp3",
+    "english-audio-path": "assets/audios/Military Truck_en.mp3"
+  },
+  {
+    "car-name": "导弹发射车",
+    "car-english-name": "Missile Launcher Vehicle",
+    "car-description": "导弹大炮车是一种非常特别的车辆，它有一个很大的架子，可以装载和发射导弹。导弹就像可以飞得很高的火箭，有时候用来保护我们的国家，有时候用来做科学研究。这种车辆通常很大，需要很多人一起操作才能工作。",
+    "car-type": "军用车辆",
+    "car-image-path": "assets/images/导弹发射车_军用车辆.jpg",
+    "chinese-audio-path": "",
+    "english-audio-path": ""
+  },
+  {
+    "car-name": "雷达车",
+    "car-english-name": "Radar Car",
+    "car-description": "雷达探测车是一种装有特殊雷达设备的车辆。它就像有超级眼睛的汽车，可以发射看不见的波来探测远处的物体，即使在黑暗中或大雾天气也能工作。雷达车可以帮助科学家研究天气，预测风暴，或者帮助人们发现远处的飞机和船只。",
+    "car-type": "军用车辆",
+    "car-image-path": "assets/images/雷达车_军用车辆.jpg",
+    "chinese-audio-path": "assets/audios/雷达车_zh.mp3",
+    "english-audio-path": "assets/audios/Radar Car_en.mp3"
+  },
+  {
+    "car-name": "飞机",
+    "car-english-name": "Airplane",
+    "car-description": "飞机是一种能在天上飞的交通工具，它有大大的翅膀，可以带着人们在云朵中穿行，带我们去很远的地方旅行。飞机飞得很快，比汽车和火车都要快哦！",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/飞机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/飞机_zh.mp3",
+    "english-audio-path": "assets/audios/Airplane_en.mp3"
+  },
+  {
+    "car-name": "直升机",
+    "car-english-name": "Helicopter",
+    "car-description": "直升机是一种能在空中飞行的特殊交通工具。它头顶上有一个大大的旋转螺旋桨，帮助它飞上天空。直升机很特别，因为它可以像小鸟一样垂直起飞和降落，不需要长长的跑道。它还可以停在空中不动，就像悬浮在云朵中间一样。直升机经常用来帮助人们，比如救援被困的人、运送病人去医院，或者带我们从高空看美丽的风景。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/直升机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/直升机_zh.mp3",
+    "english-audio-path": "assets/audios/Helicopter_en.mp3"
+  },
+  {
+    "car-name": "战斗机",
+    "car-english-name": "Fighter Jet",
+    "car-description": "战斗机是一种特别的飞机，它们能飞得非常快，像天空中最快的鸟儿！战斗机有强大的引擎，可以让它们在空中做出各种酷炫的动作，比如翻跟头和急转弯。它们的主要工作是保护我们的国家，在空中巡逻，确保我们安全。战斗机通常由勇敢的飞行员驾驶，他们经过特殊训练，能够驾驭这些强大的飞行机器。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/战斗机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/战斗机_zh.mp3",
+    "english-audio-path": "assets/audios/Fighter Jet_en.mp3"
+  },
+  {
+    "car-name": "轰炸机",
+    "car-english-name": "Bomber",
+    "car-description": "轰炸机是一种非常大的军用飞机，它能够在天空中飞行很远很远。轰炸机有巨大的翅膀和强大的引擎，可以携带很多重要物品。它就像是天空中的大巨人，帮助保护我们的国家。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/轰炸机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/轰炸机_zh.mp3",
+    "english-audio-path": "assets/audios/Bomber_en.mp3"
+  },
+  {
+    "car-name": "运输机",
+    "car-english-name": "Cargo Plane",
+    "car-description": "大运飞机是一种专门用来运输各种货物的飞机，就像天空中的大卡车一样。它有非常大的肚子，可以装很多东西，比如汽车、食物、衣服和其他物品。大运飞机可以飞到很远的地方，把需要的物品送到世界各地。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/运输机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/运输机_zh.mp3",
+    "english-audio-path": "assets/audios/Cargo Plane_en.mp3"
+  },
+  {
+    "car-name": "客机",
+    "car-english-name": "Airplane",
+    "car-description": "大飞机是一种能在天上飞的交通工具，它有长长的身体和大大的翅膀。大飞机里面有很多座位，可以同时载很多人去旅行。当我们想去很远的地方，比如其他国家，大飞机就能带我们快速到达。大飞机需要在专门的机场起飞和降落，飞行时会有驾驶员叔叔阿姨操控它。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/客机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/客机_zh.mp3",
+    "english-audio-path": "assets/audios/Airplane_en.mp3"
+  },
+  {
+    "car-name": "货机",
+    "car-english-name": "Cargo Plane",
+    "car-description": "大货机是一种专门用来运输货物的飞机，就像天空中的大卡车。它有非常大的肚子，可以装很多很多的东西，比如玩具、食物、衣服等。大货机把这些物品从一个地方运到另一个地方，让我们能收到世界各地的包裹。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/货机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/货机_zh.mp3",
+    "english-audio-path": "assets/audios/Cargo Plane_en.mp3"
+  },
+  {
+    "car-name": "水上飞机",
+    "car-english-name": "Seaplane",
+    "car-description": "水上飞机是一种很特别的飞机，它不仅能在天上飞，还能在水上起降哦！它下面有像小船一样的浮筒或者特殊的船身，让它们可以稳稳地浮在水面上。水上飞机可以带我们去普通飞机去不了的地方，比如美丽的湖泊或海边。有时候，人们会乘坐水上飞机欣赏风景，或者用它来帮助需要救援的人。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/水上飞机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/水上飞机_zh.mp3",
+    "english-audio-path": "assets/audios/Seaplane_en.mp3"
+  },
+  {
+    "car-name": "滑翔机",
+    "car-english-name": "Glider",
+    "car-description": "滑翔机是一种特殊的飞行器，它没有发动机，但可以在天空中飞行很长的距离。它需要借助其他飞机或牵引车帮助起飞，然后利用空气中的气流在空中滑翔，就像小鸟张开翅膀飞翔一样。滑翔机有长长的翅膀，非常安静，在天空中飞行时不会发出噪音。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/滑翔机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/滑翔机_zh.mp3",
+    "english-audio-path": "assets/audios/Glider_en.mp3"
+  },
+  {
+    "car-name": "热气球",
+    "car-english-name": "Hot Air Balloon",
+    "car-description": "热气球是一种可以在天空中飞行的特殊交通工具。它有一个大大的彩色气球袋，下面挂着一个小篮子，人们就站在篮子里。热气球通过加热气球里的空气，使它变轻而飞上天空。热气球飞行得很慢很安静，可以让人们从高处看到美丽的风景。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/热气球_航空器.jpg",
+    "chinese-audio-path": "assets/audios/热气球_zh.mp3",
+    "english-audio-path": "assets/audios/Hot Air Balloon_en.mp3"
+  },
+  {
+    "car-name": "飞艇",
+    "car-english-name": "Airship",
+    "car-description": "飞艇是一种可以在天空中飞行的交通工具，它有一个大大的气囊，里面装着比空气轻的气体，所以能飘在空中。飞艇下面有一个吊舱，人们可以坐在里面。飞艇飞得很慢，但可以让人看到美丽的风景。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/飞艇_航空器.jpg",
+    "chinese-audio-path": "assets/audios/飞艇_zh.mp3",
+    "english-audio-path": "assets/audios/Airship_en.mp3"
+  },
+  {
+    "car-name": "无人机",
+    "car-english-name": "Drone",
+    "car-description": "无人机是一种可以在空中飞行的小飞机，但它不需要飞行员坐在里面。我们可以用遥控器或者手机来控制它飞到哪里去。无人机可以帮我们拍照、送东西，还能探索我们到不了的地方。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/无人机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/无人机_zh.mp3",
+    "english-audio-path": "assets/audios/Drone_en.mp3"
+  },
+  {
+    "car-name": "航天飞机",
+    "car-english-name": "Space Shuttle",
+    "car-description": "太空飞机是一种特殊的飞行器，它能够飞到太空中，也能像普通飞机一样飞回地球。它带着宇航员和物资往返于地球和太空站之间，帮助我们在太空中进行各种科学实验。太空飞机起飞时需要强大的火箭助推，返回地球时会像滑翔机一样降落在跑道上。",
+    "car-type": "航空器",
+    "car-image-path": "assets/images/航天飞机_航空器.jpg",
+    "chinese-audio-path": "assets/audios/航天飞机_zh.mp3",
+    "english-audio-path": "assets/audios/Space Shuttle_en.mp3"
+  },
+  {
+    "car-name": "轮船",
+    "car-english-name": "Ship",
+    "car-description": "大轮船是在水上行驶的大型交通工具，它有长长的身体和高高的烟囱。轮船可以在海洋、江河和湖泊上航行，带我们去远方的城市，或者运送很多货物。有些轮船非常大，可以装下成千上万的货物和几百名乘客。轮船需要船长来驾驶，水手们来帮忙。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/轮船_船舶.jpg",
+    "chinese-audio-path": "assets/audios/轮船_zh.mp3",
+    "english-audio-path": "assets/audios/Ship_en.mp3"
+  },
+  {
+    "car-name": "客轮",
+    "car-english-name": "Passenger Ship",
+    "car-description": "大客船是一种在水上行驶的大船，可以载着很多人过河或过海。它有宽敞的甲板，乘客可以在上面欣赏风景。大客船就像水上的公交车，帮助人们到达水对岸的地方。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/客轮_船舶.jpg",
+    "chinese-audio-path": "assets/audios/客轮_zh.mp3",
+    "english-audio-path": "assets/audios/Passenger Ship_en.mp3"
+  },
+  {
+    "car-name": "货轮",
+    "car-english-name": "Cargo Ship",
+    "car-description": "大货船是水上的大巨人，它们像水上的卡车一样，可以装载很多很多货物，比如汽车、食物、玩具等，从一个地方运到另一个地方。它们非常大，有的甚至比足球场还长！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/货轮_船舶.jpg",
+    "chinese-audio-path": "assets/audios/货轮_zh.mp3",
+    "english-audio-path": "assets/audios/Cargo Ship_en.mp3"
+  },
+  {
+    "car-name": "油轮",
+    "car-english-name": "Oil Tanker",
+    "car-description": "油船是一种非常大的船，专门用来运输石油和汽油。它们就像海上的大卡车，把石油从一个地方运到另一个地方。油船有特别的罐子来装油，这样油就不会漏出来。有些油船非常大，比几个足球场还要长呢！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/油轮_船舶.jpg",
+    "chinese-audio-path": "assets/audios/油轮_zh.mp3",
+    "english-audio-path": "assets/audios/Oil Tanker_en.mp3"
+  },
+  {
+    "car-name": "集装箱船",
+    "car-english-name": "Container Ship",
+    "car-description": "集装箱大船是一种非常大的船，专门用来运输装满货物的彩色大箱子（集装箱）。这些船就像水上的大卡车，可以把成千上万的集装箱从一个港口运到另一个港口。它们非常长，有些甚至比几个足球场还要长！集装箱船帮助我们把世界各地的玩具、水果和衣服运到我们身边。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/集装箱船_船舶.jpg",
+    "chinese-audio-path": "assets/audios/集装箱船_zh.mp3",
+    "english-audio-path": "assets/audios/Container Ship_en.mp3"
+  },
+  {
+    "car-name": "渡轮",
+    "car-english-name": "Ferry",
+    "car-description": "水上大船是一种能在水上行驶的交通工具，它可以帮助人们、汽车和其他货物从河的一边到达另一边，或者从一个岛屿到达另一个岛屿。渡轮通常很大，可以载很多的人和车子一起过河或过海，就像一座会移动的桥一样！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/渡轮_船舶.jpg",
+    "chinese-audio-path": "assets/audios/渡轮_zh.mp3",
+    "english-audio-path": "assets/audios/Ferry_en.mp3"
+  },
+  {
+    "car-name": "游艇",
+    "car-english-name": "Yacht",
+    "car-description": "游艇是一种可以在水上航行的大船，就像水上的房子一样。人们开着游艇去海上或湖上玩耍，可以钓鱼、游泳或者晒太阳。有些游艇很大，里面有卧室、厨房和客厅，就像一个漂浮的家！游艇通常有漂亮的白色外表，在阳光下闪闪发光，非常漂亮。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/游艇_船舶.jpg",
+    "chinese-audio-path": "assets/audios/游艇_zh.mp3",
+    "english-audio-path": "assets/audios/Yacht_en.mp3"
+  },
+  {
+    "car-name": "帆船",
+    "car-english-name": "Sailboat",
+    "car-description": "帆船是一种利用风力在水中航行的船只。它有一张或多张大大的帆，当风吹过帆时，就能推动船前进。帆船不需要发动机，只需要风的力量就能在海上或湖上航行，非常环保又有趣！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/帆船_船舶.jpg",
+    "chinese-audio-path": "assets/audios/帆船_zh.mp3",
+    "english-audio-path": "assets/audios/Sailboat_en.mp3"
+  },
+  {
+    "car-name": "渔船",
+    "car-english-name": "Fishing Boat",
+    "car-description": "渔船是专门用来捕鱼的船，它有渔网和渔具，可以帮助渔民在海里或湖里捕捞各种鱼类。渔船通常有小小的驾驶室和放鱼的地方，是渔民工作的好帮手。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/渔船_船舶.jpg",
+    "chinese-audio-path": "assets/audios/渔船_zh.mp3",
+    "english-audio-path": "assets/audios/Fishing Boat_en.mp3"
+  },
+  {
+    "car-name": "拖船",
+    "car-english-name": "Tugboat",
+    "car-description": "拖船是一种很强壮的小船，它有强大的力量可以推或拉其他大船。当大船需要进出港口或者停靠码头时，拖船就会来帮忙。拖船就像水上的小助手，虽然个子小，但力气很大！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/拖船_船舶.jpg",
+    "chinese-audio-path": "assets/audios/拖船_zh.mp3",
+    "english-audio-path": "assets/audios/Tugboat_en.mp3"
+  },
+  {
+    "car-name": "驳船",
+    "car-english-name": "Barge",
+    "car-description": "大货船是一种在水中行驶的平底船，它通常没有自己的动力，需要被拖船拉着走。大货船的肚子很大，可以装很多很重的东西，比如沙子、石头、煤炭或者货物。它们在河流和运河上慢慢行驶，像水中的大卡车一样帮助人们运输物品。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/驳船_船舶.jpg",
+    "chinese-audio-path": "assets/audios/驳船_zh.mp3",
+    "english-audio-path": "assets/audios/Barge_en.mp3"
+  },
+  {
+    "car-name": "潜水艇",
+    "car-english-name": "Submarine",
+    "car-description": "潜水小船是一种能在水下航行的特殊船只。它有一个坚固的外壳，可以保护里面的人不被水压伤到。潜水小船可以潜入很深的海底，探索神秘的海底世界，科学家们用它来研究海洋生物和海底地形。有些潜水小船还可以在水下待很长时间，就像水下的家一样！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/潜水艇_船舶.jpg",
+    "chinese-audio-path": "assets/audios/潜水艇_zh.mp3",
+    "english-audio-path": "assets/audios/Submarine_en.mp3"
+  },
+  {
+    "car-name": "破冰船",
+    "car-english-name": "Icebreaker",
+    "car-description": "破冰船是一种非常强壮的船，它有一个特别坚固的船头，可以撞碎海面上的冰块，为其他船只开出一条安全的道路。当大海结冰时，普通船只无法通过，破冰船就像一个勇敢的开拓者，帮助大家在水上自由航行。它通常工作在非常寒冷的地方，比如北极和南极附近。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/破冰船_船舶.jpg",
+    "chinese-audio-path": "assets/audios/破冰船_zh.mp3",
+    "english-audio-path": "assets/audios/Icebreaker_en.mp3"
+  },
+  {
+    "car-name": "航空母舰",
+    "car-english-name": "Aircraft Carrier",
+    "car-description": "航空母舰就像一座漂浮在海上的巨大飞机场！它是非常非常大的船，上面有宽阔的甲板，可以让飞机起飞和降落。航空母舰可以载着很多飞机和船员在大海上航行，就像会移动的城市一样。当飞机需要休息或者加油时，它们就可以回到航空母舰上。航空母舰非常强大，可以保护我们的海洋安全。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/航空母舰_船舶.jpg",
+    "chinese-audio-path": "assets/audios/航空母舰_zh.mp3",
+    "english-audio-path": "assets/audios/Aircraft Carrier_en.mp3"
+  },
+  {
+    "car-name": "巡洋舰",
+    "car-english-name": "Cruiser",
+    "car-description": "巡洋舰是一种非常宽敞舒适的汽车，就像一艘小船一样平稳。它有很舒服的座位和大大的空间，可以让很多人一起乘坐，非常适合长途旅行。坐在里面就像坐在移动的小房间里一样舒服！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/巡洋舰_船舶.jpg",
+    "chinese-audio-path": "assets/audios/巡洋舰_zh.mp3",
+    "english-audio-path": "assets/audios/Cruiser_en.mp3"
+  },
+  {
+    "car-name": "驱逐舰",
+    "car-english-name": "Destroyer",
+    "car-description": "驱逐舰是一种在海上航行的大家伙，就像海上的警察一样。它有长长的身体，可以很快地在水上行驶。驱逐舰有很多特殊的装备，可以保护其他船只安全，也可以在需要时保护我们的国家。它们非常强大，是海上的重要守护者！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/驱逐舰_船舶.jpg",
+    "chinese-audio-path": "assets/audios/驱逐舰_zh.mp3",
+    "english-audio-path": "assets/audios/Destroyer_en.mp3"
+  },
+  {
+    "car-name": "护卫舰",
+    "car-english-name": "Frigate",
+    "car-description": "护卫舰是一种在海上航行的特殊船只，就像海上的警察一样保护其他船只安全。它有长长的身体，上面装有许多天线和武器，可以用来发现坏人并保护自己。护卫舰可以在大海上航行很久，帮助维护海洋的和平与安全。",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/护卫舰_船舶.jpg",
+    "chinese-audio-path": "assets/audios/护卫舰_zh.mp3",
+    "english-audio-path": "assets/audios/Frigate_en.mp3"
+  },
+  {
+    "car-name": "快艇",
+    "car-english-name": "Speedboat",
+    "car-description": "快艇是一种在水上飞驰的小船，它有着流线型的身体，可以在水面上快速前进。快艇通常用于水上运动、娱乐或者短途旅行，坐在上面可以感受到风和水花带来的刺激！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/快艇_船舶.jpg",
+    "chinese-audio-path": "assets/audios/快艇_zh.mp3",
+    "english-audio-path": "assets/audios/Speedboat_en.mp3"
+  },
+  {
+    "car-name": "摩托艇",
+    "car-english-name": "Motorboat",
+    "car-description": "水上摩托是一种能在水面上快速行驶的小船，它有强大的发动机，可以像摩托车一样在水面上飞快地前进。它通常有一个座位或两个座位，人们骑在上面，握住把手控制方向。水上摩托可以在湖泊、河流或海洋中行驶，带给我们刺激有趣的水上冒险，还能感受到清凉的水花溅在脸上的快乐！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/摩托艇_船舶.jpg",
+    "chinese-audio-path": "assets/audios/摩托艇_zh.mp3",
+    "english-audio-path": "assets/audios/Motorboat_en.mp3"
+  },
+  {
+    "car-name": "皮划艇",
+    "car-english-name": "Kayak",
+    "car-description": "皮划艇是一种狭长的小船，人们用双面桨在水中划行。它通常有一个或两个座位，可以让你在湖泊、河流或海面上轻松滑行。划皮划艇不仅是一种有趣的运动，还能让你亲近大自然，探索美丽的水上世界！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/皮划艇_船舶.jpg",
+    "chinese-audio-path": "assets/audios/皮划艇_zh.mp3",
+    "english-audio-path": "assets/audios/Kayak_en.mp3"
+  },
+  {
+    "car-name": "龙舟",
+    "car-english-name": "Dragon Boat",
+    "car-description": "龙舟是一种长长的、像龙一样的船，有漂亮的龙头和龙尾。它需要很多叔叔阿姨一起划桨才能前进，大家要听着鼓声的节奏一起用力划。龙舟比赛是中国传统的端午节活动，非常热闹有趣！",
+    "car-type": "船舶",
+    "car-image-path": "assets/images/龙舟_船舶.jpg",
+    "chinese-audio-path": "assets/audios/龙舟_zh.mp3",
+    "english-audio-path": "assets/audios/Dragon Boat_en.mp3"
+  },
+  {
+    "car-name": "收割机",
+    "car-english-name": "Harvester",
+    "car-description": "收割机是一种大型农业机器，像一个大怪兽一样在田野里行走，帮助农民伯伯收割成熟的庄稼，比如小麦、水稻和玉米。它有锋利的刀片可以割断植物，还有特殊的装置可以把谷物和茎秆分开。收割机让农民的工作变得更快、更轻松！",
+    "car-type": "农用机械",
+    "car-image-path": "assets/images/收割机_农用机械.jpg",
+    "chinese-audio-path": "assets/audios/收割机_zh.mp3",
+    "english-audio-path": "assets/audios/Harvester_en.mp3"
+  },
+  {
+    "car-name": "播种机",
+    "car-english-name": "Seeder",
+    "car-description": "种子播种车是一种帮助农民在田地里播种的特别车辆。它有好多小孔，可以一边在田地上走，一边把种子均匀地撒进土壤里。这样种子就能在泥土里生长，变成我们吃的庄稼和蔬菜啦！种子播种车帮助农民伯伯工作更快，不用再用手一颗一颗地播种了。",
+    "car-type": "农用机械",
+    "car-image-path": "assets/images/播种机_农用机械.jpg",
+    "chinese-audio-path": "assets/audios/播种机_zh.mp3",
+    "english-audio-path": "assets/audios/Seeder_en.mp3"
+  },
+  {
+    "car-name": "联合收割机",
+    "car-english-name": "Combine Harvester",
+    "car-description": "收割机是一种非常大的农田机器，它可以帮助农民伯伯收割田里的麦子、水稻等谷物。它有锋利的刀片可以割断植物，还有特殊的装置可以把谷物从植物上打下来，收集到机器里。这样农民就不用辛苦地用手收割了，收割机一天能做很多人很多天才能完成的工作！",
+    "car-type": "农用机械",
+    "car-image-path": "assets/images/联合收割机_农用机械.jpg",
+    "chinese-audio-path": "assets/audios/联合收割机_zh.mp3",
+    "english-audio-path": "assets/audios/Combine Harvester_en.mp3"
+  },
+  {
+    "car-name": "喷雾器",
+    "car-english-name": "Spray Truck",
+    "car-description": "喷雾车是一种特殊的车辆，它有一个大罐子和喷管，可以喷出水或药水。农民伯伯会用它来给庄稼喷药，保护庄稼不被虫子吃掉。有时候，我们也会看到喷雾车在马路上喷水，帮助清洁空气或给植物浇水。喷雾车就像一个会走路的大喷壶，帮助人们做很多事情！",
+    "car-type": "农用机械",
+    "car-image-path": "assets/images/喷雾器_农用机械.jpg",
+    "chinese-audio-path": "assets/audios/喷雾器_zh.mp3",
+    "english-audio-path": "assets/audios/Spray Truck_en.mp3"
+  },
+  {
+    "car-name": "农用运输车",
+    "car-english-name": "Farm Truck",
+    "car-description": "农用运输车是帮助农民伯伯在农田里工作的好朋友。它有四个大大的轮子，可以在泥土路上行驶，帮助运送粮食、蔬菜和其他农产品。它的车身通常比较大，有的还有翻斗，可以轻松地把货物卸下来。农用运输车是农场里不可缺少的帮手！",
+    "car-type": "农用机械",
+    "car-image-path": "assets/images/农用运输车_农用机械.jpg",
+    "chinese-audio-path": "assets/audios/农用运输车_zh.mp3",
+    "english-audio-path": "assets/audios/Farm Truck_en.mp3"
+  },
+  {
+    "car-name": "月球车",
+    "car-english-name": "Moon Rover",
+    "car-description": "月球车是一种非常特别的车，它不在地球上行驶，而是在月球上！它帮助宇航员在月球表面四处移动和探索。月球车有六个轮子，可以适应月球上凹凸不平的地面。因为月球上没有空气，所以月球车需要靠电力来运行，它的能量来自太阳能电池板。月球车很小巧，可以折叠起来，由火箭带到月球上，然后宇航员再把它展开使用。有了月球车，宇航员可以走得更远，收集更多的月球岩石和土壤，帮助我们了解更多关于月球的知识！",
+    "car-type": "其他特殊车辆",
+    "car-image-path": "assets/images/月球车_其他特殊车辆.jpg",
+    "chinese-audio-path": "assets/audios/月球车_zh.mp3",
+    "english-audio-path": "assets/audios/Moon Rover_en.mp3"
+  },
+  {
+    "car-name": "火星车",
+    "car-english-name": "Mars Rover",
+    "car-description": "火星车是一种在火星上行驶的特殊车辆，它帮助科学家探索遥远的火星。火星车有六个轮子，可以在不平坦的火星地面上行驶。它身上有太阳能板，利用太阳光提供能量。火星车上装有摄像机和各种科学仪器，可以拍摄火星的照片，收集火星的土壤和岩石样本，并将这些信息传回地球。科学家们在地球上通过计算机控制火星车的工作，帮助我们了解更多关于火星的秘密。",
+    "car-type": "其他特殊车辆",
+    "car-image-path": "assets/images/火星车_其他特殊车辆.jpg",
+    "chinese-audio-path": "assets/audios/火星车_zh.mp3",
+    "english-audio-path": "assets/audios/Mars Rover_en.mp3"
+  },
+  {
+    "car-name": "矿用车",
+    "car-english-name": "Mining Truck",
+    "car-description": "矿山大卡车是一种特别大的卡车，它在矿山里工作。它的个子非常高，轮胎比小朋友还要高！矿山大卡车可以装很多很重的石头和矿石，然后运到需要的地方去。最神奇的是，它的车斗可以自动抬起来，把装的石头一下子倒出来，就像我们倒积木一样简单！",
+    "car-type": "其他特殊车辆",
+    "car-image-path": "assets/images/矿用车_其他特殊车辆.jpg",
+    "chinese-audio-path": "assets/audios/矿用车_zh.mp3",
+    "english-audio-path": "assets/audios/Mining Truck_en.mp3"
+  },
+  {
+    "car-name": "隧道掘进机",
+    "car-english-name": "Tunnel Boring Machine",
+    "car-description": "隧道钻洞机是一个非常巨大的机器，它能在地下钻出长长的隧道。它有一个大大的圆形钻头，可以慢慢钻穿坚硬的泥土和岩石。这个超级大机器帮助我们建造地铁、公路和铁路隧道，这样火车和汽车就可以从山里或者河流下面通过了。隧道钻洞机比很多房子还要大，它工作虽然很慢，但是非常厉害！",
+    "car-type": "其他特殊车辆",
+    "car-image-path": "assets/images/隧道掘进机_其他特殊车辆.jpg",
+    "chinese-audio-path": "assets/audios/隧道掘进机_zh.mp3",
+    "english-audio-path": "assets/audios/Tunnel Boring Machine_en.mp3"
+  },
+  {
+    "car-name": "盾构机",
+    "car-english-name": "Tunnel Boring Machine (TBM)",
+    "car-description": "隧道挖掘机是一种非常巨大的工程机器，它能在地下钻出长长的隧道。它就像一个地下大虫子，一边前进一边挖掘土壤和石头，帮助我们建造地铁、铁路和公路隧道。它的前面有一个大大的圆形钻头，可以钻穿坚硬的岩石和泥土。",
+    "car-type": "其他特殊车辆",
+    "car-image-path": "assets/images/盾构机_其他特殊车辆.jpg",
+    "chinese-audio-path": "",
+    "english-audio-path": ""
+  },
+  {
+    "car-name": "压裂车",
+    "car-english-name": "Fracturing Truck",
+    "car-description": "岩石压裂车是一种特殊的工程车，它有很高的塔架和很多管道。它的工作是帮助人们从地下深处获取石油和天然气。它会把特殊的液体用很大的压力压入地下，使岩石产生小裂缝，这样石油和天然气就能流出来被收集起来。岩石压裂车通常在油田工作，是石油开采的重要帮手。",
+    "car-type": "其他特殊车辆",
+    "car-image-path": "assets/images/压裂车_其他特殊车辆.jpg",
+    "chinese-audio-path": "assets/audios/压裂车_zh.mp3",
+    "english-audio-path": "assets/audios/Fracturing Truck_en.mp3"
+  },
+  {
+    "car-name": "钻井平台",
+    "car-english-name": "Oil Rig",
+    "car-description": "海上钻油台是建在大海中间的巨大机器，它像一座钢铁小岛，有长长的腿站在海底。钻油台有一个高高的塔，可以从海底深处挖出黑色的石油和天然气。这些石油可以做成汽油，让汽车跑起来。钻油台上有很多叔叔阿姨在工作，他们需要坐直升机或者船才能到达那里。",
+    "car-type": "其他特殊车辆",
+    "car-image-path": "assets/images/钻井平台_其他特殊车辆.jpg",
+    "chinese-audio-path": "assets/audios/钻井平台_zh.mp3",
+    "english-audio-path": "assets/audios/Oil Rig_en.mp3"
+  }
+]
