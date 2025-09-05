@@ -165,6 +165,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     final previousIndex = currentIndex > 0 ? currentIndex - 1 : carProvider.cars.length - 1;
     
     await carProvider.setCurrentCar(carProvider.cars[previousIndex], previousIndex);
+    
+    // 切换车辆后自动播放音频
+    await _playCarAudio(carProvider);
   }
 
   // 切换到下一个车辆
@@ -181,6 +184,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     final nextIndex = currentIndex < carProvider.cars.length - 1 ? currentIndex + 1 : 0;
     
     await carProvider.setCurrentCar(carProvider.cars[nextIndex], nextIndex);
+    
+    // 切换车辆后自动播放音频
+    await _playCarAudio(carProvider);
   }
 
   Widget _buildCarContent(CarProvider carProvider) {
@@ -216,6 +222,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
               padding: const EdgeInsets.all(16.0),
               child: Column(
                 children: [
+                  const SizedBox(height: 80), // 添加顶部间距，使图片下移
                   GestureDetector(
                     onTap: () => _playCarAudio(carProvider),
                     child: Stack(
@@ -260,17 +267,21 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                                     ),
                                   ],
                                 ) : null,
-                                child: Image.asset(
-                                  carProvider.currentCar!.carImagePath,
-                                  height: 200,
-                                  fit: BoxFit.contain,
-                                  errorBuilder: (context, error, stackTrace) {
-                                    return const Icon(
-                                      Icons.directions_car,
-                                      size: 200,
-                                      color: Colors.grey,
-                                    );
-                                  },
+                                child: Center(
+                                  child: Image.asset(
+                                    carProvider.currentCar!.carImagePath,
+                                    height: 300,
+                                    fit: BoxFit.contain,
+                                    errorBuilder: (context, error, stackTrace) {
+                                      return const Center(
+                                        child: Icon(
+                                          Icons.directions_car,
+                                          size: 300,
+                                          color: Colors.grey,
+                                        ),
+                                      );
+                                    },
+                                  ),
                                 ),
                               ),
                             );
@@ -309,14 +320,10 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   const SizedBox(height: 16),
                   
                   // 音频播放状态
-                  if (carProvider.isPlayingAudio)
-                    Text(
-                      carProvider.currentAudioType.contains('english') 
-                          ? '正在播放英文 (${carProvider.currentAudioType})...'
-                          : carProvider.currentAudioType.contains('chinese')
-                              ? '正在播放中文...'
-                              : '正在播放音频...',
-                      style: const TextStyle(
+                  if (carProvider.isPlayingAudio && carProvider.currentAudioType.contains('chinese'))
+                    const Text(
+                      '正在播放中文...',
+                      style: TextStyle(
                         color: Colors.green,
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
@@ -438,14 +445,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         ],
                       ),
                     ),
-                  const SizedBox(height: 16),
-                  Text(
-                    carProvider.currentCar!.carDescription,
-                    style: const TextStyle(
-                      fontSize: 16,
-                      height: 1.5,
-                    ),
-                  ),
                 ],
               ),
             ),
