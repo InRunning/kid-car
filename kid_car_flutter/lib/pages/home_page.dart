@@ -17,42 +17,35 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   late Animation<double> _scaleAnimation;
   late Animation<double> _pulseAnimation;
   bool _isAnimating = false;
+  bool _isSwitchingCar = false; // 添加车辆切换状态标志
   final AudioService _audioService = AudioService.instance;
 
   @override
   void initState() {
     super.initState();
-    
+
     // 主动画控制器 - 旋转和缩放
     _animationController = AnimationController(
       duration: const Duration(milliseconds: 600),
       vsync: this,
     );
-    
+
     // 脉冲动画控制器 - 背景光晕效果
     _pulseController = AnimationController(
       duration: const Duration(milliseconds: 400),
       vsync: this,
     );
-    
+
     // 缩放动画 - 轻微放大效果
-    _scaleAnimation = Tween<double>(
-      begin: 1.0,
-      end: 1.1,
-    ).animate(CurvedAnimation(
-      parent: _animationController,
-      curve: Curves.elasticInOut,
-    ));
-    
+    _scaleAnimation = Tween<double>(begin: 1.0, end: 1.1).animate(
+      CurvedAnimation(parent: _animationController, curve: Curves.elasticInOut),
+    );
+
     // 脉冲动画 - 背景光晕效果
-    _pulseAnimation = Tween<double>(
-      begin: 1.0,
-      end: 1.5,
-    ).animate(CurvedAnimation(
-      parent: _pulseController,
-      curve: Curves.easeInOut,
-    ));
-    
+    _pulseAnimation = Tween<double>(begin: 1.0, end: 1.5).animate(
+      CurvedAnimation(parent: _pulseController, curve: Curves.easeInOut),
+    );
+
     // 加载车辆数据
     WidgetsBinding.instance.addPostFrameCallback((_) {
       Provider.of<CarProvider>(context, listen: false).loadCars();
@@ -73,17 +66,17 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     setState(() {
       _isAnimating = true;
     });
-    
+
     // 重置动画
     _animationController.reset();
     _pulseController.reset();
-    
+
     // 启动脉冲背景效果
     _pulseController.repeat(reverse: true);
-    
+
     // 启动主动画
     _animationController.forward();
-    
+
     // 动画完成后重置状态
     Future.delayed(const Duration(milliseconds: 600), () {
       if (mounted) {
@@ -98,11 +91,14 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   // 播放车辆音频
   Future<void> _playCarAudio(CarProvider carProvider) async {
-    if (carProvider.currentCar == null || carProvider.isPlayingAudio || _isAnimating) return;
-    
+    if (carProvider.currentCar == null ||
+        carProvider.isPlayingAudio ||
+        _isAnimating)
+      return;
+
     // 酷炫的放大效果
     _performCoolAnimation();
-    
+
     // 播放英文音频
     await _audioService.playCarAudio(
       car: carProvider.currentCar!,
@@ -110,14 +106,13 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         carProvider.setAudioPlayingState(isPlaying, audioType);
       },
       onError: (error) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(error)),
-        );
+        ScaffoldMessenger.of(
+          context,
+        ).showSnackBar(SnackBar(content: Text(error)));
         carProvider.resetAudioState();
       },
     );
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -125,10 +120,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       builder: (context, carProvider, child) {
         return Scaffold(
           body: SafeArea(
-            child: carProvider.isLoading
-              ? const Center(child: CircularProgressIndicator())
-              : carProvider.errorMessage.isNotEmpty
-                  ? Center(
+            child:
+                carProvider.isLoading
+                    ? const Center(child: CircularProgressIndicator())
+                    : carProvider.errorMessage.isNotEmpty
+                    ? Center(
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
@@ -144,7 +140,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         ],
                       ),
                     )
-                  : _buildCarContent(carProvider),
+                    : _buildCarContent(carProvider),
           ),
         );
       },
@@ -154,18 +150,24 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   // 切换到上一个车辆
   Future<void> _previousCar(CarProvider carProvider) async {
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
-    
+
     // 停止当前音频播放
-    await _audioService.stop(onStateChanged: (isPlaying, audioType) {
-      carProvider.setAudioPlayingState(isPlaying, audioType);
-    });
+    await _audioService.stop(
+      onStateChanged: (isPlaying, audioType) {
+        carProvider.setAudioPlayingState(isPlaying, audioType);
+      },
+    );
     carProvider.resetAudioState();
-    
+
     final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
-    final previousIndex = currentIndex > 0 ? currentIndex - 1 : carProvider.cars.length - 1;
-    
-    await carProvider.setCurrentCar(carProvider.cars[previousIndex], previousIndex);
-    
+    final previousIndex =
+        currentIndex > 0 ? currentIndex - 1 : carProvider.cars.length - 1;
+
+    await carProvider.setCurrentCar(
+      carProvider.cars[previousIndex],
+      previousIndex,
+    );
+
     // 切换车辆后自动播放音频
     await _playCarAudio(carProvider);
   }
@@ -173,27 +175,28 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   // 切换到下一个车辆
   Future<void> _nextCar(CarProvider carProvider) async {
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
-    
+
     // 停止当前音频播放
-    await _audioService.stop(onStateChanged: (isPlaying, audioType) {
-      carProvider.setAudioPlayingState(isPlaying, audioType);
-    });
+    await _audioService.stop(
+      onStateChanged: (isPlaying, audioType) {
+        carProvider.setAudioPlayingState(isPlaying, audioType);
+      },
+    );
     carProvider.resetAudioState();
-    
+
     final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
-    final nextIndex = currentIndex < carProvider.cars.length - 1 ? currentIndex + 1 : 0;
-    
+    final nextIndex =
+        currentIndex < carProvider.cars.length - 1 ? currentIndex + 1 : 0;
+
     await carProvider.setCurrentCar(carProvider.cars[nextIndex], nextIndex);
-    
+
     // 切换车辆后自动播放音频
     await _playCarAudio(carProvider);
   }
 
   Widget _buildCarContent(CarProvider carProvider) {
     if (carProvider.currentCar == null) {
-      return const Center(
-        child: Text('请从搜索页面选择车辆'),
-      );
+      return const Center(child: Text('请从搜索页面选择车辆'));
     }
 
     return GestureDetector(
@@ -212,353 +215,469 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-          // 车辆图片
-          Card(
-            elevation: 4,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                children: [
-                  const SizedBox(height: 80), // 添加顶部间距，使图片下移
-                  GestureDetector(
-                    onTap: () => _playCarAudio(carProvider),
-                    child: Stack(
-                      alignment: Alignment.center,
-                      children: [
-                        // 背景光晕效果
-                        if (_isAnimating)
-                          AnimatedBuilder(
-                            animation: _pulseAnimation,
-                            builder: (context, child) {
-                              return Container(
-                                width: 250 * _pulseAnimation.value,
-                                height: 250 * _pulseAnimation.value,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                  gradient: RadialGradient(
-                                    colors: [
-                                      Colors.green.withOpacity(0.3),
-                                      Colors.green.withOpacity(0.1),
-                                      Colors.transparent,
-                                    ],
-                                  ),
-                                ),
-                              );
-                            },
-                          ),
-                        
-                        // 主要的车辆图片动画
-                        AnimatedBuilder(
-                          animation: _scaleAnimation,
-                          builder: (context, child) {
-                            return Transform.scale(
-                              scale: _isAnimating ? _scaleAnimation.value : 1.0,
-                              child: Container(
-                                decoration: _isAnimating ? BoxDecoration(
-                                  borderRadius: BorderRadius.circular(20),
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: Colors.green.withOpacity(0.5),
-                                      blurRadius: 20,
-                                      spreadRadius: 5,
-                                    ),
-                                  ],
-                                ) : null,
-                                child: Center(
-                                  child: Image.asset(
-                                    carProvider.currentCar!.carImagePath,
-                                    height: 300,
-                                    fit: BoxFit.contain,
-                                    errorBuilder: (context, error, stackTrace) {
-                                      return const Center(
-                                        child: Icon(
-                                          Icons.directions_car,
-                                          size: 300,
-                                          color: Colors.grey,
-                                        ),
-                                      );
-                                    },
-                                  ),
-                                ),
-                              ),
-                            );
-                          },
-                        ),
-                        
-                        // 闪烁的星星效果
-                        if (_isAnimating)
-                          ...List.generate(6, (index) {
-                            final angle = (index * 60) * 3.14159 / 180;
-                            return AnimatedBuilder(
-                              animation: _animationController,
-                              builder: (context, child) {
-                                final progress = _animationController.value;
-                                final distance = 120 * progress;
-                                return Transform.translate(
-                                  offset: Offset(
-                                    distance * math.cos(angle),
-                                    distance * math.sin(angle),
-                                  ),
-                                  child: Transform.scale(
-                                    scale: (1 - progress) * 2,
-                                    child: Icon(
-                                      Icons.star,
-                                      color: Colors.yellow.withOpacity(1 - progress),
-                                      size: 20,
-                                    ),
-                                  ),
-                                );
-                              },
-                            );
-                          }),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  
-                  // 音频播放状态
-                  if (carProvider.isPlayingAudio && carProvider.currentAudioType.contains('chinese'))
-                    const Text(
-                      '正在播放中文...',
-                      style: TextStyle(
-                        color: Colors.green,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                ],
+            // 顶部装饰区域
+            Container(
+              height: 90,
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
+                  colors: [
+                    Colors.green.withOpacity(0.1),
+                    Colors.green.withOpacity(0.05),
+                    Colors.transparent,
+                  ],
+                ),
               ),
-            ),
-          ),
-          
-          const SizedBox(height: 16),
-          
-          // 车辆信息
-          Card(
-            elevation: 4,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
-                    carProvider.currentCar!.carName,
-                    style: const TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  const SizedBox(height: 8),
-                  Text(
-                    carProvider.currentCar!.carEnglishName,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      color: Colors.grey,
-                    ),
-                  ),
-                  
-                  // 音标显示和小喇叭图标
-                  if (carProvider.currentCar!.carEnglishPronunciation != null || carProvider.currentCar!.carAmericanPronunciation != null)
-                    Padding(
-                      padding: const EdgeInsets.only(top: 4.0),
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          // 英式音标
-                          if (carProvider.currentCar!.carEnglishPronunciation != null)
-                            Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Text(
-                                  '英：',
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                    color: Colors.grey[600],
-                                  ),
-                                ),
-                                Text(
-                                  carProvider.currentCar!.carEnglishPronunciation!,
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                    color: Colors.grey[600],
-                                    fontStyle: FontStyle.italic,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          
-                          // 美式音标
-                          if (carProvider.currentCar!.carAmericanPronunciation != null)
-                            Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Text(
-                                  '  美：',
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                    color: Colors.grey[600],
-                                  ),
-                                ),
-                                Text(
-                                  carProvider.currentCar!.carAmericanPronunciation!,
-                                  style: TextStyle(
-                                    fontSize: 14,
-                                    color: Colors.grey[600],
-                                    fontStyle: FontStyle.italic,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          
-                          const SizedBox(width: 8),
-                          // 小喇叭图标
-                          GestureDetector(
-                            onTap: () async {
-                              if (carProvider.currentCar!.englishAudioPath.isNotEmpty) {
-                                // 播放一次英文音频
-                                await _audioService.playEnglishAudioOnce(
-                                  car: carProvider.currentCar!,
-                                  onStateChanged: (isPlaying, audioType) {
-                                    carProvider.setAudioPlayingState(isPlaying, audioType);
-                                  },
-                                  onError: (error) {
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      SnackBar(content: Text(error)),
-                                    );
-                                    carProvider.resetAudioState();
-                                  },
-                                );
-                              }
-                            },
-                            child: Icon(
-                              Icons.volume_up,
-                              size: 20,
-                              color: Colors.green,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                ],
-              ),
-            ),
-          ),
-          
-          const SizedBox(height: 16),
-          
-          // 车辆导航指示器
-          Card(
-            elevation: 4,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                children: [
+                  // 装饰性标题
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      IconButton(
-                        onPressed: () async {
-                          await _previousCar(carProvider);
-                        },
-                        icon: const Icon(Icons.arrow_back_ios),
-                        iconSize: 24,
-                        color: Colors.green,
-                        padding: EdgeInsets.zero,
-                        constraints: BoxConstraints(),
+                      Icon(
+                        Icons.directions_car,
+                        color: Colors.green.withOpacity(0.7),
+                        size: 32,
                       ),
-                      Expanded(
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            Text(
-                              '${carProvider.cars.indexOf(carProvider.currentCar!) + 1} / ${carProvider.cars.length}',
-                              style: const TextStyle(
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            SingleChildScrollView(
-                              scrollDirection: Axis.horizontal,
-                              child: Row(
-                                mainAxisSize: MainAxisSize.min,
-                                children: List.generate(
-                                  carProvider.cars.length,
-                                  (index) => Container(
-                                    margin: const EdgeInsets.symmetric(horizontal: 1),
-                                    width: 6,
-                                    height: 6,
-                                    decoration: BoxDecoration(
-                                      shape: BoxShape.circle,
-                                      color: index == carProvider.cars.indexOf(carProvider.currentCar!)
-                                          ? Colors.green
-                                          : Colors.grey.shade300,
-                                    ),
-                                  ),
-                                ).take(20).toList(), // 限制最多显示20个点
-                              ),
-                            ),
-                          ],
+                      const SizedBox(width: 10),
+                      Text(
+                        '小宝贝早教',
+                        style: TextStyle(
+                          fontSize: 28,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.green.shade700,
                         ),
                       ),
-                      IconButton(
-                        onPressed: () async {
-                          await _nextCar(carProvider);
-                        },
-                        icon: const Icon(Icons.arrow_forward_ios),
-                        iconSize: 24,
-                        color: Colors.green,
-                        padding: EdgeInsets.zero,
-                        constraints: BoxConstraints(),
+                      const SizedBox(width: 10),
+                      Icon(
+                        Icons.directions_car,
+                        color: Colors.green.withOpacity(0.7),
+                        size: 32,
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 20),
+                  // 装饰性图案
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow.withOpacity(0.6),
+                        size: 16,
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow.withOpacity(0.8),
+                        size: 20,
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(Icons.star, color: Colors.yellow, size: 24),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow.withOpacity(0.8),
+                        size: 20,
+                      ),
+                      const SizedBox(width: 8),
+                      Icon(
+                        Icons.star,
+                        color: Colors.yellow.withOpacity(0.6),
+                        size: 16,
                       ),
                     ],
                   ),
                 ],
               ),
             ),
-          ),
-          
-          const SizedBox(height: 16),
-          
-          // 操作说明
-          Card(
-            elevation: 4,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12),
-            ),
-            child: const Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    '操作说明',
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
+            // 车辆图片
+            Card(
+              elevation: 4,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  children: [
+                    GestureDetector(
+                      onTap: () => _playCarAudio(carProvider),
+                      child: Stack(
+                        alignment: Alignment.center,
+                        children: [
+                          // 背景光晕效果
+                          if (_isAnimating)
+                            AnimatedBuilder(
+                              animation: _pulseAnimation,
+                              builder: (context, child) {
+                                return Container(
+                                  width: 250 * _pulseAnimation.value,
+                                  height: 250 * _pulseAnimation.value,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                    gradient: RadialGradient(
+                                      colors: [
+                                        Colors.green.withOpacity(0.3),
+                                        Colors.green.withOpacity(0.1),
+                                        Colors.transparent,
+                                      ],
+                                    ),
+                                  ),
+                                );
+                              },
+                            ),
+
+                          // 主要的车辆图片动画
+                          AnimatedBuilder(
+                            animation: _scaleAnimation,
+                            builder: (context, child) {
+                              return Transform.scale(
+                                scale:
+                                    _isAnimating ? _scaleAnimation.value : 1.0,
+                                child: Container(
+                                  decoration:
+                                      _isAnimating
+                                          ? BoxDecoration(
+                                            borderRadius: BorderRadius.circular(
+                                              20,
+                                            ),
+                                            boxShadow: [
+                                              BoxShadow(
+                                                color: Colors.green.withOpacity(
+                                                  0.5,
+                                                ),
+                                                blurRadius: 20,
+                                                spreadRadius: 5,
+                                              ),
+                                            ],
+                                          )
+                                          : null,
+                                  child: Center(
+                                    child: Image.asset(
+                                      carProvider.currentCar!.carImagePath,
+                                      height: 300,
+                                      fit: BoxFit.contain,
+                                      errorBuilder: (
+                                        context,
+                                        error,
+                                        stackTrace,
+                                      ) {
+                                        return const Center(
+                                          child: Icon(
+                                            Icons.directions_car,
+                                            size: 300,
+                                            color: Colors.grey,
+                                          ),
+                                        );
+                                      },
+                                    ),
+                                  ),
+                                ),
+                              );
+                            },
+                          ),
+
+                          // 闪烁的星星效果
+                          if (_isAnimating)
+                            ...List.generate(6, (index) {
+                              final angle = (index * 60) * 3.14159 / 180;
+                              return AnimatedBuilder(
+                                animation: _animationController,
+                                builder: (context, child) {
+                                  final progress = _animationController.value;
+                                  final distance = 120 * progress;
+                                  return Transform.translate(
+                                    offset: Offset(
+                                      distance * math.cos(angle),
+                                      distance * math.sin(angle),
+                                    ),
+                                    child: Transform.scale(
+                                      scale: (1 - progress) * 2,
+                                      child: Icon(
+                                        Icons.star,
+                                        color: Colors.yellow.withOpacity(
+                                          1 - progress,
+                                        ),
+                                        size: 20,
+                                      ),
+                                    ),
+                                  );
+                                },
+                              );
+                            }),
+                        ],
+                      ),
                     ),
-                  ),
-                  SizedBox(height: 8),
-                  Text(
-                    '• 点击车辆图片：酷炫旋转放大效果并播放英文音频\n• 左右滑动屏幕：切换不同车辆\n• 点击箭头按钮：切换车辆',
-                    style: TextStyle(
-                      fontSize: 16,
-                      height: 1.5,
-                    ),
-                  ),
-                ],
+                    const SizedBox(height: 16),
+
+                    // 音频播放状态
+                    if (carProvider.isPlayingAudio &&
+                        carProvider.currentAudioType.contains('chinese'))
+                      const Text(
+                        '正在播放中文...',
+                        style: TextStyle(
+                          color: Colors.green,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                  ],
+                ),
               ),
             ),
-          ),
+
+            const SizedBox(height: 16),
+
+            // 车辆信息
+            Card(
+              elevation: 4,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      carProvider.currentCar!.carName,
+                      style: const TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      carProvider.currentCar!.carEnglishName,
+                      style: const TextStyle(fontSize: 18, color: Colors.grey),
+                    ),
+
+                    // 音标显示和小喇叭图标
+                    if (carProvider.currentCar!.carEnglishPronunciation !=
+                            null ||
+                        carProvider.currentCar!.carAmericanPronunciation !=
+                            null)
+                      Padding(
+                        padding: const EdgeInsets.only(top: 4.0),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            // 英式音标
+                            if (carProvider
+                                    .currentCar!
+                                    .carEnglishPronunciation !=
+                                null)
+                              Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Text(
+                                    '英：',
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.grey[600],
+                                    ),
+                                  ),
+                                  Text(
+                                    carProvider
+                                        .currentCar!
+                                        .carEnglishPronunciation!,
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.grey[600],
+                                      fontStyle: FontStyle.italic,
+                                    ),
+                                  ),
+                                ],
+                              ),
+
+                            // 美式音标
+                            if (carProvider
+                                    .currentCar!
+                                    .carAmericanPronunciation !=
+                                null)
+                              Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Text(
+                                    '  美：',
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.grey[600],
+                                    ),
+                                  ),
+                                  Text(
+                                    carProvider
+                                        .currentCar!
+                                        .carAmericanPronunciation!,
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.grey[600],
+                                      fontStyle: FontStyle.italic,
+                                    ),
+                                  ),
+                                ],
+                              ),
+
+                            const SizedBox(width: 8),
+                            // 小喇叭图标
+                            GestureDetector(
+                              onTap: () async {
+                                if (carProvider
+                                    .currentCar!
+                                    .englishAudioPath
+                                    .isNotEmpty) {
+                                  // 播放一次英文音频
+                                  await _audioService.playEnglishAudioOnce(
+                                    car: carProvider.currentCar!,
+                                    onStateChanged: (isPlaying, audioType) {
+                                      carProvider.setAudioPlayingState(
+                                        isPlaying,
+                                        audioType,
+                                      );
+                                    },
+                                    onError: (error) {
+                                      ScaffoldMessenger.of(
+                                        context,
+                                      ).showSnackBar(
+                                        SnackBar(content: Text(error)),
+                                      );
+                                      carProvider.resetAudioState();
+                                    },
+                                  );
+                                }
+                              },
+                              child: Icon(
+                                Icons.volume_up,
+                                size: 20,
+                                color: Colors.green,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                  ],
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 16),
+
+            // 车辆导航指示器
+            Card(
+              elevation: 4,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        IconButton(
+                          onPressed: () async {
+                            await _previousCar(carProvider);
+                          },
+                          icon: const Icon(Icons.arrow_back_ios),
+                          iconSize: 24,
+                          color: Colors.green,
+                          padding: EdgeInsets.zero,
+                          constraints: BoxConstraints(),
+                        ),
+                        Expanded(
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Text(
+                                '${carProvider.cars.indexOf(carProvider.currentCar!) + 1} / ${carProvider.cars.length}',
+                                style: const TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              const SizedBox(height: 4),
+                              SingleChildScrollView(
+                                scrollDirection: Axis.horizontal,
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.min,
+                                  children:
+                                      List.generate(
+                                        carProvider.cars.length,
+                                        (index) => Container(
+                                          margin: const EdgeInsets.symmetric(
+                                            horizontal: 1,
+                                          ),
+                                          width: 6,
+                                          height: 6,
+                                          decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            color:
+                                                index ==
+                                                        carProvider.cars
+                                                            .indexOf(
+                                                              carProvider
+                                                                  .currentCar!,
+                                                            )
+                                                    ? Colors.green
+                                                    : Colors.grey.shade300,
+                                          ),
+                                        ),
+                                      ).take(20).toList(), // 限制最多显示20个点
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        IconButton(
+                          onPressed: () async {
+                            await _nextCar(carProvider);
+                          },
+                          icon: const Icon(Icons.arrow_forward_ios),
+                          iconSize: 24,
+                          color: Colors.green,
+                          padding: EdgeInsets.zero,
+                          constraints: BoxConstraints(),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
+            const SizedBox(height: 16),
+
+            // 操作说明
+            Card(
+              elevation: 4,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: const Padding(
+                padding: EdgeInsets.all(16.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      '操作说明',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 8),
+                    Text(
+                      '• 点击车辆图片：酷炫旋转放大效果并播放英文音频\n• 左右滑动屏幕：切换不同车辆\n• 点击箭头按钮：切换车辆',
+                      style: TextStyle(fontSize: 16, height: 1.5),
+                    ),
+                  ],
+                ),
+              ),
+            ),
           ],
         ),
       ),

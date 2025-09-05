@@ -62,10 +62,7 @@
       "request": "launch",
       "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
       "cwd": "${workspaceFolder}/kid_car_flutter",
-      "args": [
-        "-d",
-        "chrome"
-      ]
+      "args": ["-d", "chrome"]
     },
     {
       "name": "Flutter: 运行应用 (Android)",
@@ -73,13 +70,8 @@
       "request": "launch",
       "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
       "cwd": "${workspaceFolder}/kid_car_flutter",
-      "args": [
-        "-d",
-        "emulator-5554"
-      ],
-      "toolArgs": [
-        "--device-id=emulator-5554"
-      ]
+      "args": ["-d", "emulator-5554"],
+      "toolArgs": ["--device-id=emulator-5554"]
     },
     {
       "name": "Flutter: 运行应用 (iOS)",
@@ -87,13 +79,8 @@
       "request": "launch",
       "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
       "cwd": "${workspaceFolder}/kid_car_flutter",
-      "args": [
-        "-d",
-        "00008103-000505C81AEB001E"
-      ],
-      "toolArgs": [
-        "--device-id=00008103-000505C81AEB001E"
-      ]
+      "args": ["-d", "8F694BBD-9FBE-4169-A839-32C358467E52"],
+      "toolArgs": ["--device-id=8F694BBD-9FBE-4169-A839-32C358467E52"]
     },
     {
       "name": "Flutter: 热重载",
@@ -101,9 +88,7 @@
       "request": "launch",
       "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
       "cwd": "${workspaceFolder}/kid_car_flutter",
-      "args": [
-        "--hot"
-      ]
+      "args": ["--hot"]
     },
     {
       "name": "Flutter: 调试模式",
@@ -111,9 +96,7 @@
       "request": "launch",
       "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
       "cwd": "${workspaceFolder}/kid_car_flutter",
-      "args": [
-        "--debug"
-      ]
+      "args": ["--debug"]
     },
     {
       "name": "Flutter: 构建Debug APK",
@@ -124,11 +107,7 @@
       "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
       "args": [],
       "runtimeExecutable": "flutter",
-      "runtimeArgs": [
-        "build",
-        "apk",
-        "--debug"
-      ]
+      "runtimeArgs": ["build", "apk", "--debug"]
     },
     {
       "name": "Flutter: 构建Release APK",
@@ -139,11 +118,7 @@
       "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
       "args": [],
       "runtimeExecutable": "flutter",
-      "runtimeArgs": [
-        "build",
-        "apk",
-        "--release"
-      ]
+      "runtimeArgs": ["build", "apk", "--release"]
     },
     {
       "name": "Python: 检查图片和音频文件",
@@ -188,10 +163,7 @@
     },
     {
       "name": "构建所有APK",
-      "configurations": [
-        "Flutter: 构建Debug APK",
-        "Flutter: 构建Release APK"
-      ],
+      "configurations": ["Flutter: 构建Debug APK", "Flutter: 构建Release APK"],
       "stopAll": false,
       "presentation": {
         "hidden": false,

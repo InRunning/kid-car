@@ -7,15 +7,44 @@
 
 import json
 import os
-import requests
+import sys
 import time
-import yaml
-from PIL import Image
 from io import BytesIO
 import shutil
 
+# 条件导入PIL
+def import_pil():
+    try:
+        from PIL import Image, ImageDraw
+        return Image, ImageDraw
+    except ImportError:
+        print("错误：缺少PIL模块，请使用 'pip3 install Pillow' 安装")
+        return None, None
+
+# 只在需要生成原始图标时才导入requests
+def import_requests():
+    try:
+        import requests
+        return requests
+    except ImportError:
+        print("错误：缺少requests模块，请使用 'pip3 install requests' 安装")
+        return None
+
+# 只在需要读取配置文件时才导入yaml
+def import_yaml():
+    try:
+        import yaml
+        return yaml
+    except ImportError:
+        print("警告：缺少yaml模块，将使用默认配置")
+        return None
+
 def load_config():
     """从local.yaml加载配置"""
+    yaml = import_yaml()
+    if not yaml:
+        return None
+        
     try:
         with open('local.yaml', 'r', encoding='utf-8') as f:
             config = yaml.safe_load(f)
@@ -51,6 +80,11 @@ def create_headers():
 
 def generate_app_icon():
     """生成应用图标"""
+    # 动态导入requests模块
+    requests = import_requests()
+    if not requests:
+        return None
+        
     # 构建图标生成提示词
     prompt = "儿童学习车辆应用的图标，卡通风格，包含多种车辆元素，色彩鲜艳，适合儿童，简洁明了，不要文字"
     
@@ -119,6 +153,10 @@ def generate_app_icon():
 
 def resize_image(image_path, size):
     """调整图片尺寸"""
+    Image, _ = import_pil()
+    if not Image:
+        return None
+        
     try:
         with Image.open(image_path) as img:
             # 转换为RGBA模式以支持透明度
@@ -147,6 +185,7 @@ def generate_android_icons(original_icon_path):
     
     success_count = 0
     
+    # 生成传统图标
     for dir_name, size in android_sizes.items():
         target_dir = os.path.join('kid_car_flutter', 'android', 'app', 'src', 'main', 'res', dir_name)
         target_path = os.path.join(target_dir, 'ic_launcher.png')
@@ -171,7 +210,107 @@ def generate_android_icons(original_icon_path):
             except Exception as e:
                 print(f"✗ 保存Android图标失败: {e}")
     
-    return success_count
+    # 生成Adaptive Icon的前景和背景图片
+    print("\n生成Android Adaptive Icon...")
+    adaptive_success_count = 0
+    
+    # 创建Adaptive Icon的XML配置文件
+    adaptive_xml_dir = os.path.join('kid_car_flutter', 'android', 'app', 'src', 'main', 'res', 'mipmap-anydpi-v26')
+    os.makedirs(adaptive_xml_dir, exist_ok=True)
+    
+    adaptive_xml_path = os.path.join(adaptive_xml_dir, 'ic_launcher.xml')
+    if not os.path.exists(adaptive_xml_path):
+        with open(adaptive_xml_path, 'w', encoding='utf-8') as f:
+            f.write("""<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@mipmap/ic_launcher_background"/>
+    <foreground android:drawable="@mipmap/ic_launcher_foreground"/>
+</adaptive-icon>
+""")
+        print(f"✓ Adaptive Icon XML生成成功: {adaptive_xml_path}")
+        adaptive_success_count += 1
+    else:
+        print(f"✓ Adaptive Icon XML已存在: {adaptive_xml_path}")
+        adaptive_success_count += 1
+    
+    # 生成前景和背景图片
+    for dir_name, size in android_sizes.items():
+        target_dir = os.path.join('kid_car_flutter', 'android', 'app', 'src', 'main', 'res', dir_name)
+        
+        # 生成前景图片（使用原图）
+        foreground_path = os.path.join(target_dir, 'ic_launcher_foreground.png')
+        if not os.path.exists(foreground_path):
+            # 调整尺寸，前景图片应该是原图的432x432像素（108dp x 108dp，减去边距）
+            foreground_size = int(size * 0.875)  # 108dp中的87.5dp用于前景
+            resized_img = resize_image(original_icon_path, foreground_size)
+            if resized_img:
+                try:
+                    # 创建一个透明背景的图片，将图标放在中间
+                    foreground_img = Image.new('RGBA', (size, size), (0, 0, 0, 0))
+                    # 计算居中位置
+                    offset = ((size - foreground_size) // 2, (size - foreground_size) // 2)
+                    foreground_img.paste(resized_img, offset)
+                    
+                    # 保存图片
+                    foreground_img.save(foreground_path, 'PNG')
+                    print(f"✓ Adaptive Icon前景生成成功: {foreground_path}")
+                    adaptive_success_count += 1
+                except Exception as e:
+                    print(f"✗ 保存Adaptive Icon前景失败: {e}")
+            else:
+                print(f"✗ 调整Adaptive Icon前景尺寸失败: {foreground_path}")
+        else:
+            print(f"✓ Adaptive Icon前景已存在: {foreground_path}")
+            adaptive_success_count += 1
+        
+        # 生成背景图片（使用纯色背景）
+        background_path = os.path.join(target_dir, 'ic_launcher_background.png')
+        if not os.path.exists(background_path):
+            try:
+                # 创建一个纯绿色背景的图片
+                background_img = Image.new('RGBA', (size, size), (76, 175, 80, 255))  # 绿色背景
+                background_img.save(background_path, 'PNG')
+                print(f"✓ Adaptive Icon背景生成成功: {background_path}")
+                adaptive_success_count += 1
+            except Exception as e:
+                print(f"✗ 保存Adaptive Icon背景失败: {e}")
+        else:
+            print(f"✓ Adaptive Icon背景已存在: {background_path}")
+            adaptive_success_count += 1
+        
+        # 生成圆形图标
+        round_path = os.path.join(target_dir, 'ic_launcher_round.png')
+        if not os.path.exists(round_path):
+            try:
+                # 调整尺寸
+                resized_img = resize_image(original_icon_path, size)
+                if resized_img:
+                    # 创建圆形遮罩
+                    Image, ImageDraw = import_pil()
+                    if not Image or not ImageDraw:
+                        print(f"✗ 导入PIL模块失败，无法生成圆形图标: {round_path}")
+                        continue
+                        
+                    mask = Image.new('L', (size, size), 0)
+                    draw = ImageDraw.Draw(mask)
+                    draw.ellipse((0, 0, size, size), fill=255)
+                    
+                    # 创建圆形图标
+                    round_img = Image.new('RGBA', (size, size), (0, 0, 0, 0))
+                    round_img.paste(resized_img, (0, 0))
+                    round_img.putalpha(mask)
+                    
+                    # 保存图片
+                    round_img.save(round_path, 'PNG')
+                    print(f"✓ 圆形图标生成成功: {round_path}")
+                    adaptive_success_count += 1
+            except Exception as e:
+                print(f"✗ 保存圆形图标失败: {e}")
+        else:
+            print(f"✓ 圆形图标已存在: {round_path}")
+            adaptive_success_count += 1
+    
+    return success_count + adaptive_success_count
 
 def generate_ios_icons(original_icon_path):
     """生成iOS平台图标"""
@@ -327,8 +466,11 @@ def generate_windows_icons(original_icon_path):
         os.makedirs(target_dir, exist_ok=True)
         
         # 创建ICO文件
-        from PIL import Image
-        
+        Image, _ = import_pil()
+        if not Image:
+            print(f"✗ 导入PIL模块失败，无法生成Windows图标: {target_path}")
+            return 0
+            
         # 收集所有尺寸的图片
         images = []
         for size in sizes:
@@ -355,11 +497,9 @@ def main():
     # 检查是否已经有原始图标
     original_icon_path = os.path.join(ICONS_DIR, "app_icon_original.png")
     if not os.path.exists(original_icon_path):
-        # 生成原始图标
-        original_icon_path = generate_app_icon()
-        if not original_icon_path:
-            print("生成原始图标失败，程序退出")
-            return
+        print("✗ 原始图标不存在，请先确保原始图标已生成")
+        print("提示：如果您有原始图标，请将其放在icons目录下，并命名为app_icon_original.png")
+        return
     else:
         print(f"✓ 原始图标已存在: {original_icon_path}")
     
@@ -371,10 +511,11 @@ def main():
     windows_count = generate_windows_icons(original_icon_path)
     
     total_count = android_count + ios_count + web_count + macos_count + windows_count
-    total_expected = 5 + 14 + 4 + 7 + 1  # 各平台期望的图标数量
+    # Android现在包括5个传统图标 + 1个XML配置文件 + 5个前景图片 + 5个背景图片 + 5个圆形图标 = 21个
+    total_expected = 21 + 14 + 4 + 7 + 1  # 各平台期望的图标数量
     
     print(f"\n完成！成功生成 {total_count}/{total_expected} 个平台图标")
-    print(f"- Android: {android_count}/5")
+    print(f"- Android: {android_count}/21")
     print(f"- iOS: {ios_count}/14")
     print(f"- Web: {web_count}/4")
     print(f"- macOS: {macos_count}/7")
