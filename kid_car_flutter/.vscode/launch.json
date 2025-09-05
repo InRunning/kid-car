@@ -1,0 +1,144 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "kid_car_flutter",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "kid_car_flutter (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "kid_car_flutter (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "Build APK (debug)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "apk",
+        "--debug"
+      ]
+    },
+    {
+      "name": "Build APK (profile)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "apk",
+        "--profile"
+      ]
+    },
+    {
+      "name": "Build APK (release)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "apk",
+        "--release"
+      ]
+    },
+    {
+      "name": "Build App Bundle (release)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "appbundle",
+        "--release"
+      ]
+    },
+    {
+      "name": "Flutter Clean",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "clean"
+      ]
+    },
+    {
+      "name": "Flutter Pub Get",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "pub",
+        "get"
+      ]
+    },
+    {
+      "name": "Build iOS (debug simulator)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "ios",
+        "--debug",
+        "--simulator"
+      ]
+    },
+    {
+      "name": "Build iOS (debug device)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "ios",
+        "--debug"
+      ]
+    },
+    {
+      "name": "Build iOS (release device)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "ios",
+        "--release"
+      ]
+    },
+    {
+      "name": "Build iOS (profile device)",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "ios",
+        "--profile"
+      ]
+    },
+    {
+      "name": "iOS Pod Install",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "build",
+        "ios",
+        "--no-codesign"
+      ]
+    }
+  ]
+}

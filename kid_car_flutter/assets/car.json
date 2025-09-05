@@ -2240,8 +2240,8 @@
     "car-american-pronunciation": "/skul bʌs/",
     "car-type": "公共交通",
     "car-image-path": "assets/images/校车_公共交通.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/校车_zh.mp3",
+    "english-audio-path": "assets/audios/School Bus_en.mp3"
   },
   {
     "car-name": "单轨列车",
@@ -2251,8 +2251,8 @@
     "car-american-pronunciation": "/ˈmɑːnoʊreɪl/",
     "car-type": "公共交通",
     "car-image-path": "assets/images/单轨列车_公共交通.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/单轨列车_zh.mp3",
+    "english-audio-path": "assets/audios/Monorail_en.mp3"
   },
   {
     "car-name": "警车",
@@ -2262,8 +2262,8 @@
     "car-american-pronunciation": "/pəˈlis kɑr/",
     "car-type": "特种车辆",
     "car-image-path": "assets/images/警车_特种车辆.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/警车_zh.mp3",
+    "english-audio-path": "assets/audios/police car_en.mp3"
   },
   {
     "car-name": "工程车",
@@ -2273,8 +2273,8 @@
     "car-american-pronunciation": "/ˈɛkskəveɪtər/",
     "car-type": "特种车辆",
     "car-image-path": "assets/images/工程车_特种车辆.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/工程车_zh.mp3",
+    "english-audio-path": "assets/audios/Excavator_en.mp3"
   },
   {
     "car-name": "气垫船",
@@ -2284,8 +2284,8 @@
     "car-american-pronunciation": "/ˈhʌvərkræft/",
     "car-type": "船舶",
     "car-image-path": "assets/images/气垫船_船舶.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/气垫船_zh.mp3",
+    "english-audio-path": "assets/audios/Hovercraft_en.mp3"
   },
   {
     "car-name": "橙子",
@@ -2295,8 +2295,8 @@
     "car-american-pronunciation": "/ˈɔːrɪndʒ/",
     "car-type": "水果",
     "car-image-path": "assets/images/橙子_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/橙子_zh.mp3",
+    "english-audio-path": "assets/audios/Orange_en.mp3"
   },
   {
     "car-name": "葡萄",
@@ -2306,8 +2306,8 @@
     "car-american-pronunciation": "/ɡreɪp/",
     "car-type": "水果",
     "car-image-path": "assets/images/葡萄_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/葡萄_zh.mp3",
+    "english-audio-path": "assets/audios/Grape_en.mp3"
   },
   {
     "car-name": "西瓜",
@@ -2317,8 +2317,8 @@
     "car-american-pronunciation": "/ˈwɔtərˌmɛlən/",
     "car-type": "水果",
     "car-image-path": "assets/images/西瓜_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/西瓜_zh.mp3",
+    "english-audio-path": "assets/audios/Watermelon_en.mp3"
   },
   {
     "car-name": "草莓",
@@ -2328,8 +2328,8 @@
     "car-american-pronunciation": "/ˈstrɔːˌbɛri/",
     "car-type": "水果",
     "car-image-path": "assets/images/草莓_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/草莓_zh.mp3",
+    "english-audio-path": "assets/audios/Strawberry_en.mp3"
   },
   {
     "car-name": "梨子",
@@ -2339,8 +2339,8 @@
     "car-american-pronunciation": "/pɛr/",
     "car-type": "水果",
     "car-image-path": "assets/images/梨子_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/梨子_zh.mp3",
+    "english-audio-path": "assets/audios/Pear_en.mp3"
   },
   {
     "car-name": "桃子",
@@ -2350,8 +2350,8 @@
     "car-american-pronunciation": "/piːtʃ/",
     "car-type": "水果",
     "car-image-path": "assets/images/桃子_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/桃子_zh.mp3",
+    "english-audio-path": "assets/audios/Peach_en.mp3"
   },
   {
     "car-name": "樱桃",
@@ -2361,8 +2361,8 @@
     "car-american-pronunciation": "/ˈtʃɛri/",
     "car-type": "水果",
     "car-image-path": "assets/images/樱桃_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/樱桃_zh.mp3",
+    "english-audio-path": "assets/audios/Cherry_en.mp3"
   },
   {
     "car-name": "柠檬",
@@ -2372,8 +2372,8 @@
     "car-american-pronunciation": "/ˈlemən/",
     "car-type": "水果",
     "car-image-path": "assets/images/柠檬_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/柠檬_zh.mp3",
+    "english-audio-path": "assets/audios/Lemon_en.mp3"
   },
   {
     "car-name": "菠萝",
@@ -2383,8 +2383,8 @@
     "car-american-pronunciation": "/ˈpaɪnˌæpəl/",
     "car-type": "水果",
     "car-image-path": "assets/images/菠萝_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/菠萝_zh.mp3",
+    "english-audio-path": "assets/audios/Pineapple_en.mp3"
   },
   {
     "car-name": "猕猴桃",
@@ -2394,8 +2394,8 @@
     "car-american-pronunciation": "/ˈkiwi/",
     "car-type": "水果",
     "car-image-path": "assets/images/猕猴桃_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/猕猴桃_zh.mp3",
+    "english-audio-path": "assets/audios/Kiwi_en.mp3"
   },
   {
     "car-name": "芒果",
@@ -2405,8 +2405,8 @@
     "car-american-pronunciation": "/ˈmæŋɡoʊ/",
     "car-type": "水果",
     "car-image-path": "assets/images/芒果_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/芒果_zh.mp3",
+    "english-audio-path": "assets/audios/Mango_en.mp3"
   },
   {
     "car-name": "蓝莓",
@@ -2416,8 +2416,8 @@
     "car-american-pronunciation": "/ˈbluːˌberi/",
     "car-type": "水果",
     "car-image-path": "assets/images/蓝莓_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/蓝莓_zh.mp3",
+    "english-audio-path": "assets/audios/Blueberry_en.mp3"
   },
   {
     "car-name": "柚子",
@@ -2427,8 +2427,8 @@
     "car-american-pronunciation": "/ˈpɑːməloʊ/",
     "car-type": "水果",
     "car-image-path": "assets/images/柚子_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/柚子_zh.mp3",
+    "english-audio-path": "assets/audios/Pomelo_en.mp3"
   },
   {
     "car-name": "杏子",
@@ -2438,8 +2438,8 @@
     "car-american-pronunciation": "/ˈæprɪkɑːt/",
     "car-type": "水果",
     "car-image-path": "assets/images/杏子_水果.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/杏子_zh.mp3",
+    "english-audio-path": "assets/audios/Apricot_en.mp3"
   },
   {
     "car-name": "胡萝卜",
@@ -2449,8 +2449,8 @@
     "car-american-pronunciation": "/ˈkærət/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/胡萝卜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/胡萝卜_zh.mp3",
+    "english-audio-path": "assets/audios/Carrot_en.mp3"
   },
   {
     "car-name": "西红柿",
@@ -2460,8 +2460,8 @@
     "car-american-pronunciation": "/təˈmeɪtoʊ/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/西红柿_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/西红柿_zh.mp3",
+    "english-audio-path": "assets/audios/tomato_en.mp3"
   },
   {
     "car-name": "黄瓜",
@@ -2471,8 +2471,8 @@
     "car-american-pronunciation": "/ˈkjuːˌkʌmbər/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/黄瓜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/黄瓜_zh.mp3",
+    "english-audio-path": "assets/audios/Cucumber_en.mp3"
   },
   {
     "car-name": "白菜",
@@ -2482,8 +2482,8 @@
     "car-american-pronunciation": "/ˌtʃaɪˈniz ˈkæbɪdʒ/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/白菜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/白菜_zh.mp3",
+    "english-audio-path": "assets/audios/Chinese cabbage_en.mp3"
   },
   {
     "car-name": "土豆",
@@ -2493,8 +2493,8 @@
     "car-american-pronunciation": "/pəˈteɪtoʊ/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/土豆_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/土豆_zh.mp3",
+    "english-audio-path": "assets/audios/Potato_en.mp3"
   },
   {
     "car-name": "玉米",
@@ -2504,8 +2504,8 @@
     "car-american-pronunciation": "/kɔːrn/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/玉米_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/玉米_zh.mp3",
+    "english-audio-path": "assets/audios/Corn_en.mp3"
   },
   {
     "car-name": "茄子",
@@ -2515,8 +2515,8 @@
     "car-american-pronunciation": "/ˈeɡplænt/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/茄子_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/茄子_zh.mp3",
+    "english-audio-path": "assets/audios/Eggplant_en.mp3"
   },
   {
     "car-name": "南瓜",
@@ -2526,8 +2526,8 @@
     "car-american-pronunciation": "/ˈpʌmpkɪn/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/南瓜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/南瓜_zh.mp3",
+    "english-audio-path": "assets/audios/Pumpkin_en.mp3"
   },
   {
     "car-name": "豌豆",
@@ -2537,8 +2537,8 @@
     "car-american-pronunciation": "/piː/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/豌豆_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/豌豆_zh.mp3",
+    "english-audio-path": "assets/audios/Pea_en.mp3"
   },
   {
     "car-name": "花菜",
@@ -2548,8 +2548,8 @@
     "car-american-pronunciation": "/ˈkɑːlɪflaʊər/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/花菜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/花菜_zh.mp3",
+    "english-audio-path": "assets/audios/Cauliflower_en.mp3"
   },
   {
     "car-name": "菠菜",
@@ -2559,8 +2559,8 @@
     "car-american-pronunciation": "/ˈspɪnɪtʃ/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/菠菜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/菠菜_zh.mp3",
+    "english-audio-path": "assets/audios/Spinach_en.mp3"
   },
   {
     "car-name": "萝卜",
@@ -2570,8 +2570,8 @@
     "car-american-pronunciation": "/ˈrædɪʃ/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/萝卜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/萝卜_zh.mp3",
+    "english-audio-path": "assets/audios/Radish_en.mp3"
   },
   {
     "car-name": "洋葱",
@@ -2581,8 +2581,8 @@
     "car-american-pronunciation": "/ˈʌnjən/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/洋葱_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/洋葱_zh.mp3",
+    "english-audio-path": "assets/audios/Onion_en.mp3"
   },
   {
     "car-name": "青椒",
@@ -2592,8 +2592,8 @@
     "car-american-pronunciation": "/ɡrin ˈpɛpər/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/青椒_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/青椒_zh.mp3",
+    "english-audio-path": "assets/audios/Green Pepper_en.mp3"
   },
   {
     "car-name": "豆角",
@@ -2603,8 +2603,8 @@
     "car-american-pronunciation": "/ɡrin bin/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/豆角_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/豆角_zh.mp3",
+    "english-audio-path": "assets/audios/Green Bean_en.mp3"
   },
   {
     "car-name": "冬瓜",
@@ -2614,8 +2614,8 @@
     "car-american-pronunciation": "/ˈwɪntɚ ˈmɛlən/",
     "car-type": "蔬菜",
     "car-image-path": "assets/images/冬瓜_蔬菜.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/冬瓜_zh.mp3",
+    "english-audio-path": "assets/audios/Winter Melon_en.mp3"
   },
   {
     "car-name": "红色",
@@ -2625,8 +2625,8 @@
     "car-american-pronunciation": "/red/",
     "car-type": "颜色",
     "car-image-path": "assets/images/红色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/红色_zh.mp3",
+    "english-audio-path": "assets/audios/Red_en.mp3"
   },
   {
     "car-name": "蓝色",
@@ -2636,8 +2636,8 @@
     "car-american-pronunciation": "/bluː/",
     "car-type": "颜色",
     "car-image-path": "assets/images/蓝色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/蓝色_zh.mp3",
+    "english-audio-path": "assets/audios/Blue_en.mp3"
   },
   {
     "car-name": "黄色",
@@ -2647,8 +2647,8 @@
     "car-american-pronunciation": "/ˈjɛloʊ/",
     "car-type": "颜色",
     "car-image-path": "assets/images/黄色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/黄色_zh.mp3",
+    "english-audio-path": "assets/audios/Yellow_en.mp3"
   },
   {
     "car-name": "绿色",
@@ -2658,8 +2658,8 @@
     "car-american-pronunciation": "/ɡriːn/",
     "car-type": "颜色",
     "car-image-path": "assets/images/绿色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/绿色_zh.mp3",
+    "english-audio-path": "assets/audios/Green_en.mp3"
   },
   {
     "car-name": "橙色",
@@ -2669,8 +2669,8 @@
     "car-american-pronunciation": "/ˈɔrɪndʒ/",
     "car-type": "颜色",
     "car-image-path": "assets/images/橙色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/橙色_zh.mp3",
+    "english-audio-path": "assets/audios/Orange_en.mp3"
   },
   {
     "car-name": "紫色",
@@ -2680,8 +2680,8 @@
     "car-american-pronunciation": "/ˈpɝː.pəl/",
     "car-type": "颜色",
     "car-image-path": "assets/images/紫色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/紫色_zh.mp3",
+    "english-audio-path": "assets/audios/Purple_en.mp3"
   },
   {
     "car-name": "粉色",
@@ -2691,8 +2691,8 @@
     "car-american-pronunciation": "/pɪŋk/",
     "car-type": "颜色",
     "car-image-path": "assets/images/粉色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/粉色_zh.mp3",
+    "english-audio-path": "assets/audios/Pink_en.mp3"
   },
   {
     "car-name": "棕色",
@@ -2702,8 +2702,8 @@
     "car-american-pronunciation": "/braʊn/",
     "car-type": "颜色",
     "car-image-path": "assets/images/棕色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/棕色_zh.mp3",
+    "english-audio-path": "assets/audios/Brown_en.mp3"
   },
   {
     "car-name": "黑色",
@@ -2713,8 +2713,8 @@
     "car-american-pronunciation": "/blæk/",
     "car-type": "颜色",
     "car-image-path": "assets/images/黑色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/黑色_zh.mp3",
+    "english-audio-path": "assets/audios/Black_en.mp3"
   },
   {
     "car-name": "白色",
@@ -2724,8 +2724,8 @@
     "car-american-pronunciation": "/waɪt/",
     "car-type": "颜色",
     "car-image-path": "assets/images/白色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/白色_zh.mp3",
+    "english-audio-path": "assets/audios/White_en.mp3"
   },
   {
     "car-name": "灰色",
@@ -2735,8 +2735,8 @@
     "car-american-pronunciation": "/ɡreɪ/",
     "car-type": "颜色",
     "car-image-path": "assets/images/灰色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/灰色_zh.mp3",
+    "english-audio-path": "assets/audios/Grey_en.mp3"
   },
   {
     "car-name": "金色",
@@ -2746,8 +2746,8 @@
     "car-american-pronunciation": "/ɡoʊld/",
     "car-type": "颜色",
     "car-image-path": "assets/images/金色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/金色_zh.mp3",
+    "english-audio-path": "assets/audios/Gold_en.mp3"
   },
   {
     "car-name": "银色",
@@ -2757,8 +2757,8 @@
     "car-american-pronunciation": "/ˈsɪlvɚ/",
     "car-type": "颜色",
     "car-image-path": "assets/images/银色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/银色_zh.mp3",
+    "english-audio-path": "assets/audios/Silver_en.mp3"
   },
   {
     "car-name": "青色",
@@ -2768,8 +2768,8 @@
     "car-american-pronunciation": "/ˈsaɪ.ən/",
     "car-type": "颜色",
     "car-image-path": "assets/images/青色_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/青色_zh.mp3",
+    "english-audio-path": "assets/audios/Cyan_en.mp3"
   },
   {
     "car-name": "彩虹色",
@@ -2779,8 +2779,8 @@
     "car-american-pronunciation": "/ˈreɪnboʊ ˈkʌlərz/",
     "car-type": "颜色",
     "car-image-path": "",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/彩虹色_zh.mp3",
+    "english-audio-path": "assets/audios/Rainbow Colors_en.mp3"
   },
   {
     "car-name": "透明",
@@ -2790,8 +2790,8 @@
     "car-american-pronunciation": "/trænsˈpærənt/",
     "car-type": "颜色",
     "car-image-path": "assets/images/透明_颜色.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/透明_zh.mp3",
+    "english-audio-path": "assets/audios/Transparent_en.mp3"
   },
   {
     "car-name": "圆形",
@@ -2801,8 +2801,8 @@
     "car-american-pronunciation": "/ˈsɜːrkəl/",
     "car-type": "形状",
     "car-image-path": "assets/images/圆形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/圆形_zh.mp3",
+    "english-audio-path": "assets/audios/Circle_en.mp3"
   },
   {
     "car-name": "正方形",
@@ -2812,8 +2812,8 @@
     "car-american-pronunciation": "/skwɛr/",
     "car-type": "形状",
     "car-image-path": "assets/images/正方形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/正方形_zh.mp3",
+    "english-audio-path": "assets/audios/Square_en.mp3"
   },
   {
     "car-name": "三角形",
@@ -2823,8 +2823,8 @@
     "car-american-pronunciation": "/ˈtraɪˌæŋɡəl/",
     "car-type": "形状",
     "car-image-path": "assets/images/三角形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/三角形_zh.mp3",
+    "english-audio-path": "assets/audios/Triangle_en.mp3"
   },
   {
     "car-name": "长方形",
@@ -2834,8 +2834,8 @@
     "car-american-pronunciation": "/ˈrek.tæŋ.ɡəl/",
     "car-type": "形状",
     "car-image-path": "assets/images/长方形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/长方形_zh.mp3",
+    "english-audio-path": "assets/audios/Rectangle_en.mp3"
   },
   {
     "car-name": "椭圆形",
@@ -2845,8 +2845,8 @@
     "car-american-pronunciation": "/ˈoʊvəl/",
     "car-type": "形状",
     "car-image-path": "assets/images/椭圆形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/椭圆形_zh.mp3",
+    "english-audio-path": "assets/audios/Oval_en.mp3"
   },
   {
     "car-name": "星形",
@@ -2856,8 +2856,8 @@
     "car-american-pronunciation": "/stɑr/",
     "car-type": "形状",
     "car-image-path": "assets/images/星形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/星形_zh.mp3",
+    "english-audio-path": "assets/audios/Star_en.mp3"
   },
   {
     "car-name": "心形",
@@ -2867,8 +2867,8 @@
     "car-american-pronunciation": "/hɑːrt ʃeɪp/",
     "car-type": "形状",
     "car-image-path": "assets/images/心形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/心形_zh.mp3",
+    "english-audio-path": "assets/audios/Heart Shape_en.mp3"
   },
   {
     "car-name": "菱形",
@@ -2878,8 +2878,8 @@
     "car-american-pronunciation": "/ˈdaɪmənd ʃeɪp/",
     "car-type": "形状",
     "car-image-path": "assets/images/菱形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/菱形_zh.mp3",
+    "english-audio-path": "assets/audios/Diamond shape_en.mp3"
   },
   {
     "car-name": "梯形",
@@ -2889,8 +2889,8 @@
     "car-american-pronunciation": "/ˈtræpəzɔɪd/",
     "car-type": "形状",
     "car-image-path": "assets/images/梯形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/梯形_zh.mp3",
+    "english-audio-path": "assets/audios/Trapezoid_en.mp3"
   },
   {
     "car-name": "半圆形",
@@ -2900,8 +2900,8 @@
     "car-american-pronunciation": "/ˈsemɪˌsɜːrkəl/",
     "car-type": "形状",
     "car-image-path": "assets/images/半圆形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/半圆形_zh.mp3",
+    "english-audio-path": "assets/audios/Semicircle_en.mp3"
   },
   {
     "car-name": "五角星",
@@ -2911,8 +2911,8 @@
     "car-american-pronunciation": "/stɑːr/",
     "car-type": "形状",
     "car-image-path": "assets/images/五角星_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/五角星_zh.mp3",
+    "english-audio-path": "assets/audios/Star_en.mp3"
   },
   {
     "car-name": "六边形",
@@ -2922,8 +2922,8 @@
     "car-american-pronunciation": "/ˈheksəɡɑːn/",
     "car-type": "形状",
     "car-image-path": "assets/images/六边形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/六边形_zh.mp3",
+    "english-audio-path": "assets/audios/Hexagon_en.mp3"
   },
   {
     "car-name": "圆柱形",
@@ -2933,8 +2933,8 @@
     "car-american-pronunciation": "/kʌp/",
     "car-type": "形状",
     "car-image-path": "assets/images/圆柱形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/圆柱形_zh.mp3",
+    "english-audio-path": "assets/audios/Cup_en.mp3"
   },
   {
     "car-name": "球形",
@@ -2944,8 +2944,8 @@
     "car-american-pronunciation": "/bɔl/",
     "car-type": "形状",
     "car-image-path": "assets/images/球形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/球形_zh.mp3",
+    "english-audio-path": "assets/audios/Ball_en.mp3"
   },
   {
     "car-name": "立方体",
@@ -2955,8 +2955,8 @@
     "car-american-pronunciation": "/kjuːb/",
     "car-type": "形状",
     "car-image-path": "assets/images/立方体_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/立方体_zh.mp3",
+    "english-audio-path": "assets/audios/Cube_en.mp3"
   },
   {
     "car-name": "圆锥形",
@@ -2966,8 +2966,8 @@
     "car-american-pronunciation": "/koʊn ʃeɪp/",
     "car-type": "形状",
     "car-image-path": "assets/images/圆锥形_形状.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/圆锥形_zh.mp3",
+    "english-audio-path": "assets/audios/cone shape_en.mp3"
   },
   {
     "car-name": "一",
@@ -2977,8 +2977,8 @@
     "car-american-pronunciation": "/kɑːr/",
     "car-type": "数字",
     "car-image-path": "assets/images/一_数字.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/一_zh.mp3",
+    "english-audio-path": "assets/audios/Car_en.mp3"
   },
   {
     "car-name": "二",
@@ -2988,8 +2988,8 @@
     "car-american-pronunciation": "/tuː/",
     "car-type": "数字",
     "car-image-path": "assets/images/二_数字.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/二_zh.mp3",
+    "english-audio-path": "assets/audios/Two_en.mp3"
   },
   {
     "car-name": "三",
@@ -2999,8 +2999,8 @@
     "car-american-pronunciation": "/θriː/",
     "car-type": "数字",
     "car-image-path": "assets/images/三_数字.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/三_zh.mp3",
+    "english-audio-path": "assets/audios/Three_en.mp3"
   },
   {
     "car-name": "四",
@@ -3010,8 +3010,8 @@
     "car-american-pronunciation": "/fɔːr/",
     "car-type": "数字",
     "car-image-path": "assets/images/四_数字.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/四_zh.mp3",
+    "english-audio-path": "assets/audios/Four_en.mp3"
   },
   {
     "car-name": "五",
@@ -3021,7 +3021,3912 @@
     "car-american-pronunciation": "/faɪv/",
     "car-type": "数字",
     "car-image-path": "assets/images/五_数字.jpg",
-    "chinese-audio-path": "",
-    "english-audio-path": ""
+    "chinese-audio-path": "assets/audios/五_zh.mp3",
+    "english-audio-path": "assets/audios/Five_en.mp3"
+  },
+  {
+    "car-name": "六",
+    "car-english-name": "Six",
+    "car-description": "六是一个数字，在五之后，七之前。我们有两只手，每只手有五个手指，但是如果我们加上一只脚的一个脚趾，就是六个啦！很多昆虫有六条腿，比如小蚂蚁和小蜜蜂。雪花有六个美丽的角，蜂巢也是由六边形组成的。",
+    "car-english-pronunciation": "/sɪks/",
+    "car-american-pronunciation": "/sɪks/",
+    "car-type": "数字",
+    "car-image-path": "assets/images/六_数字.jpg",
+    "chinese-audio-path": "assets/audios/六_zh.mp3",
+    "english-audio-path": "assets/audios/Six_en.mp3"
+  },
+  {
+    "car-name": "七",
+    "car-english-name": "Seven",
+    "car-description": "七是一个数字，它排在六的后面，八的前面。我们用一个横线和一个斜线来写七。一周有七天，彩虹有七种颜色。",
+    "car-english-pronunciation": "/ˈsev.ən/",
+    "car-american-pronunciation": "/ˈsɛv.ən/",
+    "car-type": "数字",
+    "car-image-path": "assets/images/七_数字.jpg",
+    "chinese-audio-path": "assets/audios/七_zh.mp3",
+    "english-audio-path": "assets/audios/Seven_en.mp3"
+  },
+  {
+    "car-name": "八",
+    "car-english-name": "Eight",
+    "car-description": "八是一个数字，在7之后，9之前。它像两个圆圈叠在一起，或者像一个雪人。我们有两只手，每只手有4个手指，加起来就是8个手指。八也是很多幸运数字，比如在中国文化中，八代表发财和好运。",
+    "car-english-pronunciation": "/eɪt/",
+    "car-american-pronunciation": "/eɪt/",
+    "car-type": "数字",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/八_zh.mp3",
+    "english-audio-path": "assets/audios/Eight_en.mp3"
+  },
+  {
+    "car-name": "九",
+    "car-english-name": "Nine",
+    "car-description": "九是一个数字，在八之后，十之前。我们可以用九根手指头来数数，或者想象有九只小鸟在天上飞。九月是一年中的第九个月，也是秋天的开始。",
+    "car-english-pronunciation": "/naɪn/",
+    "car-american-pronunciation": "/naɪn/",
+    "car-type": "数字",
+    "car-image-path": "assets/images/九_数字.jpg",
+    "chinese-audio-path": "assets/audios/九_zh.mp3",
+    "english-audio-path": "assets/audios/Nine_en.mp3"
+  },
+  {
+    "car-name": "十",
+    "car-english-name": "Ten",
+    "car-description": "十是一个数字，它排在九的后面，是两位数中最小的数字。我们有十个手指，可以用来数数。十也可以表示完整的数量，比如十分就是满分。",
+    "car-english-pronunciation": "/ten/",
+    "car-american-pronunciation": "/tɛn/",
+    "car-type": "数字",
+    "car-image-path": "assets/images/十_数字.jpg",
+    "chinese-audio-path": "assets/audios/十_zh.mp3",
+    "english-audio-path": "assets/audios/Ten_en.mp3"
+  },
+  {
+    "car-name": "零",
+    "car-english-name": "Zero",
+    "car-description": "零是一个特殊的数字，表示没有或者空。当你数东西，一个都没有时，就是零。比如盘子里没有苹果，我们就有零个苹果。零在数字中非常重要，它帮助我们表示更大的数字。",
+    "car-english-pronunciation": "/ˈzɪərəʊ/",
+    "car-american-pronunciation": "/ˈzɪroʊ/",
+    "car-type": "数字",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/零_zh.mp3",
+    "english-audio-path": "assets/audios/Zero_en.mp3"
+  },
+  {
+    "car-name": "百",
+    "car-english-name": "Hundred",
+    "car-description": "一百是数字100，它比九十九多一，比一百零一少一。它是最小的三位数，我们经常用它来计数，比如一百元钱、一百个糖果或者一百天。想象一下，如果你有一百个玩具，那就有好多好多啦！",
+    "car-english-pronunciation": "/ˈhʌndrəd/",
+    "car-american-pronunciation": "/ˈhʌndrəd/",
+    "car-type": "数字",
+    "car-image-path": "assets/images/百_数字.jpg",
+    "chinese-audio-path": "assets/audios/百_zh.mp3",
+    "english-audio-path": "assets/audios/Hundred_en.mp3"
+  },
+  {
+    "car-name": "千",
+    "car-english-name": "Thousand",
+    "car-description": "千是一个数字，表示十个一百。当我们数到九百九十九后，下一个数就是一千。千在日常生活中经常用来表示比较大的数量，比如一千克、一千米等。",
+    "car-english-pronunciation": "/ˈθaʊzənd/",
+    "car-american-pronunciation": "/ˈθaʊzənd/",
+    "car-type": "数字",
+    "car-image-path": "assets/images/千_数字.jpg",
+    "chinese-audio-path": "assets/audios/千_zh.mp3",
+    "english-audio-path": "assets/audios/Thousand_en.mp3"
+  },
+  {
+    "car-name": "万",
+    "car-english-name": "Ten Thousand",
+    "car-description": "万是一个很大的数字，等于十个一千。当我们数到一万时，我们已经数了很多很多的东西了！比如，一万颗星星、一万朵花或者一万个小石子，都是很多很多的数量。",
+    "car-english-pronunciation": "/ten ˈθaʊzənd/",
+    "car-american-pronunciation": "/ten ˈθaʊzənd/",
+    "car-type": "数字",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/万_zh.mp3",
+    "english-audio-path": "assets/audios/Ten Thousand_en.mp3"
+  },
+  {
+    "car-name": "第一",
+    "car-english-name": "Car",
+    "car-description": "小汽车是一种有四个轮子的交通工具，可以带我们去想去的地方。它有发动机、车身和座椅，需要加油才能跑起来。坐在车里，我们可以听到引擎的声音，看到窗外美丽的风景。",
+    "car-english-pronunciation": "/kɑː/",
+    "car-american-pronunciation": "/kɑːr/",
+    "car-type": "数字",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/第一_zh.mp3",
+    "english-audio-path": "assets/audios/Car_en.mp3"
+  },
+  {
+    "car-name": "最后",
+    "car-english-name": "Last",
+    "car-description": "最后是指在一排东西或一系列事件中排在末尾的那个。比如，排队时站在最后面的人，或者故事里发生的事情中最后一个发生的事情。",
+    "car-english-pronunciation": "/lɑːst/",
+    "car-american-pronunciation": "/læst/",
+    "car-type": "数字",
+    "car-image-path": "assets/images/最后_数字.jpg",
+    "chinese-audio-path": "assets/audios/最后_zh.mp3",
+    "english-audio-path": "assets/audios/Last_en.mp3"
+  },
+  {
+    "car-name": "爸爸",
+    "car-english-name": "Dad",
+    "car-description": "爸爸是家庭中的重要成员，通常是孩子的父亲。他照顾孩子，工作赚钱养家，陪孩子玩耍，教孩子学习新事物。爸爸很强壮，可以保护家人，给孩子带来安全感。",
+    "car-english-pronunciation": "/dæd/",
+    "car-american-pronunciation": "/dæd/",
+    "car-type": "家庭成员",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/爸爸_zh.mp3",
+    "english-audio-path": "assets/audios/Dad_en.mp3"
+  },
+  {
+    "car-name": "妈妈",
+    "car-english-name": "Mom",
+    "car-description": "妈妈是家里最亲近的人，她照顾我们，给我们做饭，帮我们洗澡，当我们难过时会安慰我们，当我们开心时会和我们一起笑。妈妈非常爱我们，我们也非常爱妈妈。",
+    "car-english-pronunciation": "/mɒm/",
+    "car-american-pronunciation": "/mɑːm/",
+    "car-type": "家庭成员",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/妈妈_zh.mp3",
+    "english-audio-path": "assets/audios/Mom_en.mp3"
+  },
+  {
+    "car-name": "爷爷",
+    "car-english-name": "Grandpa",
+    "car-description": "爷爷是爸爸的爸爸，他是家庭中的长辈。爷爷通常年纪较大，头发可能有些花白，脸上可能有皱纹。爷爷很爱我们，会给我们讲故事，陪我们玩耍，有时候还会给我们买好吃的礼物。",
+    "car-english-pronunciation": "/ˈɡrænpɑː/",
+    "car-american-pronunciation": "/ˈɡrænpɑ/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/爷爷_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/爷爷_zh.mp3",
+    "english-audio-path": "assets/audios/Grandpa_en.mp3"
+  },
+  {
+    "car-name": "奶奶",
+    "car-english-name": "Grandma",
+    "car-description": "奶奶是爸爸的妈妈，也是我们的亲人。她通常年纪比较大，头发可能有点白，但很慈祥。奶奶会给我们做好吃的食物，给我们讲故事，还会抱着我们、爱我们。很多奶奶都很喜欢和孙子孙女一起玩耍，教他们各种有趣的事情。",
+    "car-english-pronunciation": "/ˈɡrænmɑː/",
+    "car-american-pronunciation": "/ˈɡrænmɑː/",
+    "car-type": "家庭成员",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/奶奶_zh.mp3",
+    "english-audio-path": "assets/audios/Grandma_en.mp3"
+  },
+  {
+    "car-name": "外公",
+    "car-english-name": "Grandpa",
+    "car-description": "外公是妈妈的爸爸，也就是小朋友的外祖父。外公通常会疼爱自己的外孙和外孙女，给他们讲故事，陪他们玩耍，还会给他们买好吃的。外公年纪比较大，头发可能会变白，脸上可能有皱纹，但他们的笑容总是很温暖。",
+    "car-english-pronunciation": "/ˈɡrænpɑː/",
+    "car-american-pronunciation": "/ˈɡrænpə/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/外公_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/外公_zh.mp3",
+    "english-audio-path": "assets/audios/Grandpa_en.mp3"
+  },
+  {
+    "car-name": "外婆",
+    "car-english-name": "Grandma",
+    "car-description": "外婆是妈妈的妈妈，是我们家庭中非常重要的人。外婆通常会给我们做好吃的饭菜，给我们讲有趣的故事，还会在我们生病时照顾我们。外婆的脸上总是有慈祥的笑容，她的怀抱温暖又安全，是我们最爱的人之一。",
+    "car-english-pronunciation": "/ˈɡrænmɑː/",
+    "car-american-pronunciation": "/ˈɡrænmɑː/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/外婆_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/外婆_zh.mp3",
+    "english-audio-path": "assets/audios/Grandma_en.mp3"
+  },
+  {
+    "car-name": "叔叔",
+    "car-english-name": "Uncle",
+    "car-description": "叔叔是爸爸的弟弟，或者是妈妈的弟弟。他们通常是家里的大人，会照顾我们，陪我们玩耍，给我们讲故事。有些叔叔可能还会给我们买好吃的和礼物。",
+    "car-english-pronunciation": "/ˈʌŋkl/",
+    "car-american-pronunciation": "/ˈʌŋkl/",
+    "car-type": "家庭成员",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/叔叔_zh.mp3",
+    "english-audio-path": "assets/audios/Uncle_en.mp3"
+  },
+  {
+    "car-name": "阿姨",
+    "car-english-name": "Auntie",
+    "car-description": "阿姨是爸爸妈妈的朋友，或者是爸爸或妈妈的姐妹。阿姨通常很亲切，会照顾小朋友，给小朋友讲故事，陪小朋友玩耍。",
+    "car-english-pronunciation": "/ˈɑːnti/",
+    "car-american-pronunciation": "/ˈænti/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/阿姨_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/阿姨_zh.mp3",
+    "english-audio-path": "assets/audios/Auntie_en.mp3"
+  },
+  {
+    "car-name": "哥哥",
+    "car-english-name": "older brother",
+    "car-description": "哥哥是家里比自己大的男孩，通常是爸爸妈妈的儿子。哥哥会照顾弟弟妹妹，和他们一起玩耍，帮助他们学习新东西。",
+    "car-english-pronunciation": "/ˈəʊldə ˈbrʌðə/",
+    "car-american-pronunciation": "/ˈoʊldər ˈbrʌðər/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/哥哥_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/哥哥_zh.mp3",
+    "english-audio-path": "assets/audios/older brother_en.mp3"
+  },
+  {
+    "car-name": "姐姐",
+    "car-english-name": "Sister",
+    "car-description": "姐姐是家里比自己大的女孩，她会照顾你，陪你玩耍，教你很多东西。有姐姐真幸福！",
+    "car-english-pronunciation": "/ˈsɪstə/",
+    "car-american-pronunciation": "/ˈsɪstər/",
+    "car-type": "家庭成员",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/姐姐_zh.mp3",
+    "english-audio-path": "assets/audios/Sister_en.mp3"
+  },
+  {
+    "car-name": "弟弟",
+    "car-english-name": "younger brother",
+    "car-description": "弟弟是家里比我们小的男孩，可能是爸爸妈妈生的另一个孩子。弟弟通常比我们年纪小，需要我们照顾和爱护。和弟弟一起玩、分享玩具是一件很开心的事情。",
+    "car-english-pronunciation": "/ˈjʌŋɡə ˈbrʌðə/",
+    "car-american-pronunciation": "/ˈjʌŋɡər ˈbrʌðər/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/弟弟_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/弟弟_zh.mp3",
+    "english-audio-path": "assets/audios/younger brother_en.mp3"
+  },
+  {
+    "car-name": "妹妹",
+    "car-english-name": "younger sister",
+    "car-description": "妹妹是家里比自己小的女孩，可以一起玩耍、分享玩具，是家庭中重要的一员。妹妹有时会需要你的帮助和照顾，但也会给你带来很多快乐。",
+    "car-english-pronunciation": "/ˈjʌŋɡə ˈsɪstə/",
+    "car-american-pronunciation": "/ˈjʌŋɡər ˈsɪstər/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/妹妹_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/妹妹_zh.mp3",
+    "english-audio-path": "assets/audios/younger sister_en.mp3"
+  },
+  {
+    "car-name": "宝宝",
+    "car-english-name": "Baby",
+    "car-description": "宝宝是很小的孩子，他们需要爸爸妈妈的照顾。宝宝会哭、会笑、会慢慢学习爬行和走路。宝宝喝奶，需要很多睡眠才能长大。",
+    "car-english-pronunciation": "/ˈbeɪbi/",
+    "car-american-pronunciation": "/ˈbeɪbi/",
+    "car-type": "家庭成员",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/宝宝_zh.mp3",
+    "english-audio-path": "assets/audios/Baby_en.mp3"
+  },
+  {
+    "car-name": "家人",
+    "car-english-name": "Family",
+    "car-description": "家人是和我们住在一起的人，有爸爸、妈妈、爷爷、奶奶、叔叔、阿姨和兄弟姐妹等。家人互相关心，互相帮助，一起分享快乐和难过。家人是我们最亲近的人。",
+    "car-english-pronunciation": "/ˈfæmɪli/",
+    "car-american-pronunciation": "/ˈfæməli/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/家人_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/家人_zh.mp3",
+    "english-audio-path": "assets/audios/Family_en.mp3"
+  },
+  {
+    "car-name": "朋友",
+    "car-english-name": "Friend",
+    "car-description": "朋友是和我们在一起玩耍、分享快乐的人。朋友会在我们难过时安慰我们，在我们需要帮助时帮助我们。好朋友之间会互相关心、互相尊重。",
+    "car-english-pronunciation": "/frend/",
+    "car-american-pronunciation": "/frend/",
+    "car-type": "家庭成员",
+    "car-image-path": "assets/images/朋友_家庭成员.jpg",
+    "chinese-audio-path": "assets/audios/朋友_zh.mp3",
+    "english-audio-path": "assets/audios/Friend_en.mp3"
+  },
+  {
+    "car-name": "邻居",
+    "car-english-name": "Neighbor",
+    "car-description": "邻居是住在附近的人，可能是住在你家隔壁、楼上或楼下的人。邻居们可以互相帮助，一起玩耍，分享食物和快乐。",
+    "car-english-pronunciation": "/ˈneɪbə/",
+    "car-american-pronunciation": "/ˈneɪbər/",
+    "car-type": "家庭成员",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/邻居_zh.mp3",
+    "english-audio-path": "assets/audios/Neighbor_en.mp3"
+  },
+  {
+    "car-name": "头",
+    "car-english-name": "Head",
+    "car-description": "头是我们身体的一部分，在身体的最上面。头上有眼睛、鼻子、嘴巴和耳朵，帮助我们看东西、闻气味、吃东西和听声音。头里面还有大脑，帮助我们思考和学习。",
+    "car-english-pronunciation": "/hed/",
+    "car-american-pronunciation": "/hɛd/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/头_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/头_zh.mp3",
+    "english-audio-path": "assets/audios/Head_en.mp3"
+  },
+  {
+    "car-name": "眼睛",
+    "car-english-name": "Eye",
+    "car-description": "眼睛是我们脸上用来看东西的器官，它帮助我们看见美丽的花朵、可爱的动物和我们的家人朋友。眼睛有不同的颜色，比如黑色、棕色、蓝色或绿色。我们要好好保护眼睛，不要长时间看电视或玩手机。",
+    "car-english-pronunciation": "/aɪ/",
+    "car-american-pronunciation": "/aɪ/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/眼睛_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/眼睛_zh.mp3",
+    "english-audio-path": "assets/audios/Eye_en.mp3"
+  },
+  {
+    "car-name": "鼻子",
+    "car-english-name": "nose",
+    "car-description": "鼻子是我们脸上的一部分，位于眼睛下面和嘴巴上面。我们用鼻子来呼吸和闻各种气味，比如花香、食物香味等。鼻子还能帮助我们打喷嚏，把身体不需要的东西赶出去。",
+    "car-english-pronunciation": "/nəʊz/",
+    "car-american-pronunciation": "/noʊz/",
+    "car-type": "身体部位",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/鼻子_zh.mp3",
+    "english-audio-path": "assets/audios/nose_en.mp3"
+  },
+  {
+    "car-name": "嘴巴",
+    "car-english-name": "mouth",
+    "car-description": "嘴巴是我们脸上用来吃饭、说话和微笑的重要部位。我们有上嘴唇和下嘴唇，里面还有牙齿和舌头。嘴巴可以帮助我们品尝美味的食物，也可以用来唱歌和表达情感。",
+    "car-english-pronunciation": "/maʊθ/",
+    "car-american-pronunciation": "/maʊθ/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/嘴巴_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/嘴巴_zh.mp3",
+    "english-audio-path": "assets/audios/mouth_en.mp3"
+  },
+  {
+    "car-name": "耳朵",
+    "car-english-name": "Ear",
+    "car-description": "耳朵是我们头上用来听声音的器官。它像两个小扇子一样长在头的两边，帮助我们听到爸爸妈妈说话、音乐和各种美妙的声音。耳朵还能帮助我们保持平衡，让我们走路不会摔倒。我们要保护好耳朵，不要把小东西塞进耳朵里，也不要听太大的声音。",
+    "car-english-pronunciation": "/ɪə/",
+    "car-american-pronunciation": "/ɪr/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/耳朵_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/耳朵_zh.mp3",
+    "english-audio-path": "assets/audios/Ear_en.mp3"
+  },
+  {
+    "car-name": "手",
+    "car-english-name": "Hand",
+    "car-description": "手是我们身体的一部分，长在手臂的末端。我们用手做很多事情，比如拿东西、写字、画画、吃饭和玩游戏。每只手有五根手指，可以帮助我们抓握和触摸物品。",
+    "car-english-pronunciation": "/hænd/",
+    "car-american-pronunciation": "/hænd/",
+    "car-type": "身体部位",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/手_zh.mp3",
+    "english-audio-path": "assets/audios/Hand_en.mp3"
+  },
+  {
+    "car-name": "脚",
+    "car-english-name": "Foot",
+    "car-description": "小脚丫是我们身体最下面的部分，帮助我们站立、走路、跑步和跳跃。每个人都有两只脚，脚上有脚趾头。穿上鞋子和袜子可以保护我们的小脚丫哦！",
+    "car-english-pronunciation": "/fʊt/",
+    "car-american-pronunciation": "/fʊt/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/脚_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/脚_zh.mp3",
+    "english-audio-path": "assets/audios/Foot_en.mp3"
+  },
+  {
+    "car-name": "胳膊",
+    "car-english-name": "Arm",
+    "car-description": "胳膊是我们身体的一部分，从肩膀到手的部分。我们有两只胳膊，一只左边，一只右边。胳膊可以帮助我们做很多事情，比如拿东西、抱抱、画画和挥手打招呼。胳膊里有骨头和肌肉，让我们可以弯曲和活动。",
+    "car-english-pronunciation": "/ɑːm/",
+    "car-american-pronunciation": "/ɑrm/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/胳膊_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/胳膊_zh.mp3",
+    "english-audio-path": "assets/audios/Arm_en.mp3"
+  },
+  {
+    "car-name": "腿",
+    "car-english-name": "Leg",
+    "car-description": "腿是我们身体的一部分，用来走路、跑步和跳跃。每个人都有两条腿，它们帮助我们站立和移动。腿由大腿、小腿和脚组成，让我们能够去各种地方玩耍和探索世界。",
+    "car-english-pronunciation": "/leɡ/",
+    "car-american-pronunciation": "/lɛɡ/",
+    "car-type": "身体部位",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/腿_zh.mp3",
+    "english-audio-path": "assets/audios/Leg_en.mp3"
+  },
+  {
+    "car-name": "肚子",
+    "car-english-name": "Belly",
+    "car-description": "肚子是我们身体前面的一部分，在胸部的下面。我们吃饭后食物会进入肚子里，肚子会帮助我们消化食物。有时候当我们吃饱了，肚子会变得鼓鼓的。肚子不舒服的时候，我们可能会感到疼痛。",
+    "car-english-pronunciation": "/ˈbeli/",
+    "car-american-pronunciation": "/ˈbɛli/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/肚子_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/肚子_zh.mp3",
+    "english-audio-path": "assets/audios/Belly_en.mp3"
+  },
+  {
+    "car-name": "背",
+    "car-english-name": "Back",
+    "car-description": "后背是我们身体的一部分，位于身体的后面，从脖子下面到腰部。我们用后背来支撑身体站立和坐直，还可以背书包。保持正确的坐姿和站姿可以让我们的后背更健康哦！",
+    "car-english-pronunciation": "/bæk/",
+    "car-american-pronunciation": "/bæk/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/背_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/背_zh.mp3",
+    "english-audio-path": "assets/audios/Back_en.mp3"
+  },
+  {
+    "car-name": "肩膀",
+    "car-english-name": "Shoulder",
+    "car-description": "肩膀是我们身体的一部分，位于手臂和身体连接的地方。我们可以用肩膀来提东西、背书包，还可以耸肩膀表达困惑或无所谓。肩膀帮助我们手臂可以自由活动，做很多有趣的事情。",
+    "car-english-pronunciation": "/ˈʃəʊldə(r)/",
+    "car-american-pronunciation": "/ˈʃoʊldər/",
+    "car-type": "身体部位",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/肩膀_zh.mp3",
+    "english-audio-path": "assets/audios/Shoulder_en.mp3"
+  },
+  {
+    "car-name": "手指",
+    "car-english-name": "Finger",
+    "car-description": "手指是我们手上长的小肢干，每个人都有十根手指，每只手五根。手指可以帮助我们拿东西、写字、画画、吃饭和做很多很多事情。每根手指都有不同的名字，有大拇指、食指、中指、无名指和小指。手指前端有指甲，可以帮助我们保护手指。",
+    "car-english-pronunciation": "/ˈfɪŋɡə(r)/",
+    "car-american-pronunciation": "/ˈfɪŋɡər/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/手指_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/手指_zh.mp3",
+    "english-audio-path": "assets/audios/Finger_en.mp3"
+  },
+  {
+    "car-name": "脚趾",
+    "car-english-name": "Toe",
+    "car-description": "脚趾是我们脚掌前面的小指头，就像手指在手上一样。我们每个人都有十个脚趾，它们帮助我们保持平衡，让我们能够站立和走路。脚趾的末端有脚趾甲，可以保护脚趾。",
+    "car-english-pronunciation": "/təʊ/",
+    "car-american-pronunciation": "/toʊ/",
+    "car-type": "身体部位",
+    "car-image-path": "assets/images/脚趾_身体部位.jpg",
+    "chinese-audio-path": "assets/audios/脚趾_zh.mp3",
+    "english-audio-path": "assets/audios/Toe_en.mp3"
+  },
+  {
+    "car-name": "脸",
+    "car-english-name": "Face",
+    "car-description": "脸是我们头部的前面部分，有眼睛、鼻子、嘴巴和耳朵。我们可以用脸来看东西、闻气味、吃东西和听声音。脸还能表达我们的情绪，比如开心时会笑，难过时会哭。每个人的脸都是独一无二的，就像我们的指纹一样。",
+    "car-english-pronunciation": "/feɪs/",
+    "car-american-pronunciation": "/feɪs/",
+    "car-type": "身体部位",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/脸_zh.mp3",
+    "english-audio-path": "assets/audios/Face_en.mp3"
+  },
+  {
+    "car-name": "帽子",
+    "car-english-name": "Hat",
+    "car-description": "帽子是戴在头上的东西，可以保护我们的头不受太阳晒、雨淋，也可以让我们看起来很漂亮。帽子有很多种，比如夏天戴的凉帽，冬天戴的棉帽，生日派对上戴的生日帽等。",
+    "car-english-pronunciation": "/hæt/",
+    "car-american-pronunciation": "/hæt/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/帽子_服装.jpg",
+    "chinese-audio-path": "assets/audios/帽子_zh.mp3",
+    "english-audio-path": "assets/audios/Hat_en.mp3"
+  },
+  {
+    "car-name": "衣服",
+    "car-english-name": "Clothes",
+    "car-description": "衣服是我们穿在身上的物品，可以保暖、保护我们的身体，也能让我们看起来更漂亮。常见的衣服有T恤、裤子、裙子、外套等。不同的天气和场合，我们会穿不同的衣服。",
+    "car-english-pronunciation": "/kləʊðz/",
+    "car-american-pronunciation": "/kloʊðz/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/衣服_服装.jpg",
+    "chinese-audio-path": "assets/audios/衣服_zh.mp3",
+    "english-audio-path": "assets/audios/Clothes_en.mp3"
+  },
+  {
+    "car-name": "裤子",
+    "car-english-name": "Pants",
+    "car-description": "裤子是我们穿在下半身的衣服，有两条裤腿，可以保护我们的腿，让我们走路、跑步和玩耍时更舒服。裤子有各种颜色和款式，比如牛仔裤、运动裤等。",
+    "car-english-pronunciation": "/pænts/",
+    "car-american-pronunciation": "/pænts/",
+    "car-type": "服装",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/裤子_zh.mp3",
+    "english-audio-path": "assets/audios/Pants_en.mp3"
+  },
+  {
+    "car-name": "裙子",
+    "car-english-name": "Dress",
+    "car-description": "裙子是女孩们喜欢穿的一种衣服，它没有裤腿，可以自由摆动。裙子有很多种颜色和样式，有的长，有的短，有的上面有漂亮的花纹或小动物图案。穿裙子跳舞时，裙子会像花朵一样张开，非常好看。",
+    "car-english-pronunciation": "/dres/",
+    "car-american-pronunciation": "/drɛs/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/裙子_服装.jpg",
+    "chinese-audio-path": "assets/audios/裙子_zh.mp3",
+    "english-audio-path": "assets/audios/Dress_en.mp3"
+  },
+  {
+    "car-name": "鞋子",
+    "car-english-name": "Shoes",
+    "car-description": "鞋子是我们穿在脚上的东西，可以保护我们的脚不受伤。鞋子有不同的颜色和样式，比如运动鞋、皮鞋、雨鞋等。我们走路、跑步和玩耍时都需要穿鞋子。",
+    "car-english-pronunciation": "/ʃuːz/",
+    "car-american-pronunciation": "/ʃuz/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/鞋子_服装.jpg",
+    "chinese-audio-path": "assets/audios/鞋子_zh.mp3",
+    "english-audio-path": "assets/audios/Shoes_en.mp3"
+  },
+  {
+    "car-name": "袜子",
+    "car-english-name": "Socks",
+    "car-description": "袜子是我们穿在脚上的小衣服，它像脚的小被子，能让我们的脚保持温暖和舒适。袜子有各种颜色和图案，有的短有的长。我们穿鞋之前通常会先穿上袜子，这样可以保护我们的脚，不让脚被鞋子磨到。",
+    "car-english-pronunciation": "/sɒks/",
+    "car-american-pronunciation": "/sɑːks/",
+    "car-type": "服装",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/袜子_zh.mp3",
+    "english-audio-path": "assets/audios/Socks_en.mp3"
+  },
+  {
+    "car-name": "手套",
+    "car-english-name": "Gloves",
+    "car-description": "手套是一种戴在手上的物品，可以保护我们的手不受寒冷天气的影响，也可以在做一些事情时保护手不被弄脏或受伤。手套有五个分开的小袋子，正好可以放进我们的五根手指。手套可以用不同的材料制作，比如毛线、棉花、皮革等，有各种颜色和款式。",
+    "car-english-pronunciation": "/glʌvz/",
+    "car-american-pronunciation": "/glʌvz/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/手套_服装.jpg",
+    "chinese-audio-path": "assets/audios/手套_zh.mp3",
+    "english-audio-path": "assets/audios/Gloves_en.mp3"
+  },
+  {
+    "car-name": "围巾",
+    "car-english-name": "Scarf",
+    "car-description": "围巾是一种可以围在脖子上的长条形布料，通常在冬天佩戴，用来保暖，防止脖子受凉。围巾有很多种颜色和图案，可以搭配衣服，让我们看起来更漂亮。有些围巾是用羊毛做的，摸起来很柔软舒服。",
+    "car-english-pronunciation": "/skɑːf/",
+    "car-american-pronunciation": "/skɑːrf/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/围巾_服装.jpg",
+    "chinese-audio-path": "assets/audios/围巾_zh.mp3",
+    "english-audio-path": "assets/audios/Scarf_en.mp3"
+  },
+  {
+    "car-name": "外套",
+    "car-english-name": "Coat",
+    "car-description": "外套是一种穿在身体外面的衣服，通常在天气冷的时候穿，可以帮助我们保暖。外套有袖子，前面有扣子或拉链，可以打开和关上。外套有不同的颜色和款式，让我们在冬天也能又暖和又好看。",
+    "car-english-pronunciation": "/kəʊt/",
+    "car-american-pronunciation": "/koʊt/",
+    "car-type": "服装",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/外套_zh.mp3",
+    "english-audio-path": "assets/audios/Coat_en.mp3"
+  },
+  {
+    "car-name": "背心",
+    "car-english-name": "Vest",
+    "car-description": "背心是一种没有袖子的上衣，穿起来很凉快。夏天天气热的时候，很多人喜欢穿背心。背心可以单独穿，也可以穿在其他衣服里面。背心有很多颜色和图案，非常好看！",
+    "car-english-pronunciation": "/vest/",
+    "car-american-pronunciation": "/vest/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/背心_服装.jpg",
+    "chinese-audio-path": "assets/audios/背心_zh.mp3",
+    "english-audio-path": "assets/audios/Vest_en.mp3"
+  },
+  {
+    "car-name": "雨衣",
+    "car-english-name": "Raincoat",
+    "car-description": "雨衣是一种特殊的衣服，我们在下雨天穿它来保持身体干燥。它通常由防水材料制成，有帽子可以保护我们的头部不被雨水淋湿。穿上雨衣，我们就可以在雨中玩耍或走路而不会弄湿衣服啦！",
+    "car-english-pronunciation": "/ˈreɪnkəʊt/",
+    "car-american-pronunciation": "/ˈreɪnkoʊt/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/雨衣_服装.jpg",
+    "chinese-audio-path": "assets/audios/雨衣_zh.mp3",
+    "english-audio-path": "assets/audios/Raincoat_en.mp3"
+  },
+  {
+    "car-name": "睡衣",
+    "car-english-name": "Pajamas",
+    "car-description": "睡衣是我们晚上睡觉时穿的衣服，通常很柔软舒适，有各种可爱的图案和颜色，帮助我们睡得香甜。",
+    "car-english-pronunciation": "/pəˈdʒɑːməz/",
+    "car-american-pronunciation": "/pəˈdʒæməz/",
+    "car-type": "服装",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/睡衣_zh.mp3",
+    "english-audio-path": "assets/audios/Pajamas_en.mp3"
+  },
+  {
+    "car-name": "泳衣",
+    "car-english-name": "Swimsuit",
+    "car-description": "泳衣是专门用来游泳时穿的衣服。它通常是用特殊的防水材料做成的，穿起来很舒服，在水中活动也很方便。泳衣有很多漂亮的颜色和图案，让我们在游泳或玩水的时候既好看又安全。",
+    "car-english-pronunciation": "/ˈswɪmsuːt/",
+    "car-american-pronunciation": "/ˈswɪmsuːt/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/泳衣_服装.jpg",
+    "chinese-audio-path": "assets/audios/泳衣_zh.mp3",
+    "english-audio-path": "assets/audios/Swimsuit_en.mp3"
+  },
+  {
+    "car-name": "制服",
+    "car-english-name": "Uniform",
+    "car-description": "制服是特定人群穿的特别衣服，比如警察、医生、消防员、学生和运动员穿的统一服装。制服能帮助我们认出他们的工作或身份，也让大家看起来整齐一致。",
+    "car-english-pronunciation": "/ˈjuːnɪfɔːm/",
+    "car-american-pronunciation": "/ˈjuːnəfɔːrm/",
+    "car-type": "服装",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/制服_zh.mp3",
+    "english-audio-path": "assets/audios/Uniform_en.mp3"
+  },
+  {
+    "car-name": "领带",
+    "car-english-name": "Tie",
+    "car-description": "领带是一种长长的、彩色的布条，通常爸爸们会在正式场合系在衬衫的领口处。它可以让人们的穿着看起来更漂亮、更正式。领带有各种各样的颜色和图案，有的上面还有有趣的卡通人物呢！",
+    "car-english-pronunciation": "/taɪ/",
+    "car-american-pronunciation": "/taɪ/",
+    "car-type": "服装",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/领带_zh.mp3",
+    "english-audio-path": "assets/audios/Tie_en.mp3"
+  },
+  {
+    "car-name": "腰带",
+    "car-english-name": "Belt",
+    "car-description": "腰带是一条长长的带子，通常由皮革、布料或其他材料制成。我们把它系在裤子的腰间，防止裤子滑落。腰带上面有一个扣子，可以帮助我们固定腰带。有些腰带很漂亮，有各种颜色和图案，可以当作装饰品。",
+    "car-english-pronunciation": "/belt/",
+    "car-american-pronunciation": "/belt/",
+    "car-type": "服装",
+    "car-image-path": "assets/images/腰带_服装.jpg",
+    "chinese-audio-path": "assets/audios/腰带_zh.mp3",
+    "english-audio-path": "assets/audios/Belt_en.mp3"
+  },
+  {
+    "car-name": "球",
+    "car-english-name": "ball",
+    "car-description": "球是一种圆形的物体，可以滚动、弹跳和投掷。小朋友们经常用球来玩游戏，比如拍皮球、踢足球、打篮球等。球有很多种类，大小和材质也各不相同。",
+    "car-english-pronunciation": "/bɔːl/",
+    "car-american-pronunciation": "/bɔl/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/球_玩具.jpg",
+    "chinese-audio-path": "assets/audios/球_zh.mp3",
+    "english-audio-path": "assets/audios/ball_en.mp3"
+  },
+  {
+    "car-name": "积木",
+    "car-english-name": "Building Blocks",
+    "car-description": "积木是一种玩具，通常由木头或塑料制成，有各种形状和颜色。小朋友可以用积木搭建房子、城堡、汽车等各种东西，发挥想象力。玩积木可以帮助小朋友学习形状、颜色，还能锻炼手眼协调能力和创造力。",
+    "car-english-pronunciation": "/ˈbɪldɪŋ blɒks/",
+    "car-american-pronunciation": "/ˈbɪldɪŋ blɑːks/",
+    "car-type": "玩具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/积木_zh.mp3",
+    "english-audio-path": "assets/audios/Building Blocks_en.mp3"
+  },
+  {
+    "car-name": "娃娃",
+    "car-english-name": "Doll",
+    "car-description": "娃娃是小朋友们的玩具朋友，通常有头、身体和四肢，像一个小人。娃娃可以穿漂亮的衣服，有的娃娃还会说话或眨眼睛。小朋友可以和娃娃一起玩耍，给它讲故事，哄它睡觉。",
+    "car-english-pronunciation": "/dɒl/",
+    "car-american-pronunciation": "/dɑːl/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/娃娃_玩具.jpg",
+    "chinese-audio-path": "assets/audios/娃娃_zh.mp3",
+    "english-audio-path": "assets/audios/Doll_en.mp3"
+  },
+  {
+    "car-name": "拼图",
+    "car-english-name": "Puzzle",
+    "car-description": "拼图是一种很有趣的智力游戏，它由许多形状不同的小块组成。小朋友们需要观察每块拼图的图案和形状，把它们正确地拼接在一起，最后变成一幅完整的图画。玩拼图可以锻炼我们的观察力和耐心！",
+    "car-english-pronunciation": "/ˈpʌz.əl/",
+    "car-american-pronunciation": "/ˈpʌz.əl/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/拼图_玩具.jpg",
+    "chinese-audio-path": "assets/audios/拼图_zh.mp3",
+    "english-audio-path": "assets/audios/Puzzle_en.mp3"
+  },
+  {
+    "car-name": "气球",
+    "car-english-name": "Balloon",
+    "car-description": "气球是一种轻飘飘的玩具，里面装满了空气或者特殊的气体。它可以飞到天空中，有红色、蓝色、黄色等各种漂亮的颜色。小朋友们在生日派对或者节日里最喜欢玩气球了，气球让我们的心情变得很开心！",
+    "car-english-pronunciation": "/bəˈluːn/",
+    "car-american-pronunciation": "/bəˈluːn/",
+    "car-type": "玩具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/气球_zh.mp3",
+    "english-audio-path": "assets/audios/Balloon_en.mp3"
+  },
+  {
+    "car-name": "风筝",
+    "car-english-name": "Kite",
+    "car-description": "风筝是一种能在天空中飞翔的玩具。它通常由轻薄的纸或布料做成框架，系在长长的线上。当有风吹来时，人们拉着线，风筝就会像鸟儿一样在天空中飞舞。风筝有各种各样的形状和颜色，有的像蝴蝶，有的像鱼，还有的像龙，非常漂亮！",
+    "car-english-pronunciation": "/kaɪt/",
+    "car-american-pronunciation": "/kaɪt/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/风筝_玩具.jpg",
+    "chinese-audio-path": "assets/audios/风筝_zh.mp3",
+    "english-audio-path": "assets/audios/Kite_en.mp3"
+  },
+  {
+    "car-name": "滑梯",
+    "car-english-name": "Slide",
+    "car-description": "滑梯是游乐场里常见的玩具，它有一个高高的平台和一个斜斜的滑道。小朋友可以从梯子爬到平台上，然后从滑道上'嗖'地一下滑下来，非常刺激好玩。滑梯通常有金属或塑料制成，有各种颜色和形状，有些滑梯还会有弯曲的滑道，让滑行更加有趣。",
+    "car-english-pronunciation": "/slaɪd/",
+    "car-american-pronunciation": "/slaɪd/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/滑梯_玩具.jpg",
+    "chinese-audio-path": "assets/audios/滑梯_zh.mp3",
+    "english-audio-path": "assets/audios/Slide_en.mp3"
+  },
+  {
+    "car-name": "秋千",
+    "car-english-name": "Swing",
+    "car-description": "秋千是一种好玩的游乐设施，它有一个座位和两条绳子或铁链，挂在高高的支架上。小朋友可以坐在上面，用力一蹬，就能前后摆动起来，感觉像在空中飞一样！秋千能给我们带来快乐和刺激，是公园和游乐场里最受欢迎的玩具之一。",
+    "car-english-pronunciation": "/swɪŋ/",
+    "car-american-pronunciation": "/swɪŋ/",
+    "car-type": "玩具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/秋千_zh.mp3",
+    "english-audio-path": "assets/audios/Swing_en.mp3"
+  },
+  {
+    "car-name": "木马",
+    "car-english-name": "Rocking Horse",
+    "car-description": "木马是一种玩具，形状像马，通常是用木头做的。它有底座，可以前后摇摆，就像骑在真马上一样。小朋友们可以坐在上面，握住马头上的把手，前后摇晃，非常好玩！",
+    "car-english-pronunciation": "/ˈrɒkɪŋ hɔːs/",
+    "car-american-pronunciation": "/ˈrɑːkɪŋ hɔːrs/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/木马_玩具.jpg",
+    "chinese-audio-path": "assets/audios/木马_zh.mp3",
+    "english-audio-path": "assets/audios/Rocking Horse_en.mp3"
+  },
+  {
+    "car-name": "泰迪熊",
+    "car-english-name": "Teddy Bear",
+    "car-description": "泰迪熊是一种柔软的毛绒玩具，通常有棕色或奶油色的毛发，圆圆的耳朵，小巧的鼻子和友善的眼睛。它们是孩子们的好朋友，可以抱着它们睡觉，和它们一起玩耍，还可以分享秘密。泰迪熊的名字来源于美国前总统罗斯福的一个有趣故事呢！",
+    "car-english-pronunciation": "/ˈtedi beə/",
+    "car-american-pronunciation": "/ˈtɛdi bɛr/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/泰迪熊_玩具.jpg",
+    "chinese-audio-path": "assets/audios/泰迪熊_zh.mp3",
+    "english-audio-path": "assets/audios/Teddy Bear_en.mp3"
+  },
+  {
+    "car-name": "机器人",
+    "car-english-name": "Robot",
+    "car-description": "机器人是一种特殊的机器，它可以帮助人类做各种工作。有些机器人看起来像人，有手臂和腿；有些则像其他形状。机器人可以在工厂里制造东西，可以帮助医生做手术，甚至可以探索太空！有些机器人还会说话和跳舞，非常有趣。",
+    "car-english-pronunciation": "/ˈrəʊbɒt/",
+    "car-american-pronunciation": "/ˈroʊbɑːt/",
+    "car-type": "玩具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/机器人_zh.mp3",
+    "english-audio-path": "assets/audios/Robot_en.mp3"
+  },
+  {
+    "car-name": "橡皮泥",
+    "car-english-name": "Plasticine",
+    "car-description": "橡皮泥是一种五颜六色的软泥，可以用手捏成各种形状，比如小动物、水果或者你喜欢的任何东西。它不会干掉，可以反复使用，是小朋友们最喜欢的玩具之一。",
+    "car-english-pronunciation": "/ˈplæstɪsiːn/",
+    "car-american-pronunciation": "/ˈplæstəsiːn/",
+    "car-type": "玩具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/橡皮泥_zh.mp3",
+    "english-audio-path": "assets/audios/Plasticine_en.mp3"
+  },
+  {
+    "car-name": "蜡笔",
+    "car-english-name": "Crayon",
+    "car-description": "蜡笔是一种用来画画和涂色的工具，它是由彩色蜡制成的。蜡笔有不同的颜色，比如红色、蓝色、黄色等。小朋友们可以用蜡笔在纸上画出美丽的图画。蜡笔拿起来很方便，不会弄脏手，而且颜色鲜艳，非常适合小朋友使用。",
+    "car-english-pronunciation": "/ˈkreɪən/",
+    "car-american-pronunciation": "/ˈkreɪɒn/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/蜡笔_玩具.jpg",
+    "chinese-audio-path": "assets/audios/蜡笔_zh.mp3",
+    "english-audio-path": "assets/audios/Crayon_en.mp3"
+  },
+  {
+    "car-name": "水枪",
+    "car-english-name": "Water Gun",
+    "car-description": "水枪是一种好玩的玩具，可以装水然后喷出来。在炎热的日子里，孩子们喜欢用水枪互相喷水玩耍，既凉快又开心。水枪有很多种大小和形状，有的很小可以拿在手里，有的很大需要背在背上。玩水枪时要记住不要对着别人的脸喷水，特别是眼睛哦！",
+    "car-english-pronunciation": "/ˈwɔːtə ɡʌn/",
+    "car-american-pronunciation": "/ˈwɑːtər ɡʌn/",
+    "car-type": "玩具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/水枪_zh.mp3",
+    "english-audio-path": "assets/audios/Water Gun_en.mp3"
+  },
+  {
+    "car-name": "跳绳",
+    "car-english-name": "jump rope",
+    "car-description": "跳绳是一种好玩的运动玩具，由一根长长的绳子和两个手柄组成。小朋友可以握住手柄，让绳子从头上绕过，当绳子到达脚下时轻轻跳过去。跳绳可以帮助我们锻炼身体，让腿脚更有力，心脏更健康。我们可以一个人跳，也可以和朋友们一起玩跳绳游戏，比如双人跳或者长绳跳。",
+    "car-english-pronunciation": "/dʒʌmp rəʊp/",
+    "car-american-pronunciation": "/dʒʌmp roʊp/",
+    "car-type": "玩具",
+    "car-image-path": "assets/images/跳绳_玩具.jpg",
+    "chinese-audio-path": "assets/audios/跳绳_zh.mp3",
+    "english-audio-path": "assets/audios/jump rope_en.mp3"
+  },
+  {
+    "car-name": "铅笔",
+    "car-english-name": "Pencil",
+    "car-description": "铅笔是一种用来写字和画画的工具。它有一个细长的木头身体，里面有一根黑色的铅芯。我们可以用铅笔在纸上写字、画画，如果写错了，还可以用橡皮擦掉。铅笔有不同的硬度，有的铅笔写出来的字颜色深，有的颜色浅。",
+    "car-english-pronunciation": "/ˈpensl̩/",
+    "car-american-pronunciation": "/ˈpɛnsəl/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/铅笔_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/铅笔_zh.mp3",
+    "english-audio-path": "assets/audios/Pencil_en.mp3"
+  },
+  {
+    "car-name": "橡皮",
+    "car-english-name": "eraser",
+    "car-description": "橡皮是用来擦掉铅笔字的工具，它软软的，有不同的形状和颜色，可以帮助我们改正写错的字。",
+    "car-english-pronunciation": "/ɪˈreɪzə/",
+    "car-american-pronunciation": "/ɪˈreɪsər/",
+    "car-type": "学习用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/橡皮_zh.mp3",
+    "english-audio-path": "assets/audios/eraser_en.mp3"
+  },
+  {
+    "car-name": "尺子",
+    "car-english-name": "Ruler",
+    "car-description": "尺子是用来测量长度的工具，上面有刻度，可以帮助我们知道东西有多长。尺子通常是长条形的，有直直的边，可以画直线。在学校里，我们常常用尺子来画线、测量书本或作业本的长度。",
+    "car-english-pronunciation": "/ˈruːlə(r)/",
+    "car-american-pronunciation": "/ˈruːlər/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/尺子_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/尺子_zh.mp3",
+    "english-audio-path": "assets/audios/Ruler_en.mp3"
+  },
+  {
+    "car-name": "剪刀",
+    "car-english-name": "Scissors",
+    "car-description": "剪刀是一种工具，有两个交叉的刀片和把手。我们用剪刀来剪纸、布料或其他东西。使用剪刀时要注意安全，小朋友使用时最好有大人帮忙。",
+    "car-english-pronunciation": "/ˈsɪzəz/",
+    "car-american-pronunciation": "/ˈsɪzərz/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/剪刀_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/剪刀_zh.mp3",
+    "english-audio-path": "assets/audios/Scissors_en.mp3"
+  },
+  {
+    "car-name": "书本",
+    "car-english-name": "Book",
+    "car-description": "书本是让我们阅读和学习的物品，里面有很多文字和漂亮的图片。通过看书，我们可以听有趣的故事，学习新知识，了解世界上各种奇妙的事物。书本就像我们的好朋友，带我们探索未知的世界。",
+    "car-english-pronunciation": "/bʊk/",
+    "car-american-pronunciation": "/bʊk/",
+    "car-type": "学习用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/书本_zh.mp3",
+    "english-audio-path": "assets/audios/Book_en.mp3"
+  },
+  {
+    "car-name": "书包",
+    "car-english-name": "School Bag",
+    "car-description": "书包是小朋友上学时背在背上的袋子，用来装书本、文具、水杯等学习用品。书包有不同的颜色和图案，有些还有可爱的卡通人物，让我们上学更有趣。",
+    "car-english-pronunciation": "/skuːl bæɡ/",
+    "car-american-pronunciation": "/skul bæɡ/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/书包_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/书包_zh.mp3",
+    "english-audio-path": "assets/audios/School Bag_en.mp3"
+  },
+  {
+    "car-name": "文具盒",
+    "car-english-name": "Pencil Case",
+    "car-description": "文具盒是用来装铅笔、橡皮、尺子等学习用品的小盒子。它帮助我们整理和保护文具，让我们上学时能方便地携带所有需要的文具。文具盒有各种颜色和图案，有些是硬的，有些是软的，非常实用！",
+    "car-english-pronunciation": "/ˈpensl keɪs/",
+    "car-american-pronunciation": "/ˈpɛnsəl keɪs/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/文具盒_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/文具盒_zh.mp3",
+    "english-audio-path": "assets/audios/Pencil Case_en.mp3"
+  },
+  {
+    "car-name": "彩笔",
+    "car-english-name": "Colored markers",
+    "car-description": "彩笔是一种有各种颜色的笔，我们可以用它们来画画和涂色。彩笔的颜色很鲜艳，有红色、蓝色、黄色、绿色等许多颜色。小朋友们用彩笔可以画出美丽的图画，让作品更加生动有趣！",
+    "car-english-pronunciation": "/ˈkʌləd ˈmɑːkəz/",
+    "car-american-pronunciation": "/ˈkʌlərd ˈmɑrkərz/",
+    "car-type": "学习用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/彩笔_zh.mp3",
+    "english-audio-path": "assets/audios/Colored markers_en.mp3"
+  },
+  {
+    "car-name": "作业本",
+    "car-english-name": "Exercise Book",
+    "car-description": "作业本是用来写字、做练习的本子，有很多页纸，通常是方格或横线的。我们可以在上面完成老师布置的作业，练习写字和算术。作业本有不同的颜色和大小，可以帮助我们整理不同科目的作业。",
+    "car-english-pronunciation": "/ˈeksəsaɪz bʊk/",
+    "car-american-pronunciation": "/ˈeksərsaɪz bʊk/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/作业本_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/作业本_zh.mp3",
+    "english-audio-path": "assets/audios/Exercise Book_en.mp3"
+  },
+  {
+    "car-name": "画纸",
+    "car-english-name": "Drawing Paper",
+    "car-description": "画纸是用来画画、涂色和做手工的纸。它比普通的纸更厚，不容易破，可以让彩笔、蜡笔和水彩颜色在上面显示得很漂亮。画纸有各种颜色和大小，白色的画纸最常见，小朋友可以在上面画出自己想象的世界。",
+    "car-english-pronunciation": "/ˈdrɔːɪŋ ˈpeɪpə/",
+    "car-american-pronunciation": "/ˈdrɔɪŋ ˈpeɪpər/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/画纸_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/画纸_zh.mp3",
+    "english-audio-path": "assets/audios/Drawing Paper_en.mp3"
+  },
+  {
+    "car-name": "胶水",
+    "car-english-name": "Glue",
+    "car-description": "胶水是一种黏黏的液体或固体，可以把两张纸或其他东西粘在一起。当我们做手工或修理东西时，可以用胶水让它们紧紧地粘住，不会分开。胶水有很多种，有些是透明的，有些是白色的，还有些是胶棒的样子。",
+    "car-english-pronunciation": "/ɡluː/",
+    "car-american-pronunciation": "/ɡluː/",
+    "car-type": "学习用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/胶水_zh.mp3",
+    "english-audio-path": "assets/audios/Glue_en.mp3"
+  },
+  {
+    "car-name": "订书机",
+    "car-english-name": "Stapler",
+    "car-description": "订书机是一种能把纸张钉在一起的小工具。当你有多张纸想要固定在一起时，就可以使用订书机。按下订书机的顶部，它会将一个金属小钉子穿过纸张，然后把钉子的两端弯折，这样纸张就被牢牢地固定在一起了。订书机在学校、办公室和家庭中都很常见，帮助我们整理文件和作业。",
+    "car-english-pronunciation": "/ˈsteɪplə(r)/",
+    "car-american-pronunciation": "/ˈsteɪplɚ/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/订书机_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/订书机_zh.mp3",
+    "english-audio-path": "assets/audios/Stapler_en.mp3"
+  },
+  {
+    "car-name": "地球仪",
+    "car-english-name": "Globe",
+    "car-description": "地球仪是一个缩小版的地球模型，它可以让我们看到整个地球的样子。地球仪上标有大陆、海洋、国家、城市等地理信息。我们可以转动地球仪，了解不同地方的位置和特点。地球仪帮助我们学习地理知识，认识我们居住的美丽星球。",
+    "car-english-pronunciation": "/ɡləʊb/",
+    "car-american-pronunciation": "/ɡloʊb/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/地球仪_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/地球仪_zh.mp3",
+    "english-audio-path": "assets/audios/Globe_en.mp3"
+  },
+  {
+    "car-name": "计算器",
+    "car-english-name": "Calculator",
+    "car-description": "计算器是一种帮助我们做数学的小工具。它有很多按钮，上面有数字和符号，比如加号(+)、减号(-)、乘号(×)和除号(÷)。当你按下数字和符号后，再按等号(=)，计算器就会告诉你答案。计算器可以帮助我们快速算出很难的数学题，比如加法、减法、乘法和除法。",
+    "car-english-pronunciation": "/ˈkælkjuleɪtə(r)/",
+    "car-american-pronunciation": "/ˈkælkjəleɪtər/",
+    "car-type": "学习用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/计算器_zh.mp3",
+    "english-audio-path": "assets/audios/Calculator_en.mp3"
+  },
+  {
+    "car-name": "字典",
+    "car-english-name": "Dictionary",
+    "car-description": "字典是一本神奇的书，里面有很多汉字和词语，按照顺序排列。当你不认识一个字或者不知道一个词的意思时，就可以在字典里查找。字典就像一个知识小助手，能帮助我们学习更多汉字和词语，了解它们的意思和用法。",
+    "car-english-pronunciation": "/ˈdɪkʃənri/",
+    "car-american-pronunciation": "/ˈdɪkʃəneri/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/字典_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/字典_zh.mp3",
+    "english-audio-path": "assets/audios/Dictionary_en.mp3"
+  },
+  {
+    "car-name": "放大镜",
+    "car-english-name": "Magnifying Glass",
+    "car-description": "放大镜是一种神奇的工具，它能让小东西变得更大更清楚。它有一块特殊的镜片，叫做凸透镜，当你把放大镜靠近小东西时，它们就会变大。科学家们用放大镜观察小昆虫和小植物，侦探们用它寻找线索，你也可以用它来观察树叶的纹路或者小蚂蚁的家哦！",
+    "car-english-pronunciation": "/ˈmæɡnɪfaɪɪŋ ɡlɑːs/",
+    "car-american-pronunciation": "/ˈmæɡnɪfaɪɪŋ ɡlæs/",
+    "car-type": "学习用品",
+    "car-image-path": "assets/images/放大镜_学习用品.jpg",
+    "chinese-audio-path": "assets/audios/放大镜_zh.mp3",
+    "english-audio-path": "assets/audios/Magnifying Glass_en.mp3"
+  },
+  {
+    "car-name": "牙刷",
+    "car-english-name": "Toothbrush",
+    "car-description": "牙刷是我们用来清洁牙齿的小工具。它有一个长长的手柄和头上的软毛，我们用它配合牙膏刷牙，保持牙齿健康和干净。每天早晚都要刷牙，这样牙齿才不会生病，也不会有蛀牙哦！",
+    "car-english-pronunciation": "/ˈtuːθbrʌʃ/",
+    "car-american-pronunciation": "/ˈtuθbrʌʃ/",
+    "car-type": "日常用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/牙刷_zh.mp3",
+    "english-audio-path": "assets/audios/Toothbrush_en.mp3"
+  },
+  {
+    "car-name": "毛巾",
+    "car-english-name": "Towel",
+    "car-description": "毛巾是我们日常生活中常用的物品，通常由柔软的棉布制成。我们可以用毛巾擦干身体、洗手或者擦桌子。毛巾有不同的颜色和大小，有的很厚实，有的比较薄。洗澡后用毛巾擦干身体会感觉很舒服。",
+    "car-english-pronunciation": "/ˈtaʊəl/",
+    "car-american-pronunciation": "/ˈtaʊəl/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/毛巾_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/毛巾_zh.mp3",
+    "english-audio-path": "assets/audios/Towel_en.mp3"
+  },
+  {
+    "car-name": "肥皂",
+    "car-english-name": "Soap",
+    "car-description": "肥皂是一种用来清洁身体和物品的东西。当我们用水和肥皂一起搓洗时，会产生很多泡泡，这些泡泡可以帮助我们把身上的脏东西和细菌带走。肥皂有不同的形状、颜色和香味，有的像小动物，有的有水果的味道。用肥皂洗手可以让我们保持健康，不会生病。",
+    "car-english-pronunciation": "/səʊp/",
+    "car-american-pronunciation": "/soʊp/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/肥皂_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/肥皂_zh.mp3",
+    "english-audio-path": "assets/audios/Soap_en.mp3"
+  },
+  {
+    "car-name": "梳子",
+    "car-english-name": "Comb",
+    "car-description": "梳子是一种用来整理头发的工具。它有很多牙齿一样的梳齿，可以穿过头发，把乱乱的头发梳理整齐。梳子有不同的形状和大小，有些是直的，有些是圆的。我们每天可以用梳子来整理头发，让头发看起来更漂亮更整齐。",
+    "car-english-pronunciation": "/kəʊm/",
+    "car-american-pronunciation": "/koʊm/",
+    "car-type": "日常用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/梳子_zh.mp3",
+    "english-audio-path": "assets/audios/Comb_en.mp3"
+  },
+  {
+    "car-name": "杯子",
+    "car-english-name": "Cup",
+    "car-description": "杯子是我们用来喝水、喝牛奶或喝果汁的容器。它通常有一个把手，方便我们拿取。杯子可以由不同的材料制成，如塑料、玻璃、陶瓷或金属。使用杯子时，要小心不要打翻哦！",
+    "car-english-pronunciation": "/kʌp/",
+    "car-american-pronunciation": "/kʌp/",
+    "car-type": "日常用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/杯子_zh.mp3",
+    "english-audio-path": "assets/audios/Cup_en.mp3"
+  },
+  {
+    "car-name": "碗",
+    "car-english-name": "Bowl",
+    "car-description": "碗是一种用来盛放食物的容器，通常中间深，边缘浅。我们可以用碗来吃米饭、喝汤、吃水果等。碗通常由陶瓷、塑料或金属制成，有不同的颜色和图案。",
+    "car-english-pronunciation": "/bəʊl/",
+    "car-american-pronunciation": "/boʊl/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/碗_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/碗_zh.mp3",
+    "english-audio-path": "assets/audios/Bowl_en.mp3"
+  },
+  {
+    "car-name": "盘子",
+    "car-english-name": "Plate",
+    "car-description": "盘子是我们用来装食物的圆形餐具，通常由陶瓷、塑料或金属制成。我们可以在盘子上放米饭、蔬菜、肉类等各种食物，方便我们用餐。盘子有不同的颜色和图案，有些很漂亮呢！",
+    "car-english-pronunciation": "/pleɪt/",
+    "car-american-pronunciation": "/pleɪt/",
+    "car-type": "日常用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/盘子_zh.mp3",
+    "english-audio-path": "assets/audios/Plate_en.mp3"
+  },
+  {
+    "car-name": "勺子",
+    "car-english-name": "Spoon",
+    "car-description": "勺子是我们吃饭时常用的工具，它有一个长柄和一个凹陷的部分，可以用来舀汤、米饭或其他食物。勺子通常由金属、塑料或木头制成，是餐具中不可缺少的一种。",
+    "car-english-pronunciation": "/spuːn/",
+    "car-american-pronunciation": "/spuːn/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/勺子_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/勺子_zh.mp3",
+    "english-audio-path": "assets/audios/Spoon_en.mp3"
+  },
+  {
+    "car-name": "筷子",
+    "car-english-name": "chopsticks",
+    "car-description": "筷子是亚洲人吃饭时使用的工具，通常由木头、竹子或塑料制成。它们是两根细长的棍子，我们需要用手指灵巧地夹住食物。使用筷子需要练习，但一旦学会了，就能很方便地夹起米饭、蔬菜和其他美味的食物！",
+    "car-english-pronunciation": "/ˈtʃɒpstɪks/",
+    "car-american-pronunciation": "/ˈtʃɑːpstɪks/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/筷子_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/筷子_zh.mp3",
+    "english-audio-path": "assets/audios/chopsticks_en.mp3"
+  },
+  {
+    "car-name": "叉子",
+    "car-english-name": "Fork",
+    "car-description": "叉子是一种餐具，通常有手柄和几个尖尖的齿。我们用它来吃东西，比如叉起面条、水果或者蔬菜。叉子帮助我们更容易地拿起食物，不会把手弄脏。吃饭时，我们常常和勺子、筷子一起使用叉子。",
+    "car-english-pronunciation": "/fɔːk/",
+    "car-american-pronunciation": "/fɔːrk/",
+    "car-type": "日常用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/叉子_zh.mp3",
+    "english-audio-path": "assets/audios/Fork_en.mp3"
+  },
+  {
+    "car-name": "锅",
+    "car-english-name": "Pot",
+    "car-description": "锅是厨房里用来做饭的工具，通常是圆形的，有把手。我们可以用锅来煮汤、炒菜、煮面条等。锅有不同的种类，比如炒锅、汤锅、煎锅等。",
+    "car-english-pronunciation": "/pɒt/",
+    "car-american-pronunciation": "/pɑt/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/锅_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/锅_zh.mp3",
+    "english-audio-path": "assets/audios/Pot_en.mp3"
+  },
+  {
+    "car-name": "水壶",
+    "car-english-name": "Kettle",
+    "car-description": "水壶是用来装水和烧水的工具。它有一个把手和一个壶嘴，方便我们倒水。把水壶加热后，水会变热，可以用来泡茶或喝温水。",
+    "car-english-pronunciation": "/ˈketl/",
+    "car-american-pronunciation": "/ˈkɛtl/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/水壶_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/水壶_zh.mp3",
+    "english-audio-path": "assets/audios/Kettle_en.mp3"
+  },
+  {
+    "car-name": "钟表",
+    "car-english-name": "Clock",
+    "car-description": "钟表是用来告诉我们时间的工具。它有表盘和指针，长的指针表示分钟，短的指针表示小时。有些钟表还有数字显示，可以直接看到时间。钟表可以是挂在墙上的，也可以是戴在手上的手表，或者是放在桌上的小闹钟。",
+    "car-english-pronunciation": "/klɒk/",
+    "car-american-pronunciation": "/klɑːk/",
+    "car-type": "日常用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/钟表_zh.mp3",
+    "english-audio-path": "assets/audios/Clock_en.mp3"
+  },
+  {
+    "car-name": "电话",
+    "car-english-name": "Phone",
+    "car-description": "电话是一种可以让我们和远方的人说话的神奇设备。当我们对着电话说话时，我们的声音会通过电线或者无线信号传送到很远的地方，让另一部电话的人能听到我们的声音。电话可以帮助我们和住在不同地方的家人、朋友聊天，也可以在需要帮助时打电话给大人。",
+    "car-english-pronunciation": "/fəʊn/",
+    "car-american-pronunciation": "/foʊn/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/电话_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/电话_zh.mp3",
+    "english-audio-path": "assets/audios/Phone_en.mp3"
+  },
+  {
+    "car-name": "电视",
+    "car-english-name": "Television",
+    "car-description": "电视机是一种能播放动画、电影和节目的电器。我们可以通过它看动画片、学习知识、了解新闻。电视机有遥控器，可以按按钮选择想看的内容。",
+    "car-english-pronunciation": "/ˈtelɪvɪʒən/",
+    "car-american-pronunciation": "/ˈtɛləvɪʒən/",
+    "car-type": "日常用品",
+    "car-image-path": "assets/images/电视_日常用品.jpg",
+    "chinese-audio-path": "assets/audios/电视_zh.mp3",
+    "english-audio-path": "assets/audios/Television_en.mp3"
+  },
+  {
+    "car-name": "电脑",
+    "car-english-name": "Computer",
+    "car-description": "电脑是一种非常聪明的电子机器，它可以帮助我们做很多事情。我们可以用电脑画画、写作业、玩游戏、看动画片，还可以和远方的朋友视频聊天。电脑有一个屏幕，像电视机一样可以显示图片和文字，还有键盘和鼠标，我们可以用它们来告诉电脑该做什么。电脑就像一个会思考的助手，让我们的生活变得更加有趣和方便。",
+    "car-english-pronunciation": "/kəmˈpjuːtə(r)/",
+    "car-american-pronunciation": "/kəmˈpjuːt̬ɚ/",
+    "car-type": "日常用品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/电脑_zh.mp3",
+    "english-audio-path": "assets/audios/Computer_en.mp3"
+  },
+  {
+    "car-name": "山",
+    "car-english-name": "Mountain",
+    "car-description": "山是地球上很高很大的自然地形，比周围的地面要高很多。山有很多不同的形状和大小，有些山顶上常年有积雪。爬山是一项很有趣的活动，从山顶可以看到很远很美的风景。",
+    "car-english-pronunciation": "/ˈmaʊntɪn/",
+    "car-american-pronunciation": "/ˈmaʊntən/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/山_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/山_zh.mp3",
+    "english-audio-path": "assets/audios/Mountain_en.mp3"
+  },
+  {
+    "car-name": "河流",
+    "car-english-name": "River",
+    "car-description": "河流是地球上的天然水道，像一条长长的带子从高处流向低处。河流里有清澈的水，有些河流里还有小鱼和其他小动物。河流给人们和动物提供水喝，还能帮助植物生长。",
+    "car-english-pronunciation": "/ˈrɪvə/",
+    "car-american-pronunciation": "/ˈrɪvər/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/河流_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/河流_zh.mp3",
+    "english-audio-path": "assets/audios/River_en.mp3"
+  },
+  {
+    "car-name": "湖泊",
+    "car-english-name": "Lake",
+    "car-description": "湖泊是大片被陆地包围的水域，比池塘大但比海小。湖泊里的水通常是淡水，里面生活着鱼、虾、水草等生物。有些湖泊是自然形成的，有些是人造的。我们可以在湖泊边游玩、钓鱼或者划船。",
+    "car-english-pronunciation": "/leɪk/",
+    "car-american-pronunciation": "/leɪk/",
+    "car-type": "自然景物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/湖泊_zh.mp3",
+    "english-audio-path": "assets/audios/Lake_en.mp3"
+  },
+  {
+    "car-name": "海洋",
+    "car-english-name": "Ocean",
+    "car-description": "海洋是地球上大面积的咸水区域，比我们看到的湖泊和河流大很多很多。海洋里生活着各种各样的鱼、海豚、鲸鱼、珊瑚等许多奇妙的生物。海洋有不同的颜色，有时候是蓝色的，有时候是绿色的，非常美丽。",
+    "car-english-pronunciation": "/ˈəʊʃən/",
+    "car-american-pronunciation": "/ˈoʊʃən/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/海洋_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/海洋_zh.mp3",
+    "english-audio-path": "assets/audios/Ocean_en.mp3"
+  },
+  {
+    "car-name": "森林",
+    "car-english-name": "Forest",
+    "car-description": "森林是大片长满树木的地方，里面有许多高大的树木、各种花草和小动物。森林是小鸟、松鼠、兔子等动物的家园，它们在树林里生活、玩耍和寻找食物。森林还能帮助我们呼吸新鲜的空气，保护我们的地球家园。",
+    "car-english-pronunciation": "/ˈfɒrɪst/",
+    "car-american-pronunciation": "/ˈfɔːrɪst/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/森林_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/森林_zh.mp3",
+    "english-audio-path": "assets/audios/Forest_en.mp3"
+  },
+  {
+    "car-name": "草原",
+    "car-english-name": "Grassland",
+    "car-description": "草原是一片广阔的土地，上面长满了青草。草原上很少有树木，可以看到许多小动物，比如兔子、鹿、羊等。草原上的草会随着季节变化，春天和夏天是绿色的，秋天会变成金黄色。草原上的风吹过时，草会像波浪一样摆动，非常美丽。",
+    "car-english-pronunciation": "/ˈɡrɑːslənd/",
+    "car-american-pronunciation": "/ˈɡræslənd/",
+    "car-type": "自然景物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/草原_zh.mp3",
+    "english-audio-path": "assets/audios/Grassland_en.mp3"
+  },
+  {
+    "car-name": "沙漠",
+    "car-english-name": "Desert",
+    "car-description": "沙漠是一个非常干燥的地方，那里很少下雨。沙漠里有很多沙子，白天很热，晚上很冷。虽然沙漠看起来很空旷，但仍然有许多特殊的动物和植物生活在那里，比如骆驼、仙人掌等。它们都有特殊的方式来适应沙漠的干燥环境。",
+    "car-english-pronunciation": "/ˈdezət/",
+    "car-american-pronunciation": "/ˈdɛzərt/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/沙漠_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/沙漠_zh.mp3",
+    "english-audio-path": "assets/audios/Desert_en.mp3"
+  },
+  {
+    "car-name": "岛屿",
+    "car-english-name": "Island",
+    "car-description": "岛屿是被水包围的陆地，四周都是海水或湖水。岛屿有大有小，大的岛屿上有山、河流和城市，小的岛屿可能只有沙滩和几棵树。有些岛屿上有人居住，有些则没有。许多岛屿有美丽的海滩和独特的动物，是度假和探险的好地方。",
+    "car-english-pronunciation": "/ˈaɪlənd/",
+    "car-american-pronunciation": "/ˈaɪlənd/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/岛屿_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/岛屿_zh.mp3",
+    "english-audio-path": "assets/audios/Island_en.mp3"
+  },
+  {
+    "car-name": "瀑布",
+    "car-english-name": "Waterfall",
+    "car-description": "瀑布是水流从高处落下来的自然景观。水流从山上或悬崖上快速流下，看起来像白色的水帘布，还会发出哗啦啦的声音。有些瀑布很高很大，有些则小一些。下雨后瀑布的水会更多，流得更急。",
+    "car-english-pronunciation": "/ˈwɔːtəfɔːl/",
+    "car-american-pronunciation": "/ˈwɑːtərfɔːl/",
+    "car-type": "自然景物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/瀑布_zh.mp3",
+    "english-audio-path": "assets/audios/Waterfall_en.mp3"
+  },
+  {
+    "car-name": "火山",
+    "car-english-name": "Volcano",
+    "car-description": "火山是一座特殊的山，它内部有非常热的岩浆。当火山喷发时，岩浆会从山顶流出来，就像山在喷火一样。火山喷发时还会喷出很多烟尘和石头。火山喷发虽然看起来很可怕，但也是地球的一种自然现象。",
+    "car-english-pronunciation": "/vɒlˈkeɪnəʊ/",
+    "car-american-pronunciation": "/vɑːlˈkeɪnoʊ/",
+    "car-type": "自然景物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/火山_zh.mp3",
+    "english-audio-path": "assets/audios/Volcano_en.mp3"
+  },
+  {
+    "car-name": "冰川",
+    "car-english-name": "Glacier",
+    "car-description": "冰川是一种非常大的冰块，它像一条缓慢流动的冰河。冰川是由很多年的雪堆积在一起形成的，非常厚实。它们通常在寒冷的高山或两极地区找到。冰川移动得很慢，但它们的力量很大，可以改变山地的形状。",
+    "car-english-pronunciation": "/ˈɡlæsiər/",
+    "car-american-pronunciation": "/ˈɡleɪʃər/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/冰川_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/冰川_zh.mp3",
+    "english-audio-path": "assets/audios/Glacier_en.mp3"
+  },
+  {
+    "car-name": "洞穴",
+    "car-english-name": "Cave",
+    "car-description": "洞穴是山里或地下的自然空间，像大房间一样。有些洞穴是动物的家，比如蝙蝠和熊。洞穴里可能有漂亮的石头和钟乳石，它们是从洞顶慢慢长出来的石柱。有些洞穴很暗，需要带灯才能看到里面。",
+    "car-english-pronunciation": "/keɪv/",
+    "car-american-pronunciation": "/keɪv/",
+    "car-type": "自然景物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/洞穴_zh.mp3",
+    "english-audio-path": "assets/audios/Cave_en.mp3"
+  },
+  {
+    "car-name": "沙滩",
+    "car-english-name": "Beach",
+    "car-description": "沙滩是由海浪冲刷形成的岸边，上面有细细的沙子。我们可以在沙滩上玩沙子、堆沙堡、捡贝壳，还可以在海边游泳和晒太阳。沙滩是夏天游玩的好地方！",
+    "car-english-pronunciation": "/biːtʃ/",
+    "car-american-pronunciation": "/biːtʃ/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/沙滩_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/沙滩_zh.mp3",
+    "english-audio-path": "assets/audios/Beach_en.mp3"
+  },
+  {
+    "car-name": "岩石",
+    "car-english-name": "Rock",
+    "car-description": "石头是地球上很常见的东西，它们很坚硬，有各种不同的形状、颜色和大小。有些石头很光滑，有些很粗糙。我们可以在山上、河边、海边和小路上找到石头。人们用石头建造房子，铺路，还可以收集漂亮的石头做装饰。",
+    "car-english-pronunciation": "/rɒk/",
+    "car-american-pronunciation": "/rɑːk/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/岩石_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/岩石_zh.mp3",
+    "english-audio-path": "assets/audios/Rock_en.mp3"
+  },
+  {
+    "car-name": "花朵",
+    "car-english-name": "Flower",
+    "car-description": "花朵是植物的一部分，有各种漂亮的颜色和形状，比如红色、黄色、粉色等。它们会散发出香味，吸引蜜蜂和蝴蝶来采蜜。花朵长大后有些会变成水果，有些会结出种子，然后长出新的植物。我们常常把花朵送给喜欢的人，表达我们的爱意和祝福。",
+    "car-english-pronunciation": "/ˈflaʊə(r)/",
+    "car-american-pronunciation": "/ˈflaʊər/",
+    "car-type": "自然景物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/花朵_zh.mp3",
+    "english-audio-path": "assets/audios/Flower_en.mp3"
+  },
+  {
+    "car-name": "树木",
+    "car-english-name": "Tree",
+    "car-description": "大树是长在土地上的植物，有粗粗的树干、绿色的叶子和深深的根。大树可以给我们提供氧气，让我们呼吸新鲜空气。夏天，大树可以给我们遮阳；秋天，有些树的叶子会变成黄色或红色。小鸟喜欢在树上筑巢，小松鼠喜欢在树上跳跃。大树是我们的好朋友，我们要爱护它们。",
+    "car-english-pronunciation": "/triː/",
+    "car-american-pronunciation": "/triː/",
+    "car-type": "自然景物",
+    "car-image-path": "assets/images/树木_自然景物.jpg",
+    "chinese-audio-path": "assets/audios/树木_zh.mp3",
+    "english-audio-path": "assets/audios/Tree_en.mp3"
+  },
+  {
+    "car-name": "钢琴",
+    "car-english-name": "Piano",
+    "car-description": "钢琴是一种大乐器，有黑白相间的琴键。当你按下琴键时，里面的小锤子会敲打琴弦，发出美妙的声音。钢琴可以演奏很多种音乐，从欢快的曲子到温柔的曲子都可以。学习弹钢琴需要练习，但可以带来很多乐趣。",
+    "car-english-pronunciation": "/piˈɑːnəʊ/",
+    "car-american-pronunciation": "/piˈænoʊ/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/钢琴_乐器.jpg",
+    "chinese-audio-path": "assets/audios/钢琴_zh.mp3",
+    "english-audio-path": "assets/audios/Piano_en.mp3"
+  },
+  {
+    "car-name": "小提琴",
+    "car-english-name": "Violin",
+    "car-description": "小提琴是一种有四根弦的乐器，形状像数字'8'。演奏时，用琴弓在弦上拉动，会发出美妙的声音。小提琴可以演奏各种音乐，从欢快的曲子到悲伤的旋律都能表达。它是管弦乐队中非常重要的乐器之一。",
+    "car-english-pronunciation": "/vaɪəˈlɪn/",
+    "car-american-pronunciation": "/ˌvaɪəˈlɪn/",
+    "car-type": "乐器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/小提琴_zh.mp3",
+    "english-audio-path": "assets/audios/Violin_en.mp3"
+  },
+  {
+    "car-name": "吉他",
+    "car-english-name": "Guitar",
+    "car-description": "吉他是一种有弦的乐器，通常有六根弦。我们可以用手指或拨片弹奏吉他，发出美妙的声音。吉他有很多种，有的很大，有的很小。弹吉他时，我们可以唱歌、跳舞，还可以和朋友一起组成乐队。吉他的声音可以很欢快，也可以很温柔，是一种非常受欢迎的乐器。",
+    "car-english-pronunciation": "/ɡɪˈtɑː(r)/",
+    "car-american-pronunciation": "/ɡɪˈtɑːr/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/吉他_乐器.jpg",
+    "chinese-audio-path": "assets/audios/吉他_zh.mp3",
+    "english-audio-path": "assets/audios/Guitar_en.mp3"
+  },
+  {
+    "car-name": "鼓",
+    "car-english-name": "Drum",
+    "car-description": "鼓是一种打击乐器，形状像一个圆桶。鼓的两端覆盖着薄膜，叫做鼓面。当我们用手或鼓棒敲打鼓面时，会发出'咚咚'的声音。鼓在乐队、音乐会和庆典中很常见，可以打出有节奏的节拍，让人想跟着跳舞。",
+    "car-english-pronunciation": "/drʌm/",
+    "car-american-pronunciation": "/drʌm/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/鼓_乐器.jpg",
+    "chinese-audio-path": "assets/audios/鼓_zh.mp3",
+    "english-audio-path": "assets/audios/Drum_en.mp3"
+  },
+  {
+    "car-name": "笛子",
+    "car-english-name": "Flute",
+    "car-description": "笛子是一种长长的乐器，上面有小孔。吹笛子时，空气在里面振动，发出美妙的声音。用手指按住不同的小孔，可以吹出不同的音调。笛子可以演奏很多好听的音乐。",
+    "car-english-pronunciation": "/fluːt/",
+    "car-american-pronunciation": "/fluːt/",
+    "car-type": "乐器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/笛子_zh.mp3",
+    "english-audio-path": "assets/audios/Flute_en.mp3"
+  },
+  {
+    "car-name": "萨克斯",
+    "car-english-name": "Saxophone",
+    "car-description": "萨克斯是一种闪闪发光的管乐器，它有一个弯弯的管身和一个可以吹的吹嘴。萨克斯可以发出温暖、柔和的声音，在爵士乐队和管弦乐队中经常可以听到它。演奏者通过吹气并按动上面的按键来演奏美妙的音乐。",
+    "car-english-pronunciation": "/ˈsæksəfəʊn/",
+    "car-american-pronunciation": "/ˈsæksəfoʊn/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/萨克斯_乐器.jpg",
+    "chinese-audio-path": "assets/audios/萨克斯_zh.mp3",
+    "english-audio-path": "assets/audios/Saxophone_en.mp3"
+  },
+  {
+    "car-name": "长号",
+    "car-english-name": "Trombone",
+    "car-description": "长号是一种管乐器，它有一个长长的可以滑动的管子，通过拉长或缩短管子来改变音高。长号的声音非常浑厚有力，常常在乐队和管弦乐团中演奏。演奏者需要通过嘴唇振动并吹气来发出声音。",
+    "car-english-pronunciation": "/trɒmˈbəʊn/",
+    "car-american-pronunciation": "/trɑːmˈboʊn/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/长号_乐器.jpg",
+    "chinese-audio-path": "assets/audios/长号_zh.mp3",
+    "english-audio-path": "assets/audios/Trombone_en.mp3"
+  },
+  {
+    "car-name": "小号",
+    "car-english-name": "Trumpet",
+    "car-description": "小号是一种闪亮的铜管乐器，需要通过吹气来发出声音。它有三个按键，按下不同的按键可以吹出不同的音调。小号的声音很响亮，常常在乐队、游行和庆典中听到。",
+    "car-english-pronunciation": "/ˈtrʌmpɪt/",
+    "car-american-pronunciation": "/ˈtrʌmpɪt/",
+    "car-type": "乐器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/小号_zh.mp3",
+    "english-audio-path": "assets/audios/Trumpet_en.mp3"
+  },
+  {
+    "car-name": "竖琴",
+    "car-english-name": "Harp",
+    "car-description": "竖琴是一种大型的乐器，形状像三角形，有很多琴弦。人们用手指拨动琴弦来演奏美妙的音乐。竖琴的声音非常优美，像仙女的音乐一样。在童话故事和音乐会中，我们经常能看到竖琴。",
+    "car-english-pronunciation": "/hɑːp/",
+    "car-american-pronunciation": "/hɑːrp/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/竖琴_乐器.jpg",
+    "chinese-audio-path": "assets/audios/竖琴_zh.mp3",
+    "english-audio-path": "assets/audios/Harp_en.mp3"
+  },
+  {
+    "car-name": "口琴",
+    "car-english-name": "Harmonica",
+    "car-description": "口琴是一种小巧的乐器，你可以用嘴吹气或吸气来演奏。它有很多小格子，每个格子能发出不同的声音。通过吹奏不同的格子，你可以演奏出美妙的音乐。口琴很小巧，可以随身携带，随时随地都能演奏。",
+    "car-english-pronunciation": "/hɑːˈmɒnɪkə/",
+    "car-american-pronunciation": "/hɑːrˈmɑːnɪkə/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/口琴_乐器.jpg",
+    "chinese-audio-path": "assets/audios/口琴_zh.mp3",
+    "english-audio-path": "assets/audios/Harmonica_en.mp3"
+  },
+  {
+    "car-name": "手风琴",
+    "car-english-name": "Accordion",
+    "car-description": "手风琴是一种可以发出美妙音乐的乐器。它有一个中间部分，两边各有一个风箱。演奏时，需要拉开和压缩风箱，同时按动琴键上的按钮，这样就能发出声音。手风琴的声音很特别，听起来既欢快又有趣，常常在民间音乐和庆典中使用。",
+    "car-english-pronunciation": "/əˈkɔːdiən/",
+    "car-american-pronunciation": "/əˈkɔːrdiən/",
+    "car-type": "乐器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/手风琴_zh.mp3",
+    "english-audio-path": "assets/audios/Accordion_en.mp3"
+  },
+  {
+    "car-name": "电子琴",
+    "car-english-name": "Electronic Keyboard",
+    "car-description": "电子琴是一种可以发出美妙声音的乐器。它有很多黑白相间的琴键，按下不同的琴键会发出不同的音调。电子琴需要插电才能使用，它还可以模仿其他乐器的声音，比如钢琴、小提琴等。小朋友可以用电子琴学习弹奏简单的歌曲，感受音乐的魅力。",
+    "car-english-pronunciation": "/ɪˌlekˈtrɒnɪk ˈkiːbɔːd/",
+    "car-american-pronunciation": "/ɪˌlɛkˈtrɑnɪk ˈkiːbɔːrd/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/电子琴_乐器.jpg",
+    "chinese-audio-path": "assets/audios/电子琴_zh.mp3",
+    "english-audio-path": "assets/audios/Electronic Keyboard_en.mp3"
+  },
+  {
+    "car-name": "古筝",
+    "car-english-name": "Gu Zheng",
+    "car-description": "古筝是中国古老的弹拨乐器，有着长长的木制琴身和许多根琴弦。演奏者用手指拨动琴弦，发出美妙动听的声音，像流水一样清脆悦耳。古筝已经有两千多年的历史了，是中国传统文化的宝贝。",
+    "car-english-pronunciation": "/guː dʒɛŋ/",
+    "car-american-pronunciation": "/gu dʒɛŋ/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/古筝_乐器.jpg",
+    "chinese-audio-path": "assets/audios/古筝_zh.mp3",
+    "english-audio-path": "assets/audios/Gu Zheng_en.mp3"
+  },
+  {
+    "car-name": "二胡",
+    "car-english-name": "Erhu",
+    "car-description": "二胡是中国传统乐器，有两根弦，用弓子拉动演奏。它的声音像人的歌声一样优美动听，可以表达各种情感，比如快乐、悲伤或思念。演奏者把二胡放在腿上，一只手按弦，另一只手拉弓，就能奏出美妙的音乐。",
+    "car-english-pronunciation": "/ˈɜːˌhuː/",
+    "car-american-pronunciation": "/ˈɜrˌhu/",
+    "car-type": "乐器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/二胡_zh.mp3",
+    "english-audio-path": "assets/audios/Erhu_en.mp3"
+  },
+  {
+    "car-name": "琵琶",
+    "car-english-name": "Pipa",
+    "car-description": "琵琶是中国的一种古老乐器，有四根弦。它像一个大梨的形状，弹奏时用手拨动琴弦，能发出美妙的声音。琵琶可以演奏欢快和悲伤的音乐，是中国传统音乐中非常重要的乐器。",
+    "car-english-pronunciation": "/ˈpiːpɑː/",
+    "car-american-pronunciation": "/ˈpipɑ/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/琵琶_乐器.jpg",
+    "chinese-audio-path": "assets/audios/琵琶_zh.mp3",
+    "english-audio-path": "assets/audios/Pipa_en.mp3"
+  },
+  {
+    "car-name": "唢呐",
+    "car-english-name": "Suona",
+    "car-description": "唢呐是一种非常响亮的中国传统乐器，它有一个长长的管子和一个像喇叭一样的金属口。吹唢呐时，会发出很响亮、很热闹的声音，经常在节日、婚礼和庆典上演奏，让大家感到开心。唢呐的声音很大，可以传得很远很远！",
+    "car-english-pronunciation": "/suːˈɒnə/",
+    "car-american-pronunciation": "/suːˈɑːnə/",
+    "car-type": "乐器",
+    "car-image-path": "assets/images/唢呐_乐器.jpg",
+    "chinese-audio-path": "assets/audios/唢呐_zh.mp3",
+    "english-audio-path": "assets/audios/Suona_en.mp3"
+  },
+  {
+    "car-name": "跑步",
+    "car-english-name": "Running",
+    "car-description": "跑步是一种快速移动的方式，比走路快很多。当我们跑步时，双脚会短暂离开地面。跑步是一种很好的运动，可以让我们的身体更健康，更强壮。小朋友们可以在操场上、公园里或者安全的空地上跑步。记得跑步前要做热身运动，跑步后要适当休息哦！",
+    "car-english-pronunciation": "/ˈrʌnɪŋ/",
+    "car-american-pronunciation": "/ˈrʌnɪŋ/",
+    "car-type": "运动项目",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/跑步_zh.mp3",
+    "english-audio-path": "assets/audios/Running_en.mp3"
+  },
+  {
+    "car-name": "游泳",
+    "car-english-name": "Swimming",
+    "car-description": "游泳是在水中移动的一种方式，人们用手臂和腿部划水前进。游泳是一项很好的运动，既能锻炼身体，又能在炎热的天气里让人感到凉爽。游泳时需要穿泳衣，可以在游泳池、湖泊或海里进行。",
+    "car-english-pronunciation": "/ˈswɪmɪŋ/",
+    "car-american-pronunciation": "/ˈswɪmɪŋ/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/游泳_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/游泳_zh.mp3",
+    "english-audio-path": "assets/audios/Swimming_en.mp3"
+  },
+  {
+    "car-name": "篮球",
+    "car-english-name": "Basketball",
+    "car-description": "篮球是一种圆球，通常为橙色，表面有黑色纹路。小朋友们可以拍打它、投掷它，把它投进高高的篮筐里得分。篮球运动可以让你跑动、跳跃，锻炼身体，还能和朋友们一起玩，非常有趣！",
+    "car-english-pronunciation": "/ˈbɑːskɪtbɔːl/",
+    "car-american-pronunciation": "/ˈbæskɪtbɔːl/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/篮球_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/篮球_zh.mp3",
+    "english-audio-path": "assets/audios/Basketball_en.mp3"
+  },
+  {
+    "car-name": "足球",
+    "car-english-name": "Football",
+    "car-description": "足球是一种圆球，通常由黑白相间的图案组成。小朋友们可以用脚踢它，也可以用头轻轻顶它。足球比赛时，两队各11名球员，大家努力把球踢进对方的球门，但不能用手碰球（只有守门员可以在自己的区域内用手）。踢足球可以锻炼身体，让我们更健康！",
+    "car-english-pronunciation": "/ˈfʊtbɔːl/",
+    "car-american-pronunciation": "/ˈfʊtbɔːl/",
+    "car-type": "运动项目",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/足球_zh.mp3",
+    "english-audio-path": "assets/audios/Football_en.mp3"
+  },
+  {
+    "car-name": "乒乓球",
+    "car-english-name": "Table Tennis",
+    "car-description": "乒乓球是一种小球运动，两个或四个小朋友用小球拍在一个桌子上来回打一个小球。球很轻，是白色或橙色的，跳得高高的。打乒乓球可以让我们的眼睛和手更灵活，还能锻炼身体哦！",
+    "car-english-pronunciation": "/ˈteɪb(ə)l ˈtenɪs/",
+    "car-american-pronunciation": "/ˈteɪbəl ˈtɛnɪs/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/乒乓球_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/乒乓球_zh.mp3",
+    "english-audio-path": "assets/audios/Table Tennis_en.mp3"
+  },
+  {
+    "car-name": "羽毛球",
+    "car-english-name": "Shuttlecock",
+    "car-description": "羽毛球是一种用羽毛和软木做的小球，它有白色的羽毛和圆圆的头部。人们用羽毛球拍打来打去，让羽毛球在空中飞来飞去。羽毛球运动很有趣，可以锻炼身体，需要快速跑动和灵活的手眼协调。在室内和室外都可以玩羽毛球，是一项很受欢迎的运动。",
+    "car-english-pronunciation": "/ˈʃʌtlkɒk/",
+    "car-american-pronunciation": "/ˈʃʌtlkɑːk/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/羽毛球_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/羽毛球_zh.mp3",
+    "english-audio-path": "assets/audios/Shuttlecock_en.mp3"
+  },
+  {
+    "car-name": "网球",
+    "car-english-name": "Tennis",
+    "car-description": "网球是一种小球运动，通常是黄色的，上面有毛茸茸的表面。人们用网球拍来回击打这个球，可以在室内或室外的场地上玩。网球是一项很有趣的运动，可以锻炼身体，让人跑得更快，反应更灵敏。",
+    "car-english-pronunciation": "/ˈtenɪs/",
+    "car-american-pronunciation": "/ˈtɛnɪs/",
+    "car-type": "运动项目",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/网球_zh.mp3",
+    "english-audio-path": "assets/audios/Tennis_en.mp3"
+  },
+  {
+    "car-name": "排球",
+    "car-english-name": "Volleyball",
+    "car-description": "排球是一种圆形的球，通常由皮革或合成材料制成。它比篮球小一点，比足球大一点。排球运动是两队隔网相对，用手将球击过网，不让球在自己这边落地。打排球可以锻炼身体，和朋友一起玩很开心！",
+    "car-english-pronunciation": "/ˈvɒlibɔːl/",
+    "car-american-pronunciation": "/ˈvɑːlibɔːl/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/排球_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/排球_zh.mp3",
+    "english-audio-path": "assets/audios/Volleyball_en.mp3"
+  },
+  {
+    "car-name": "跳绳",
+    "car-english-name": "Jump rope",
+    "car-description": "跳绳是一种很好玩的运动玩具。它是一根长长的绳子，两端有手柄。小朋友可以握住手柄，让绳子从脚下跳过。跳绳可以帮助我们锻炼身体，让腿脚更有力，心脏更健康。跳绳还可以和朋友一起玩，看谁跳得更多或更久。",
+    "car-english-pronunciation": "/dʒʌmp rəʊp/",
+    "car-american-pronunciation": "/dʒʌmp roʊp/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/跳绳_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/跳绳_zh.mp3",
+    "english-audio-path": "assets/audios/Jump rope_en.mp3"
+  },
+  {
+    "car-name": "滑冰",
+    "car-english-name": "Ice Skating",
+    "car-description": "滑冰是在冰面上穿着特殊的鞋子（冰鞋）滑行的活动。冰鞋底部有金属刀片，可以帮助人们在冰上滑行。滑冰可以是一项有趣的娱乐活动，也是一项运动项目，很多人在冬天喜欢去滑冰场滑冰。",
+    "car-english-pronunciation": "/aɪs ˈskeɪtɪŋ/",
+    "car-american-pronunciation": "/aɪs ˈskeɪtɪŋ/",
+    "car-type": "运动项目",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/滑冰_zh.mp3",
+    "english-audio-path": "assets/audios/Ice Skating_en.mp3"
+  },
+  {
+    "car-name": "滑雪",
+    "car-english-name": "Skiing",
+    "car-description": "滑雪是一项有趣的冬季运动，人们会穿上特殊的滑雪板，在雪地上滑行。滑雪者需要两根滑雪杖来帮助保持平衡和推动前进。滑雪可以在山坡上快速滑下，也可以在平地上慢慢滑行。这项运动不仅能锻炼身体，还能让我们欣赏美丽的雪景。滑雪时一定要记得穿保暖的衣服和戴好护具，确保安全哦！",
+    "car-english-pronunciation": "/ˈskiːɪŋ/",
+    "car-american-pronunciation": "/ˈskiːɪŋ/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/滑雪_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/滑雪_zh.mp3",
+    "english-audio-path": "assets/audios/Skiing_en.mp3"
+  },
+  {
+    "car-name": "骑自行车",
+    "car-english-name": "Bike",
+    "car-description": "自行车是一种有两个轮子的交通工具。它有车把用来控制方向，有座子可以坐，还有踏板。小朋友用脚踩踏板，自行车就会前进。骑自行车不仅环保，还能锻炼身体，是很好的运动和出行方式。",
+    "car-english-pronunciation": "/baɪk/",
+    "car-american-pronunciation": "/baɪk/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/骑自行车_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/骑自行车_zh.mp3",
+    "english-audio-path": "assets/audios/Bike_en.mp3"
+  },
+  {
+    "car-name": "跳舞",
+    "car-english-name": "Dance",
+    "car-description": "跳舞是人们随着音乐用身体做出优美动作的活动。跳舞可以表达快乐，展示才艺，还能锻炼身体。有很多种舞蹈，比如芭蕾舞、民族舞和街舞等。",
+    "car-english-pronunciation": "/dɑːns/",
+    "car-american-pronunciation": "/dæns/",
+    "car-type": "运动项目",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/跳舞_zh.mp3",
+    "english-audio-path": "assets/audios/Dance_en.mp3"
+  },
+  {
+    "car-name": "体操",
+    "car-english-name": "Gymnastics",
+    "car-description": "体操是一项有趣的运动，运动员通过各种动作展示身体的灵活性和力量。在体操中，人们可以跳跃、翻滚、平衡和摆动身体。体操可以帮助我们变得更强壮、更灵活，还能培养我们的平衡感和协调能力。小朋友们可以通过体操锻炼身体，享受运动的乐趣！",
+    "car-english-pronunciation": "/dʒɪmˈnæstɪks/",
+    "car-american-pronunciation": "/dʒɪmˈnæstɪks/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/体操_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/体操_zh.mp3",
+    "english-audio-path": "assets/audios/Gymnastics_en.mp3"
+  },
+  {
+    "car-name": "武术",
+    "car-english-name": "Martial Arts",
+    "car-description": "武术是一种古老的运动和技能，人们通过练习武术可以强身健体，学会保护自己。武术有很多种类，比如中国的功夫、太极拳，日本的空手道、柔道等。练习武术不仅可以锻炼身体，还能培养耐心和自信。",
+    "car-english-pronunciation": "/ˈmɑːʃəl ɑːts/",
+    "car-american-pronunciation": "/ˈmɑːrʃəl ɑːrts/",
+    "car-type": "运动项目",
+    "car-image-path": "assets/images/武术_运动项目.jpg",
+    "chinese-audio-path": "assets/audios/武术_zh.mp3",
+    "english-audio-path": "assets/audios/Martial Arts_en.mp3"
+  },
+  {
+    "car-name": "瑜伽",
+    "car-english-name": "Yoga",
+    "car-description": "瑜伽是一种很古老的运动，起源于印度。人们通过做各种不同的姿势和动作，让身体变得更灵活、更强壮。做瑜伽的时候，我们还要学习慢慢地呼吸，让心情变得平静。瑜伽就像是一种让身体和大脑一起做游戏的活动，可以帮助我们保持健康和快乐。",
+    "car-english-pronunciation": "/ˈjəʊɡə/",
+    "car-american-pronunciation": "/ˈjoʊɡə/",
+    "car-type": "运动项目",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/瑜伽_zh.mp3",
+    "english-audio-path": "assets/audios/Yoga_en.mp3"
+  },
+  {
+    "car-name": "A",
+    "car-english-name": "Car",
+    "car-description": "小汽车是一种有四个轮子的交通工具，可以带我们去想去的地方。它有发动机、方向盘、座椅和车门，需要加油才能跑起来。",
+    "car-english-pronunciation": "/kɑː(r)/",
+    "car-american-pronunciation": "/kɑːr/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/A_字母.jpg",
+    "chinese-audio-path": "assets/audios/A_zh.mp3",
+    "english-audio-path": "assets/audios/Car_en.mp3"
+  },
+  {
+    "car-name": "B",
+    "car-english-name": "Bear",
+    "car-description": "熊是一种大型动物，有厚厚的毛皮和强壮的身体。它们住在森林里，喜欢吃鱼和蜂蜜。熊有不同的颜色，有棕色、黑色和白色的。",
+    "car-english-pronunciation": "/beə/",
+    "car-american-pronunciation": "/bɛr/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/B_字母.jpg",
+    "chinese-audio-path": "assets/audios/B_zh.mp3",
+    "english-audio-path": "assets/audios/Bear_en.mp3"
+  },
+  {
+    "car-name": "C",
+    "car-english-name": "Car",
+    "car-description": "小汽车是一种有四个轮子的交通工具，可以在马路上行驶。它有车身、车门、车窗和车轮。人们可以坐在小汽车里面，去想去的地方。小汽车需要汽油或电力才能开动。",
+    "car-english-pronunciation": "/kɑː/",
+    "car-american-pronunciation": "/kɑr/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/C_zh.mp3",
+    "english-audio-path": "assets/audios/Car_en.mp3"
+  },
+  {
+    "car-name": "D",
+    "car-english-name": "Dog",
+    "car-description": "狗是人类的好朋友，它们有四条腿，一条尾巴，全身长着毛。狗会'汪汪'叫，喜欢和人类一起玩耍。有些狗可以帮助人类看家，有些可以帮助警察工作，还有的可以当导盲犬帮助盲人。",
+    "car-english-pronunciation": "/dɒg/",
+    "car-american-pronunciation": "/dɔːg/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/D_字母.jpg",
+    "chinese-audio-path": "assets/audios/D_zh.mp3",
+    "english-audio-path": "assets/audios/Dog_en.mp3"
+  },
+  {
+    "car-name": "E",
+    "car-english-name": "Egg",
+    "car-description": "鸡蛋是母鸡生下来的食物，外面有硬硬的壳，里面是黄色的蛋黄和透明的蛋白。鸡蛋很有营养，可以煮着吃、炒着吃，还可以做蛋糕和饼干。",
+    "car-english-pronunciation": "/eɡ/",
+    "car-american-pronunciation": "/eɡ/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/E_字母.jpg",
+    "chinese-audio-path": "assets/audios/E_zh.mp3",
+    "english-audio-path": "assets/audios/Egg_en.mp3"
+  },
+  {
+    "car-name": "F",
+    "car-english-name": "Fish",
+    "car-description": "鱼是生活在水中的动物，它们有鳍和尾巴，可以在水中游泳。鱼用鳃呼吸水中的氧气。鱼有很多不同的颜色和大小，有些鱼很小，有些鱼可以长得非常大。鱼是很多小朋友喜欢的动物。",
+    "car-english-pronunciation": "/fɪʃ/",
+    "car-american-pronunciation": "/fɪʃ/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/F_zh.mp3",
+    "english-audio-path": "assets/audios/Fish_en.mp3"
+  },
+  {
+    "car-name": "G",
+    "car-english-name": "Giraffe",
+    "car-description": "长颈鹿是一种非常高的动物，有长长的脖子和腿。它们生活在非洲的大草原上，喜欢吃树叶，尤其是高树上的叶子。长颈鹿的脖子很长，可以帮助它们吃到其他动物够不到的食物。它们的身上有美丽的斑纹图案，每只长颈鹿的斑纹都是独一无二的，就像人类的指纹一样。",
+    "car-english-pronunciation": "/dʒəˈrɑːf/",
+    "car-american-pronunciation": "/dʒəˈræf/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/G_字母.jpg",
+    "chinese-audio-path": "assets/audios/G_zh.mp3",
+    "english-audio-path": "assets/audios/Giraffe_en.mp3"
+  },
+  {
+    "car-name": "H",
+    "car-english-name": "House",
+    "car-description": "房子是我们居住的地方，它有墙壁、屋顶、门窗，可以保护我们不受风吹雨打。房子里有不同的房间，比如卧室、客厅、厨房和浴室，我们在里面吃饭、睡觉、玩耍。",
+    "car-english-pronunciation": "/haʊs/",
+    "car-american-pronunciation": "/haʊs/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/H_字母.jpg",
+    "chinese-audio-path": "assets/audios/H_zh.mp3",
+    "english-audio-path": "assets/audios/House_en.mp3"
+  },
+  {
+    "car-name": "I",
+    "car-english-name": "Letter I",
+    "car-description": "字母I是英语字母表中的第9个字母。它看起来像一根棍子，上面有一个点，或者像一个人站着伸开手臂。当我们拼写单词时，字母I很重要，比如在'ice'(冰)、'island'(岛屿)和'ink'(墨水)这些单词中都有字母I。",
+    "car-english-pronunciation": "/ˈletə aɪ/",
+    "car-american-pronunciation": "/ˈlɛtɚ aɪ/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/I_zh.mp3",
+    "english-audio-path": "assets/audios/Letter I_en.mp3"
+  },
+  {
+    "car-name": "J",
+    "car-english-name": "Jaguar",
+    "car-description": "美洲豹是一种大型猫科动物，生活在美洲的热带雨林中。它们有黄色的皮毛和黑色的斑点，跑得非常快，是游泳高手，喜欢在水中玩耍。",
+    "car-english-pronunciation": "/ˈdʒæɡjuə/",
+    "car-american-pronunciation": "/ˈdʒæɡwɑr/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/J_字母.jpg",
+    "chinese-audio-path": "assets/audios/J_zh.mp3",
+    "english-audio-path": "assets/audios/Jaguar_en.mp3"
+  },
+  {
+    "car-name": "K",
+    "car-english-name": "Kite",
+    "car-description": "风筝是一种可以在空中飞翔的玩具。它由轻薄的材质制成，比如纸或布，固定在一个框架上。风筝有一根长长的线，小朋友可以在有风的天气里，在空旷的地方放飞它。风筝有各种漂亮的形状和颜色，有的像蝴蝶，有的像小鸟，还有的像龙。放风筝是一项很有趣的户外活动，看着风筝在天空中飞舞，非常开心！",
+    "car-english-pronunciation": "/kaɪt/",
+    "car-american-pronunciation": "/kaɪt/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/K_字母.jpg",
+    "chinese-audio-path": "assets/audios/K_zh.mp3",
+    "english-audio-path": "assets/audios/Kite_en.mp3"
+  },
+  {
+    "car-name": "L",
+    "car-english-name": "Lion",
+    "car-description": "狮子是一种大型猫科动物，被称为'森林之王'。雄狮有长长的鬃毛，看起来很威武。狮子生活在草原上，喜欢群居，它们跑得很快，擅长捕猎。",
+    "car-english-pronunciation": "/ˈlaɪən/",
+    "car-american-pronunciation": "/ˈlaɪən/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/L_zh.mp3",
+    "english-audio-path": "assets/audios/Lion_en.mp3"
+  },
+  {
+    "car-name": "M",
+    "car-english-name": "Moon",
+    "car-description": "月亮是夜晚天空中最亮的天体，它不是星星而是地球的卫星。月亮会改变形状，有时是圆圆的，有时是弯弯的。月亮反射太阳的光，让我们在晚上也能看到它。",
+    "car-english-pronunciation": "/muːn/",
+    "car-american-pronunciation": "/mun/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/M_字母.jpg",
+    "chinese-audio-path": "assets/audios/M_zh.mp3",
+    "english-audio-path": "assets/audios/Moon_en.mp3"
+  },
+  {
+    "car-name": "N",
+    "car-english-name": "Nest",
+    "car-description": "鸟巢是小鸟用树枝、树叶和泥土建造的家。它们通常建在树上或灌木丛中，小鸟在这里下蛋、孵蛋和照顾小鸟宝宝。鸟巢保护小鸟不受风雨和天敌的伤害。",
+    "car-english-pronunciation": "/nest/",
+    "car-american-pronunciation": "/nɛst/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/N_字母.jpg",
+    "chinese-audio-path": "assets/audios/N_zh.mp3",
+    "english-audio-path": "assets/audios/Nest_en.mp3"
+  },
+  {
+    "car-name": "O",
+    "car-english-name": "Orange",
+    "car-description": "橙子是一种圆形的水果，外皮是橙色的，剥开后里面是一瓣一瓣的果肉，味道酸甜可口，富含维生素C，对小朋友的健康很有好处。",
+    "car-english-pronunciation": "/ˈɒrɪndʒ/",
+    "car-american-pronunciation": "/ˈɔrɪndʒ/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/O_zh.mp3",
+    "english-audio-path": "assets/audios/Orange_en.mp3"
+  },
+  {
+    "car-name": "P",
+    "car-english-name": "Panda",
+    "car-description": "熊猫是一种可爱的动物，生活在中国的山区。它们有黑白相间的毛皮，喜欢吃竹子，是中国的国宝。",
+    "car-english-pronunciation": "/ˈpændə/",
+    "car-american-pronunciation": "/ˈpændə/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/P_字母.jpg",
+    "chinese-audio-path": "assets/audios/P_zh.mp3",
+    "english-audio-path": "assets/audios/Panda_en.mp3"
+  },
+  {
+    "car-name": "Q",
+    "car-english-name": "Queen",
+    "car-description": "女王是一个国家的女性统治者，她戴着一顶漂亮的皇冠，住在宏伟的宫殿里。女王管理国家，受到人们的尊敬和爱戴。",
+    "car-english-pronunciation": "/kwiːn/",
+    "car-american-pronunciation": "/kwin/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/Q_字母.jpg",
+    "chinese-audio-path": "assets/audios/Q_zh.mp3",
+    "english-audio-path": "assets/audios/Queen_en.mp3"
+  },
+  {
+    "car-name": "R",
+    "car-english-name": "Rainbow",
+    "car-description": "彩虹是雨后天空中出现的七彩光弧。它有红色、橙色、黄色、绿色、蓝色、靛色和紫色七种颜色。彩虹是由阳光照射到空气中的水滴时，光线被折射和反射形成的美丽景象。",
+    "car-english-pronunciation": "/ˈreɪnbəʊ/",
+    "car-american-pronunciation": "/ˈreɪnboʊ/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/R_zh.mp3",
+    "english-audio-path": "assets/audios/Rainbow_en.mp3"
+  },
+  {
+    "car-name": "S",
+    "car-english-name": "Ship",
+    "car-description": "船是一种能在水上行驶的交通工具。有大的船，比如可以载很多人的轮船；也有小的船，比如划艇。船可以帮助人们过河、过海，也可以用来钓鱼和游玩。",
+    "car-english-pronunciation": "/ʃɪp/",
+    "car-american-pronunciation": "/ʃɪp/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/S_字母.jpg",
+    "chinese-audio-path": "assets/audios/S_zh.mp3",
+    "english-audio-path": "assets/audios/Ship_en.mp3"
+  },
+  {
+    "car-name": "T",
+    "car-english-name": "Train",
+    "car-description": "火车是一种在轨道上行驶的交通工具，可以载着很多人和货物从一个地方到另一个地方。火车有很多车厢连接在一起，由火车头拉动前进。",
+    "car-english-pronunciation": "/treɪn/",
+    "car-american-pronunciation": "/treɪn/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/T_字母.jpg",
+    "chinese-audio-path": "assets/audios/T_zh.mp3",
+    "english-audio-path": "assets/audios/Train_en.mp3"
+  },
+  {
+    "car-name": "U",
+    "car-english-name": "Umbrella",
+    "car-description": "雨伞是我们用来挡雨或遮阳的工具。它有一个长长的手柄，打开后会变成圆圆的形状，像一朵小花。下雨天，我们打开雨伞，雨水就不会淋湿我们了；晴天，我们也可以用雨伞来遮挡强烈的阳光。",
+    "car-english-pronunciation": "/ʌmˈbrelə/",
+    "car-american-pronunciation": "/ʌmˈbrɛlə/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/U_zh.mp3",
+    "english-audio-path": "assets/audios/Umbrella_en.mp3"
+  },
+  {
+    "car-name": "V",
+    "car-english-name": "Bus",
+    "car-description": "公共汽车是一种大型车辆，有很多座位，可以载很多人一起去不同的地方。它有固定的路线和站点，人们可以在站点上下车。公共汽车是城市里常见的交通工具，可以帮助人们出行，减少路上的汽车数量，保护环境。",
+    "car-english-pronunciation": "/bʌs/",
+    "car-american-pronunciation": "/bʌs/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/V_字母.jpg",
+    "chinese-audio-path": "assets/audios/V_zh.mp3",
+    "english-audio-path": "assets/audios/Bus_en.mp3"
+  },
+  {
+    "car-name": "W",
+    "car-english-name": "Watch",
+    "car-description": "手表是一种戴在手腕上的小钟表，可以告诉我们时间。它有表盘和指针，或者是数字显示，帮助我们安排一天的活动。有的手表很漂亮，有的很运动，还有的防水呢！",
+    "car-english-pronunciation": "/wɒtʃ/",
+    "car-american-pronunciation": "/wɑːtʃ/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/W_字母.jpg",
+    "chinese-audio-path": "assets/audios/W_zh.mp3",
+    "english-audio-path": "assets/audios/Watch_en.mp3"
+  },
+  {
+    "car-name": "X",
+    "car-english-name": "Apple",
+    "car-description": "苹果是一种常见的水果，通常是红色、绿色或黄色的。它圆圆的，有一个硬核在里面，外面是脆脆的果肉，味道又甜又酸。苹果很有营养，吃了对身体健康有益。我们经常听到'一天一苹果，医生远离我'的说法。",
+    "car-english-pronunciation": "/ˈæp.əl/",
+    "car-american-pronunciation": "/ˈæp.əl/",
+    "car-type": "字母",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/X_zh.mp3",
+    "english-audio-path": "assets/audios/Apple_en.mp3"
+  },
+  {
+    "car-name": "Y",
+    "car-english-name": "Yo-yo",
+    "car-description": "悠悠球是一个有趣的玩具，它由一个圆盘和一根绳子组成。你可以让圆盘在绳子上上下滚动，还可以做出各种有趣的技巧。玩悠悠球可以锻炼我们的手眼协调能力。",
+    "car-english-pronunciation": "/ˈjəʊ.jəʊ/",
+    "car-american-pronunciation": "/ˈjoʊ.joʊ/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/Y_字母.jpg",
+    "chinese-audio-path": "assets/audios/Y_zh.mp3",
+    "english-audio-path": "assets/audios/Yo-yo_en.mp3"
+  },
+  {
+    "car-name": "Z",
+    "car-english-name": "Zebra",
+    "car-description": "斑马是一种生活在非洲草原上的动物，它有黑白相间的条纹，就像穿着条纹衣服一样。每只斑马的条纹都是独一无二的，就像人类的指纹一样。斑马是马科动物，喜欢成群生活，它们跑得很快，可以躲避危险。",
+    "car-english-pronunciation": "/ˈzebrə/",
+    "car-american-pronunciation": "/ˈziːbrə/",
+    "car-type": "字母",
+    "car-image-path": "assets/images/Z_字母.jpg",
+    "chinese-audio-path": "assets/audios/Z_zh.mp3",
+    "english-audio-path": "assets/audios/Zebra_en.mp3"
+  },
+  {
+    "car-name": "奶牛",
+    "car-english-name": "Cow",
+    "car-description": "奶牛是一种农场动物，身上有黑白相间的花纹。它们会\"哞哞\"地叫，喜欢吃青草。奶牛可以产奶，我们喝的牛奶、吃的奶酪和冰淇淋都来自奶牛。奶牛很温顺，是人类的好朋友。",
+    "car-english-pronunciation": "/kaʊ/",
+    "car-american-pronunciation": "/kaʊ/",
+    "car-type": "农场动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/奶牛_zh.mp3",
+    "english-audio-path": "assets/audios/Cow_en.mp3"
+  },
+  {
+    "car-name": "猪",
+    "car-english-name": "Pig",
+    "car-description": "小猪是一种可爱的农场动物，它们有粉色的皮肤，大大的耳朵，圆圆的鼻子和卷曲的尾巴。小猪喜欢吃东西，特别是水果和蔬菜，它们会用鼻子拱地寻找食物。小猪会发出'哼哼'的声音，它们喜欢在泥地里打滚来保持凉爽。小猪长大后就是大猪，它们很聪明，能记住很多事情。",
+    "car-english-pronunciation": "/pɪɡ/",
+    "car-american-pronunciation": "/pɪɡ/",
+    "car-type": "农场动物",
+    "car-image-path": "assets/images/猪_农场动物.jpg",
+    "chinese-audio-path": "assets/audios/猪_zh.mp3",
+    "english-audio-path": "assets/audios/Pig_en.mp3"
+  },
+  {
+    "car-name": "绵羊",
+    "car-english-name": "Sheep",
+    "car-description": "小羊是一种温顺的动物，全身长满白色的毛，毛可以用来做衣服。它们喜欢吃草，经常在农场或草原上看到。小羊会发出'咩咩'的叫声，非常可爱。",
+    "car-english-pronunciation": "/ʃiːp/",
+    "car-american-pronunciation": "/ʃiːp/",
+    "car-type": "农场动物",
+    "car-image-path": "assets/images/绵羊_农场动物.jpg",
+    "chinese-audio-path": "assets/audios/绵羊_zh.mp3",
+    "english-audio-path": "assets/audios/Sheep_en.mp3"
+  },
+  {
+    "car-name": "山羊",
+    "car-english-name": "Goat",
+    "car-description": "山羊是一种有角的动物，它们有胡子，喜欢吃草和树叶。山羊会'咩咩'叫，它们能爬上很陡的山坡，还能跳得很高。有些山羊产奶，我们可以用山羊奶做奶酪。",
+    "car-english-pronunciation": "/ɡəʊt/",
+    "car-american-pronunciation": "/ɡoʊt/",
+    "car-type": "农场动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/山羊_zh.mp3",
+    "english-audio-path": "assets/audios/Goat_en.mp3"
+  },
+  {
+    "car-name": "马",
+    "car-english-name": "horse",
+    "car-description": "马是一种四条腿的动物，有长长的尾巴和鬃毛。它们跑得很快，可以载人或拉东西。马有很多种颜色，比如棕色、白色、黑色等。有些人把马当作宠物，马也很聪明，能和人类成为好朋友。",
+    "car-english-pronunciation": "/hɔːs/",
+    "car-american-pronunciation": "/hɔːrs/",
+    "car-type": "农场动物",
+    "car-image-path": "assets/images/马_农场动物.jpg",
+    "chinese-audio-path": "assets/audios/马_zh.mp3",
+    "english-audio-path": "assets/audios/horse_en.mp3"
+  },
+  {
+    "car-name": "驴",
+    "car-english-name": "Donkey",
+    "car-description": "驴是一种哺乳动物，属于马科。它们通常有灰色的毛，长耳朵和短尾巴。驴很聪明，也很强壮，可以帮助人类搬运重物。它们性格温顺，但有时也很固执。驴的叫声是'嗷嗷'的声音，很特别。驴可以活很长时间，有些驴甚至可以活到40岁以上。",
+    "car-english-pronunciation": "/ˈdɒŋki/",
+    "car-american-pronunciation": "/ˈdɑːŋki/",
+    "car-type": "农场动物",
+    "car-image-path": "assets/images/驴_农场动物.jpg",
+    "chinese-audio-path": "assets/audios/驴_zh.mp3",
+    "english-audio-path": "assets/audios/Donkey_en.mp3"
+  },
+  {
+    "car-name": "鸡",
+    "car-english-name": "Chicken",
+    "car-description": "小鸡是一种家禽，有羽毛、翅膀和两条腿。公鸡会打鸣叫醒大家，母鸡会下蛋。小鸡喜欢吃虫子、谷物和种子。它们走路时会一摇一摆，非常可爱。",
+    "car-english-pronunciation": "/ˈtʃɪkɪn/",
+    "car-american-pronunciation": "/ˈtʃɪkɪn/",
+    "car-type": "农场动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/鸡_zh.mp3",
+    "english-audio-path": "assets/audios/Chicken_en.mp3"
+  },
+  {
+    "car-name": "公鸡",
+    "car-english-name": "Rooster",
+    "car-description": "公鸡是一种雄性的鸡，它有鲜艳的羽毛，尤其是尾巴上的羽毛非常漂亮。公鸡的头上有一个红色的鸡冠，早上会'喔喔喔'地叫，提醒人们起床。公鸡很勇敢，会保护母鸡和小鸡。",
+    "car-english-pronunciation": "/ˈruːstə/",
+    "car-american-pronunciation": "/ˈruːstər/",
+    "car-type": "农场动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/公鸡_zh.mp3",
+    "english-audio-path": "assets/audios/Rooster_en.mp3"
+  },
+  {
+    "car-name": "鸭子",
+    "car-english-name": "Duck",
+    "car-description": "鸭子是一种会游泳的鸟类，有扁平的嘴巴和蹼足，喜欢在水里玩耍。它们会'嘎嘎'地叫，身上有羽毛可以防水。小鸭子叫做鸭宝宝，全身都是黄色的毛，非常可爱。鸭子可以生活在农场、池塘或者公园里。",
+    "car-english-pronunciation": "/dʌk/",
+    "car-american-pronunciation": "/dʌk/",
+    "car-type": "农场动物",
+    "car-image-path": "assets/images/鸭子_农场动物.jpg",
+    "chinese-audio-path": "assets/audios/鸭子_zh.mp3",
+    "english-audio-path": "assets/audios/Duck_en.mp3"
+  },
+  {
+    "car-name": "火鸡",
+    "car-english-name": "Turkey",
+    "car-description": "火鸡是一种大鸟，比鸡大很多。它有彩色的羽毛，尾巴展开像扇子一样漂亮。火鸡的头上有一个红色的肉垂，会变色。火鸡原产于北美洲，是感恩节的传统食物。雄性火鸡会张开尾巴发出'咯咯'的声音来吸引雌性。",
+    "car-english-pronunciation": "/ˈtɜːki/",
+    "car-american-pronunciation": "/ˈtɜrki/",
+    "car-type": "农场动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/火鸡_zh.mp3",
+    "english-audio-path": "assets/audios/Turkey_en.mp3"
+  },
+  {
+    "car-name": "狗",
+    "car-english-name": "Dog",
+    "car-description": "狗是人类最忠实的朋友，它们有四条腿，一条尾巴，全身长着毛毛。狗会'汪汪'叫，它们喜欢和人类一起玩耍，非常友好。有些狗可以帮助人们看家，有些可以帮助警察工作，还有的可以帮助盲人走路。狗喜欢吃肉和骨头，它们需要每天散步和运动。",
+    "car-english-pronunciation": "/dɒg/",
+    "car-american-pronunciation": "/dɔːg/",
+    "car-type": "家养宠物",
+    "car-image-path": "assets/images/狗_家养宠物.jpg",
+    "chinese-audio-path": "assets/audios/狗_zh.mp3",
+    "english-audio-path": "assets/audios/Dog_en.mp3"
+  },
+  {
+    "car-name": "猫",
+    "car-english-name": "Cat",
+    "car-description": "小猫是一种可爱的小动物，有软软的毛和长长的尾巴。它们喜欢喵喵叫，会抓老鼠，也喜欢玩毛线球。小猫很干净，经常用舌头舔自己的毛。很多人喜欢养小猫做宠物，因为它们很温顺，也很聪明。",
+    "car-english-pronunciation": "/kæt/",
+    "car-american-pronunciation": "/kæt/",
+    "car-type": "家养宠物",
+    "car-image-path": "assets/images/猫_家养宠物.jpg",
+    "chinese-audio-path": "assets/audios/猫_zh.mp3",
+    "english-audio-path": "assets/audios/Cat_en.mp3"
+  },
+  {
+    "car-name": "鹦鹉",
+    "car-english-name": "Parrot",
+    "car-description": "鹦鹉是一种彩色的鸟类，它们有弯曲的喙和美丽的羽毛。鹦鹉非常聪明，能模仿人类说话和声音。它们生活在热带和亚热带地区，喜欢吃水果、坚果和种子。有些鹦鹉可以成为人类的宠物，陪伴人们很多年。",
+    "car-english-pronunciation": "/ˈpærət/",
+    "car-american-pronunciation": "/ˈpærət/",
+    "car-type": "家养宠物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/鹦鹉_zh.mp3",
+    "english-audio-path": "assets/audios/Parrot_en.mp3"
+  },
+  {
+    "car-name": "老虎",
+    "car-english-name": "Tiger",
+    "car-description": "老虎是一种大型猫科动物，身上有黑色条纹的橙色皮毛。它们是森林之王，非常强壮，跑得很快，是优秀的游泳健将。老虎主要生活在亚洲的森林和草原上，喜欢吃肉。它们有锋利的牙齿和爪子，可以帮助它们捕捉猎物。老虎是非常漂亮的动物，但也很危险，我们应该尊重它们，保护它们的生存环境。",
+    "car-english-pronunciation": "/ˈtaɪɡə/",
+    "car-american-pronunciation": "/ˈtaɪɡər/",
+    "car-type": "野生动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/老虎_zh.mp3",
+    "english-audio-path": "assets/audios/Tiger_en.mp3"
+  },
+  {
+    "car-name": "猴子",
+    "car-english-name": "Monkey",
+    "car-description": "猴子是一种聪明活泼的动物，它们有长长的尾巴和灵活的手脚。猴子喜欢吃水果，尤其是香蕉。它们生活在树上，擅长攀爬和跳跃。猴子喜欢群居生活，常常和同伴一起玩耍。",
+    "car-english-pronunciation": "/ˈmʌŋki/",
+    "car-american-pronunciation": "/ˈmʌŋki/",
+    "car-type": "野生动物",
+    "car-image-path": "assets/images/猴子_野生动物.jpg",
+    "chinese-audio-path": "assets/audios/猴子_zh.mp3",
+    "english-audio-path": "assets/audios/Monkey_en.mp3"
+  },
+  {
+    "car-name": "熊",
+    "car-english-name": "Bear",
+    "car-description": "熊是一种大型哺乳动物，它们有厚厚的毛皮和强壮的身体。大多数熊喜欢吃鱼、蜂蜜和浆果。它们生活在森林和山区，冬天会冬眠。熊看起来笨重，但实际上它们跑得很快，而且会爬树和游泳。",
+    "car-english-pronunciation": "/beə/",
+    "car-american-pronunciation": "/ber/",
+    "car-type": "野生动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/熊_zh.mp3",
+    "english-audio-path": "assets/audios/Bear_en.mp3"
+  },
+  {
+    "car-name": "狼",
+    "car-english-name": "Wolf",
+    "car-description": "狼是一种野生动物，它们看起来像大狗。狼有厚厚的毛，通常是灰色或棕色的。它们有尖尖的耳朵和长长的尾巴。狼喜欢和家人一起生活，它们会一起打猎。狼的叫声是'嗷呜'，它们在夜晚会这样互相交流。虽然狼在故事中常常被描述成可怕的动物，但它们其实很聪明，而且通常会避开人类。",
+    "car-english-pronunciation": "/wʊlf/",
+    "car-american-pronunciation": "/wʊlf/",
+    "car-type": "野生动物",
+    "car-image-path": "assets/images/狼_野生动物.jpg",
+    "chinese-audio-path": "assets/audios/狼_zh.mp3",
+    "english-audio-path": "assets/audios/Wolf_en.mp3"
+  },
+  {
+    "car-name": "狐狸",
+    "car-english-name": "Fox",
+    "car-description": "狐狸是一种聪明的小动物，有着毛茸茸的尾巴和尖尖的耳朵。它们通常有红色或棕色的皮毛，看起来很像小狗。狐狸非常机灵，擅长捕猎小动物，也喜欢吃水果和浆果。在很多故事里，狐狸常常被描述为聪明又狡猾的角色。",
+    "car-english-pronunciation": "/fɒks/",
+    "car-american-pronunciation": "/fɑːks/",
+    "car-type": "野生动物",
+    "car-image-path": "assets/images/狐狸_野生动物.jpg",
+    "chinese-audio-path": "assets/audios/狐狸_zh.mp3",
+    "english-audio-path": "assets/audios/Fox_en.mp3"
+  },
+  {
+    "car-name": "斑马",
+    "car-english-name": "Zebra",
+    "car-description": "斑马是一种生活在非洲草原上的动物，它有黑白相间的条纹，就像穿着条纹衣服一样。每只斑马的条纹都是独一无二的，就像人类的指纹一样。斑马是马科动物，喜欢吃草，喜欢群居生活，它们会一起保护自己不受狮子等猛兽的伤害。",
+    "car-english-pronunciation": "/ˈzebrə/",
+    "car-american-pronunciation": "/ˈziːbrə/",
+    "car-type": "野生动物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/斑马_zh.mp3",
+    "english-audio-path": "assets/audios/Zebra_en.mp3"
+  },
+  {
+    "car-name": "袋鼠",
+    "car-english-name": "Kangaroo",
+    "car-description": "袋鼠是生活在澳大利亚的一种特殊动物。它们有强壮的后腿和长长的尾巴，可以用两条腿跳跃着前进。袋鼠妈妈肚子前面有一个育儿袋，小袋鼠出生后会住在妈妈的袋子里，直到它们长大到可以自己跳跃。袋鼠是草食动物，喜欢吃草和树叶。它们是澳大利亚的代表性动物之一。",
+    "car-english-pronunciation": "/ˌkæŋɡəˈruː/",
+    "car-american-pronunciation": "/ˌkæŋɡəˈruː/",
+    "car-type": "野生动物",
+    "car-image-path": "assets/images/袋鼠_野生动物.jpg",
+    "chinese-audio-path": "assets/audios/袋鼠_zh.mp3",
+    "english-audio-path": "assets/audios/Kangaroo_en.mp3"
+  },
+  {
+    "car-name": "鸟",
+    "car-english-name": "Bird",
+    "car-description": "小鸟是一种有羽毛、有翅膀的动物。大多数小鸟都会飞，它们在天空中自由自在地飞翔。小鸟有各种各样的颜色和大小，有的会唱歌，有的会说话。小鸟用嘴巴吃虫子、种子或果实，它们会筑巢，并生下蛋来孵化小鸟宝宝。",
+    "car-english-pronunciation": "/bɜːd/",
+    "car-american-pronunciation": "/bɜːrd/",
+    "car-type": "鸟类",
+    "car-image-path": "assets/images/鸟_鸟类.jpg",
+    "chinese-audio-path": "assets/audios/鸟_zh.mp3",
+    "english-audio-path": "assets/audios/Bird_en.mp3"
+  },
+  {
+    "car-name": "鹰",
+    "car-english-name": "Eagle",
+    "car-description": "鹰是一种大型猛禽，有强壮的翅膀和锋利的爪子。它们的视力非常好，能在高空中看到地面上的小动物。鹰是天空中的王者，飞得又高又快，是自由和力量的象征。",
+    "car-english-pronunciation": "/ˈiːɡl/",
+    "car-american-pronunciation": "/ˈiːɡəl/",
+    "car-type": "鸟类",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/鹰_zh.mp3",
+    "english-audio-path": "assets/audios/Eagle_en.mp3"
+  },
+  {
+    "car-name": "猫头鹰",
+    "car-english-name": "Owl",
+    "car-description": "猫头鹰是一种夜间活动的鸟类，它们有大大的眼睛和圆圆的脸，看起来很可爱。猫头鹰的脖子可以转动很大角度，能看到背后的东西。它们有锋利的爪子，能安静地飞行，捕捉老鼠等小动物。猫头鹰很聪明，在很多故事里都被认为是智慧的象征。",
+    "car-english-pronunciation": "/aʊl/",
+    "car-american-pronunciation": "/aʊl/",
+    "car-type": "鸟类",
+    "car-image-path": "assets/images/猫头鹰_鸟类.jpg",
+    "chinese-audio-path": "assets/audios/猫头鹰_zh.mp3",
+    "english-audio-path": "assets/audios/Owl_en.mp3"
+  },
+  {
+    "car-name": "企鹅",
+    "car-english-name": "Penguin",
+    "car-description": "企鹅是一种不会飞的鸟类，生活在南半球，特别是南极地区。它们有黑白相间的羽毛，看起来像是穿着燕尾服。企鹅擅长游泳和潜水，它们用翅膀当作鳍在水中游动。企鹅喜欢吃鱼和磷虾，它们常常成群生活在一起，互相取暖。企鹅走路时摇摇摆摆的样子非常可爱。",
+    "car-english-pronunciation": "/ˈpeŋɡwɪn/",
+    "car-american-pronunciation": "/ˈpɛŋɡwɪn/",
+    "car-type": "鸟类",
+    "car-image-path": "assets/images/企鹅_鸟类.jpg",
+    "chinese-audio-path": "assets/audios/企鹅_zh.mp3",
+    "english-audio-path": "assets/audios/Penguin_en.mp3"
+  },
+  {
+    "car-name": "火烈鸟",
+    "car-english-name": "Flamingo",
+    "car-description": "火烈鸟是一种非常漂亮的鸟，它们有着粉红色的羽毛和长长的腿。它们喜欢成群结队地生活，常常会站在水里用它们特殊的嘴寻找食物。火烈鸟的粉红色来自于它们吃的食物，比如小虾和其他水生生物。它们睡觉的时候会单腿站立，看起来很有趣！",
+    "car-english-pronunciation": "/fləˈmɪŋɡəʊ/",
+    "car-american-pronunciation": "/fləˈmɪŋɡoʊ/",
+    "car-type": "鸟类",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/火烈鸟_zh.mp3",
+    "english-audio-path": "assets/audios/Flamingo_en.mp3"
+  },
+  {
+    "car-name": "天鹅",
+    "car-english-name": "Swan",
+    "car-description": "天鹅是一种大型水鸟，有着长长的脖子和雪白的羽毛。它们游泳时姿态优雅，常常成双成对出现。天鹅的嘴巴是橘红色的，它们喜欢在湖泊、河流和池塘里游泳。天鹅妈妈会下蛋，然后孵化出可爱的小天鹅，小天鹅刚出生时是灰色的，长大后才会变成白色。",
+    "car-english-pronunciation": "/swɒn/",
+    "car-american-pronunciation": "/swɑːn/",
+    "car-type": "鸟类",
+    "car-image-path": "assets/images/天鹅_鸟类.jpg",
+    "chinese-audio-path": "assets/audios/天鹅_zh.mp3",
+    "english-audio-path": "assets/audios/Swan_en.mp3"
+  },
+  {
+    "car-name": "鱼",
+    "car-english-name": "Fish",
+    "car-description": "鱼是生活在水中的动物，它们有鳍和尾巴，可以在水中游泳。鱼用鳃呼吸水中的氧气，有各种不同的颜色和大小，有的很小，有的可以长到很大。鱼是许多小朋友喜欢的动物。",
+    "car-english-pronunciation": "/fɪʃ/",
+    "car-american-pronunciation": "/fɪʃ/",
+    "car-type": "海洋生物",
+    "car-image-path": "assets/images/鱼_海洋生物.jpg",
+    "chinese-audio-path": "assets/audios/鱼_zh.mp3",
+    "english-audio-path": "assets/audios/Fish_en.mp3"
+  },
+  {
+    "car-name": "海豚",
+    "car-english-name": "Dolphin",
+    "car-description": "海豚是一种聪明又友善的海洋动物，它们生活在海洋中。海豚身体呈流线型，游泳速度非常快，它们喜欢跳跃出水面，看起来像在玩耍。海豚非常聪明，能学会很多技巧，还会发出各种声音与同伴交流。它们是群居动物，常常成群结队地一起游泳和觅食。海豚对人类很友好，有时会帮助遇到困难的人。",
+    "car-english-pronunciation": "/ˈdɒlfɪn/",
+    "car-american-pronunciation": "/ˈdɑːlfɪn/",
+    "car-type": "海洋生物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/海豚_zh.mp3",
+    "english-audio-path": "assets/audios/Dolphin_en.mp3"
+  },
+  {
+    "car-name": "鲸鱼",
+    "car-english-name": "Whale",
+    "car-description": "鲸鱼是生活在海洋中的大型哺乳动物，它们不是鱼类！鲸鱼用肺呼吸，所以需要浮出水面换气。它们有不同的大小，从几米到三十多米长。蓝鲸是地球上最大的动物！鲸鱼喜欢吃小鱼、虾和其他海洋生物。它们会发出美妙的声音，在海洋中与同伴交流。",
+    "car-english-pronunciation": "/weɪl/",
+    "car-american-pronunciation": "/weɪl/",
+    "car-type": "海洋生物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/鲸鱼_zh.mp3",
+    "english-audio-path": "assets/audios/Whale_en.mp3"
+  },
+  {
+    "car-name": "章鱼",
+    "car-english-name": "Octopus",
+    "car-description": "章鱼是一种生活在海洋里的软体动物，它有八条长长的触手，每条触手上都有很多吸盘。章鱼很聪明，可以改变自己的颜色来躲藏，遇到危险时会喷出墨汁。章鱼没有骨头，可以挤进很小的缝隙里。",
+    "car-english-pronunciation": "/ˈɒktəpəs/",
+    "car-american-pronunciation": "/ˈɑːktəpəs/",
+    "car-type": "海洋生物",
+    "car-image-path": "assets/images/章鱼_海洋生物.jpg",
+    "chinese-audio-path": "assets/audios/章鱼_zh.mp3",
+    "english-audio-path": "assets/audios/Octopus_en.mp3"
+  },
+  {
+    "car-name": "水母",
+    "car-english-name": "Jellyfish",
+    "car-description": "水母是一种生活在海洋中的漂亮生物，它们有透明的身体，像一把把小雨伞在水中漂浮。水母有很多长长的触手，有些水母的触手会蜇人，所以我们在海边看到它们时要小心。水母没有大脑和心脏，它们通过收缩身体来推动自己在水中移动。",
+    "car-english-pronunciation": "/ˈdʒɛliːfɪʃ/",
+    "car-american-pronunciation": "/ˈdʒɛlifɪʃ/",
+    "car-type": "海洋生物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/水母_zh.mp3",
+    "english-audio-path": "assets/audios/Jellyfish_en.mp3"
+  },
+  {
+    "car-name": "海星",
+    "car-english-name": "Starfish",
+    "car-description": "海星是海洋里的一种动物，它们长得像星星，通常有五条手臂。海星的手臂如果断了，还能再长出来哦！它们用这些手臂在海底慢慢爬行，寻找食物。海星有各种漂亮的颜色，比如橙色、红色、蓝色和紫色。",
+    "car-english-pronunciation": "/ˈstɑːfɪʃ/",
+    "car-american-pronunciation": "/ˈstɑːrfɪʃ/",
+    "car-type": "海洋生物",
+    "car-image-path": "assets/images/海星_海洋生物.jpg",
+    "chinese-audio-path": "assets/audios/海星_zh.mp3",
+    "english-audio-path": "assets/audios/Starfish_en.mp3"
+  },
+  {
+    "car-name": "海马",
+    "car-english-name": "Seahorse",
+    "car-description": "海马是一种生活在海洋里的小鱼，它的头长得像小马的头，身体直立着游泳。爸爸海马有一个育儿袋，妈妈海马把卵放在爸爸的袋子里，由爸爸来照顾宝宝直到它们出生。海马用尾巴卷住海草，让自己不会被海水冲走。",
+    "car-english-pronunciation": "/ˈsiː.hɔːs/",
+    "car-american-pronunciation": "/ˈsiː.hɔːrs/",
+    "car-type": "海洋生物",
+    "car-image-path": "assets/images/海马_海洋生物.jpg",
+    "chinese-audio-path": "assets/audios/海马_zh.mp3",
+    "english-audio-path": "assets/audios/Seahorse_en.mp3"
+  },
+  {
+    "car-name": "螃蟹",
+    "car-english-name": "Crab",
+    "car-description": "螃蟹是一种生活在海洋、河流或陆地上的小动物。它有硬硬的壳，可以保护自己。螃蟹有八条腿和两个大钳子，它用钳子来抓食物和保护自己。螃蟹走路时是横着走的，很有趣！它们喜欢吃小鱼、小虾和海草。有些螃蟹可以当我们的食物，比如蒸螃蟹，味道很鲜美。",
+    "car-english-pronunciation": "/kræb/",
+    "car-american-pronunciation": "/kræb/",
+    "car-type": "海洋生物",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/螃蟹_zh.mp3",
+    "english-audio-path": "assets/audios/Crab_en.mp3"
+  },
+  {
+    "car-name": "龙虾",
+    "car-english-name": "Lobster",
+    "car-description": "龙虾是一种生活在海洋里的动物，它有着坚硬的外壳和两只大大的钳子。龙虾会用钳子来保护自己，还能捕捉食物吃。它们可以长到很大，煮熟后会变成漂亮的红色，是很多人喜欢的美食。",
+    "car-english-pronunciation": "/ˈlɒb.stə(r)/",
+    "car-american-pronunciation": "/ˈlɑːb.stɚ/",
+    "car-type": "海洋生物",
+    "car-image-path": "assets/images/龙虾_海洋生物.jpg",
+    "chinese-audio-path": "assets/audios/龙虾_zh.mp3",
+    "english-audio-path": "assets/audios/Lobster_en.mp3"
+  },
+  {
+    "car-name": "蜜蜂",
+    "car-english-name": "Bee",
+    "car-description": "蜜蜂是一种小昆虫，有黄黑相间的条纹身体和透明的翅膀。它们会飞来飞去采集花蜜，然后带回蜂巢制成蜂蜜。蜜蜂对我们很重要，因为它们帮助花朵传播花粉，让植物能够结果。蜜蜂住在大家庭里，由蜂后、工蜂和雄蜂组成。",
+    "car-english-pronunciation": "/biː/",
+    "car-american-pronunciation": "/biː/",
+    "car-type": "昆虫",
+    "car-image-path": "assets/images/蜜蜂_昆虫.jpg",
+    "chinese-audio-path": "assets/audios/蜜蜂_zh.mp3",
+    "english-audio-path": "assets/audios/Bee_en.mp3"
+  },
+  {
+    "car-name": "瓢虫",
+    "car-english-name": "Ladybug",
+    "car-description": "瓢虫是一种小小的昆虫，身体圆圆的，颜色通常是红色或橙色，上面有黑色的小斑点。它们有六条腿和一对翅膀，可以飞行。瓢虫是益虫，喜欢吃危害植物的蚜虫，所以农民伯伯很喜欢它们。瓢虫在冬天会找温暖的地方睡觉，春天醒来后继续活动。小朋友们可以在花园或草地上找到它们，但记得要轻轻对待小动物哦！",
+    "car-english-pronunciation": "/ˈleɪdiˌbɜːd/",
+    "car-american-pronunciation": "/ˈleɪdiˌbʌɡ/",
+    "car-type": "昆虫",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/瓢虫_zh.mp3",
+    "english-audio-path": "assets/audios/Ladybug_en.mp3"
+  },
+  {
+    "car-name": "蚂蚁",
+    "car-english-name": "Ant",
+    "car-description": "蚂蚁是一种小小的昆虫，它们生活在群体中，非常勤劳。蚂蚁有六条腿，通常有黑色或红色的身体。它们能搬动比自己身体还重的食物，经常排着队走路。蚂蚁们一起工作，建造自己的家，称为蚁巢。",
+    "car-english-pronunciation": "/ænt/",
+    "car-american-pronunciation": "/ænt/",
+    "car-type": "昆虫",
+    "car-image-path": "assets/images/蚂蚁_昆虫.jpg",
+    "chinese-audio-path": "assets/audios/蚂蚁_zh.mp3",
+    "english-audio-path": "assets/audios/Ant_en.mp3"
+  },
+  {
+    "car-name": "蚱蜢",
+    "car-english-name": "Grasshopper",
+    "car-description": "草蜢是一种生活在草地和田野里的小昆虫。它们通常有绿色或棕色的身体，有六条腿，其中两条后腿特别强壮，让它们能跳得很远。草蜢有触角和一对大眼睛，它们吃植物的叶子。有些草蜢还会发出'唧唧'的声音，这是它们摩擦腿和翅膀发出的。",
+    "car-english-pronunciation": "/ˈɡrɑːsˌhɒpə/",
+    "car-american-pronunciation": "/ˈɡræsˌhɑːpər/",
+    "car-type": "昆虫",
+    "car-image-path": "assets/images/蚱蜢_昆虫.jpg",
+    "chinese-audio-path": "assets/audios/蚱蜢_zh.mp3",
+    "english-audio-path": "assets/audios/Grasshopper_en.mp3"
+  },
+  {
+    "car-name": "蜘蛛",
+    "car-english-name": "Spider",
+    "car-description": "蜘蛛是一种小动物，有八条腿，会织网。它们不是昆虫，而是节肢动物。蜘蛛织的网可以捕捉小虫子当食物。虽然有些蜘蛛看起来有点可怕，但大多数蜘蛛都是我们的朋友，它们帮助控制害虫数量。蜘蛛有好多不同的种类，大小和颜色也各不相同。",
+    "car-english-pronunciation": "/ˈspaɪdə/",
+    "car-american-pronunciation": "/ˈspaɪdɚ/",
+    "car-type": "昆虫",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/蜘蛛_zh.mp3",
+    "english-audio-path": "assets/audios/Spider_en.mp3"
+  },
+  {
+    "car-name": "蚯蚓",
+    "car-english-name": "Earthworm",
+    "car-description": "蚯蚓是一种生活在土壤里的小动物，身体长长的，由许多环节组成。它们喜欢潮湿的环境，没有眼睛，但能感觉到光线和震动。蚯蚓是土壤的好朋友，它们在土里钻来钻去，帮助土壤变得松软，让植物更好地生长。下雨后，我们常能在地面上看到蚯蚓。",
+    "car-english-pronunciation": "/ˈɜːθwɜːm/",
+    "car-american-pronunciation": "/ˈɜrθwɜrm/",
+    "car-type": "昆虫",
+    "car-image-path": "assets/images/蚯蚓_昆虫.jpg",
+    "chinese-audio-path": "assets/audios/蚯蚓_zh.mp3",
+    "english-audio-path": "assets/audios/Earthworm_en.mp3"
+  },
+  {
+    "car-name": "蜗牛",
+    "car-english-name": "Snail",
+    "car-description": "蜗牛是一种软体小动物，它们背着一个小房子一样的壳。蜗牛爬得很慢，会用触角感知周围的世界。它们喜欢在潮湿的地方生活，下雨天后我们经常能在花园里看到它们。",
+    "car-english-pronunciation": "/sneɪl/",
+    "car-american-pronunciation": "/sneɪl/",
+    "car-type": "昆虫",
+    "car-image-path": "assets/images/蜗牛_昆虫.jpg",
+    "chinese-audio-path": "assets/audios/蜗牛_zh.mp3",
+    "english-audio-path": "assets/audios/Snail_en.mp3"
+  },
+  {
+    "car-name": "鸡肉",
+    "car-english-name": "Chicken",
+    "car-description": "鸡肉是我们从鸡身上得到的肉，是一种常见的食物。它可以是白色的，也可以是带骨头的。鸡肉很有营养，可以帮助我们长高长壮。我们平时吃的炸鸡块、鸡翅膀、鸡胸肉都是用鸡肉做的。",
+    "car-english-pronunciation": "/ˈtʃɪkɪn/",
+    "car-american-pronunciation": "/ˈtʃɪkɪn/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/鸡肉_zh.mp3",
+    "english-audio-path": "assets/audios/Chicken_en.mp3"
+  },
+  {
+    "car-name": "肉",
+    "car-english-name": "meat",
+    "car-description": "肉肉是小动物身上的肌肉，比如鸡肉、猪肉和牛肉。吃肉肉可以帮助我们长高长壮，但是要适量吃哦！",
+    "car-english-pronunciation": "/miːt/",
+    "car-american-pronunciation": "/miːt/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "assets/images/肉_肉类与蛋白质.jpg",
+    "chinese-audio-path": "assets/audios/肉_zh.mp3",
+    "english-audio-path": "assets/audios/meat_en.mp3"
+  },
+  {
+    "car-name": "鱼肉",
+    "car-english-name": "Fish",
+    "car-description": "鱼肉是从鱼身上取下来的肉，有白色和粉红色等不同颜色。鱼肉很软，容易咀嚼，富含蛋白质和营养，对我们的身体很好。吃鱼肉能让我们变得更聪明、更健康。常见的鱼肉有三文鱼、鳕鱼和金枪鱼等。",
+    "car-english-pronunciation": "/fɪʃ/",
+    "car-american-pronunciation": "/fɪʃ/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "assets/images/鱼肉_肉类与蛋白质.jpg",
+    "chinese-audio-path": "assets/audios/鱼肉_zh.mp3",
+    "english-audio-path": "assets/audios/Fish_en.mp3"
+  },
+  {
+    "car-name": "牛肉",
+    "car-english-name": "Beef",
+    "car-description": "牛肉是从牛身上来的肉，是一种红色的肉。牛肉很有营养，含有蛋白质，可以帮助我们长高长壮。牛肉可以做成很多好吃的食物，比如牛排、牛肉面、牛肉汉堡等。吃牛肉可以让我们的身体更健康。",
+    "car-english-pronunciation": "/biːf/",
+    "car-american-pronunciation": "/bif/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/牛肉_zh.mp3",
+    "english-audio-path": "assets/audios/Beef_en.mp3"
+  },
+  {
+    "car-name": "猪肉",
+    "car-english-name": "Pork",
+    "car-description": "猪肉是我们从猪身上得到的肉，它是一种常见的食物。猪肉可以做成很多好吃的菜，比如红烧肉、猪排和香肠。猪肉含有蛋白质，能帮助我们长身体，但是要适量食用哦！",
+    "car-english-pronunciation": "/pɔːk/",
+    "car-american-pronunciation": "/pɔːrk/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/猪肉_zh.mp3",
+    "english-audio-path": "assets/audios/Pork_en.mp3"
+  },
+  {
+    "car-name": "火腿",
+    "car-english-name": "Ham",
+    "car-description": "火腿是一种美味的食物，是用猪肉做成的。它的颜色是粉红色的，可以切片吃，也可以放在面包、披萨或沙拉里。很多人喜欢在早餐时吃火腿和鸡蛋，味道很好！",
+    "car-english-pronunciation": "/hæm/",
+    "car-american-pronunciation": "/hæm/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "assets/images/火腿_肉类与蛋白质.jpg",
+    "chinese-audio-path": "assets/audios/火腿_zh.mp3",
+    "english-audio-path": "assets/audios/Ham_en.mp3"
+  },
+  {
+    "car-name": "香肠",
+    "car-english-name": "Sausage",
+    "car-description": "香肠是用肉做成的食物，通常是把肉切碎，加上调料，然后装进长长的肠衣里做成的。香肠有很多种，有些需要煮熟吃，有些可以直接吃。香肠的味道香香的，很多小朋友都喜欢吃。",
+    "car-english-pronunciation": "/ˈsɒsɪdʒ/",
+    "car-american-pronunciation": "/ˈsɔːsɪdʒ/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/香肠_zh.mp3",
+    "english-audio-path": "assets/audios/Sausage_en.mp3"
+  },
+  {
+    "car-name": "豆腐",
+    "car-english-name": "Tofu",
+    "car-description": "豆腐是一种用大豆做成的食物，它是白色的，摸起来软软的。豆腐可以做成很多好吃的菜，比如豆腐汤、麻婆豆腐。豆腐很有营养，吃了能帮助小朋友长高长壮，对身体很好哦！",
+    "car-english-pronunciation": "/ˈtəʊfuː/",
+    "car-american-pronunciation": "/ˈtoʊfu/",
+    "car-type": "肉类与蛋白质",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/豆腐_zh.mp3",
+    "english-audio-path": "assets/audios/Tofu_en.mp3"
+  },
+  {
+    "car-name": "糖果",
+    "car-english-name": "Candy",
+    "car-description": "糖果是一种甜甜的小零食，有很多种颜色和形状，比如圆形、方形或者小动物形状。糖果吃起来很甜，小朋友们很喜欢吃，但是不能吃太多哦，不然会蛀牙的。常见的糖果有棒棒糖、软糖、巧克力糖等。",
+    "car-english-pronunciation": "/ˈkændi/",
+    "car-american-pronunciation": "/ˈkændi/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/糖果_zh.mp3",
+    "english-audio-path": "assets/audios/Candy_en.mp3"
+  },
+  {
+    "car-name": "巧克力",
+    "car-english-name": "Chocolate",
+    "car-description": "巧克力是一种甜甜的食物，通常呈棕色。它是由可可豆制成的，可以做成巧克力棒、巧克力糖果、巧克力饮料等。巧克力有很多种类，有黑巧克力、牛奶巧克力和白巧克力。很多人都喜欢吃巧克力，因为它味道香甜，能让人感到开心。但是小朋友要适量吃哦，吃太多对牙齿不好。",
+    "car-english-pronunciation": "/ˈtʃɒklət/",
+    "car-american-pronunciation": "/ˈtʃɔklət/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/巧克力_zh.mp3",
+    "english-audio-path": "assets/audios/Chocolate_en.mp3"
+  },
+  {
+    "car-name": "奶酪",
+    "car-english-name": "Cheese",
+    "car-description": "奶酪是一种用牛奶做成的食物，它有很多种颜色和形状，有的黄色，有的白色，有的硬，有的软。奶酪味道香香的，可以放在面包上吃，也可以做披萨。吃奶酪能让我们的骨骼更健康强壮！",
+    "car-english-pronunciation": "/tʃiːz/",
+    "car-american-pronunciation": "/tʃiːz/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/奶酪_zh.mp3",
+    "english-audio-path": "assets/audios/Cheese_en.mp3"
+  },
+  {
+    "car-name": "披萨",
+    "car-english-name": "Pizza",
+    "car-description": "披萨是一种来自意大利的美食，它有圆圆的饼底，上面可以放番茄酱、奶酪和各种好吃的配料，比如火腿、蘑菇、青椒等。披萨可以切成三角形小块，大家一起分享吃。披萨有很多种口味，有些是咸的，有些是甜的，非常美味！",
+    "car-english-pronunciation": "/ˈpiːtsə/",
+    "car-american-pronunciation": "/ˈpiːtsə/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/披萨_zh.mp3",
+    "english-audio-path": "assets/audios/Pizza_en.mp3"
+  },
+  {
+    "car-name": "汉堡",
+    "car-english-name": "Hamburger",
+    "car-description": "汉堡是一种美味的食物，它由两片松软的面包夹着美味的肉饼、新鲜的蔬菜和酱料组成。面包通常是圆的，里面夹着牛肉饼或鸡肉饼，还有生菜、番茄、洋葱和奶酪等。汉堡是很多小朋友喜欢的快餐食品，吃起来很方便，也很有营养。",
+    "car-english-pronunciation": "/ˈhæmbɜːɡə/",
+    "car-american-pronunciation": "/ˈhæmbɜːrɡər/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/汉堡_zh.mp3",
+    "english-audio-path": "assets/audios/Hamburger_en.mp3"
+  },
+  {
+    "car-name": "薯条",
+    "car-english-name": "French fries",
+    "car-description": "薯条是一种用土豆切成条状后油炸制成的食物。它们通常是金黄色的，吃起来脆脆的，有点咸味。薯条是很多小朋友喜欢的快餐食品，常常和番茄酱一起吃。它们虽然很好吃，但是不能吃太多哦！",
+    "car-english-pronunciation": "/frentʃ fraɪz/",
+    "car-american-pronunciation": "/frɛntʃ fraɪz/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/薯条_zh.mp3",
+    "english-audio-path": "assets/audios/French fries_en.mp3"
+  },
+  {
+    "car-name": "爆米花",
+    "car-english-name": "Popcorn",
+    "car-description": "爆米花是一种由玉米粒加热后膨胀变成的零食。当玉米粒被加热时，里面的水分变成蒸汽，使玉米粒'砰'地一声爆开，变成白色蓬松的爆米花。爆米花吃起来又香又脆，是看电影时最喜欢的小零食之一。爆米花可以撒上糖、盐或者巧克力酱，味道会变得更丰富。",
+    "car-english-pronunciation": "/ˈpɒpkɔːn/",
+    "car-american-pronunciation": "/ˈpɑːpkɔːrn/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/爆米花_zh.mp3",
+    "english-audio-path": "assets/audios/Popcorn_en.mp3"
+  },
+  {
+    "car-name": "花生酱",
+    "car-english-name": "Peanut Butter",
+    "car-description": "花生酱是由花生磨碎制成的酱料，颜色通常是浅棕色，口感细腻，味道香甜。它富含蛋白质和健康脂肪，常被涂抹在面包、饼干上食用，是很多小朋友喜欢的食物。",
+    "car-english-pronunciation": "/ˈpiːnʌt ˈbʌtə/",
+    "car-american-pronunciation": "/ˈpiːnʌt ˈbʌt̬ɚ/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/花生酱_zh.mp3",
+    "english-audio-path": "assets/audios/Peanut Butter_en.mp3"
+  },
+  {
+    "car-name": "果酱",
+    "car-english-name": "Jam",
+    "car-description": "果酱是一种甜甜的食物，通常是用水果煮成的。我们可以把果酱涂在面包、饼干或吐司上吃。它有不同的口味，比如草莓果酱、蓝莓果酱、苹果果酱等。果酱看起来黏黏的，颜色鲜艳，吃起来非常美味！",
+    "car-english-pronunciation": "/dʒæm/",
+    "car-american-pronunciation": "/dʒæm/",
+    "car-type": "主食与零食",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/果酱_zh.mp3",
+    "english-audio-path": "assets/audios/Jam_en.mp3"
+  },
+  {
+    "car-name": "水",
+    "car-english-name": "Water",
+    "car-description": "水是一种透明的液体，我们每天都需要喝水。水可以变成冰（固体）和水蒸气（气体）。雨水、河水、海水和湖水都是水。我们可以用水来洗澡、洗衣服、浇花，还可以在水里游泳。",
+    "car-english-pronunciation": "/ˈwɔːtə(r)/",
+    "car-american-pronunciation": "/ˈwɑːtər/",
+    "car-type": "饮品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/水_zh.mp3",
+    "english-audio-path": "assets/audios/Water_en.mp3"
+  },
+  {
+    "car-name": "茶",
+    "car-english-name": "Tea",
+    "car-description": "茶是一种用茶叶泡出来的饮料，有红茶、绿茶等不同种类。茶可以热着喝，也可以冷着喝。有些茶有甜味，有些茶有点苦。大人经常喜欢喝茶，但小朋友最好少喝或者喝一些不含咖啡因的花草茶。",
+    "car-english-pronunciation": "/tiː/",
+    "car-american-pronunciation": "/tiː/",
+    "car-type": "饮品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/茶_zh.mp3",
+    "english-audio-path": "assets/audios/Tea_en.mp3"
+  },
+  {
+    "car-name": "奶昔",
+    "car-english-name": "Milkshake",
+    "car-description": "奶昔是一种甜甜的饮品，通常用牛奶、冰淇淋和水果混合在一起搅拌制成。它口感丝滑，味道香甜，有很多不同的口味，比如巧克力味、草莓味、香草味等。奶昔通常用高杯子装着，有时还会在顶部加上奶油和樱桃装饰，看起来非常漂亮，喝起来也很美味！",
+    "car-english-pronunciation": "/ˈmɪlkʃeɪk/",
+    "car-american-pronunciation": "/ˈmɪlkʃeɪk/",
+    "car-type": "饮品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/奶昔_zh.mp3",
+    "english-audio-path": "assets/audios/Milkshake_en.mp3"
+  },
+  {
+    "car-name": "酸奶",
+    "car-english-name": "Yogurt",
+    "car-description": "酸奶是一种好喝又健康的奶制品，它是用牛奶加上有益的菌种做成的。酸奶尝起来酸酸甜甜的，口感滑滑的，有很多种口味，比如原味、草莓味、蓝莓味等。酸奶对我们的身体很好，特别是对肠胃有帮助，能让我们的肚子更舒服。",
+    "car-english-pronunciation": "/ˈjɒɡət/",
+    "car-american-pronunciation": "/ˈjoʊɡərt/",
+    "car-type": "饮品",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/酸奶_zh.mp3",
+    "english-audio-path": "assets/audios/Yogurt_en.mp3"
+  },
+  {
+    "car-name": "勺子",
+    "car-english-name": "Spoon",
+    "car-description": "勺子是一种我们用来吃饭的餐具，它有一个凹进去的部分，可以用来舀汤、米饭或其他食物。勺子通常由金属、塑料或木头制成，每天我们都会用到它来帮助我们把食物送到嘴里。",
+    "car-english-pronunciation": "/spuːn/",
+    "car-american-pronunciation": "/spuːn/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/勺子_zh.mp3",
+    "english-audio-path": "assets/audios/Spoon_en.mp3"
+  },
+  {
+    "car-name": "叉子",
+    "car-english-name": "Fork",
+    "car-description": "叉子是一种餐具，通常有手柄和几个尖尖的齿。我们用它来吃饭，比如叉起面条、蔬菜或者肉。叉子帮助我们更容易地拿起食物，而不会弄脏手。",
+    "car-english-pronunciation": "/fɔːk/",
+    "car-american-pronunciation": "/fɔːrk/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/叉子_zh.mp3",
+    "english-audio-path": "assets/audios/Fork_en.mp3"
+  },
+  {
+    "car-name": "刀",
+    "car-english-name": "Knife",
+    "car-description": "刀是一种有锋利边缘的工具，可以用来切割食物、纸张等物品。使用刀时需要小心，最好有大人帮助，避免伤到自己。",
+    "car-english-pronunciation": "/naɪf/",
+    "car-american-pronunciation": "/naɪf/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/刀_zh.mp3",
+    "english-audio-path": "assets/audios/Knife_en.mp3"
+  },
+  {
+    "car-name": "碗",
+    "car-english-name": "Bowl",
+    "car-description": "碗是一种用来装食物的容器，通常是圆形的，底部小，开口大。我们可以用碗来吃饭、喝汤、吃水果等。碗通常由陶瓷、塑料或金属制成，有不同的颜色和图案，有的还很漂亮呢！",
+    "car-english-pronunciation": "/bəʊl/",
+    "car-american-pronunciation": "/boʊl/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/碗_zh.mp3",
+    "english-audio-path": "assets/audios/Bowl_en.mp3"
+  },
+  {
+    "car-name": "盘子",
+    "car-english-name": "Plate",
+    "car-description": "盘子是一种平坦的圆形餐具，我们用它来盛放食物，如米饭、面条、蛋糕等。盘子通常由陶瓷、塑料或金属制成，有不同的颜色和大小。吃饭时，我们把食物放在盘子上，然后用筷子或叉子把食物送进嘴里。",
+    "car-english-pronunciation": "/pleɪt/",
+    "car-american-pronunciation": "/pleɪt/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/盘子_zh.mp3",
+    "english-audio-path": "assets/audios/Plate_en.mp3"
+  },
+  {
+    "car-name": "杯子",
+    "car-english-name": "Cup",
+    "car-description": "杯子是用来喝水、喝牛奶或喝果汁的容器。它通常有一个把手，方便我们拿握。杯子可以由不同的材料制成，比如塑料、玻璃、陶瓷或金属。使用杯子时，我们可以小心地喝里面的饮料，不会洒出来。",
+    "car-english-pronunciation": "/kʌp/",
+    "car-american-pronunciation": "/kʌp/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/杯子_zh.mp3",
+    "english-audio-path": "assets/audios/Cup_en.mp3"
+  },
+  {
+    "car-name": "筷子",
+    "car-english-name": "Chopsticks",
+    "car-description": "筷子是我们吃饭时使用的工具，通常由木头、竹子或塑料制成。它们是两根细长的棍子，我们可以用它们夹起食物，比如米饭、蔬菜和肉。使用筷子需要一些练习，但学会后会很方便！",
+    "car-english-pronunciation": "/ˈtʃɒpstɪks/",
+    "car-american-pronunciation": "/ˈtʃɑːpstɪks/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/筷子_zh.mp3",
+    "english-audio-path": "assets/audios/Chopsticks_en.mp3"
+  },
+  {
+    "car-name": "餐巾",
+    "car-english-name": "Napkin",
+    "car-description": "小餐巾是我们吃饭时用的小布或纸，可以擦嘴巴和手，保持我们干净整洁。吃饭时把它放在腿上或胸前，可以防止食物掉到衣服上。",
+    "car-english-pronunciation": "/ˈnæpkɪn/",
+    "car-american-pronunciation": "/ˈnæpkɪn/",
+    "car-type": "餐具",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/餐巾_zh.mp3",
+    "english-audio-path": "assets/audios/Napkin_en.mp3"
+  },
+  {
+    "car-name": "客厅",
+    "car-english-name": "Living Room",
+    "car-description": "客厅是家里用来接待客人和家人一起活动的地方。通常有沙发、电视、茶几等家具。我们可以在客厅里看电视、聊天、玩游戏或者休息。客厅是家里最常用的房间之一。",
+    "car-english-pronunciation": "/ˈlɪvɪŋ ruːm/",
+    "car-american-pronunciation": "/ˈlɪvɪŋ rum/",
+    "car-type": "房间",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/客厅_zh.mp3",
+    "english-audio-path": "assets/audios/Living Room_en.mp3"
+  },
+  {
+    "car-name": "卧室",
+    "car-english-name": "Bedroom",
+    "car-description": "卧室是我们家里用来睡觉和休息的房间。通常里面有一张床，让我们晚上睡觉时使用。卧室里还可能有衣柜放衣服，书桌用来写作业，还有玩具箱放我们喜欢的玩具。这是我们私人空间，可以在里面安静地休息、睡觉和玩耍。",
+    "car-english-pronunciation": "/ˈbedrʊm/",
+    "car-american-pronunciation": "/ˈbedrum/",
+    "car-type": "房间",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/卧室_zh.mp3",
+    "english-audio-path": "assets/audios/Bedroom_en.mp3"
+  },
+  {
+    "car-name": "厨房",
+    "car-english-name": "Kitchen",
+    "car-description": "厨房是家里用来做饭的地方，有炉灶、冰箱和水槽。爸爸妈妈在厨房里为我们准备美味的食物，比如炒菜、煮汤和做点心。",
+    "car-english-pronunciation": "/ˈkɪtʃɪn/",
+    "car-american-pronunciation": "/ˈkɪtʃɪn/",
+    "car-type": "房间",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/厨房_zh.mp3",
+    "english-audio-path": "assets/audios/Kitchen_en.mp3"
+  },
+  {
+    "car-name": "浴室",
+    "car-english-name": "Bathroom",
+    "car-description": "浴室是我们家里用来洗澡和上厕所的地方。在浴室里，通常有浴缸或淋浴、马桶、洗手池和镜子。我们每天早上在浴室刷牙洗脸，晚上在浴室洗澡，让自己变得干净整洁。浴室里还有毛巾、肥皂、洗发水等物品，帮助我们保持身体清洁。",
+    "car-english-pronunciation": "/ˈbɑːθrʊm/",
+    "car-american-pronunciation": "/ˈbæθruːm/",
+    "car-type": "房间",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/浴室_zh.mp3",
+    "english-audio-path": "assets/audios/Bathroom_en.mp3"
+  },
+  {
+    "car-name": "花园",
+    "car-english-name": "Garden",
+    "car-description": "花园是种植各种漂亮花草和树木的地方。花园里可能有五颜六色的花朵，如红色的玫瑰、黄色的向日葵和紫色的薰衣草。花园里还能看到蝴蝶和蜜蜂飞来飞去，它们在花丛中采蜜。有些花园里还有小池塘、喷泉或小雕像，让花园看起来更加美丽。人们喜欢在花园里散步、休息，感受大自然的美好。",
+    "car-english-pronunciation": "/ˈɡɑːdən/",
+    "car-american-pronunciation": "/ˈɡɑːrdən/",
+    "car-type": "房间",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/花园_zh.mp3",
+    "english-audio-path": "assets/audios/Garden_en.mp3"
+  },
+  {
+    "car-name": "电视",
+    "car-english-name": "TV",
+    "car-description": "电视是一个有屏幕的盒子，可以播放动画片、电影和各种有趣的节目。我们可以通过遥控器来控制电视，选择想看的内容。电视让我们在家里就能看到世界上发生的事情。",
+    "car-english-pronunciation": "/tiː ˈviː/",
+    "car-american-pronunciation": "/tiː ˈviː/",
+    "car-type": "电器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/电视_zh.mp3",
+    "english-audio-path": "assets/audios/TV_en.mp3"
+  },
+  {
+    "car-name": "冰箱",
+    "car-english-name": "Fridge",
+    "car-description": "冰箱是一种家用电器，可以保持食物新鲜和凉爽。它有冷藏室和冷冻室，冷藏室可以保存蔬菜、水果、牛奶等食物，冷冻室可以制作冰块和保存冰淇淋等冷冻食品。冰箱就像一个神奇的盒子，能让食物不会很快坏掉。",
+    "car-english-pronunciation": "/frɪdʒ/",
+    "car-american-pronunciation": "/frɪdʒ/",
+    "car-type": "电器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/冰箱_zh.mp3",
+    "english-audio-path": "assets/audios/Fridge_en.mp3"
+  },
+  {
+    "car-name": "烤箱",
+    "car-english-name": "Oven",
+    "car-description": "烤箱是一种厨房电器，可以产生很高的热量来烹饪食物。我们可以用它来烤蛋糕、饼干、面包、鸡肉和披萨等美食。食物放进烤箱后，烤箱会变得很热，所以小朋友不能自己碰烤箱，需要大人帮忙。",
+    "car-english-pronunciation": "/ˈʌvən/",
+    "car-american-pronunciation": "/ˈʌvən/",
+    "car-type": "电器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/烤箱_zh.mp3",
+    "english-audio-path": "assets/audios/Oven_en.mp3"
+  },
+  {
+    "car-name": "洗衣机",
+    "car-english-name": "Washing Machine",
+    "car-description": "洗衣机是一种可以帮助我们洗衣服的电器。我们把脏衣服放进去，加入水和洗衣液，然后洗衣机就会转动，把衣服洗干净。洗完后，衣服就变得干净又香喷喷的啦！",
+    "car-english-pronunciation": "/ˈwɒʃɪŋ məˈʃiːn/",
+    "car-american-pronunciation": "/ˈwɑːʃɪŋ məˈʃiːn/",
+    "car-type": "电器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/洗衣机_zh.mp3",
+    "english-audio-path": "assets/audios/Washing Machine_en.mp3"
+  },
+  {
+    "car-name": "风扇",
+    "car-english-name": "Fan",
+    "car-description": "风扇是一种能制造风的电器。它有叶片，当叶片快速转动时，就会产生风，让我们感到凉爽。夏天的时候，风扇可以帮助我们降温，让人感到舒服。风扇有不同的种类，有的可以放在桌子上，有的可以立在地上，还有的可以挂在天花板上。",
+    "car-english-pronunciation": "/fæn/",
+    "car-american-pronunciation": "/fæn/",
+    "car-type": "电器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/风扇_zh.mp3",
+    "english-audio-path": "assets/audios/Fan_en.mp3"
+  },
+  {
+    "car-name": "灯",
+    "car-english-name": "Light",
+    "car-description": "灯是一种能发光的物品，可以帮助我们在黑暗中看清东西。当我们晚上或者房间里光线不足时，打开灯就能让整个房间变得明亮。灯有不同的形状和颜色，有台灯、吊灯、手电筒等。",
+    "car-english-pronunciation": "/laɪt/",
+    "car-american-pronunciation": "/laɪt/",
+    "car-type": "电器",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/灯_zh.mp3",
+    "english-audio-path": "assets/audios/Light_en.mp3"
+  },
+  {
+    "car-name": "吃",
+    "car-english-name": "Food",
+    "car-description": "食物是我们每天吃的东西，它给我们能量和营养，帮助我们成长和保持健康。食物有很多种，比如水果、蔬菜、米饭、面包等，它们有不同的味道和颜色，让我们的身体更强壮。",
+    "car-english-pronunciation": "/fuːd/",
+    "car-american-pronunciation": "/fuːd/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/吃_zh.mp3",
+    "english-audio-path": "assets/audios/Food_en.mp3"
+  },
+  {
+    "car-name": "喝",
+    "car-english-name": "Drink",
+    "car-description": "喝是我们用嘴巴把液体食物，如水、牛奶、果汁等，吞咽到肚子里的动作。喝水对我们身体很重要，可以让我们不口渴，保持健康。每天都要喝足够的水，这样我们才会更有精神和力量玩耍和学习。",
+    "car-english-pronunciation": "/drɪŋk/",
+    "car-american-pronunciation": "/drɪŋk/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/喝_zh.mp3",
+    "english-audio-path": "assets/audios/Drink_en.mp3"
+  },
+  {
+    "car-name": "睡觉",
+    "car-english-name": "Sleep",
+    "car-description": "睡觉是人们每天都需要做的事情。当我们睡觉时，我们的身体会休息，大脑也会休息。睡觉能让我们有更多的精力去玩耍和学习。小朋友们每天需要睡足够的时间，这样才能长得高、长得壮，也会更聪明哦！",
+    "car-english-pronunciation": "/sliːp/",
+    "car-american-pronunciation": "/sliːp/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/睡觉_zh.mp3",
+    "english-audio-path": "assets/audios/Sleep_en.mp3"
+  },
+  {
+    "car-name": "醒来",
+    "car-english-name": "Waking Up",
+    "car-description": "醒来是指我们从睡觉中睁开眼睛，重新开始活动的过程。每天早上，当我们感觉精神恢复，能够看到周围的事物，听到声音，这就是醒来。醒来后，我们可以起床、玩耍、吃早餐，开始新的一天。",
+    "car-english-pronunciation": "/ˈweɪkɪŋ ʌp/",
+    "car-american-pronunciation": "/ˈweɪkɪŋ ʌp/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/醒来_zh.mp3",
+    "english-audio-path": "assets/audios/Waking Up_en.mp3"
+  },
+  {
+    "car-name": "坐",
+    "car-english-name": "Sit",
+    "car-description": "坐是我们用臀部接触椅子或地面，让身体休息的一种姿势。当我们累了或者想休息的时候，我们会坐下。坐着可以让我们放松身体，也可以吃饭、学习或者玩耍。",
+    "car-english-pronunciation": "/sɪt/",
+    "car-american-pronunciation": "/sɪt/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/坐_zh.mp3",
+    "english-audio-path": "assets/audios/Sit_en.mp3"
+  },
+  {
+    "car-name": "站",
+    "car-english-name": "Station",
+    "car-description": "车站是公交车、火车或地铁停靠的地方，人们在这里等车。车站通常有站牌、座位和遮雨棚，让等车的人更舒适。当车辆到达时，人们可以上车去想去的地方。车站帮助我们方便地乘坐不同的交通工具。",
+    "car-english-pronunciation": "/ˈsteɪʃən/",
+    "car-american-pronunciation": "/ˈsteɪʃən/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/站_zh.mp3",
+    "english-audio-path": "assets/audios/Station_en.mp3"
+  },
+  {
+    "car-name": "走",
+    "car-english-name": "Walk",
+    "car-description": "走路是我们用脚移动身体的方式。当我们走路时，一只脚先向前迈，然后另一只脚跟上，这样我们就能从一个地方到另一个地方。小朋友学走路是一生中很重要的事情！",
+    "car-english-pronunciation": "/wɔːk/",
+    "car-american-pronunciation": "/wɑk/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/走_zh.mp3",
+    "english-audio-path": "assets/audios/Walk_en.mp3"
+  },
+  {
+    "car-name": "跑",
+    "car-english-name": "Running",
+    "car-description": "跑步是一种快速移动的方式，比走路快得多。当我们跑步时，两只脚会短暂地同时离开地面。人们跑步可以锻炼身体，参加比赛，或者为了赶时间。跑步时，我们的手臂会前后摆动，帮助我们保持平衡和跑得更快。",
+    "car-english-pronunciation": "/ˈrʌnɪŋ/",
+    "car-american-pronunciation": "/ˈrʌnɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/跑_zh.mp3",
+    "english-audio-path": "assets/audios/Running_en.mp3"
+  },
+  {
+    "car-name": "跳",
+    "car-english-name": "Jump",
+    "car-description": "跳跃是我们用双脚离开地面又落下的动作。像小兔子、小青蛙都会跳跃。我们玩游戏、运动时也会跳跃，跳绳、跳高都是有趣的跳跃活动。",
+    "car-english-pronunciation": "/dʒʌmp/",
+    "car-american-pronunciation": "/dʒʌmp/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/跳_zh.mp3",
+    "english-audio-path": "assets/audios/Jump_en.mp3"
+  },
+  {
+    "car-name": "单脚跳",
+    "car-english-name": "Hop",
+    "car-description": "单脚跳是一种有趣的运动方式，就是用一只脚跳来跳去，另一只脚稍微抬起。你可以尝试用右脚跳，然后换左脚跳，看看能连续跳多少下不摔倒！单脚跳可以帮助我们锻炼平衡能力和腿部力量，也是很多小朋友喜欢的游戏。",
+    "car-english-pronunciation": "/hɒp/",
+    "car-american-pronunciation": "/hɑp/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/单脚跳_zh.mp3",
+    "english-audio-path": "assets/audios/Hop_en.mp3"
+  },
+  {
+    "car-name": "爬",
+    "car-english-name": "Crawling",
+    "car-description": "爬是一种移动方式，就像小宝宝用手和膝盖在地板上移动，或者像小猫、小狗一样用四肢前进。有些动物，比如蛇，会在地上爬行。我们也可以爬楼梯、爬树或者爬山。",
+    "car-english-pronunciation": "/ˈkrɔːlɪŋ/",
+    "car-american-pronunciation": "/ˈkrɔlɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/爬_zh.mp3",
+    "english-audio-path": "assets/audios/Crawling_en.mp3"
+  },
+  {
+    "car-name": "跳舞",
+    "car-english-name": "Dancing",
+    "car-description": "跳舞是一种用身体动作来表达情感和想法的艺术形式。人们可以通过跳舞来表现快乐、悲伤或讲述故事。跳舞有很多不同的种类，比如芭蕾舞、街舞、民族舞等。跳舞不仅有趣，还能锻炼身体，让我们变得更健康、更灵活。",
+    "car-english-pronunciation": "/ˈdɑːnsɪŋ/",
+    "car-american-pronunciation": "/ˈdænsɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/跳舞_zh.mp3",
+    "english-audio-path": "assets/audios/Dancing_en.mp3"
+  },
+  {
+    "car-name": "唱歌",
+    "car-english-name": "Singing",
+    "car-description": "唱歌是用声音表达音乐和情感的方式。当我们唱歌时，我们会用嘴巴发出有节奏、有音调的声音，配合歌词来表达我们的心情。唱歌可以让我们开心，也可以帮助我们在难过时释放情感。很多人喜欢唱歌，可以在家里、学校、聚会或者舞台上唱歌。",
+    "car-english-pronunciation": "/ˈsɪŋɪŋ/",
+    "car-american-pronunciation": "/ˈsɪŋɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/唱歌_zh.mp3",
+    "english-audio-path": "assets/audios/Singing_en.mp3"
+  },
+  {
+    "car-name": "阅读",
+    "car-english-name": "Reading",
+    "car-description": "看书是通过看文字和图片来获取知识和乐趣的活动。当我们看书时，我们可以认识新的事物，学习新的知识，还可以听到有趣的故事。",
+    "car-english-pronunciation": "/ˈriːdɪŋ/",
+    "car-american-pronunciation": "/ˈriːdɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/阅读_zh.mp3",
+    "english-audio-path": "assets/audios/Reading_en.mp3"
+  },
+  {
+    "car-name": "写作",
+    "car-english-name": "Writing",
+    "car-description": "写作是用笔或电脑把想法和故事写在纸上或屏幕上。通过写作，我们可以记录自己的想法，讲述有趣的故事，或者给别人传递信息。写作就像是用文字画画，把脑海中的画面变成别人能看懂的文字。",
+    "car-english-pronunciation": "/ˈraɪtɪŋ/",
+    "car-american-pronunciation": "/ˈraɪtɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/写作_zh.mp3",
+    "english-audio-path": "assets/audios/Writing_en.mp3"
+  },
+  {
+    "car-name": "画画",
+    "car-english-name": "Drawing",
+    "car-description": "画画是用彩笔、蜡笔或颜料在纸上创作美丽图案的活动。你可以画出你看到的东西，也可以发挥想象力画出奇妙的世界。画画是一种有趣的表达方式，能让你分享自己的想法和感受。",
+    "car-english-pronunciation": "/ˈdrɔːɪŋ/",
+    "car-american-pronunciation": "/ˈdrɔɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/画画_zh.mp3",
+    "english-audio-path": "assets/audios/Drawing_en.mp3"
+  },
+  {
+    "car-name": "绘画",
+    "car-english-name": "Painting",
+    "car-description": "画画是用彩笔、蜡笔、颜料等工具在纸上或画布上创作美丽图像的活动。通过画画，你可以表达自己的想法和感受，画出你看到的事物，或者创造想象中的世界。画画是一种非常有趣的艺术活动，每个人都可以享受其中的乐趣。",
+    "car-english-pronunciation": "/ˈpeɪntɪŋ/",
+    "car-american-pronunciation": "/ˈpeɪntɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/绘画_zh.mp3",
+    "english-audio-path": "assets/audios/Painting_en.mp3"
+  },
+  {
+    "car-name": "烹饪",
+    "car-english-name": "Cooking",
+    "car-description": "做饭是把食材变成美味食物的过程。大人或小朋友可以在厨房里，用锅、碗、刀具等工具，将蔬菜、水果、肉类等食材清洗、切割、加热，最后变成我们可以吃的饭菜。做饭很有趣，但也要注意安全哦！",
+    "car-english-pronunciation": "/ˈkʊkɪŋ/",
+    "car-american-pronunciation": "/ˈkʊkɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/烹饪_zh.mp3",
+    "english-audio-path": "assets/audios/Cooking_en.mp3"
+  },
+  {
+    "car-name": "洗",
+    "car-english-name": "Washing",
+    "car-description": "洗是用水和肥皂或清洁剂把脏东西去掉的过程。我们可以洗手、洗脸、洗澡，还可以洗衣服、洗玩具、洗水果。洗能让东西变得干净，没有细菌，对我们健康很有好处。",
+    "car-english-pronunciation": "/ˈwɒʃɪŋ/",
+    "car-american-pronunciation": "/ˈwɑːʃɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/洗_zh.mp3",
+    "english-audio-path": "assets/audios/Washing_en.mp3"
+  },
+  {
+    "car-name": "清洁",
+    "car-english-name": "Cleaning Tools",
+    "car-description": "清洁工具是我们用来保持家里和学校干净整洁的物品，比如扫帚、拖把、抹布和刷子。它们帮助我们打扫灰尘、污渍和垃圾，让我们的生活环境更健康、更舒适。",
+    "car-english-pronunciation": "/ˈkliːnɪŋ tuːlz/",
+    "car-american-pronunciation": "/ˈklinɪŋ tulz/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/清洁_zh.mp3",
+    "english-audio-path": "assets/audios/Cleaning Tools_en.mp3"
+  },
+  {
+    "car-name": "刷",
+    "car-english-name": "Brush",
+    "car-description": "刷子是一种清洁工具，它有手柄和很多毛，可以用来清洁不同的东西，比如刷牙、梳头发或者刷衣服。",
+    "car-english-pronunciation": "/brʌʃ/",
+    "car-american-pronunciation": "/brʌʃ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/刷_zh.mp3",
+    "english-audio-path": "assets/audios/Brush_en.mp3"
+  },
+  {
+    "car-name": "哭",
+    "car-english-name": "Cry",
+    "car-description": "哭是我们表达难过、疼痛或需要帮助的方式。当我们哭的时候，眼泪会从眼睛里流出来，有时候还会发出声音。每个人都会哭，包括小朋友和大人。哭是很正常的，当我们感到难过或者需要安慰的时候就会哭。",
+    "car-english-pronunciation": "/kraɪ/",
+    "car-american-pronunciation": "/kraɪ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/哭_zh.mp3",
+    "english-audio-path": "assets/audios/Cry_en.mp3"
+  },
+  {
+    "car-name": "笑",
+    "car-english-name": "Smile",
+    "car-description": "笑是我们开心时脸上的表情，嘴角会向上弯，眼睛会眯起来。当我们感到快乐或看到有趣的事情时，就会笑。笑可以让我们和朋友们分享快乐，是传递友好的方式。",
+    "car-english-pronunciation": "/smaɪl/",
+    "car-american-pronunciation": "/smaɪl/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/笑_zh.mp3",
+    "english-audio-path": "assets/audios/Smile_en.mp3"
+  },
+  {
+    "car-name": "微笑",
+    "car-english-name": "Smile",
+    "car-description": "微笑是当我们开心、友好或感到快乐时，脸上露出的表情。当我们微笑时，嘴角会向上弯起，眼睛也会变得明亮。微笑可以传递快乐，让周围的人也感到开心。微笑是一种简单而美好的方式，可以向别人表示友好和善意。",
+    "car-english-pronunciation": "/smaɪl/",
+    "car-american-pronunciation": "/smaɪl/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/微笑_zh.mp3",
+    "english-audio-path": "assets/audios/Smile_en.mp3"
+  },
+  {
+    "car-name": "拥抱",
+    "car-english-name": "Hug",
+    "car-description": "拥抱是一种表达爱意和关心的方式，当我们张开双臂，轻轻地抱住别人，这就是拥抱。拥抱可以让我们感到温暖、安全和快乐。当我们开心、难过或者想念某人时，都可以给对方一个拥抱。",
+    "car-english-pronunciation": "/hʌg/",
+    "car-american-pronunciation": "/hʌg/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/拥抱_zh.mp3",
+    "english-audio-path": "assets/audios/Hug_en.mp3"
+  },
+  {
+    "car-name": "亲吻",
+    "car-english-name": "Kiss",
+    "car-description": "亲亲是表达爱意的一种方式，当我们喜欢某人时，可以用我们的脸颊轻轻触碰他们的脸颊或额头，或者用嘴唇轻轻触碰他们的脸颊、额头或手。爸爸妈妈常常亲亲孩子来表达他们的爱。",
+    "car-english-pronunciation": "/kɪs/",
+    "car-american-pronunciation": "/kɪs/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/亲吻_zh.mp3",
+    "english-audio-path": "assets/audios/Kiss_en.mp3"
+  },
+  {
+    "car-name": "挥手",
+    "car-english-name": "Wave",
+    "car-description": "挥手是我们用手臂和手掌做出的动作，通常是左右或前后摆动手臂。我们经常用挥手来打招呼、说再见或者引起别人注意。当我们看到朋友时，可以挥手说'你好'；当朋友离开时，可以挥手说'再见'。挥手是一种友好的身体语言，全世界的人们都能理解。",
+    "car-english-pronunciation": "/weɪv/",
+    "car-american-pronunciation": "/weɪv/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/挥手_zh.mp3",
+    "english-audio-path": "assets/audios/Wave_en.mp3"
+  },
+  {
+    "car-name": "玩耍",
+    "car-english-name": "Play",
+    "car-description": "玩耍是孩子们最喜欢做的事情之一。通过玩耍，我们可以学习新知识，交到好朋友，还能让身体更健康。玩耍可以是跑跳、画画、搭积木、玩捉迷藏等各种有趣的活动。玩耍让我们感到快乐，也能帮助我们成长。",
+    "car-english-pronunciation": "/pleɪ/",
+    "car-american-pronunciation": "/pleɪ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/玩耍_zh.mp3",
+    "english-audio-path": "assets/audios/Play_en.mp3"
+  },
+  {
+    "car-name": "扔",
+    "car-english-name": "Throw",
+    "car-description": "扔是我们用胳膊和手把物品从一个地方送到另一个地方的动作。当我们扔球、扔纸飞机或者把垃圾扔进垃圾桶时，我们都在做扔的动作。扔东西时，我们的手臂会摆动，然后松开手，物品就会飞出去啦！",
+    "car-english-pronunciation": "/θrəʊ/",
+    "car-american-pronunciation": "/θroʊ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/扔_zh.mp3",
+    "english-audio-path": "assets/audios/Throw_en.mp3"
+  },
+  {
+    "car-name": "接住",
+    "car-english-name": "Catching",
+    "car-description": "接球是一项有趣的运动技能！当你用手或手套接住别人扔过来的球时，就是在做接球动作。接球需要眼睛和手配合好，看着球来的方向，然后伸出手去接住它。玩接球游戏可以锻炼我们的反应能力和手眼协调能力。",
+    "car-english-pronunciation": "/ˈkætʃɪŋ/",
+    "car-american-pronunciation": "/ˈkætʃɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/接住_zh.mp3",
+    "english-audio-path": "assets/audios/Catching_en.mp3"
+  },
+  {
+    "car-name": "踢",
+    "car-english-name": "Kick",
+    "car-description": "踢是用脚推动或击打某物的动作。当我们踢球时，我们用脚把球向前推。踢是许多运动中的重要动作，比如足球、跆拳道等。踢的时候，我们通常抬起一条腿，然后用脚快速向前或向上移动。",
+    "car-english-pronunciation": "/kɪk/",
+    "car-american-pronunciation": "/kɪk/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/踢_zh.mp3",
+    "english-audio-path": "assets/audios/Kick_en.mp3"
+  },
+  {
+    "car-name": "听",
+    "car-english-name": "hearing",
+    "car-description": "听觉是我们用耳朵听到声音的能力。有了听觉，我们可以听到爸爸妈妈说话、听老师讲课、听小鸟唱歌、听美妙的音乐。听觉帮助我们学习语言、认识世界和与人交流，是我们非常重要的感官之一。",
+    "car-english-pronunciation": "/ˈhɪərɪŋ/",
+    "car-american-pronunciation": "/ˈhɪrɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/听_zh.mp3",
+    "english-audio-path": "assets/audios/hearing_en.mp3"
+  },
+  {
+    "car-name": "看",
+    "car-english-name": "Look",
+    "car-description": "看是我们用眼睛做的事情，当我们睁开眼睛时，可以看到周围的世界，比如看到爸爸妈妈、看到玩具、看到美丽的花朵和蓝天白云。",
+    "car-english-pronunciation": "/lʊk/",
+    "car-american-pronunciation": "/lʊk/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/看_zh.mp3",
+    "english-audio-path": "assets/audios/Look_en.mp3"
+  },
+  {
+    "car-name": "看见",
+    "car-english-name": "Seeing",
+    "car-description": "看见是我们用眼睛观察世界的方式。当光线照到物体上，再反射到我们的眼睛里，我们的大脑就能理解这些信息，让我们知道周围有什么。看见让我们可以认识颜色、形状，阅读书籍，观看美丽的风景和识别我们的朋友和家人。看见是一种非常重要的感觉，帮助我们学习和探索世界！",
+    "car-english-pronunciation": "/ˈsiːɪŋ/",
+    "car-american-pronunciation": "/ˈsiːɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/看见_zh.mp3",
+    "english-audio-path": "assets/audios/Seeing_en.mp3"
+  },
+  {
+    "car-name": "挠痒痒",
+    "car-english-name": "Tickling",
+    "car-description": "挠痒痒是当别人用手指轻轻触碰你身体敏感部位时产生的感觉。这种感觉会让你忍不住笑起来，甚至笑得停不下来！挠痒痒通常发生在腋下、脚底、脖子或腰间等部位。很多人喜欢和朋友或家人玩挠痒痒的游戏，这是一种表达爱意和亲密的方式。",
+    "car-english-pronunciation": "/ˈtɪkəlɪŋ/",
+    "car-american-pronunciation": "/ˈtɪkəlɪŋ/",
+    "car-type": "基础动词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/挠痒痒_zh.mp3",
+    "english-audio-path": "assets/audios/Tickling_en.mp3"
+  },
+  {
+    "car-name": "小的",
+    "car-english-name": "Small car",
+    "car-description": "小汽车是一种小型的车辆，有四个轮子，可以载着人们在路上行驶。小汽车有不同的颜色和形状，有些是真实的，可以载人；有些是玩具，可以用来玩耍。",
+    "car-english-pronunciation": "/smɔːl kɑː/",
+    "car-american-pronunciation": "/smɔl kɑr/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/小的_zh.mp3",
+    "english-audio-path": "assets/audios/Small car_en.mp3"
+  },
+  {
+    "car-name": "小小的",
+    "car-english-name": "Ant",
+    "car-description": "蚂蚁是一种非常小的昆虫，它们生活在群体中，一起工作。蚂蚁有六条腿，通常黑色或红色。它们非常勤劳，能搬动比自己身体还重的东西！",
+    "car-english-pronunciation": "/ænt/",
+    "car-american-pronunciation": "/ænt/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/小小的_zh.mp3",
+    "english-audio-path": "assets/audios/Ant_en.mp3"
+  },
+  {
+    "car-name": "巨大的",
+    "car-english-name": "Elephant",
+    "car-description": "大象是陆地上最大的动物，有长长的鼻子和大大的耳朵。它们用鼻子可以喝水、吃东西和洗澡。大象非常聪明，记忆力也很好，它们喜欢和家人生活在一起。",
+    "car-english-pronunciation": "/ˈelɪfənt/",
+    "car-american-pronunciation": "/ˈeləfənt/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/巨大的_zh.mp3",
+    "english-audio-path": "assets/audios/Elephant_en.mp3"
+  },
+  {
+    "car-name": "微小的",
+    "car-english-name": "Tiny Things",
+    "car-description": "小东西是非常非常小的物体，它们比我们的手指还要小很多。有些小东西我们用眼睛就能看到，比如小蚂蚁和小沙粒；有些小东西太小了，我们需要用放大镜或者显微镜才能看清楚，比如细菌和花粉。小东西虽然小，但它们都很特别哦！",
+    "car-english-pronunciation": "/ˈtaɪni θɪŋz/",
+    "car-american-pronunciation": "/ˈtaɪni θɪŋz/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/微小的_zh.mp3",
+    "english-audio-path": "assets/audios/Tiny Things_en.mp3"
+  },
+  {
+    "car-name": "圆的",
+    "car-english-name": "Ball",
+    "car-description": "球是一个圆形的物体，可以滚动、弹跳和投掷。小朋友们喜欢玩各种球，比如足球、篮球和皮球。球可以用来做很多有趣的游戏。",
+    "car-english-pronunciation": "/bɔːl/",
+    "car-american-pronunciation": "/bɔːl/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/圆的_zh.mp3",
+    "english-audio-path": "assets/audios/Ball_en.mp3"
+  },
+  {
+    "car-name": "方的",
+    "car-english-name": "Square",
+    "car-description": "方块是一种有四个边和四个角的形状，它的四条边长度都一样，四个角都是直角。我们生活中可以看到很多方块形状的东西，比如积木、方盒子、方桌等。",
+    "car-english-pronunciation": "/skweə/",
+    "car-american-pronunciation": "/skwɛr/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/方的_zh.mp3",
+    "english-audio-path": "assets/audios/Square_en.mp3"
+  },
+  {
+    "car-name": "三角形的",
+    "car-english-name": "Triangle",
+    "car-description": "三角形是一种有三个边和三个角的图形。它看起来像一座小山或者一个三明治被切成三块。我们可以在生活中看到很多三角形，比如交通标志、金字塔的侧面，或者三明治被切成三角形的样子。",
+    "car-english-pronunciation": "/ˈtraɪæŋɡl/",
+    "car-american-pronunciation": "/ˈtraɪˌæŋɡəl/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/三角形的_zh.mp3",
+    "english-audio-path": "assets/audios/Triangle_en.mp3"
+  },
+  {
+    "car-name": "星形的",
+    "car-english-name": "Star",
+    "car-description": "星星是夜空中闪闪发光的小亮点，它们看起来像有五个尖角的小形状。我们也可以画出星形，它就像一个有五个角的小星星，很多小朋友都喜欢画星形！",
+    "car-english-pronunciation": "/stɑː/",
+    "car-american-pronunciation": "/stɑr/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/星形的_zh.mp3",
+    "english-audio-path": "assets/audios/Star_en.mp3"
+  },
+  {
+    "car-name": "热的",
+    "car-english-name": "Hot",
+    "car-description": "热的东西会让我们感到温暖，有时候会很烫。太阳、热水、刚出锅的饭菜都是热的。当我们感觉热的时候，身体会出汗，我们会想喝水或者去凉快的地方。热可以帮助我们做饭、洗澡，但是太热的东西可能会烫伤我们，所以小朋友要小心接触热的东西哦！",
+    "car-english-pronunciation": "/hɒt/",
+    "car-american-pronunciation": "/hɑːt/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/热的_zh.mp3",
+    "english-audio-path": "assets/audios/Hot_en.mp3"
+  },
+  {
+    "car-name": "冷的",
+    "car-english-name": "Ice Cream",
+    "car-description": "冰淇淋是一种甜甜的冷食，夏天吃特别凉爽。它有不同的口味，比如巧克力、草莓和香草。吃冰淇淋会让我们感觉很开心！",
+    "car-english-pronunciation": "/aɪs kriːm/",
+    "car-american-pronunciation": "/aɪs krim/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/冷的_zh.mp3",
+    "english-audio-path": "assets/audios/Ice Cream_en.mp3"
+  },
+  {
+    "car-name": "温暖的",
+    "car-english-name": "Blanket",
+    "car-description": "毛毯是用柔软的毛线或布料做成的，可以盖在身上保暖。当你觉得冷的时候，裹上毛毯就会感到温暖和舒适。毛毯有不同的颜色和图案，有些毛毯很厚实，有些则比较轻薄。冬天里，盖着毛毯睡觉或看电视会感到特别温暖和安心。",
+    "car-english-pronunciation": "/ˈblæŋkɪt/",
+    "car-american-pronunciation": "/ˈblæŋkɪt/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/温暖的_zh.mp3",
+    "english-audio-path": "assets/audios/Blanket_en.mp3"
+  },
+  {
+    "car-name": "凉爽的",
+    "car-english-name": "Cool",
+    "car-description": "凉爽的是一种让人感觉很舒服的温度，不热也不冷。当天气很热时，吹风扇、吃冰淇淋或站在树荫下，我们就会感到凉爽。凉爽的感觉就像微风轻轻吹过你的脸，让人感到很舒服。",
+    "car-english-pronunciation": "/kuːl/",
+    "car-american-pronunciation": "/kuːl/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/凉爽的_zh.mp3",
+    "english-audio-path": "assets/audios/Cool_en.mp3"
+  },
+  {
+    "car-name": "饿的",
+    "car-english-name": "Hunger",
+    "car-description": "肚子饿是我们身体告诉我们需要吃东西的一种感觉。当你的胃空了的时候，它会发出'咕噜咕噜'的声音，这就是肚子饿的信号。吃饭后，肚子饱了，饿的感觉就会消失。",
+    "car-english-pronunciation": "/ˈhʌŋɡə/",
+    "car-american-pronunciation": "/ˈhʌŋɡər/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/饿的_zh.mp3",
+    "english-audio-path": "assets/audios/Hunger_en.mp3"
+  },
+  {
+    "car-name": "饱的",
+    "car-english-name": "Full",
+    "car-description": "饱饱的感觉是当我们吃了足够多的食物后，肚子不再饿，感觉很满足的状态。就像气球被吹满了气一样，我们的肚子被食物填满了。当我们感到饱时，就应该停止进食，这样身体才会健康。",
+    "car-english-pronunciation": "/fʊl/",
+    "car-american-pronunciation": "/fʊl/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/饱的_zh.mp3",
+    "english-audio-path": "assets/audios/Full_en.mp3"
+  },
+  {
+    "car-name": "渴的",
+    "car-english-name": "Thirst",
+    "car-description": "口渴是身体告诉我们需要喝水的一种感觉。当我们玩耍、运动或者天气热的时候，身体会失去水分，这时我们就会感到口渴。口渴的时候，嘴巴会变得干干的，喉咙也会不舒服。这时候，我们需要喝水来补充身体的水分，这样口渴的感觉就会消失啦！喝水对我们身体很重要哦！",
+    "car-english-pronunciation": "/θɜːst/",
+    "car-american-pronunciation": "/θɜːrst/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/渴的_zh.mp3",
+    "english-audio-path": "assets/audios/Thirst_en.mp3"
+  },
+  {
+    "car-name": "累的",
+    "car-english-name": "Tired",
+    "car-description": "疲倦是我们身体或大脑需要休息的感觉。当你玩了一整天，或者做了很多作业后，你可能会感到眼睛沉重，身体没有力气，想睡觉，这就是疲倦的感觉。休息和睡觉可以帮助我们不再疲倦。",
+    "car-english-pronunciation": "/ˈtaɪəd/",
+    "car-american-pronunciation": "/ˈtaɪrd/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/累的_zh.mp3",
+    "english-audio-path": "assets/audios/Tired_en.mp3"
+  },
+  {
+    "car-name": "困的",
+    "car-english-name": "Sleepy",
+    "car-description": "困倦是我们身体想要休息的感觉。当你感到困倦时，你的眼睛可能会变得沉重，想闭上眼睛，打哈欠，感觉没有精神。这时候，我们的身体在告诉我们需要睡觉了，就像手机需要充电一样，睡觉可以让我们的身体和大脑休息，恢复能量。",
+    "car-english-pronunciation": "/ˈsliːpi/",
+    "car-american-pronunciation": "/ˈsliːpi/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/困的_zh.mp3",
+    "english-audio-path": "assets/audios/Sleepy_en.mp3"
+  },
+  {
+    "car-name": "开心的",
+    "car-english-name": "Happy",
+    "car-description": "开心是一种让人感觉很棒的情绪。当你开心的时候，你会想笑，眼睛会弯弯的，心里暖暖的。玩喜欢的游戏、和朋友一起玩、收到礼物或者吃到好吃的食物，都会让我们感到开心。",
+    "car-english-pronunciation": "/ˈhæpi/",
+    "car-american-pronunciation": "/ˈhæpi/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/开心的_zh.mp3",
+    "english-audio-path": "assets/audios/Happy_en.mp3"
+  },
+  {
+    "car-name": "伤心的",
+    "car-english-name": "Sad",
+    "car-description": "伤心是一种我们有时会感觉到的情绪。当你伤心时，你可能会想哭，感觉不开心，或者不想玩。每个人都会感到伤心，这是很正常的。和朋友聊天、拥抱或者做一些喜欢的事情，可以帮助我们感觉好一些。",
+    "car-english-pronunciation": "/sæd/",
+    "car-american-pronunciation": "/sæd/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/伤心的_zh.mp3",
+    "english-audio-path": "assets/audios/Sad_en.mp3"
+  },
+  {
+    "car-name": "生气的",
+    "car-english-name": "Angry",
+    "car-description": "生气是一种我们都会有的情绪。当我们感到不公平、被欺负或者事情不如我们所愿时，我们可能会感到生气。生气时，我们可能会皱起眉头，心跳变快，想要大声说话。感到生气是正常的，但我们要学会用好的方式来表达生气，比如深呼吸、告诉别人你的感受，而不是伤害他人或破坏东西。",
+    "car-english-pronunciation": "/ˈæŋɡri/",
+    "car-american-pronunciation": "/ˈæŋɡri/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/生气的_zh.mp3",
+    "english-audio-path": "assets/audios/Angry_en.mp3"
+  },
+  {
+    "car-name": "害怕的",
+    "car-english-name": "Fear",
+    "car-description": "害怕是我们有时会感到的一种情绪。当我们觉得可能会有不好的事情发生时，就会感到害怕。比如在黑暗中、听到很大的声音、或者看到不认识的动物时，我们都可能会感到害怕。害怕是一种正常的感受，它帮助我们保护自己，远离可能的危险。",
+    "car-english-pronunciation": "/fɪə/",
+    "car-american-pronunciation": "/fɪr/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/害怕的_zh.mp3",
+    "english-audio-path": "assets/audios/Fear_en.mp3"
+  },
+  {
+    "car-name": "兴奋的",
+    "car-english-name": "Roller Coaster",
+    "car-description": "过山车是一种非常刺激的游乐设施，它会在高高的轨道上快速前进，有时还会上下翻滚、急转弯，让人感到既紧张又兴奋。坐过山车时，你可能会尖叫、大笑，感觉心跳得很快，这是一种非常有趣的体验！",
+    "car-english-pronunciation": "/ˈrəʊlə ˌkəʊstə/",
+    "car-american-pronunciation": "/ˈroʊlər ˌkoʊstər/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/兴奋的_zh.mp3",
+    "english-audio-path": "assets/audios/Roller Coaster_en.mp3"
+  },
+  {
+    "car-name": "好的",
+    "car-english-name": "Ice Cream",
+    "car-description": "冰淇淋是一种甜甜的冷饮，由牛奶、糖和水果或巧克力等口味制作而成。它吃起来凉凉的、滑滑的，有很多不同的口味和颜色。夏天吃冰淇淋特别解暑，是很多小朋友最喜欢的零食之一。",
+    "car-english-pronunciation": "/ˌaɪs ˈkriːm/",
+    "car-american-pronunciation": "/ˌaɪs ˈkrim/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/好的_zh.mp3",
+    "english-audio-path": "assets/audios/Ice Cream_en.mp3"
+  },
+  {
+    "car-name": "坏的",
+    "car-english-name": "Bad",
+    "car-description": "坏的是用来形容一些不好、不对或者会让人不开心的事物或行为。比如打人、说谎、抢玩具这些都是坏的行为。我们应该尽量不做坏的事情，而要做好的事情，比如帮助别人、分享玩具、说真话等。",
+    "car-english-pronunciation": "/bæd/",
+    "car-american-pronunciation": "/bæd/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/坏的_zh.mp3",
+    "english-audio-path": "assets/audios/Bad_en.mp3"
+  },
+  {
+    "car-name": "美味的",
+    "car-english-name": "Ice Cream",
+    "car-description": "冰淇淋是一种甜甜的、冰凉的零食，有很多不同的口味，比如巧克力、草莓和香草。夏天吃冰淇淋会感觉很凉爽很舒服！",
+    "car-english-pronunciation": "/ˌaɪs ˈkriːm/",
+    "car-american-pronunciation": "/ˌaɪs ˈkrim/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/美味的_zh.mp3",
+    "english-audio-path": "assets/audios/Ice Cream_en.mp3"
+  },
+  {
+    "car-name": "难吃的",
+    "car-english-name": "Bitter Melon",
+    "car-description": "苦瓜是一种绿色的蔬菜，表面有很多小疙瘩。它吃起来很苦，很多小朋友不喜欢吃它的味道。但是苦瓜很有营养，吃了对身体有好处。",
+    "car-english-pronunciation": "/ˈbɪtə ˈmelən/",
+    "car-american-pronunciation": "/ˈbɪtər ˈmɛlən/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/难吃的_zh.mp3",
+    "english-audio-path": "assets/audios/Bitter Melon_en.mp3"
+  },
+  {
+    "car-name": "干净的",
+    "car-english-name": "Clean",
+    "car-description": "干净是指没有灰尘、没有污渍、整洁的状态。当我们洗手、洗澡、打扫房间后，东西就变得干净了。保持干净对我们的健康很重要，能让我们远离病菌，不容易生病。",
+    "car-english-pronunciation": "/kliːn/",
+    "car-american-pronunciation": "/kliːn/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/干净的_zh.mp3",
+    "english-audio-path": "assets/audios/Clean_en.mp3"
+  },
+  {
+    "car-name": "脏的",
+    "car-english-name": "Dirty",
+    "car-description": "脏东西是指不干净、有灰尘或污渍的东西。比如玩了一整天后沾满泥土的手，或者掉在地上的食物。脏东西可能会让我们生病，所以我们要经常洗手，保持干净。",
+    "car-english-pronunciation": "/ˈdɜːti/",
+    "car-american-pronunciation": "/ˈdɜːrti/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/脏的_zh.mp3",
+    "english-audio-path": "assets/audios/Dirty_en.mp3"
+  },
+  {
+    "car-name": "快的",
+    "car-english-name": "Racing Car",
+    "car-description": "赛车是跑得很快的汽车，它们在专门的比赛场地上比赛，有着特别的设计和强大的引擎，可以跑得比普通汽车快很多。",
+    "car-english-pronunciation": "/ˈreɪsɪŋ kɑː/",
+    "car-american-pronunciation": "/ˈreɪsɪŋ kɑːr/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/快的_zh.mp3",
+    "english-audio-path": "assets/audios/Racing Car_en.mp3"
+  },
+  {
+    "car-name": "慢的",
+    "car-english-name": "Turtle",
+    "car-description": "乌龟是一种爬行动物，它有坚硬的壳保护自己。乌龟走路和游泳都非常慢，但它们很有耐心。在著名的龟兔赛跑故事中，乌龟因为坚持不懈，最终赢得了比赛。乌龟可以活很长时间，有些甚至能活到100岁以上！",
+    "car-english-pronunciation": "/ˈtɜːtəl/",
+    "car-american-pronunciation": "/ˈtɜːrdəl/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/慢的_zh.mp3",
+    "english-audio-path": "assets/audios/Turtle_en.mp3"
+  },
+  {
+    "car-name": "安静的",
+    "car-english-name": "Book",
+    "car-description": "书本是我们的好朋友，它里面有很多有趣的故事和知识。当我们阅读书本时，可以安静地学习新东西，去想象奇妙的世界。书本不会发出声音，但能告诉我们很多事情。",
+    "car-english-pronunciation": "/bʊk/",
+    "car-american-pronunciation": "/bʊk/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/安静的_zh.mp3",
+    "english-audio-path": "assets/audios/Book_en.mp3"
+  },
+  {
+    "car-name": "软的",
+    "car-english-name": "Marshmallow",
+    "car-description": "棉花糖是一种非常软的、甜甜的零食。它摸起来像云朵一样蓬松柔软，吃起来又甜又香，可以烤着吃，也可以泡在热巧克力里。",
+    "car-english-pronunciation": "/ˈmɑːʃmæləʊ/",
+    "car-american-pronunciation": "/ˈmɑːrʃmæloʊ/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/软的_zh.mp3",
+    "english-audio-path": "assets/audios/Marshmallow_en.mp3"
+  },
+  {
+    "car-name": "硬的",
+    "car-english-name": "Stone",
+    "car-description": "石头是一种很硬的东西，我们在山上、河边和路上都能找到。石头摸起来硬硬的，敲起来会发出'咚咚'的声音。有些石头很小，可以放在手心里；有些石头很大，像一座小山。人们用石头建造房子，铺路，还可以做成漂亮的装饰品。",
+    "car-english-pronunciation": "/stəʊn/",
+    "car-american-pronunciation": "/stoʊn/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/硬的_zh.mp3",
+    "english-audio-path": "assets/audios/Stone_en.mp3"
+  },
+  {
+    "car-name": "粗糙的",
+    "car-english-name": "Sandpaper",
+    "car-description": "砂纸是一种表面很粗糙的纸，上面有小小的沙子或磨料。我们可以用它来打磨木头，让木头变得光滑。摸起来砂纸感觉有点扎手，不像普通纸张那样平滑。",
+    "car-english-pronunciation": "/ˈsændˌpeɪpə/",
+    "car-american-pronunciation": "/ˈsændˌpeɪpər/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/粗糙的_zh.mp3",
+    "english-audio-path": "assets/audios/Sandpaper_en.mp3"
+  },
+  {
+    "car-name": "光滑的",
+    "car-english-name": "Glass Marble",
+    "car-description": "玻璃球是一种圆圆的、透明的小球，表面非常光滑，摸起来凉凉的。它可以在阳光下闪闪发光，滚动起来很快，小朋友们喜欢用它来玩游戏。",
+    "car-english-pronunciation": "/ɡlɑːs ˈmɑːbəl/",
+    "car-american-pronunciation": "/ɡlæs ˈmɑːrbəl/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/光滑的_zh.mp3",
+    "english-audio-path": "assets/audios/Glass Marble_en.mp3"
+  },
+  {
+    "car-name": "重的",
+    "car-english-name": "Truck",
+    "car-description": "卡车是一种很重的车辆，有四个或更多轮子，可以运送很重的东西。卡车比普通汽车大得多，也很高，可以在路上看到它们运送货物、食物或其他重物。",
+    "car-english-pronunciation": "/trʌk/",
+    "car-american-pronunciation": "/trʌk/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/重的_zh.mp3",
+    "english-audio-path": "assets/audios/Truck_en.mp3"
+  },
+  {
+    "car-name": "轻的",
+    "car-english-name": "Balloon",
+    "car-description": "气球是一种轻飘飘的玩具，里面装着空气或者氦气。它很轻，可以飞到天上去。气球有各种各样的颜色和形状，小朋友们都很喜欢玩气球。",
+    "car-english-pronunciation": "/bəˈluːn/",
+    "car-american-pronunciation": "/bəˈluːn/",
+    "car-type": "形容词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/轻的_zh.mp3",
+    "english-audio-path": "assets/audios/Balloon_en.mp3"
+  },
+  {
+    "car-name": "在...里面",
+    "car-english-name": "Inside",
+    "car-description": "里面是指在一个物体或空间的内部。比如，苹果的籽在苹果的里面，玩具在箱子的里面，我们在房子的里面。当我们说某样东西在另一样东西的'里面'时，表示它被包围或包含在那个物体中。",
+    "car-english-pronunciation": "/ˌɪnˈsaɪd/",
+    "car-american-pronunciation": "/ˌɪnˈsaɪd/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/在...里面_zh.mp3",
+    "english-audio-path": "assets/audios/Inside_en.mp3"
+  },
+  {
+    "car-name": "在...上面",
+    "car-english-name": "On top of",
+    "car-description": "在物体的上面是指一个东西位于另一个东西的上方，比如苹果放在盘子上，或者小猫坐在沙发上。当我们说某物在另一物的上面时，意味着它位于那物的上方，与那物接触。",
+    "car-english-pronunciation": "/ɒn tɒp ɒv/",
+    "car-american-pronunciation": "/ɑːn tɑːp əv/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/在...上面_zh.mp3",
+    "english-audio-path": "assets/audios/On top of_en.mp3"
+  },
+  {
+    "car-name": "在...下面",
+    "car-english-name": "Under",
+    "car-description": "在下面是指一个东西在另一个东西的下方，就像桌子下面有你的脚，或者床底下有你的玩具一样。",
+    "car-english-pronunciation": "/ˈʌndə/",
+    "car-american-pronunciation": "/ˈʌndɚ/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/在...下面_zh.mp3",
+    "english-audio-path": "assets/audios/Under_en.mp3"
+  },
+  {
+    "car-name": "在...旁边",
+    "car-english-name": "Beside",
+    "car-description": "旁边是指靠近某物的位置，在你的左边或右边。比如，你的书桌旁边可能放着你的书包，或者你的玩具熊旁边放着你的积木。当你和朋友站在一起时，你的朋友就在你的旁边。",
+    "car-english-pronunciation": "/bɪˈsaɪd/",
+    "car-american-pronunciation": "/bɪˈsaɪd/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/在...旁边_zh.mp3",
+    "english-audio-path": "assets/audios/Beside_en.mp3"
+  },
+  {
+    "car-name": "在...后面",
+    "car-english-name": "Behind",
+    "car-description": "后面是指在一个物体的背向方向，或者跟随在某物之后的位置。当你站在某物的前方时，那个物体就在你的后面。比如，你的书包背在背上，它就在你的身体后面。",
+    "car-english-pronunciation": "/bɪˈhaɪnd/",
+    "car-american-pronunciation": "/bɪˈhaɪnd/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/在...后面_zh.mp3",
+    "english-audio-path": "assets/audios/Behind_en.mp3"
+  },
+  {
+    "car-name": "在...前面",
+    "car-english-name": "In Front",
+    "car-description": "在前面是指某个东西或人位于另一个东西或人的前方。就像排队时站在你前面的人，或者你面前的桌子一样。当你看老师时，老师就在你的前面。",
+    "car-english-pronunciation": "/ɪn frʌnt/",
+    "car-american-pronunciation": "/ɪn frʌnt/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/在...前面_zh.mp3",
+    "english-audio-path": "assets/audios/In Front_en.mp3"
+  },
+  {
+    "car-name": "在...之间",
+    "car-english-name": "Between",
+    "car-description": "在中间是指位于两个或多个事物之间的位置。比如，你的两只耳朵中间是你的鼻子，两个小朋友中间可以站另一个小朋友。当我们说某物在中间时，就是它被其他东西包围着，或者在两个东西的中间位置。",
+    "car-english-pronunciation": "/bɪˈtwiːn/",
+    "car-american-pronunciation": "/bɪˈtwɪn/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/在...之间_zh.mp3",
+    "english-audio-path": "assets/audios/Between_en.mp3"
+  },
+  {
+    "car-name": "向上",
+    "car-english-name": "Up",
+    "car-description": "向上就是朝着天空的方向，与向下相反。当我们举起手、气球飞起来、小鸟飞向天空时，都是在向上移动。向上表示从低处到高处的方向。",
+    "car-english-pronunciation": "/ʌp/",
+    "car-american-pronunciation": "/ʌp/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/向上_zh.mp3",
+    "english-audio-path": "assets/audios/Up_en.mp3"
+  },
+  {
+    "car-name": "向下",
+    "car-english-name": "Down",
+    "car-description": "向下是指朝着地面的方向，比如苹果从树上掉下来，就是向下运动。当我们低头看地面时，我们的视线也是向下的。下雨时，雨滴是从天空向下落下来的。",
+    "car-english-pronunciation": "/daʊn/",
+    "car-american-pronunciation": "/daʊn/",
+    "car-type": "前置词",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/向下_zh.mp3",
+    "english-audio-path": "assets/audios/Down_en.mp3"
+  },
+  {
+    "car-name": "做得好",
+    "car-english-name": "Good Job",
+    "car-description": "当我们完成一件事情或者表现很好的时候，别人会夸奖我们'做得好'，这是一种表扬和鼓励。得到表扬会让我们感到开心，也会让我们更有信心去做更多的事情。",
+    "car-english-pronunciation": "/ɡʊd dʒɒb/",
+    "car-american-pronunciation": "/ɡʊd dʒɑːb/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/做得好_zh.mp3",
+    "english-audio-path": "assets/audios/Good Job_en.mp3"
+  },
+  {
+    "car-name": "干得好",
+    "car-english-name": "Praise",
+    "car-description": "表扬是当我们做得好时，别人对我们的肯定和鼓励。当有人说'干得好'时，就是在表扬你，表示你做得很棒！表扬能让我们感到开心，也让我们更有信心继续努力。",
+    "car-english-pronunciation": "/preɪz/",
+    "car-american-pronunciation": "/preɪz/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/干得好_zh.mp3",
+    "english-audio-path": "assets/audios/Praise_en.mp3"
+  },
+  {
+    "car-name": "你做到了",
+    "car-english-name": "Achievement Badge",
+    "car-description": "成就徽章是当你完成一件困难的事情后得到的奖励。它可以是贴纸、小奖章或者老师给你的表扬。当你努力学习、帮助他人或者完成一项挑战时，你就可以获得成就徽章，它告诉你：'你做到了！'",
+    "car-english-pronunciation": "/əˈtʃiːvmənt bædʒ/",
+    "car-american-pronunciation": "/əˈtʃiːvmənt bædʒ/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/你做到了_zh.mp3",
+    "english-audio-path": "assets/audios/Achievement Badge_en.mp3"
+  },
+  {
+    "car-name": "我为你骄傲",
+    "car-english-name": "I'm proud of you",
+    "car-description": "骄傲是一种开心的感觉，当我们为某人做得好的事情感到高兴时，就会说'我为你骄傲'。比如当你学会骑自行车、得到好成绩或者帮助别人时，爸爸妈妈或老师可能会对你说'我为你骄傲'，这是他们对你的肯定和鼓励。",
+    "car-english-pronunciation": "/aɪm praʊd əv juː/",
+    "car-american-pronunciation": "/aɪm praʊd əv ju/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/我为你骄傲_zh.mp3",
+    "english-audio-path": "assets/audios/I'm proud of you_en.mp3"
+  },
+  {
+    "car-name": "再试一次",
+    "car-english-name": "Apple",
+    "car-description": "苹果是一种常见的水果，通常是红色、绿色或黄色的。它圆圆的，吃起来脆脆甜甜的，很有营养。苹果可以生吃，也可以做成果汁、苹果派等美食。俗话说：'一天一苹果，医生远离我'，说明吃苹果对健康很有好处。",
+    "car-english-pronunciation": "/ˈæp.əl/",
+    "car-american-pronunciation": "/ˈæp.əl/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/再试一次_zh.mp3",
+    "english-audio-path": "assets/audios/Apple_en.mp3"
+  },
+  {
+    "car-name": "这是什么",
+    "car-english-name": "Car",
+    "car-description": "汽车是一种有四个轮子的交通工具，人们可以驾驶它去不同的地方，比如上学、上班或者旅行。汽车需要加油才能开动，有不同的颜色和大小。",
+    "car-english-pronunciation": "/kɑːr/",
+    "car-american-pronunciation": "/kɑːr/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/这是什么_zh.mp3",
+    "english-audio-path": "assets/audios/Car_en.mp3"
+  },
+  {
+    "car-name": "...在哪里",
+    "car-english-name": "Where",
+    "car-description": "在哪里是一个用来询问位置的词语。当我们想知道某个东西或某个人在什么地方时，我们会问'在哪里？'比如，'我的玩具在哪里？'或者'妈妈在哪里？'",
+    "car-english-pronunciation": "/weə(r)/",
+    "car-american-pronunciation": "/wer/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/...在哪里_zh.mp3",
+    "english-audio-path": "assets/audios/Where_en.mp3"
+  },
+  {
+    "car-name": "你能...吗",
+    "car-english-name": "Can you...?",
+    "car-description": "这是一种用来询问别人会不会做某事情的问句。当我们想知道别人有没有能力做某件事时，就可以用'你能...吗'来提问。比如，'你能帮我拿一下玩具吗？'就是在问对方有没有能力帮你拿玩具。",
+    "car-english-pronunciation": "/kæn juː/",
+    "car-american-pronunciation": "/kæn juː/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/你能...吗_zh.mp3",
+    "english-audio-path": "assets/audios/Can you...?_en.mp3"
+  },
+  {
+    "car-name": "我能有...吗",
+    "car-english-name": "Wish",
+    "car-description": "愿望是我们心里想要得到的东西或发生的事情。当我们说'我能有...吗'时，我们正在表达我们的愿望。比如，'我能有一个新玩具吗？'就是在表达你想要一个新玩具的愿望。",
+    "car-english-pronunciation": "/wɪʃ/",
+    "car-american-pronunciation": "/wɪʃ/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/我能有...吗_zh.mp3",
+    "english-audio-path": "assets/audios/Wish_en.mp3"
+  },
+  {
+    "car-name": "我想要...",
+    "car-english-name": "Bicycle",
+    "car-description": "自行车是一种有两个轮子的交通工具，人们用脚蹬踏板来让它前进。骑自行车不仅有趣，还能锻炼身体，是一种环保的出行方式。",
+    "car-english-pronunciation": "/ˈbaɪsɪkəl/",
+    "car-american-pronunciation": "/ˈbaɪsɪkəl/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/我想要..._zh.mp3",
+    "english-audio-path": "assets/audios/Bicycle_en.mp3"
+  },
+  {
+    "car-name": "我饿了",
+    "car-english-name": "Food",
+    "car-description": "食物是我们每天吃的东西，比如米饭、面条、水果和蔬菜。当我们感到饥饿时，就说明我们的身体需要能量了，这时候我们就需要吃东西。食物帮助我们成长，让我们有力量玩耍和学习。",
+    "car-english-pronunciation": "/fuːd/",
+    "car-american-pronunciation": "/fuːd/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/我饿了_zh.mp3",
+    "english-audio-path": "assets/audios/Food_en.mp3"
+  },
+  {
+    "car-name": "我渴了",
+    "car-english-name": "Drinking Water",
+    "car-description": "喝水是我们每天都要做的事情，它能让我们的身体保持健康。当我们感到口渴时，就说明我们的身体需要水了。水可以帮助我们消化食物，调节体温，还能让我们的皮肤变得更好。每天喝足够的水，我们会更有精神，更不容易生病。所以，当你感到口渴时，记得要喝水哦！",
+    "car-english-pronunciation": "/ˈdrɪŋkɪŋ ˈwɔːtə/",
+    "car-american-pronunciation": "/ˈdrɪŋkɪŋ ˈwɔːtər/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/我渴了_zh.mp3",
+    "english-audio-path": "assets/audios/Drinking Water_en.mp3"
+  },
+  {
+    "car-name": "我累了",
+    "car-english-name": "Tired",
+    "car-description": "累了是我们的身体或大脑告诉我们需要休息的感觉。就像玩具玩久了需要充电一样，我们的身体也需要休息才能恢复精力。当你觉得眼睛想闭上，不想动也不想玩的时候，可能就是累了。",
+    "car-english-pronunciation": "/ˈtaɪəd/",
+    "car-american-pronunciation": "/ˈtaɪrd/",
+    "car-type": "社交用语",
+    "car-image-path": "",
+    "chinese-audio-path": "assets/audios/我累了_zh.mp3",
+    "english-audio-path": "assets/audios/Tired_en.mp3"
   }
 ]

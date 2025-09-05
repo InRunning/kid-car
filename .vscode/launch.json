@@ -1,0 +1,202 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: 生成车辆名称",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/car-name.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+      "name": "Python: 生成车辆图片",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/generate-image.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+      "name": "Python: 生成车辆音频",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/generate-audio.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+      "name": "Python: 生成应用图标",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/generate-icon.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+      "name": "Python: 豆包生成车辆图片",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/doubao-generate-image.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+      "name": "Flutter: 运行应用 (Chrome)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
+      "cwd": "${workspaceFolder}/kid_car_flutter",
+      "args": [
+        "-d",
+        "chrome"
+      ]
+    },
+    {
+      "name": "Flutter: 运行应用 (Android)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
+      "cwd": "${workspaceFolder}/kid_car_flutter",
+      "args": [
+        "-d",
+        "emulator-5554"
+      ],
+      "toolArgs": [
+        "--device-id=emulator-5554"
+      ]
+    },
+    {
+      "name": "Flutter: 运行应用 (iOS)",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
+      "cwd": "${workspaceFolder}/kid_car_flutter",
+      "args": [
+        "-d",
+        "00008103-000505C81AEB001E"
+      ],
+      "toolArgs": [
+        "--device-id=00008103-000505C81AEB001E"
+      ]
+    },
+    {
+      "name": "Flutter: 热重载",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
+      "cwd": "${workspaceFolder}/kid_car_flutter",
+      "args": [
+        "--hot"
+      ]
+    },
+    {
+      "name": "Flutter: 调试模式",
+      "type": "dart",
+      "request": "launch",
+      "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
+      "cwd": "${workspaceFolder}/kid_car_flutter",
+      "args": [
+        "--debug"
+      ]
+    },
+    {
+      "name": "Flutter: 构建Debug APK",
+      "type": "node",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/kid_car_flutter",
+      "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
+      "args": [],
+      "runtimeExecutable": "flutter",
+      "runtimeArgs": [
+        "build",
+        "apk",
+        "--debug"
+      ]
+    },
+    {
+      "name": "Flutter: 构建Release APK",
+      "type": "node",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/kid_car_flutter",
+      "program": "${workspaceFolder}/kid_car_flutter/lib/main.dart",
+      "args": [],
+      "runtimeExecutable": "flutter",
+      "runtimeArgs": [
+        "build",
+        "apk",
+        "--release"
+      ]
+    },
+    {
+      "name": "Python: 检查图片和音频文件",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/check_image_audio.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      "name": "生成完整车辆数据",
+      "configurations": [
+        "Python: 生成车辆名称",
+        "Python: 生成车辆图片",
+        "Python: 生成车辆音频",
+        "Python: 生成应用图标"
+      ],
+      "stopAll": true,
+      "presentation": {
+        "hidden": false,
+        "group": "生成车辆数据"
+      }
+    },
+    {
+      "name": "生成完整应用资源",
+      "configurations": [
+        "Python: 生成车辆名称",
+        "Python: 生成车辆图片",
+        "Python: 生成车辆音频",
+        "Python: 生成应用图标"
+      ],
+      "stopAll": true,
+      "presentation": {
+        "hidden": false,
+        "group": "生成应用资源"
+      }
+    },
+    {
+      "name": "构建所有APK",
+      "configurations": [
+        "Flutter: 构建Debug APK",
+        "Flutter: 构建Release APK"
+      ],
+      "stopAll": false,
+      "presentation": {
+        "hidden": false,
+        "group": "Flutter构建"
+      }
+    }
+  ]
+}

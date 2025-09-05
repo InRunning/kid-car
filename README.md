@@ -14,9 +14,12 @@
 
 3. 编写一个 doubao-generate-image.py 的脚本，读取 kid_car_flutter/assets/car.json的数据，调用豆包的文生图模型，具体调用方式参考 docs/豆包文生图python.py，要求不要出现人物，生成的图片存进 kid_car_flutter/assets/images 目录中，然后修改 kid_car_flutter/assets/car.json 中对应的 car-image-path成assets/images/xxx,要求每生成一个就要更新一次 json，然后这个需要支持下次可以恢复运行
 
+4. 参考  generate-image.py写generate-image-gemini.py的脚本，只将模型换成nano banana即可，其它输入输出保持不变，apikey的配置从local.yaml中读取
+
 4. 再编写一个check_image_audio.py的脚本，用于检查kid_car_flutter/assets/car.json中的    "car-image-path",
     "chinese-audio-path",
     "english-audio-path"这些对应的音频文件是否存在，不存在打印出来告警
+
 
 3. 编写一个 generate-icon.py 的脚本，用于生成kid-car这个app的icon，也是调用魔搭的Qwen-Image模型
 

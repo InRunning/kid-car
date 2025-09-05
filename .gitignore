@@ -63,7 +63,6 @@ kid_car_flutter/macos/Flutter/ephemeral/
 kid_car_flutter/windows/flutter/ephemeral/
 
 # IDE and editor files
-.vscode/
 .idea/
 *.swp
 *.swo
