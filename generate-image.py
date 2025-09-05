@@ -69,10 +69,7 @@ def save_cars_data(cars_data):
 def generate_car_image(car_name, car_type):
     """使用ModelScope Qwen-Image API生成车辆图片"""
     # 创建提示词，明确要求不要出现人物
-    if car_type in ['家具', '动物', '天气', '食物', '职业']:
-        prompt = f"一个{car_name}，{car_type}，卡通风格，儿童友好，明亮色彩，简单易懂"
-    else:
-        prompt = f"一辆{car_name}，{car_type}，卡通风格，儿童友好，明亮色彩，简洁背景，不要出现人物，不要出现人，不要有人脸，不要有人形，纯车辆展示"
+    prompt = f"一辆{car_name}，{car_type}，卡通风格，儿童友好，明亮色彩，简洁背景，不要出现人物，不要出现人，不要有人脸，不要有人形"
     
     try:
         # 发送图片生成请求

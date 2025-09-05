@@ -2239,7 +2239,7 @@
     "car-english-pronunciation": "/skuːl bʌs/",
     "car-american-pronunciation": "/skul bʌs/",
     "car-type": "公共交通",
-    "car-image-path": "",
+    "car-image-path": "assets/images/校车_公共交通.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2250,7 +2250,7 @@
     "car-english-pronunciation": "/ˈmɒnəʊreɪl/",
     "car-american-pronunciation": "/ˈmɑːnoʊreɪl/",
     "car-type": "公共交通",
-    "car-image-path": "",
+    "car-image-path": "assets/images/单轨列车_公共交通.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2261,7 +2261,7 @@
     "car-english-pronunciation": "/pəˈliːs kɑː/",
     "car-american-pronunciation": "/pəˈlis kɑr/",
     "car-type": "特种车辆",
-    "car-image-path": "",
+    "car-image-path": "assets/images/警车_特种车辆.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2272,7 +2272,7 @@
     "car-english-pronunciation": "/ˈekskəveɪtə/",
     "car-american-pronunciation": "/ˈɛkskəveɪtər/",
     "car-type": "特种车辆",
-    "car-image-path": "",
+    "car-image-path": "assets/images/工程车_特种车辆.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2283,7 +2283,7 @@
     "car-english-pronunciation": "/ˈhɒvəkrɑːft/",
     "car-american-pronunciation": "/ˈhʌvərkræft/",
     "car-type": "船舶",
-    "car-image-path": "",
+    "car-image-path": "assets/images/气垫船_船舶.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2294,7 +2294,7 @@
     "car-english-pronunciation": "/ˈɒrɪndʒ/",
     "car-american-pronunciation": "/ˈɔːrɪndʒ/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/橙子_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2305,7 +2305,7 @@
     "car-english-pronunciation": "/ɡreɪp/",
     "car-american-pronunciation": "/ɡreɪp/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/葡萄_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2316,7 +2316,7 @@
     "car-english-pronunciation": "/ˈwɔːtəˌmelən/",
     "car-american-pronunciation": "/ˈwɔtərˌmɛlən/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/西瓜_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2327,7 +2327,7 @@
     "car-english-pronunciation": "/ˈstrɔːbəri/",
     "car-american-pronunciation": "/ˈstrɔːˌbɛri/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/草莓_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2338,7 +2338,7 @@
     "car-english-pronunciation": "/peə/",
     "car-american-pronunciation": "/pɛr/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/梨子_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2349,7 +2349,7 @@
     "car-english-pronunciation": "/piːtʃ/",
     "car-american-pronunciation": "/piːtʃ/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/桃子_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2360,7 +2360,7 @@
     "car-english-pronunciation": "/ˈtʃeri/",
     "car-american-pronunciation": "/ˈtʃɛri/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/樱桃_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2371,7 +2371,7 @@
     "car-english-pronunciation": "/ˈlemən/",
     "car-american-pronunciation": "/ˈlemən/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/柠檬_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2382,7 +2382,7 @@
     "car-english-pronunciation": "/ˈpaɪnæpəl/",
     "car-american-pronunciation": "/ˈpaɪnˌæpəl/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/菠萝_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2393,7 +2393,7 @@
     "car-english-pronunciation": "/ˈkiːwiː/",
     "car-american-pronunciation": "/ˈkiwi/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/猕猴桃_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2404,7 +2404,7 @@
     "car-english-pronunciation": "/ˈmæŋɡəʊ/",
     "car-american-pronunciation": "/ˈmæŋɡoʊ/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/芒果_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2415,7 +2415,7 @@
     "car-english-pronunciation": "/ˈbluːbəri/",
     "car-american-pronunciation": "/ˈbluːˌberi/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/蓝莓_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2426,7 +2426,7 @@
     "car-english-pronunciation": "/ˈpɒmələʊ/",
     "car-american-pronunciation": "/ˈpɑːməloʊ/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/柚子_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2437,7 +2437,7 @@
     "car-english-pronunciation": "/ˈeɪprɪkɒt/",
     "car-american-pronunciation": "/ˈæprɪkɑːt/",
     "car-type": "水果",
-    "car-image-path": "",
+    "car-image-path": "assets/images/杏子_水果.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2448,7 +2448,7 @@
     "car-english-pronunciation": "/ˈkærət/",
     "car-american-pronunciation": "/ˈkærət/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/胡萝卜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2470,7 +2470,7 @@
     "car-english-pronunciation": "/ˈkjuːˌkʌmbər/",
     "car-american-pronunciation": "/ˈkjuːˌkʌmbər/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/黄瓜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2481,7 +2481,7 @@
     "car-english-pronunciation": "/ˌtʃaɪˈniːs ˈkæbɪdʒ/",
     "car-american-pronunciation": "/ˌtʃaɪˈniz ˈkæbɪdʒ/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/白菜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2492,7 +2492,7 @@
     "car-english-pronunciation": "/pəˈteɪtəʊ/",
     "car-american-pronunciation": "/pəˈteɪtoʊ/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/土豆_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2503,7 +2503,7 @@
     "car-english-pronunciation": "/kɔːn/",
     "car-american-pronunciation": "/kɔːrn/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/玉米_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2514,7 +2514,7 @@
     "car-english-pronunciation": "/ˈeɡplɑːnt/",
     "car-american-pronunciation": "/ˈeɡplænt/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/茄子_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2525,7 +2525,7 @@
     "car-english-pronunciation": "/ˈpʌmpkɪn/",
     "car-american-pronunciation": "/ˈpʌmpkɪn/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/南瓜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2536,7 +2536,7 @@
     "car-english-pronunciation": "/piː/",
     "car-american-pronunciation": "/piː/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/豌豆_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
