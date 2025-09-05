@@ -2459,7 +2459,7 @@
     "car-english-pronunciation": "/təˈmɑːtəʊ/",
     "car-american-pronunciation": "/təˈmeɪtoʊ/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/西红柿_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2547,7 +2547,7 @@
     "car-english-pronunciation": "/ˈkɒlɪflaʊə/",
     "car-american-pronunciation": "/ˈkɑːlɪflaʊər/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/花菜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2558,7 +2558,7 @@
     "car-english-pronunciation": "/ˈspɪnɪdʒ/",
     "car-american-pronunciation": "/ˈspɪnɪtʃ/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/菠菜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2569,7 +2569,7 @@
     "car-english-pronunciation": "/ˈrædɪʃ/",
     "car-american-pronunciation": "/ˈrædɪʃ/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/萝卜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2580,7 +2580,7 @@
     "car-english-pronunciation": "/ˈʌnjən/",
     "car-american-pronunciation": "/ˈʌnjən/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/洋葱_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2591,7 +2591,7 @@
     "car-english-pronunciation": "/ɡriːn ˈpepə/",
     "car-american-pronunciation": "/ɡrin ˈpɛpər/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/青椒_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2602,7 +2602,7 @@
     "car-english-pronunciation": "/ɡriːn biːn/",
     "car-american-pronunciation": "/ɡrin bin/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/豆角_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2613,7 +2613,7 @@
     "car-english-pronunciation": "/ˈwɪntə ˈmelən/",
     "car-american-pronunciation": "/ˈwɪntɚ ˈmɛlən/",
     "car-type": "蔬菜",
-    "car-image-path": "",
+    "car-image-path": "assets/images/冬瓜_蔬菜.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2624,7 +2624,7 @@
     "car-english-pronunciation": "/red/",
     "car-american-pronunciation": "/red/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/红色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2635,7 +2635,7 @@
     "car-english-pronunciation": "/bluː/",
     "car-american-pronunciation": "/bluː/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/蓝色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2646,7 +2646,7 @@
     "car-english-pronunciation": "/ˈjeləʊ/",
     "car-american-pronunciation": "/ˈjɛloʊ/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/黄色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2657,7 +2657,7 @@
     "car-english-pronunciation": "/ɡriːn/",
     "car-american-pronunciation": "/ɡriːn/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/绿色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2668,7 +2668,7 @@
     "car-english-pronunciation": "/ˈɒrɪndʒ/",
     "car-american-pronunciation": "/ˈɔrɪndʒ/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/橙色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2679,7 +2679,7 @@
     "car-english-pronunciation": "/ˈpɜː.pəl/",
     "car-american-pronunciation": "/ˈpɝː.pəl/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/紫色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2690,7 +2690,7 @@
     "car-english-pronunciation": "/pɪŋk/",
     "car-american-pronunciation": "/pɪŋk/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/粉色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2701,7 +2701,7 @@
     "car-english-pronunciation": "/braʊn/",
     "car-american-pronunciation": "/braʊn/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/棕色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2712,7 +2712,7 @@
     "car-english-pronunciation": "/blæk/",
     "car-american-pronunciation": "/blæk/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/黑色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2723,7 +2723,7 @@
     "car-english-pronunciation": "/waɪt/",
     "car-american-pronunciation": "/waɪt/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/白色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2734,7 +2734,7 @@
     "car-english-pronunciation": "/ɡreɪ/",
     "car-american-pronunciation": "/ɡreɪ/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/灰色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2745,7 +2745,7 @@
     "car-english-pronunciation": "/ɡəʊld/",
     "car-american-pronunciation": "/ɡoʊld/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/金色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2756,7 +2756,7 @@
     "car-english-pronunciation": "/ˈsɪlvə/",
     "car-american-pronunciation": "/ˈsɪlvɚ/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/银色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2767,7 +2767,7 @@
     "car-english-pronunciation": "/ˈsaɪ.ən/",
     "car-american-pronunciation": "/ˈsaɪ.ən/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/青色_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2789,7 +2789,7 @@
     "car-english-pronunciation": "/trænsˈpeərənt/",
     "car-american-pronunciation": "/trænsˈpærənt/",
     "car-type": "颜色",
-    "car-image-path": "",
+    "car-image-path": "assets/images/透明_颜色.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2800,7 +2800,7 @@
     "car-english-pronunciation": "/ˈsɜːkəl/",
     "car-american-pronunciation": "/ˈsɜːrkəl/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/圆形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2811,7 +2811,7 @@
     "car-english-pronunciation": "/skweə/",
     "car-american-pronunciation": "/skwɛr/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/正方形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2822,7 +2822,7 @@
     "car-english-pronunciation": "/ˈtraɪæŋɡl/",
     "car-american-pronunciation": "/ˈtraɪˌæŋɡəl/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/三角形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2833,7 +2833,7 @@
     "car-english-pronunciation": "/ˈrek.tæŋ.ɡəl/",
     "car-american-pronunciation": "/ˈrek.tæŋ.ɡəl/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/长方形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2844,7 +2844,7 @@
     "car-english-pronunciation": "/ˈəʊv(ə)l/",
     "car-american-pronunciation": "/ˈoʊvəl/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/椭圆形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2855,7 +2855,7 @@
     "car-english-pronunciation": "/stɑː/",
     "car-american-pronunciation": "/stɑr/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/星形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2866,7 +2866,7 @@
     "car-english-pronunciation": "/hɑːt ʃeɪp/",
     "car-american-pronunciation": "/hɑːrt ʃeɪp/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/心形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2877,7 +2877,7 @@
     "car-english-pronunciation": "/ˈdaɪəmənd ʃeɪp/",
     "car-american-pronunciation": "/ˈdaɪmənd ʃeɪp/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/菱形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2888,7 +2888,7 @@
     "car-english-pronunciation": "/ˈtræpɪzɔɪd/",
     "car-american-pronunciation": "/ˈtræpəzɔɪd/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/梯形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2899,7 +2899,7 @@
     "car-english-pronunciation": "/ˈsemɪˌsɜːkəl/",
     "car-american-pronunciation": "/ˈsemɪˌsɜːrkəl/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/半圆形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2910,7 +2910,7 @@
     "car-english-pronunciation": "/stɑː(r)/",
     "car-american-pronunciation": "/stɑːr/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/五角星_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2921,7 +2921,7 @@
     "car-english-pronunciation": "/ˈheksəɡən/",
     "car-american-pronunciation": "/ˈheksəɡɑːn/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/六边形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2932,7 +2932,7 @@
     "car-english-pronunciation": "/kʌp/",
     "car-american-pronunciation": "/kʌp/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/圆柱形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2943,7 +2943,7 @@
     "car-english-pronunciation": "/bɔːl/",
     "car-american-pronunciation": "/bɔl/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/球形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2954,7 +2954,7 @@
     "car-english-pronunciation": "/kjuːb/",
     "car-american-pronunciation": "/kjuːb/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/立方体_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2965,7 +2965,7 @@
     "car-english-pronunciation": "/kəʊn ʃeɪp/",
     "car-american-pronunciation": "/koʊn ʃeɪp/",
     "car-type": "形状",
-    "car-image-path": "",
+    "car-image-path": "assets/images/圆锥形_形状.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2976,7 +2976,7 @@
     "car-english-pronunciation": "/kɑː/",
     "car-american-pronunciation": "/kɑːr/",
     "car-type": "数字",
-    "car-image-path": "",
+    "car-image-path": "assets/images/一_数字.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2987,7 +2987,7 @@
     "car-english-pronunciation": "/tuː/",
     "car-american-pronunciation": "/tuː/",
     "car-type": "数字",
-    "car-image-path": "",
+    "car-image-path": "assets/images/二_数字.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -2998,7 +2998,7 @@
     "car-english-pronunciation": "/θriː/",
     "car-american-pronunciation": "/θriː/",
     "car-type": "数字",
-    "car-image-path": "",
+    "car-image-path": "assets/images/三_数字.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -3009,7 +3009,7 @@
     "car-english-pronunciation": "/fɔː(r)/",
     "car-american-pronunciation": "/fɔːr/",
     "car-type": "数字",
-    "car-image-path": "",
+    "car-image-path": "assets/images/四_数字.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   },
@@ -3020,7 +3020,7 @@
     "car-english-pronunciation": "/faɪv/",
     "car-american-pronunciation": "/faɪv/",
     "car-type": "数字",
-    "car-image-path": "",
+    "car-image-path": "assets/images/五_数字.jpg",
     "chinese-audio-path": "",
     "english-audio-path": ""
   }
