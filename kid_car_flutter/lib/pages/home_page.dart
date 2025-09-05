@@ -93,7 +93,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   Future<void> _playCarAudio(CarProvider carProvider) async {
     if (carProvider.currentCar == null ||
         carProvider.isPlayingAudio ||
-        _isAnimating)
+        _isAnimating ||
+        _isSwitchingCar)
       return;
 
     // 酷炫的放大效果
@@ -149,49 +150,89 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   // 切换到上一个车辆
   Future<void> _previousCar(CarProvider carProvider) async {
+    // 如果正在切换车辆，则忽略新的切换请求
+    if (_isSwitchingCar) return;
+    
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
 
-    // 停止当前音频播放
-    await _audioService.stop(
-      onStateChanged: (isPlaying, audioType) {
-        carProvider.setAudioPlayingState(isPlaying, audioType);
-      },
-    );
-    carProvider.resetAudioState();
+    // 设置切换状态
+    setState(() {
+      _isSwitchingCar = true;
+    });
 
-    final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
-    final previousIndex =
-        currentIndex > 0 ? currentIndex - 1 : carProvider.cars.length - 1;
+    try {
+      // 停止当前音频播放
+      await _audioService.stop(
+        onStateChanged: (isPlaying, audioType) {
+          carProvider.setAudioPlayingState(isPlaying, audioType);
+        },
+      );
+      carProvider.resetAudioState();
 
-    await carProvider.setCurrentCar(
-      carProvider.cars[previousIndex],
-      previousIndex,
-    );
+      final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
+      final previousIndex =
+          currentIndex > 0 ? currentIndex - 1 : carProvider.cars.length - 1;
 
-    // 切换车辆后自动播放音频
-    await _playCarAudio(carProvider);
+      await carProvider.setCurrentCar(
+        carProvider.cars[previousIndex],
+        previousIndex,
+      );
+
+      // 短暂延迟，确保前一个音频完全停止
+      await Future.delayed(const Duration(milliseconds: 100));
+
+      // 切换车辆后自动播放音频
+      await _playCarAudio(carProvider);
+    } finally {
+      // 重置切换状态
+      if (mounted) {
+        setState(() {
+          _isSwitchingCar = false;
+        });
+      }
+    }
   }
 
   // 切换到下一个车辆
   Future<void> _nextCar(CarProvider carProvider) async {
+    // 如果正在切换车辆，则忽略新的切换请求
+    if (_isSwitchingCar) return;
+    
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
 
-    // 停止当前音频播放
-    await _audioService.stop(
-      onStateChanged: (isPlaying, audioType) {
-        carProvider.setAudioPlayingState(isPlaying, audioType);
-      },
-    );
-    carProvider.resetAudioState();
+    // 设置切换状态
+    setState(() {
+      _isSwitchingCar = true;
+    });
 
-    final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
-    final nextIndex =
-        currentIndex < carProvider.cars.length - 1 ? currentIndex + 1 : 0;
+    try {
+      // 停止当前音频播放
+      await _audioService.stop(
+        onStateChanged: (isPlaying, audioType) {
+          carProvider.setAudioPlayingState(isPlaying, audioType);
+        },
+      );
+      carProvider.resetAudioState();
 
-    await carProvider.setCurrentCar(carProvider.cars[nextIndex], nextIndex);
+      final currentIndex = carProvider.cars.indexOf(carProvider.currentCar!);
+      final nextIndex =
+          currentIndex < carProvider.cars.length - 1 ? currentIndex + 1 : 0;
 
-    // 切换车辆后自动播放音频
-    await _playCarAudio(carProvider);
+      await carProvider.setCurrentCar(carProvider.cars[nextIndex], nextIndex);
+
+      // 短暂延迟，确保前一个音频完全停止
+      await Future.delayed(const Duration(milliseconds: 100));
+
+      // 切换车辆后自动播放音频
+      await _playCarAudio(carProvider);
+    } finally {
+      // 重置切换状态
+      if (mounted) {
+        setState(() {
+          _isSwitchingCar = false;
+        });
+      }
+    }
   }
 
   Widget _buildCarContent(CarProvider carProvider) {

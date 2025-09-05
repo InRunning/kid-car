@@ -26,6 +26,7 @@ class AudioService {
     try {
       // 重置停止标志
       _shouldStop = false;
+      _isPlaying = false; // 重置播放状态
 
       // 播放英文音频3次
       int englishPlays = 0;
@@ -108,7 +109,19 @@ class AudioService {
       // 重置状态
       onStateChanged(false, '');
     } catch (e) {
-      onError('播放音频失败: $e');
+      // 检查是否是文件未找到异常
+      final errorString = e.toString();
+      if (errorString.contains('FileNotFoundException') ||
+          errorString.contains('File not found') ||
+          errorString.contains('Failed to load') ||
+          errorString.contains('Asset not found')) {
+        // 对于文件未找到异常，静默处理，不显示给用户
+        print('音频文件未找到，静默处理: $e');
+      } else {
+        // 只有不是文件未找到异常时才显示错误
+        onError('播放音频失败: $e');
+      }
+      
       onStateChanged(false, '');
       return;
     }
@@ -123,6 +136,7 @@ class AudioService {
     try {
       // 重置停止标志
       _shouldStop = false;
+      _isPlaying = false; // 重置播放状态
 
       onStateChanged(true, 'english');
 
@@ -148,7 +162,72 @@ class AudioService {
       // 重置状态
       onStateChanged(false, '');
     } catch (e) {
-      onError('播放音频失败: $e');
+      // 检查是否是文件未找到异常
+      final errorString = e.toString();
+      if (errorString.contains('FileNotFoundException') ||
+          errorString.contains('File not found') ||
+          errorString.contains('Failed to load') ||
+          errorString.contains('Asset not found')) {
+        // 对于文件未找到异常，静默处理，不显示给用户
+        print('音频文件未找到，静默处理: $e');
+      } else {
+        // 只有不是文件未找到异常时才显示错误
+        onError('播放音频失败: $e');
+      }
+      
+      onStateChanged(false, '');
+      return;
+    }
+  }
+
+  // 播放一次中文音频
+  Future<void> playChineseAudioOnce({
+    required Car car,
+    required Function(bool, String) onStateChanged,
+    required Function(String) onError,
+  }) async {
+    try {
+      // 重置停止标志
+      _shouldStop = false;
+      _isPlaying = false; // 重置播放状态
+
+      onStateChanged(true, 'chinese');
+
+      bool playSuccess = await _playAudio(
+        audioPath: car.chineseAudioPath,
+        audioType: 'chinese',
+        onStateChanged: onStateChanged,
+        onError: onError,
+        recreatePlayer: true,
+      );
+
+      // 检查是否需要停止
+      if (_shouldStop) {
+        onStateChanged(false, '');
+        return;
+      }
+
+      if (playSuccess) {
+        // 等待播放完成
+        await _waitForPlaybackComplete();
+      }
+
+      // 重置状态
+      onStateChanged(false, '');
+    } catch (e) {
+      // 检查是否是文件未找到异常
+      final errorString = e.toString();
+      if (errorString.contains('FileNotFoundException') ||
+          errorString.contains('File not found') ||
+          errorString.contains('Failed to load') ||
+          errorString.contains('Asset not found')) {
+        // 对于文件未找到异常，静默处理，不显示给用户
+        print('音频文件未找到，静默处理: $e');
+      } else {
+        // 只有不是文件未找到异常时才显示错误
+        onError('播放音频失败: $e');
+      }
+      
       onStateChanged(false, '');
       return;
     }
@@ -172,10 +251,27 @@ class AudioService {
     try {
       print('尝试播放音频: $audioPath, 类型: $audioType');
 
+      // 检查是否应该停止播放
+      if (_shouldStop) {
+        print('收到停止标志，取消播放: $audioType');
+        _isPlaying = false;
+        return false;
+      }
+
       // 如果正在播放，先停止
       if (_isPlaying) {
-        await _audioPlayer.stop();
+        try {
+          await _audioPlayer.stop();
+        } catch (e) {
+          print('停止当前播放失败: $e');
+        }
         _isPlaying = false;
+      }
+
+      // 再次检查是否应该停止播放
+      if (_shouldStop) {
+        print('收到停止标志，取消播放: $audioType');
+        return false;
       }
 
       // 设置音频播放状态
@@ -189,15 +285,17 @@ class AudioService {
 
       // 设置音频完成回调
       _audioPlayer.onPlayerComplete.listen((_) {
-        print('音频播放完成: $audioType');
-        // 音频播放完毕，重置状态
-        _isPlaying = false;
+        if (!_shouldStop) {
+          print('音频播放完成: $audioType');
+          // 音频播放完毕，重置状态
+          _isPlaying = false;
+        }
       });
 
       // 设置音频错误回调
       _audioPlayer.onPlayerStateChanged.listen((state) {
         print('音频播放状态变化: $state');
-        if (state == PlayerState.stopped && _isPlaying) {
+        if (state == PlayerState.stopped && _isPlaying && !_shouldStop) {
           // 播放停止可能是由于错误
           _isPlaying = false;
         } else if (state == PlayerState.completed) {
@@ -216,11 +314,27 @@ class AudioService {
             audioPath.startsWith('assets/')
                 ? audioPath.substring(7)
                 : audioPath;
+        
+        // 最后一次检查是否应该停止播放
+        if (_shouldStop) {
+          print('收到停止标志，取消播放: $audioType');
+          _isPlaying = false;
+          return false;
+        }
+        
         await _audioPlayer.play(AssetSource(assetPath));
         print('使用AssetSource播放音频成功');
         return true;
       } catch (e1) {
         print('AssetSource播放失败: $e1');
+        
+        // 检查是否应该停止播放
+        if (_shouldStop) {
+          print('收到停止标志，取消播放: $audioType');
+          _isPlaying = false;
+          return false;
+        }
+        
         try {
           // 方法2: 使用直接路径
           await _audioPlayer.play(DeviceFileSource(audioPath));
@@ -228,6 +342,14 @@ class AudioService {
           return true;
         } catch (e2) {
           print('DeviceFileSource播放失败: $e2');
+          
+          // 检查是否应该停止播放
+          if (_shouldStop) {
+            print('收到停止标志，取消播放: $audioType');
+            _isPlaying = false;
+            return false;
+          }
+          
           try {
             // 方法3: 使用URL
             await _audioPlayer.play(UrlSource(audioPath));
@@ -245,8 +367,22 @@ class AudioService {
       // 在Web平台上，音频播放可能会失败，但我们不希望这影响用户体验
       // 模拟音频播放完成
       await Future.delayed(const Duration(seconds: 1));
-      // 显示错误
-      onError('播放音频失败: $e');
+      
+      // 检查是否是文件未找到异常
+      final errorString = e.toString();
+      if (errorString.contains('FileNotFoundException') ||
+          errorString.contains('File not found') ||
+          errorString.contains('Failed to load') ||
+          errorString.contains('Asset not found')) {
+        // 对于文件未找到异常，静默处理，不显示给用户
+        print('音频文件未找到，静默处理: $e');
+      } else {
+        // 只有在没有收到停止标志且不是文件未找到异常时才显示错误
+        if (!_shouldStop) {
+          onError('播放音频失败: $e');
+        }
+      }
+      
       return false;
     }
   }
@@ -258,7 +394,13 @@ class AudioService {
       _shouldStop = true;
 
       // 停止音频播放器
-      await _audioPlayer.stop();
+      try {
+        await _audioPlayer.stop();
+      } catch (e) {
+        print('停止音频播放器失败: $e');
+        // 即使停止失败，也要继续执行
+      }
+      
       _isPlaying = false; // 重置播放状态
 
       // 通知状态变化
