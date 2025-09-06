@@ -6650,7 +6650,7 @@
     "car-english-pronunciation": "/hænd/",
     "car-american-pronunciation": "/hænd/",
     "car-type": "身体部位",
-    "car-image-path": "",
+    "car-image-path": "assets/images/膝盖_身体部位.jpg",
     "chinese-audio-path": "assets/audios/膝盖_zh.mp3",
     "english-audio-path": "assets/audios/Hand_en.mp3"
   },
@@ -6661,7 +6661,7 @@
     "car-english-pronunciation": "/eɪ/",
     "car-american-pronunciation": "/eɪ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/A_字母.jpg",
     "chinese-audio-path": "assets/audios/A_zh.mp3",
     "english-audio-path": "assets/audios/A_en.mp3"
   },
@@ -6672,7 +6672,7 @@
     "car-english-pronunciation": "/biː/",
     "car-american-pronunciation": "/biː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/B_字母.jpg",
     "chinese-audio-path": "assets/audios/B_zh.mp3",
     "english-audio-path": "assets/audios/B_en.mp3"
   },
@@ -6683,7 +6683,7 @@
     "car-english-pronunciation": "/siː/",
     "car-american-pronunciation": "/siː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/C_字母.jpg",
     "chinese-audio-path": "assets/audios/C_zh.mp3",
     "english-audio-path": "assets/audios/C_en.mp3"
   },
@@ -6694,7 +6694,7 @@
     "car-english-pronunciation": "/diː/",
     "car-american-pronunciation": "/diː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/D_字母.jpg",
     "chinese-audio-path": "assets/audios/D_zh.mp3",
     "english-audio-path": "assets/audios/D_en.mp3"
   },
@@ -6705,7 +6705,7 @@
     "car-english-pronunciation": "/eɪ/",
     "car-american-pronunciation": "/eɪ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/E_字母.jpg",
     "chinese-audio-path": "assets/audios/E_zh.mp3",
     "english-audio-path": "assets/audios/E_en.mp3"
   },
@@ -6716,7 +6716,7 @@
     "car-english-pronunciation": "/ef/",
     "car-american-pronunciation": "/ef/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/F_字母.jpg",
     "chinese-audio-path": "assets/audios/F_zh.mp3",
     "english-audio-path": "assets/audios/F_en.mp3"
   },
@@ -6727,7 +6727,7 @@
     "car-english-pronunciation": "/dʒiː/",
     "car-american-pronunciation": "/dʒiː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/G_字母.jpg",
     "chinese-audio-path": "assets/audios/G_zh.mp3",
     "english-audio-path": "assets/audios/G_en.mp3"
   },
@@ -6738,7 +6738,7 @@
     "car-english-pronunciation": "/eɪtʃ/",
     "car-american-pronunciation": "/eɪtʃ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/H_字母.jpg",
     "chinese-audio-path": "assets/audios/H_zh.mp3",
     "english-audio-path": "assets/audios/H_en.mp3"
   },
@@ -6749,7 +6749,7 @@
     "car-english-pronunciation": "/aɪ/",
     "car-american-pronunciation": "/aɪ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/I_字母.jpg",
     "chinese-audio-path": "assets/audios/I_zh.mp3",
     "english-audio-path": "assets/audios/I_en.mp3"
   },
@@ -6760,7 +6760,7 @@
     "car-english-pronunciation": "/dʒeɪ/",
     "car-american-pronunciation": "/dʒeɪ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/J_字母.jpg",
     "chinese-audio-path": "assets/audios/J_zh.mp3",
     "english-audio-path": "assets/audios/J_en.mp3"
   },
@@ -6771,7 +6771,7 @@
     "car-english-pronunciation": "/keɪ/",
     "car-american-pronunciation": "/keɪ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/K_字母.jpg",
     "chinese-audio-path": "assets/audios/K_zh.mp3",
     "english-audio-path": "assets/audios/K_en.mp3"
   },
@@ -6782,7 +6782,7 @@
     "car-english-pronunciation": "/el/",
     "car-american-pronunciation": "/el/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/L_字母.jpg",
     "chinese-audio-path": "assets/audios/L_zh.mp3",
     "english-audio-path": "assets/audios/L_en.mp3"
   },
@@ -6793,7 +6793,7 @@
     "car-english-pronunciation": "/em/",
     "car-american-pronunciation": "/em/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/M_字母.jpg",
     "chinese-audio-path": "assets/audios/M_zh.mp3",
     "english-audio-path": "assets/audios/M_en.mp3"
   },
@@ -6804,7 +6804,7 @@
     "car-english-pronunciation": "/en/",
     "car-american-pronunciation": "/en/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/N_字母.jpg",
     "chinese-audio-path": "assets/audios/N_zh.mp3",
     "english-audio-path": "assets/audios/N_en.mp3"
   },
@@ -6815,7 +6815,7 @@
     "car-english-pronunciation": "/əʊ/",
     "car-american-pronunciation": "/oʊ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/O_字母.jpg",
     "chinese-audio-path": "assets/audios/O_zh.mp3",
     "english-audio-path": "assets/audios/O_en.mp3"
   },
@@ -6826,7 +6826,7 @@
     "car-english-pronunciation": "/piː/",
     "car-american-pronunciation": "/piː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/P_字母.jpg",
     "chinese-audio-path": "assets/audios/P_zh.mp3",
     "english-audio-path": "assets/audios/P_en.mp3"
   },
@@ -6837,7 +6837,7 @@
     "car-english-pronunciation": "/kjuː/",
     "car-american-pronunciation": "/kjuː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/Q_字母.jpg",
     "chinese-audio-path": "assets/audios/Q_zh.mp3",
     "english-audio-path": "assets/audios/Q_en.mp3"
   },
@@ -6848,7 +6848,7 @@
     "car-english-pronunciation": "/ɑː/",
     "car-american-pronunciation": "/ɑr/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/R_字母.jpg",
     "chinese-audio-path": "assets/audios/R_zh.mp3",
     "english-audio-path": "assets/audios/R_en.mp3"
   },
@@ -6859,7 +6859,7 @@
     "car-english-pronunciation": "/ɛs/",
     "car-american-pronunciation": "/ɛs/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/S_字母.jpg",
     "chinese-audio-path": "assets/audios/S_zh.mp3",
     "english-audio-path": "assets/audios/S_en.mp3"
   },
@@ -6870,7 +6870,7 @@
     "car-english-pronunciation": "/tiː/",
     "car-american-pronunciation": "/tiː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/T_字母.jpg",
     "chinese-audio-path": "assets/audios/T_zh.mp3",
     "english-audio-path": "assets/audios/T_en.mp3"
   },
@@ -6881,7 +6881,7 @@
     "car-english-pronunciation": "/juː/",
     "car-american-pronunciation": "/juː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/U_字母.jpg",
     "chinese-audio-path": "assets/audios/U_zh.mp3",
     "english-audio-path": "assets/audios/U_en.mp3"
   },
@@ -6892,7 +6892,7 @@
     "car-english-pronunciation": "/viː/",
     "car-american-pronunciation": "/viː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/V_字母.jpg",
     "chinese-audio-path": "assets/audios/V_zh.mp3",
     "english-audio-path": "assets/audios/V_en.mp3"
   },
@@ -6903,7 +6903,7 @@
     "car-english-pronunciation": "/ˈdʌbəl.juː/",
     "car-american-pronunciation": "/ˈdʌbəl.juː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/W_字母.jpg",
     "chinese-audio-path": "assets/audios/W_zh.mp3",
     "english-audio-path": "assets/audios/W_en.mp3"
   },
@@ -6914,7 +6914,7 @@
     "car-english-pronunciation": "/eks/",
     "car-american-pronunciation": "/eks/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/X_字母.jpg",
     "chinese-audio-path": "assets/audios/X_zh.mp3",
     "english-audio-path": "assets/audios/X_en.mp3"
   },
@@ -6925,7 +6925,7 @@
     "car-english-pronunciation": "/waɪ/",
     "car-american-pronunciation": "/waɪ/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/Y_字母.jpg",
     "chinese-audio-path": "assets/audios/Y_zh.mp3",
     "english-audio-path": "assets/audios/Y_en.mp3"
   },
@@ -6936,7 +6936,7 @@
     "car-english-pronunciation": "/zed/",
     "car-american-pronunciation": "/ziː/",
     "car-type": "字母",
-    "car-image-path": "",
+    "car-image-path": "assets/images/Z_字母.jpg",
     "chinese-audio-path": "assets/audios/Z_zh.mp3",
     "english-audio-path": "assets/audios/Z_en.mp3"
   },
@@ -6947,7 +6947,7 @@
     "car-english-pronunciation": "/kaʊ/",
     "car-american-pronunciation": "/kaʊ/",
     "car-type": "农场动物",
-    "car-image-path": "",
+    "car-image-path": "assets/images/小鸡_农场动物.jpg",
     "chinese-audio-path": "assets/audios/小鸡_zh.mp3",
     "english-audio-path": "assets/audios/Cow_en.mp3"
   },
@@ -6969,7 +6969,7 @@
     "car-english-pronunciation": "/bɪɡ/",
     "car-american-pronunciation": "/bɪɡ/",
     "car-type": "形容词",
-    "car-image-path": "",
+    "car-image-path": "assets/images/大的_形容词.jpg",
     "chinese-audio-path": "assets/audios/大的_zh.mp3",
     "english-audio-path": "assets/audios/Big_en.mp3"
   },
@@ -6980,7 +6980,7 @@
     "car-english-pronunciation": "/ˈhæpi/",
     "car-american-pronunciation": "/ˈhæpi/",
     "car-type": "形容词",
-    "car-image-path": "",
+    "car-image-path": "assets/images/大声的_形容词.jpg",
     "chinese-audio-path": "assets/audios/大声的_zh.mp3",
     "english-audio-path": "assets/audios/Happy_en.mp3"
   },
@@ -6991,7 +6991,7 @@
     "car-english-pronunciation": "/həˈləʊ/",
     "car-american-pronunciation": "/həˈloʊ/",
     "car-type": "日常问候与礼貌用语",
-    "car-image-path": "",
+    "car-image-path": "assets/images/再见_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/再见_zh.mp3",
     "english-audio-path": "assets/audios/Hello_en.mp3"
   },
@@ -7002,7 +7002,7 @@
     "car-english-pronunciation": "/həˈləʊ/",
     "car-american-pronunciation": "/həˈloʊ/",
     "car-type": "日常问候与礼貌用语",
-    "car-image-path": "",
+    "car-image-path": "assets/images/早上好_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/早上好_zh.mp3",
     "english-audio-path": "assets/audios/Hello_en.mp3"
   },
@@ -7013,7 +7013,7 @@
     "car-english-pronunciation": "/pəˈlaɪt freɪzɪz/",
     "car-american-pronunciation": "/pəˈlaɪt freɪzɪz/",
     "car-type": "日常问候与礼貌用语",
-    "car-image-path": "",
+    "car-image-path": "assets/images/晚安_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/晚安_zh.mp3",
     "english-audio-path": "assets/audios/Polite Phrases_en.mp3"
   },
@@ -7024,7 +7024,7 @@
     "car-english-pronunciation": "/həˈləʊ/",
     "car-american-pronunciation": "/həˈloʊ/",
     "car-type": "日常问候与礼貌用语",
-    "car-image-path": "",
+    "car-image-path": "assets/images/请_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/请_zh.mp3",
     "english-audio-path": "assets/audios/Hello_en.mp3"
   },
@@ -7035,7 +7035,7 @@
     "car-english-pronunciation": "/həˈləʊ/",
     "car-american-pronunciation": "/həˈloʊ/",
     "car-type": "日常问候与礼貌用语",
-    "car-image-path": "",
+    "car-image-path": "assets/images/谢谢_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/谢谢_zh.mp3",
     "english-audio-path": "assets/audios/Hello_en.mp3"
   },
@@ -7046,7 +7046,7 @@
     "car-english-pronunciation": "/həˈləʊ/",
     "car-american-pronunciation": "/həˈloʊ/",
     "car-type": "日常问候与礼貌用语",
-    "car-image-path": "",
+    "car-image-path": "assets/images/不客气_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/不客气_zh.mp3",
     "english-audio-path": ""
   },
@@ -7057,7 +7057,7 @@
     "car-english-pronunciation": "/həˈləʊ/",
     "car-american-pronunciation": "/həˈloʊ/",
     "car-type": "日常问候与礼貌用语",
-    "car-image-path": "",
+    "car-image-path": "assets/images/对不起_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/对不起_zh.mp3",
     "english-audio-path": "assets/audios/Hello_en.mp3"
   },
@@ -7068,7 +7068,7 @@
     "car-english-pronunciation": "/ˈænɪməl saʊndz/",
     "car-american-pronunciation": "/ˈænɪməl saʊndz/",
     "car-type": "动物叫声",
-    "car-image-path": "",
+    "car-image-path": "assets/images/喵_动物叫声.jpg",
     "chinese-audio-path": "assets/audios/喵_zh.mp3",
     "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
   },
@@ -7079,7 +7079,7 @@
     "car-english-pronunciation": "/ˈænɪməl saʊndz/",
     "car-american-pronunciation": "/ˈænɪməl saʊndz/",
     "car-type": "动物叫声",
-    "car-image-path": "",
+    "car-image-path": "assets/images/汪_动物叫声.jpg",
     "chinese-audio-path": "assets/audios/汪_zh.mp3",
     "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
   },
@@ -7090,7 +7090,7 @@
     "car-english-pronunciation": "/ˈænɪməl saʊndz/",
     "car-american-pronunciation": "/ˈænɪməl saʊndz/",
     "car-type": "动物叫声",
-    "car-image-path": "",
+    "car-image-path": "assets/images/嘎_动物叫声.jpg",
     "chinese-audio-path": "assets/audios/嘎_zh.mp3",
     "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
   },
@@ -7101,7 +7101,7 @@
     "car-english-pronunciation": "/ˈænɪməl saʊndz/",
     "car-american-pronunciation": "/ˈænɪməl saʊndz/",
     "car-type": "动物叫声",
-    "car-image-path": "",
+    "car-image-path": "assets/images/哼_动物叫声.jpg",
     "chinese-audio-path": "assets/audios/哼_zh.mp3",
     "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
   },
@@ -7112,7 +7112,7 @@
     "car-english-pronunciation": "/dɒg ˈbɑːkɪŋ/",
     "car-american-pronunciation": "/dɔːg ˈbɑːrkɪŋ/",
     "car-type": "动物叫声",
-    "car-image-path": "",
+    "car-image-path": "assets/images/哞_动物叫声.jpg",
     "chinese-audio-path": "assets/audios/哞_zh.mp3",
     "english-audio-path": "assets/audios/Dog Barking_en.mp3"
   },
@@ -7134,7 +7134,7 @@
     "car-english-pronunciation": "/dʒʌmp/",
     "car-american-pronunciation": "/dʒʌmp/",
     "car-type": "动作指令",
-    "car-image-path": "",
+    "car-image-path": "assets/images/坐下_动作指令.jpg",
     "chinese-audio-path": "assets/audios/坐下_zh.mp3",
     "english-audio-path": "assets/audios/Jump_en.mp3"
   },
@@ -7145,7 +7145,7 @@
     "car-english-pronunciation": "/dʒʌmp/",
     "car-american-pronunciation": "/dʒʌmp/",
     "car-type": "动作指令",
-    "car-image-path": "",
+    "car-image-path": "assets/images/拍拍手_动作指令.jpg",
     "chinese-audio-path": "assets/audios/拍拍手_zh.mp3",
     "english-audio-path": "assets/audios/Jump_en.mp3"
   },
@@ -7156,7 +7156,7 @@
     "car-english-pronunciation": "/dʒʌmp/",
     "car-american-pronunciation": "/dʒʌmp/",
     "car-type": "动作指令",
-    "car-image-path": "",
+    "car-image-path": "assets/images/跺跺脚_动作指令.jpg",
     "chinese-audio-path": "assets/audios/跺跺脚_zh.mp3",
     "english-audio-path": "assets/audios/Jump_en.mp3"
   },
@@ -7167,7 +7167,7 @@
     "car-english-pronunciation": "/dʒʌmp/",
     "car-american-pronunciation": "/dʒʌmp/",
     "car-type": "动作指令",
-    "car-image-path": "",
+    "car-image-path": "assets/images/摸_动作指令.jpg",
     "chinese-audio-path": "assets/audios/摸_zh.mp3",
     "english-audio-path": "assets/audios/Jump_en.mp3"
   },
@@ -7178,7 +7178,7 @@
     "car-english-pronunciation": "/stɒp/",
     "car-american-pronunciation": "/stɑp/",
     "car-type": "动作指令",
-    "car-image-path": "",
+    "car-image-path": "assets/images/指_动作指令.jpg",
     "chinese-audio-path": "assets/audios/指_zh.mp3",
     "english-audio-path": "assets/audios/Stop_en.mp3"
   },
@@ -7189,7 +7189,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/数数_日常活动.jpg",
     "chinese-audio-path": "assets/audios/数数_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   },
@@ -7200,7 +7200,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/认汽车_日常活动.jpg",
     "chinese-audio-path": "assets/audios/认汽车_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   },
@@ -7211,7 +7211,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/吃水果_日常活动.jpg",
     "chinese-audio-path": "assets/audios/吃水果_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   },
@@ -7222,7 +7222,7 @@
     "car-english-pronunciation": "/ˈtaɪdiɪŋ ʌp ðə ruːm/",
     "car-american-pronunciation": "/ˈtaɪdiɪŋ ʌp ðə rum/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/数楼梯_日常活动.jpg",
     "chinese-audio-path": "assets/audios/数楼梯_zh.mp3",
     "english-audio-path": "assets/audios/Tidying Up the Room_en.mp3"
   },
@@ -7233,7 +7233,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/数玩具_日常活动.jpg",
     "chinese-audio-path": "assets/audios/数玩具_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   },
@@ -7244,7 +7244,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/洗澡_日常活动.jpg",
     "chinese-audio-path": "assets/audios/洗澡_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   },
@@ -7255,7 +7255,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/穿衣_日常活动.jpg",
     "chinese-audio-path": "assets/audios/穿衣_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   },
@@ -7266,7 +7266,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/玩游戏_日常活动.jpg",
     "chinese-audio-path": "assets/audios/玩游戏_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   },
@@ -7277,7 +7277,7 @@
     "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
     "car-type": "日常活动",
-    "car-image-path": "",
+    "car-image-path": "assets/images/看书_日常活动.jpg",
     "chinese-audio-path": "assets/audios/看书_zh.mp3",
     "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   }
