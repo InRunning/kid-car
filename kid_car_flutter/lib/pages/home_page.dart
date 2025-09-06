@@ -90,11 +90,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   // 播放车辆音频
-  Future<void> _playCarAudio(CarProvider carProvider) async {
+  Future<void> _playCarAudio(CarProvider carProvider, {bool ignoreSwitchingState = false, bool ignorePlayingState = false}) async {
     if (carProvider.currentCar == null ||
-        carProvider.isPlayingAudio ||
+        (!ignorePlayingState && carProvider.isPlayingAudio) ||
         _isAnimating ||
-        _isSwitchingCar)
+        (!ignoreSwitchingState && _isSwitchingCar))
       return;
 
     // 酷炫的放大效果
@@ -150,9 +150,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   // 切换到上一个车辆
   Future<void> _previousCar(CarProvider carProvider) async {
-    // 如果正在切换车辆，则忽略新的切换请求
-    if (_isSwitchingCar) return;
-    
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
 
     // 设置切换状态
@@ -182,7 +179,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       await Future.delayed(const Duration(milliseconds: 100));
 
       // 切换车辆后自动播放音频
-      await _playCarAudio(carProvider);
+      await _playCarAudio(carProvider, ignoreSwitchingState: true, ignorePlayingState: true);
     } finally {
       // 重置切换状态
       if (mounted) {
@@ -195,9 +192,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   // 切换到下一个车辆
   Future<void> _nextCar(CarProvider carProvider) async {
-    // 如果正在切换车辆，则忽略新的切换请求
-    if (_isSwitchingCar) return;
-    
     if (carProvider.cars.isEmpty || carProvider.currentCar == null) return;
 
     // 设置切换状态
@@ -224,7 +218,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
       await Future.delayed(const Duration(milliseconds: 100));
 
       // 切换车辆后自动播放音频
-      await _playCarAudio(carProvider);
+      await _playCarAudio(carProvider, ignoreSwitchingState: true, ignorePlayingState: true);
     } finally {
       // 重置切换状态
       if (mounted) {

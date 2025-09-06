@@ -6958,7 +6958,7 @@
     "car-english-pronunciation": "/ˈdɒlfɪn/",
     "car-american-pronunciation": "/ˈdɑːlfɪn/",
     "car-type": "海洋生物",
-    "car-image-path": "",
+    "car-image-path": "assets/images/鲨鱼_海洋生物.jpg",
     "chinese-audio-path": "assets/audios/鲨鱼_zh.mp3",
     "english-audio-path": "assets/audios/Dolphin_en.mp3"
   },
@@ -7048,7 +7048,7 @@
     "car-type": "日常问候与礼貌用语",
     "car-image-path": "assets/images/不客气_日常问候与礼貌用语.jpg",
     "chinese-audio-path": "assets/audios/不客气_zh.mp3",
-    "english-audio-path": ""
+    "english-audio-path": "assets/audios/Hello_en.mp3"
   },
   {
     "car-name": "对不起",
@@ -7123,7 +7123,7 @@
     "car-english-pronunciation": "/dʒʌmp/",
     "car-american-pronunciation": "/dʒʌmp/",
     "car-type": "动作指令",
-    "car-image-path": "",
+    "car-image-path": "assets/images/站起来_动作指令.jpg",
     "chinese-audio-path": "assets/audios/站起来_zh.mp3",
     "english-audio-path": "assets/audios/Jump_en.mp3"
   },
