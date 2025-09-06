@@ -49,27 +49,51 @@ def create_client():
         api_key=api_key
     )
 
-def generate_item_info(client, item_type):
+def generate_item_info(client, item_name, item_type):
     """生成单个事物信息"""
-    prompt = f"""
-    请为儿童认识事物生成以下信息，事物类型：{item_type}
-    
-    请生成：
-    1. car-name: 中文事物名称（简单易懂，适合儿童）
-    2. car-english-name: 英文事物名称
-    3. car-description: 事物描述（简单介绍，适合儿童理解，根据类型调整描述内容）
-    4. car-english-pronunciation: 英式音标（使用国际音标IPA格式）
-    5. car-american-pronunciation: 美式音标（使用国际音标IPA格式）
-    
-    请以JSON格式返回，格式如下：
-    {{
-        "car-name": "事物中文名",
-        "car-english-name": "Item English Name",
-        "car-description": "事物描述",
-        "car-english-pronunciation": "/ɪnˈglɪʃ prəˌnʌnsiˈeɪʃən/",
-        "car-american-pronunciation": "/ˈæmərɪkən prəˌnʌnsiˈeɪʃən/"
-    }}
-    """
+    # 针对字母类型的特殊处理
+    if item_type == "字母":
+        prompt = f"""
+        请为儿童认识字母生成以下信息，字母：{item_name}
+        
+        请生成：
+        1. car-name: 字母名称（就是字母本身）
+        2. car-english-name: 英文字母名称（就是字母本身，不要生成以该字母开头的单词）
+        3. car-description: 字母描述（简单介绍这个字母，适合儿童理解，不要提到以该字母开头的单词）
+        4. car-english-pronunciation: 英式音标（使用国际音标IPA格式）
+        5. car-american-pronunciation: 美式音标（使用国际音标IPA格式）
+        
+        请以JSON格式返回，格式如下：
+        {{
+            "car-name": "{item_name}",
+            "car-english-name": "{item_name}",
+            "car-description": "字母描述",
+            "car-english-pronunciation": "/eɪ/",
+            "car-american-pronunciation": "/eɪ/"
+        }}
+        
+        重要提示：car-english-name 必须是字母本身，不要生成以该字母开头的单词！
+        """
+    else:
+        prompt = f"""
+        请为儿童认识事物生成以下信息，事物类型：{item_type}
+        
+        请生成：
+        1. car-name: 中文事物名称（简单易懂，适合儿童）
+        2. car-english-name: 英文事物名称
+        3. car-description: 事物描述（简单介绍，适合儿童理解，根据类型调整描述内容）
+        4. car-english-pronunciation: 英式音标（使用国际音标IPA格式）
+        5. car-american-pronunciation: 美式音标（使用国际音标IPA格式）
+        
+        请以JSON格式返回，格式如下：
+        {{
+            "car-name": "事物中文名",
+            "car-english-name": "Item English Name",
+            "car-description": "事物描述",
+            "car-english-pronunciation": "/ɪnˈglɪʃ prəˌnʌnsiˈeɪʃən/",
+            "car-american-pronunciation": "/ˈæmərɪkən prəˌnʌnsiˈeɪʃən/"
+        }}
+        """
     
     try:
         response = client.chat.completions.create(
@@ -439,7 +463,7 @@ def main():
         
         print(f"正在生成第 {i}/{len(item_names)} 个事物信息: {item_name} ({item_type})")
         
-        item_info = generate_item_info(client, item_name)
+        item_info = generate_item_info(client, item_name, item_type)
         
         if item_info:
             # 添加事物类型和初始路径
