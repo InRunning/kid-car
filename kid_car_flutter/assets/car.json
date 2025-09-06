@@ -19,7 +19,7 @@
     "car-type": "小型车辆",
     "car-image-path": "assets/images/出租车_小型车辆.jpg",
     "chinese-audio-path": "assets/audios/出租车_zh.mp3",
-    "english-audio-path": "assets/audios/taxi_en.mp3"
+    "english-audio-path": "assets/audios/Taxi_en.mp3"
   },
   {
     "car-name": "跑车",
