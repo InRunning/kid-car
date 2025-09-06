@@ -2971,14 +2971,14 @@
   },
   {
     "car-name": "一",
-    "car-english-name": "Car",
+    "car-english-name": "One",
     "car-description": "小汽车是一种有四个轮子的交通工具，可以带我们去想去的地方。它有发动机、方向盘、座椅和车门。人们开车时需要遵守交通规则，注意安全。",
-    "car-english-pronunciation": "/kɑː/",
-    "car-american-pronunciation": "/kɑːr/",
+    "car-english-pronunciation": "/wʌn/",
+    "car-american-pronunciation": "/wʌn/",
     "car-type": "数字",
     "car-image-path": "assets/images/一_数字.jpg",
     "chinese-audio-path": "assets/audios/一_zh.mp3",
-    "english-audio-path": "assets/audios/Car_en.mp3"
+    "english-audio-path": "assets/audios/One_en.mp3"
   },
   {
     "car-name": "二",
@@ -5995,61 +5995,6 @@
     "english-audio-path": "assets/audios/Tickling_en.mp3"
   },
   {
-    "car-name": "小的",
-    "car-english-name": "Small car",
-    "car-description": "小汽车是一种小型的车辆，有四个轮子，可以载着人们在路上行驶。小汽车有不同的颜色和形状，有些是真实的，可以载人；有些是玩具，可以用来玩耍。",
-    "car-english-pronunciation": "/smɔːl kɑː/",
-    "car-american-pronunciation": "/smɔl kɑr/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/小的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/小的_zh.mp3",
-    "english-audio-path": "assets/audios/Small car_en.mp3"
-  },
-  {
-    "car-name": "小小的",
-    "car-english-name": "Ant",
-    "car-description": "蚂蚁是一种非常小的昆虫，它们生活在群体中，一起工作。蚂蚁有六条腿，通常黑色或红色。它们非常勤劳，能搬动比自己身体还重的东西！",
-    "car-english-pronunciation": "/ænt/",
-    "car-american-pronunciation": "/ænt/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/小小的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/小小的_zh.mp3",
-    "english-audio-path": "assets/audios/Ant_en.mp3"
-  },
-  {
-    "car-name": "巨大的",
-    "car-english-name": "Elephant",
-    "car-description": "大象是陆地上最大的动物，有长长的鼻子和大大的耳朵。它们用鼻子可以喝水、吃东西和洗澡。大象非常聪明，记忆力也很好，它们喜欢和家人生活在一起。",
-    "car-english-pronunciation": "/ˈelɪfənt/",
-    "car-american-pronunciation": "/ˈeləfənt/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/巨大的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/巨大的_zh.mp3",
-    "english-audio-path": "assets/audios/Elephant_en.mp3"
-  },
-  {
-    "car-name": "微小的",
-    "car-english-name": "Tiny Things",
-    "car-description": "小东西是非常非常小的物体，它们比我们的手指还要小很多。有些小东西我们用眼睛就能看到，比如小蚂蚁和小沙粒；有些小东西太小了，我们需要用放大镜或者显微镜才能看清楚，比如细菌和花粉。小东西虽然小，但它们都很特别哦！",
-    "car-english-pronunciation": "/ˈtaɪni θɪŋz/",
-    "car-american-pronunciation": "/ˈtaɪni θɪŋz/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/微小的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/微小的_zh.mp3",
-    "english-audio-path": "assets/audios/Tiny Things_en.mp3"
-  },
-  {
-    "car-name": "圆的",
-    "car-english-name": "Ball",
-    "car-description": "球是一个圆形的物体，可以滚动、弹跳和投掷。小朋友们喜欢玩各种球，比如足球、篮球和皮球。球可以用来做很多有趣的游戏。",
-    "car-english-pronunciation": "/bɔːl/",
-    "car-american-pronunciation": "/bɔːl/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/圆的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/圆的_zh.mp3",
-    "english-audio-path": "assets/audios/Ball_en.mp3"
-  },
-  {
     "car-name": "方的",
     "car-english-name": "Square",
     "car-description": "方块是一种有四个边和四个角的形状，它的四条边长度都一样，四个角都是直角。我们生活中可以看到很多方块形状的东西，比如积木、方盒子、方桌等。",
@@ -6226,17 +6171,6 @@
     "english-audio-path": "assets/audios/Fear_en.mp3"
   },
   {
-    "car-name": "兴奋的",
-    "car-english-name": "Roller Coaster",
-    "car-description": "过山车是一种非常刺激的游乐设施，它会在高高的轨道上快速前进，有时还会上下翻滚、急转弯，让人感到既紧张又兴奋。坐过山车时，你可能会尖叫、大笑，感觉心跳得很快，这是一种非常有趣的体验！",
-    "car-english-pronunciation": "/ˈrəʊlə ˌkəʊstə/",
-    "car-american-pronunciation": "/ˈroʊlər ˌkoʊstər/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/兴奋的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/兴奋的_zh.mp3",
-    "english-audio-path": "assets/audios/Roller Coaster_en.mp3"
-  },
-  {
     "car-name": "好的",
     "car-english-name": "Ice Cream",
     "car-description": "冰淇淋是一种甜甜的冷饮，由牛奶、糖和水果或巧克力等口味制作而成。它吃起来凉凉的、滑滑的，有很多不同的口味和颜色。夏天吃冰淇淋特别解暑，是很多小朋友最喜欢的零食之一。",
@@ -6257,28 +6191,6 @@
     "car-image-path": "assets/images/坏的_形容词.jpg",
     "chinese-audio-path": "assets/audios/坏的_zh.mp3",
     "english-audio-path": "assets/audios/Bad_en.mp3"
-  },
-  {
-    "car-name": "美味的",
-    "car-english-name": "Ice Cream",
-    "car-description": "冰淇淋是一种甜甜的、冰凉的零食，有很多不同的口味，比如巧克力、草莓和香草。夏天吃冰淇淋会感觉很凉爽很舒服！",
-    "car-english-pronunciation": "/ˌaɪs ˈkriːm/",
-    "car-american-pronunciation": "/ˌaɪs ˈkrim/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/美味的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/美味的_zh.mp3",
-    "english-audio-path": "assets/audios/Ice Cream_en.mp3"
-  },
-  {
-    "car-name": "难吃的",
-    "car-english-name": "Bitter Melon",
-    "car-description": "苦瓜是一种绿色的蔬菜，表面有很多小疙瘩。它吃起来很苦，很多小朋友不喜欢吃它的味道。但是苦瓜很有营养，吃了对身体有好处。",
-    "car-english-pronunciation": "/ˈbɪtə ˈmelən/",
-    "car-american-pronunciation": "/ˈbɪtər ˈmɛlən/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/难吃的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/难吃的_zh.mp3",
-    "english-audio-path": "assets/audios/Bitter Melon_en.mp3"
   },
   {
     "car-name": "干净的",
@@ -6312,17 +6224,6 @@
     "car-image-path": "assets/images/快的_形容词.jpg",
     "chinese-audio-path": "assets/audios/快的_zh.mp3",
     "english-audio-path": "assets/audios/Racing Car_en.mp3"
-  },
-  {
-    "car-name": "慢的",
-    "car-english-name": "Turtle",
-    "car-description": "乌龟是一种爬行动物，它有坚硬的壳保护自己。乌龟走路和游泳都非常慢，但它们很有耐心。在著名的龟兔赛跑故事中，乌龟因为坚持不懈，最终赢得了比赛。乌龟可以活很长时间，有些甚至能活到100岁以上！",
-    "car-english-pronunciation": "/ˈtɜːtəl/",
-    "car-american-pronunciation": "/ˈtɜːrdəl/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/慢的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/慢的_zh.mp3",
-    "english-audio-path": "assets/audios/Turtle_en.mp3"
   },
   {
     "car-name": "安静的",
@@ -6523,17 +6424,6 @@
     "english-audio-path": "assets/audios/Praise_en.mp3"
   },
   {
-    "car-name": "你做到了",
-    "car-english-name": "Achievement Badge",
-    "car-description": "成就徽章是当你完成一件困难的事情后得到的奖励。它可以是贴纸、小奖章或者老师给你的表扬。当你努力学习、帮助他人或者完成一项挑战时，你就可以获得成就徽章，它告诉你：'你做到了！'",
-    "car-english-pronunciation": "/əˈtʃiːvmənt bædʒ/",
-    "car-american-pronunciation": "/əˈtʃiːvmənt bædʒ/",
-    "car-type": "社交用语",
-    "car-image-path": "assets/images/你做到了_社交用语.jpg",
-    "chinese-audio-path": "assets/audios/你做到了_zh.mp3",
-    "english-audio-path": "assets/audios/Achievement Badge_en.mp3"
-  },
-  {
     "car-name": "我为你骄傲",
     "car-english-name": "I'm proud of you",
     "car-description": "骄傲是一种开心的感觉，当我们为某人做得好的事情感到高兴时，就会说'我为你骄傲'。比如当你学会骑自行车、得到好成绩或者帮助别人时，爸爸妈妈或老师可能会对你说'我为你骄傲'，这是他们对你的肯定和鼓励。",
@@ -6543,28 +6433,6 @@
     "car-image-path": "assets/images/我为你骄傲_社交用语.jpg",
     "chinese-audio-path": "assets/audios/我为你骄傲_zh.mp3",
     "english-audio-path": "assets/audios/I'm proud of you_en.mp3"
-  },
-  {
-    "car-name": "再试一次",
-    "car-english-name": "Apple",
-    "car-description": "苹果是一种常见的水果，通常是红色、绿色或黄色的。它圆圆的，吃起来脆脆甜甜的，很有营养。苹果可以生吃，也可以做成果汁、苹果派等美食。俗话说：'一天一苹果，医生远离我'，说明吃苹果对健康很有好处。",
-    "car-english-pronunciation": "/ˈæp.əl/",
-    "car-american-pronunciation": "/ˈæp.əl/",
-    "car-type": "社交用语",
-    "car-image-path": "assets/images/再试一次_社交用语.jpg",
-    "chinese-audio-path": "assets/audios/再试一次_zh.mp3",
-    "english-audio-path": "assets/audios/Apple_en.mp3"
-  },
-  {
-    "car-name": "这是什么",
-    "car-english-name": "Car",
-    "car-description": "汽车是一种有四个轮子的交通工具，人们可以驾驶它去不同的地方，比如上学、上班或者旅行。汽车需要加油才能开动，有不同的颜色和大小。",
-    "car-english-pronunciation": "/kɑːr/",
-    "car-american-pronunciation": "/kɑːr/",
-    "car-type": "社交用语",
-    "car-image-path": "assets/images/这是什么_社交用语.jpg",
-    "chinese-audio-path": "assets/audios/这是什么_zh.mp3",
-    "english-audio-path": "assets/audios/Car_en.mp3"
   },
   {
     "car-name": "...在哪里",
@@ -6939,346 +6807,5 @@
     "car-image-path": "assets/images/Z_字母.jpg",
     "chinese-audio-path": "assets/audios/Z_zh.mp3",
     "english-audio-path": "assets/audios/Z_en.mp3"
-  },
-  {
-    "car-name": "小鸡",
-    "car-english-name": "Cow",
-    "car-description": "奶牛是农场里的大型动物，有四条腿和一条尾巴。它们会'哞哞'叫，喜欢吃草，还能给我们提供新鲜的牛奶。",
-    "car-english-pronunciation": "/kaʊ/",
-    "car-american-pronunciation": "/kaʊ/",
-    "car-type": "农场动物",
-    "car-image-path": "assets/images/小鸡_农场动物.jpg",
-    "chinese-audio-path": "assets/audios/小鸡_zh.mp3",
-    "english-audio-path": "assets/audios/Cow_en.mp3"
-  },
-  {
-    "car-name": "鲨鱼",
-    "car-english-name": "Dolphin",
-    "car-description": "海豚是一种聪明又友善的海洋动物，它们生活在海洋里，身体是流线型的，可以帮助它们快速游泳。海豚喜欢跳跃出水面，还会发出各种声音和同伴交流。它们是哺乳动物，需要呼吸空气，所以会定时浮出水面。海豚非常聪明，能学会很多技巧，是人类的好朋友。",
-    "car-english-pronunciation": "/ˈdɒlfɪn/",
-    "car-american-pronunciation": "/ˈdɑːlfɪn/",
-    "car-type": "海洋生物",
-    "car-image-path": "assets/images/鲨鱼_海洋生物.jpg",
-    "chinese-audio-path": "assets/audios/鲨鱼_zh.mp3",
-    "english-audio-path": "assets/audios/Dolphin_en.mp3"
-  },
-  {
-    "car-name": "大的",
-    "car-english-name": "Big",
-    "car-description": "大是用来形容东西很多或者占据很多空间的词。比如大象很大，房子很大。当我们看到比一般东西还要大的物品时，我们就可以用'大'来形容它。",
-    "car-english-pronunciation": "/bɪɡ/",
-    "car-american-pronunciation": "/bɪɡ/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/大的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/大的_zh.mp3",
-    "english-audio-path": "assets/audios/Big_en.mp3"
-  },
-  {
-    "car-name": "大声的",
-    "car-english-name": "Happy",
-    "car-description": "快乐是一种开心的感觉，当你笑、玩耍或者得到喜欢的东西时，就会感到快乐。快乐的人脸上常常带着笑容。",
-    "car-english-pronunciation": "/ˈhæpi/",
-    "car-american-pronunciation": "/ˈhæpi/",
-    "car-type": "形容词",
-    "car-image-path": "assets/images/大声的_形容词.jpg",
-    "chinese-audio-path": "assets/audios/大声的_zh.mp3",
-    "english-audio-path": "assets/audios/Happy_en.mp3"
-  },
-  {
-    "car-name": "再见",
-    "car-english-name": "Hello",
-    "car-description": "你好是我们见到别人时说的礼貌用语，表示友好和尊重。当我们见到朋友、家人或老师时，说'你好'可以让对方感到开心。说'你好'是交朋友和与人相处的好方法。",
-    "car-english-pronunciation": "/həˈləʊ/",
-    "car-american-pronunciation": "/həˈloʊ/",
-    "car-type": "日常问候与礼貌用语",
-    "car-image-path": "assets/images/再见_日常问候与礼貌用语.jpg",
-    "chinese-audio-path": "assets/audios/再见_zh.mp3",
-    "english-audio-path": "assets/audios/Hello_en.mp3"
-  },
-  {
-    "car-name": "早上好",
-    "car-english-name": "Hello",
-    "car-description": "你好是我们见到别人时说的第一句话，表示友好和礼貌。当我们遇到朋友、家人或者老师时，说'你好'会让大家都感到开心。",
-    "car-english-pronunciation": "/həˈləʊ/",
-    "car-american-pronunciation": "/həˈloʊ/",
-    "car-type": "日常问候与礼貌用语",
-    "car-image-path": "assets/images/早上好_日常问候与礼貌用语.jpg",
-    "chinese-audio-path": "assets/audios/早上好_zh.mp3",
-    "english-audio-path": "assets/audios/Hello_en.mp3"
-  },
-  {
-    "car-name": "晚安",
-    "car-english-name": "Polite Phrases",
-    "car-description": "礼貌用语是我们日常生活中与他人交流时使用的友善话语，包括你好、谢谢、请、对不起等，这些话语可以帮助我们更好地与人沟通，表达我们的尊重和友好。",
-    "car-english-pronunciation": "/pəˈlaɪt freɪzɪz/",
-    "car-american-pronunciation": "/pəˈlaɪt freɪzɪz/",
-    "car-type": "日常问候与礼貌用语",
-    "car-image-path": "assets/images/晚安_日常问候与礼貌用语.jpg",
-    "chinese-audio-path": "assets/audios/晚安_zh.mp3",
-    "english-audio-path": "assets/audios/Polite Phrases_en.mp3"
-  },
-  {
-    "car-name": "请",
-    "car-english-name": "Hello",
-    "car-description": "你好是我们见到别人时说的礼貌用语，表示友好和打招呼。当我们遇到朋友、家人或者老师时，说'你好'是一种有礼貌的表现。",
-    "car-english-pronunciation": "/həˈləʊ/",
-    "car-american-pronunciation": "/həˈloʊ/",
-    "car-type": "日常问候与礼貌用语",
-    "car-image-path": "assets/images/请_日常问候与礼貌用语.jpg",
-    "chinese-audio-path": "assets/audios/请_zh.mp3",
-    "english-audio-path": "assets/audios/Hello_en.mp3"
-  },
-  {
-    "car-name": "谢谢",
-    "car-english-name": "Hello",
-    "car-description": "你好是我们见到别人时说的礼貌用语，表示友好和尊重。当我们遇到朋友、家人或者老师时，可以说'你好'来打招呼，这样别人会感到很开心。",
-    "car-english-pronunciation": "/həˈləʊ/",
-    "car-american-pronunciation": "/həˈloʊ/",
-    "car-type": "日常问候与礼貌用语",
-    "car-image-path": "assets/images/谢谢_日常问候与礼貌用语.jpg",
-    "chinese-audio-path": "assets/audios/谢谢_zh.mp3",
-    "english-audio-path": "assets/audios/Hello_en.mp3"
-  },
-  {
-    "car-name": "不客气",
-    "car-english-name": "Hello",
-    "car-description": "你好是我们见到别人时说的礼貌用语，表示友好和尊重。当我们见到朋友、家人或者老师时，说'你好'是一种很好的打招呼方式。",
-    "car-english-pronunciation": "/həˈləʊ/",
-    "car-american-pronunciation": "/həˈloʊ/",
-    "car-type": "日常问候与礼貌用语",
-    "car-image-path": "assets/images/不客气_日常问候与礼貌用语.jpg",
-    "chinese-audio-path": "assets/audios/不客气_zh.mp3",
-    "english-audio-path": "assets/audios/Hello_en.mp3"
-  },
-  {
-    "car-name": "对不起",
-    "car-english-name": "Hello",
-    "car-description": "你好是一种礼貌的问候方式，当我们见到朋友、老师或家人时，可以说'你好'来表达友善和尊重。这是人们交流时最常用的礼貌用语之一。",
-    "car-english-pronunciation": "/həˈləʊ/",
-    "car-american-pronunciation": "/həˈloʊ/",
-    "car-type": "日常问候与礼貌用语",
-    "car-image-path": "assets/images/对不起_日常问候与礼貌用语.jpg",
-    "chinese-audio-path": "assets/audios/对不起_zh.mp3",
-    "english-audio-path": "assets/audios/Hello_en.mp3"
-  },
-  {
-    "car-name": "喵",
-    "car-english-name": "Animal Sounds",
-    "car-description": "动物叫声是动物们用来交流的方式。不同的动物会发出不同的声音，比如狗会'汪汪'叫，猫会'喵喵'叫，鸟会'叽叽喳喳'叫。动物们用叫声来表达自己的情感，比如开心、害怕或者饥饿。",
-    "car-english-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-american-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-type": "动物叫声",
-    "car-image-path": "assets/images/喵_动物叫声.jpg",
-    "chinese-audio-path": "assets/audios/喵_zh.mp3",
-    "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
-  },
-  {
-    "car-name": "汪",
-    "car-english-name": "Animal Sounds",
-    "car-description": "动物叫声是动物们发出的各种声音，不同的动物有不同的叫声。比如狗会'汪汪'叫，猫会'喵喵'叫，牛会'哞哞'叫。动物们用叫声来表达自己的情感和与其他动物交流。",
-    "car-english-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-american-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-type": "动物叫声",
-    "car-image-path": "assets/images/汪_动物叫声.jpg",
-    "chinese-audio-path": "assets/audios/汪_zh.mp3",
-    "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
-  },
-  {
-    "car-name": "嘎",
-    "car-english-name": "Animal Sounds",
-    "car-description": "动物的声音是动物们用来交流的方式。就像我们说话一样，动物们也会发出不同的声音来表达自己的想法和感受。比如，狗会汪汪叫，猫会喵喵叫，鸟会唧唧喳喳地唱歌。每种动物都有自己独特的声音，我们可以通过这些声音来认识它们！",
-    "car-english-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-american-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-type": "动物叫声",
-    "car-image-path": "assets/images/嘎_动物叫声.jpg",
-    "chinese-audio-path": "assets/audios/嘎_zh.mp3",
-    "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
-  },
-  {
-    "car-name": "哼",
-    "car-english-name": "Animal Sounds",
-    "car-description": "动物叫声是动物们发出的声音，它们用这些声音来交流。比如狗会'汪汪'叫，猫会'喵喵'叫，牛会'哞哞'叫，羊会'咩咩'叫。不同的动物有不同的叫声，这些叫声帮助它们表达自己的感情和需求。",
-    "car-english-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-american-pronunciation": "/ˈænɪməl saʊndz/",
-    "car-type": "动物叫声",
-    "car-image-path": "assets/images/哼_动物叫声.jpg",
-    "chinese-audio-path": "assets/audios/哼_zh.mp3",
-    "english-audio-path": "assets/audios/Animal Sounds_en.mp3"
-  },
-  {
-    "car-name": "哞",
-    "car-english-name": "Dog Barking",
-    "car-description": "狗叫是狗狗发出的声音。当狗狗开心、害怕或者想提醒主人注意时，它们会发出'汪汪'的声音。不同的狗狗叫声可能表示不同的情绪哦！",
-    "car-english-pronunciation": "/dɒg ˈbɑːkɪŋ/",
-    "car-american-pronunciation": "/dɔːg ˈbɑːrkɪŋ/",
-    "car-type": "动物叫声",
-    "car-image-path": "assets/images/哞_动物叫声.jpg",
-    "chinese-audio-path": "assets/audios/哞_zh.mp3",
-    "english-audio-path": "assets/audios/Dog Barking_en.mp3"
-  },
-  {
-    "car-name": "站起来",
-    "car-english-name": "Jump",
-    "car-description": "跳一跳是让我们双脚离地，向上蹦起来的动作。就像小兔子蹦蹦跳跳一样，很有趣！",
-    "car-english-pronunciation": "/dʒʌmp/",
-    "car-american-pronunciation": "/dʒʌmp/",
-    "car-type": "动作指令",
-    "car-image-path": "assets/images/站起来_动作指令.jpg",
-    "chinese-audio-path": "assets/audios/站起来_zh.mp3",
-    "english-audio-path": "assets/audios/Jump_en.mp3"
-  },
-  {
-    "car-name": "坐下",
-    "car-english-name": "Jump",
-    "car-description": "跳是用双脚离开地面的动作。当你跳的时候，你的身体会向上移动然后落回地面。小朋友可以在操场上跳绳，或者像小兔子一样跳来跳去。跳是一种很好的运动，能让你的身体更强壮！",
-    "car-english-pronunciation": "/dʒʌmp/",
-    "car-american-pronunciation": "/dʒʌmp/",
-    "car-type": "动作指令",
-    "car-image-path": "assets/images/坐下_动作指令.jpg",
-    "chinese-audio-path": "assets/audios/坐下_zh.mp3",
-    "english-audio-path": "assets/audios/Jump_en.mp3"
-  },
-  {
-    "car-name": "拍拍手",
-    "car-english-name": "Jump",
-    "car-description": "跳是用双脚离开地面，然后落下的动作。当我们开心时，会跳起来；玩游戏时，也会跳来跳去。跳可以帮助我们的身体变得更强壮。",
-    "car-english-pronunciation": "/dʒʌmp/",
-    "car-american-pronunciation": "/dʒʌmp/",
-    "car-type": "动作指令",
-    "car-image-path": "assets/images/拍拍手_动作指令.jpg",
-    "chinese-audio-path": "assets/audios/拍拍手_zh.mp3",
-    "english-audio-path": "assets/audios/Jump_en.mp3"
-  },
-  {
-    "car-name": "跺跺脚",
-    "car-english-name": "Jump",
-    "car-description": "跳一跳是双脚离地，向上或向前移动的动作。就像小兔子蹦蹦跳跳一样，很有趣！",
-    "car-english-pronunciation": "/dʒʌmp/",
-    "car-american-pronunciation": "/dʒʌmp/",
-    "car-type": "动作指令",
-    "car-image-path": "assets/images/跺跺脚_动作指令.jpg",
-    "chinese-audio-path": "assets/audios/跺跺脚_zh.mp3",
-    "english-audio-path": "assets/audios/Jump_en.mp3"
-  },
-  {
-    "car-name": "摸",
-    "car-english-name": "Jump",
-    "car-description": "跳是用双脚离开地面，然后落下的动作。当你开心时，你可能会跳起来。跳也是很多游戏和运动中的重要动作，比如跳绳、跳高和跳远。",
-    "car-english-pronunciation": "/dʒʌmp/",
-    "car-american-pronunciation": "/dʒʌmp/",
-    "car-type": "动作指令",
-    "car-image-path": "assets/images/摸_动作指令.jpg",
-    "chinese-audio-path": "assets/audios/摸_zh.mp3",
-    "english-audio-path": "assets/audios/Jump_en.mp3"
-  },
-  {
-    "car-name": "指",
-    "car-english-name": "Stop",
-    "car-description": "停是一个动作指令，告诉我们要立即停止正在做的动作，保持不动。当有危险情况、红灯亮起或者老师需要大家注意时，我们常常会听到这个指令。",
-    "car-english-pronunciation": "/stɒp/",
-    "car-american-pronunciation": "/stɑp/",
-    "car-type": "动作指令",
-    "car-image-path": "assets/images/指_动作指令.jpg",
-    "chinese-audio-path": "assets/audios/指_zh.mp3",
-    "english-audio-path": "assets/audios/Stop_en.mp3"
-  },
-  {
-    "car-name": "数数",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，用牙刷和牙膏清洁牙齿，让牙齿变得干净健康，防止蛀牙。每天早晚各刷一次牙，可以保持口气清新，牙齿洁白。",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/数数_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/数数_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
-  },
-  {
-    "car-name": "认汽车",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，可以保持牙齿干净和健康。我们用牙刷和牙膏来刷牙，早上起床后和晚上睡觉前都要刷牙。",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/认汽车_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/认汽车_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
-  },
-  {
-    "car-name": "吃水果",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，用牙刷和牙膏清洁牙齿，保持牙齿健康，防止蛀牙。早上起床后和晚上睡觉前都要刷牙哦！",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/吃水果_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/吃水果_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
-  },
-  {
-    "car-name": "数楼梯",
-    "car-english-name": "Tidying Up the Room",
-    "car-description": "整理房间是把我们的玩具、书本和衣服放回原位，让房间变得整洁干净的活动。整理好的房间让我们住得更舒服，也更容易找到我们想要的东西！",
-    "car-english-pronunciation": "/ˈtaɪdiɪŋ ʌp ðə ruːm/",
-    "car-american-pronunciation": "/ˈtaɪdiɪŋ ʌp ðə rum/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/数楼梯_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/数楼梯_zh.mp3",
-    "english-audio-path": "assets/audios/Tidying Up the Room_en.mp3"
-  },
-  {
-    "car-name": "数玩具",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，它能帮助我们保持牙齿干净和健康。用牙刷和牙膏，轻轻刷每一颗牙齿，包括前面、后面和咀嚼面。每天早晚各刷一次，可以防止蛀牙，让我们的笑容更美丽！",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/数玩具_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/数玩具_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
-  },
-  {
-    "car-name": "洗澡",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，用牙刷和牙膏清洁牙齿，保持牙齿健康和口气清新。通常早上起床后和晚上睡觉前都要刷牙。",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/洗澡_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/洗澡_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
-  },
-  {
-    "car-name": "穿衣",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，它可以帮助我们保持牙齿干净和健康。我们用牙刷和牙膏来刷牙，早上起床后和晚上睡觉前都要刷牙哦！",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/穿衣_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/穿衣_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
-  },
-  {
-    "car-name": "玩游戏",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，它能帮助保持牙齿干净和健康。我们用牙刷和牙膏来刷牙，轻轻地刷每一颗牙齿，这样可以去除食物残渣和细菌，让我们的口气清新，牙齿更坚固。",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/玩游戏_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/玩游戏_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
-  },
-  {
-    "car-name": "看书",
-    "car-english-name": "Brushing Teeth",
-    "car-description": "刷牙是我们每天都要做的事情，用牙刷和牙膏清洁牙齿，让牙齿保持健康洁白，防止蛀牙。通常早上起床后和晚上睡觉前都要刷牙。",
-    "car-english-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-american-pronunciation": "/ˈbrʌʃɪŋ tiːθ/",
-    "car-type": "日常活动",
-    "car-image-path": "assets/images/看书_日常活动.jpg",
-    "chinese-audio-path": "assets/audios/看书_zh.mp3",
-    "english-audio-path": "assets/audios/Brushing Teeth_en.mp3"
   }
 ]

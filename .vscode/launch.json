@@ -130,6 +130,17 @@
       "env": {
         "PYTHONPATH": "${workspaceFolder}"
       }
+    },
+    {
+      "name": "Python: 删除未使用的图片和音频文件",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/remove-image-audio.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
     }
   ],
   "compounds": [
