@@ -100,7 +100,6 @@ export const useCarStore = defineStore('car', () => {
 
   const playAudio = async (audioPath: string): Promise<void> => {
     try {
-      setIsPlayingAudio(true);
       const audio = new Audio(audioPath);
       await audio.play();
       await new Promise(resolve => {
@@ -108,19 +107,20 @@ export const useCarStore = defineStore('car', () => {
       });
     } catch (error) {
       console.error('播放音频失败:', error);
-    } finally {
-      setIsPlayingAudio(false);
+      throw error;
     }
   };
 
   const playCarAudio = async (): Promise<void> => {
     const car = currentCar.value;
     if (!car.audio || !car.audioEn) return;
-    
+
     try {
       setIsPlayingAudio(true);
       // 先播放中文音频
       await playAudio(car.audio);
+      // 稍微暂停
+      await new Promise(resolve => setTimeout(resolve, 300));
       // 再播放英文音频
       await playAudio(car.audioEn);
     } catch (error) {
@@ -155,24 +155,36 @@ export const useCarStore = defineStore('car', () => {
 
   // 初始化数据
   const initializeData = () => {
-    // 从JSON文件加载数据
-    if (carData && carData.cars) {
-      cars.value = carData.cars;
-      
+    // 从JSON文件加载数据并转换格式
+    if (carData && Array.isArray(carData)) {
+      cars.value = carData.map((item: any, index: number) => ({
+        id: `car-${index}`,
+        name: item['car-name'],
+        nameEn: item['car-english-name'],
+        desc: item['car-description'] || '',
+        descEn: '', // 如果没有英文描述，留空
+        pronounce: item['car-english-pronunciation'] || '',
+        pronounceEn: item['car-american-pronunciation'] || '',
+        image: `/${item['car-image-path']}`,
+        audio: `/${item['chinese-audio-path']}`,
+        audioEn: `/${item['english-audio-path']}`,
+        type: item['car-type']
+      }));
+
       // 生成汽车类型数据
       const typeMap = new Map<string, number>();
       cars.value.forEach(car => {
         const count = typeMap.get(car.type) || 0;
         typeMap.set(car.type, count + 1);
       });
-      
+
       carTypes.value = Array.from(typeMap.entries()).map(([name, count]) => ({
         id: name.toLowerCase().replace(/\s+/g, '-'),
         name,
         count
       }));
     }
-    
+
     // 从本地存储加载当前索引
     loadCurrentIndexFromStorage();
   };
