@@ -141,6 +141,18 @@
       "env": {
         "PYTHONPATH": "${workspaceFolder}"
       }
+    },
+    {
+      "name": "Vue: 启动开发服务器",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/kid-car-vue/node_modules/vite/bin/vite.js",
+      "cwd": "${workspaceFolder}/kid-car-vue",
+      "console": "integratedTerminal",
+      "runtimeExecutable": "/usr/local/bin/node",
+      "env": {
+        "PORT": "19234"
+      }
     }
   ],
   "compounds": [
