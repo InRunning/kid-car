@@ -1,4 +1,12 @@
 <script setup lang="ts">
+/**
+ * @file Home.vue
+ * @description 主页面组件，展示汽车卡片，支持触摸滑动、键盘操作和音频播放
+ * @author Developer
+ * @date 2023-01-01
+ * @version 1.0.0
+ */
+
 import { ref, onMounted, onUnmounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useCarStore } from '@/store/car';
@@ -6,17 +14,30 @@ import { useCarStore } from '@/store/car';
 const router = useRouter();
 const carStore = useCarStore();
 
+// #region 触摸事件相关
+// 定义触摸事件相关的状态变量
 // 触摸相关变量
 const touchStartX = ref<number>(0);
 const touchEndX = ref<number>(0);
 const isSwiping = ref<boolean>(false);
+// #endregion
 
+// #region 触摸事件处理
+// 处理触摸开始、移动和结束事件，实现滑动切换汽车功能
+/**
+ * 处理触摸开始事件
+ * @param e - TouchEvent 触摸事件对象
+ */
 // 处理触摸开始事件
 const handleTouchStart = (e: TouchEvent) => {
   touchStartX.value = e.changedTouches[0].screenX;
   isSwiping.value = true;
 };
 
+/**
+ * 处理触摸移动事件
+ * @param e - TouchEvent 触摸事件对象
+ */
 // 处理触摸移动事件
 const handleTouchMove = (e: TouchEvent) => {
   if (!isSwiping.value) return;
@@ -32,6 +53,9 @@ const handleTouchMove = (e: TouchEvent) => {
   }
 };
 
+/**
+ * 处理触摸结束事件
+ */
 // 处理触摸结束事件
 const handleTouchEnd = () => {
   if (!isSwiping.value) return;
@@ -58,6 +82,13 @@ const handleTouchEnd = () => {
   }
 };
 
+// #endregion
+
+// #region 事件处理函数
+// 处理各种用户交互事件
+/**
+ * 处理汽车图片点击事件，播放汽车音频
+ */
 // 处理汽车图片点击事件
 const handleCarClick = async () => {
   if (!carStore.isPlayingAudio) {
@@ -65,11 +96,18 @@ const handleCarClick = async () => {
   }
 };
 
+/**
+ * 导航到搜索页面
+ */
 // 导航到搜索页面
 const goToSearch = () => {
   router.push('/search');
 };
 
+/**
+ * 处理键盘事件，支持左右箭头键切换汽车，空格/回车键播放音频
+ * @param e - KeyboardEvent 键盘事件对象
+ */
 // 处理键盘事件
 const handleKeyDown = (e: KeyboardEvent) => {
   if (e.key === 'ArrowLeft') {
@@ -81,6 +119,13 @@ const handleKeyDown = (e: KeyboardEvent) => {
   }
 };
 
+// #endregion
+
+// #region 生命周期钩子
+// 在组件挂载和卸载时添加和移除事件监听器
+/**
+ * 组件挂载时添加键盘事件监听器
+ */
 onMounted(() => {
   // 添加键盘事件监听
   window.addEventListener('keydown', handleKeyDown);
@@ -93,7 +138,11 @@ onUnmounted(() => {
 </script>
 
 <template>
+  <!-- #region 页面结构 -->
+  <!-- 主页面结构，包含头部、汽车卡片、导航按钮和提示信息 -->
   <div class="home-page">
+    <!-- #region 页面头部 -->
+    <!-- 包含标题和搜索按钮 -->
     <div class="header">
       <h1>儿童早教学习卡片</h1>
       <button class="search-btn" @click="goToSearch">
@@ -101,21 +150,29 @@ onUnmounted(() => {
         搜索
       </button>
     </div>
+    <!-- #endregion -->
     
+    <!-- #region 汽车卡片容器 -->
+    <!-- 包含汽车卡片和导航按钮 -->
     <div class="car-container">
-      <div 
+      <!-- #region 汽车卡片 -->
+      <!-- 汽车卡片，支持触摸滑动切换 -->
+      <div
         class="car-card"
         @touchstart="handleTouchStart"
         @touchmove="handleTouchMove"
         @touchend="handleTouchEnd"
       >
+        <!-- #region 汽车图片容器 -->
+        <!-- 显示汽车图片，点击播放音频 -->
         <div class="car-image-container" @click="handleCarClick">
-          <img 
-            :src="carStore.currentCar.image" 
+          <img
+            :src="carStore.currentCar.image"
             :alt="carStore.currentCar.name"
             class="car-image"
             :class="{ 'playing': carStore.isPlayingAudio }"
           />
+          <!-- 音频播放指示器 -->
           <div v-if="carStore.isPlayingAudio" class="audio-indicator">
             <div class="audio-wave"></div>
             <div class="audio-wave"></div>
@@ -123,6 +180,10 @@ onUnmounted(() => {
           </div>
         </div>
         
+        <!-- #endregion -->
+        
+        <!-- #region 汽车信息 -->
+        <!-- 显示汽车的名称、描述、发音和类型信息 -->
         <div class="car-info">
           <h2 class="car-name">{{ carStore.currentCar.name }}</h2>
           <p class="car-name-en">{{ carStore.currentCar.nameEn }}</p>
@@ -136,8 +197,12 @@ onUnmounted(() => {
             类型: {{ carStore.currentCar.type }}
           </div>
         </div>
+        <!-- #endregion -->
       </div>
+      <!-- #endregion -->
       
+      <!-- #region 导航控制 -->
+      <!-- 上一张/下一张按钮和计数器 -->
       <div class="navigation">
         <button 
           class="nav-btn prev-btn" 
@@ -157,16 +222,24 @@ onUnmounted(() => {
           下一张
         </button>
       </div>
+      <!-- #endregion -->
     </div>
+    <!-- #endregion -->
     
+    <!-- #region 提示信息 -->
+    <!-- 显示操作提示信息 -->
     <div class="tips">
       <p>💡 提示: 点击图片播放音频，左右滑动切换汽车</p>
       <p>⌨️ 键盘操作: ← → 切换汽车，空格/回车播放音频</p>
     </div>
+    <!-- #endregion -->
   </div>
+  <!-- #endregion -->
 </template>
 
 <style lang="scss" scoped>
+/* #region 页面样式 */
+/* 定义页面的基本样式 */
 .home-page {
   width: 100%;
   height: 100vh;
@@ -176,6 +249,8 @@ onUnmounted(() => {
   overflow: hidden;
 }
 
+/* #region 页面头部样式 */
+/* 定义页面头部的样式 */
 .header {
   display: flex;
   justify-content: space-between;
@@ -217,17 +292,23 @@ onUnmounted(() => {
     }
   }
 }
+/* #endregion */
+  
+  /* #region 汽车卡片容器样式 */
+  /* 定义汽车卡片容器的样式 */
+  .car-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  /* #endregion */
 
-.car-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  overflow-y: auto;
-}
-
+/* #region 汽车卡片样式 */
+/* 定义汽车卡片的样式 */
 .car-card {
   width: 100%;
   max-width: 400px;
@@ -237,7 +318,10 @@ onUnmounted(() => {
   overflow: hidden;
   margin-bottom: 20px;
 }
+/* #endregion */
 
+/* #region 汽车图片容器样式 */
+/* 定义汽车图片容器的样式 */
 .car-image-container {
   position: relative;
   width: 100%;
@@ -250,6 +334,7 @@ onUnmounted(() => {
     transform: scale(0.98);
   }
 }
+/* #endregion */
 
 .car-image {
   width: 100%;
@@ -446,4 +531,5 @@ onUnmounted(() => {
     }
   }
 }
+/* #endregion 页面样式 */
 </style>
