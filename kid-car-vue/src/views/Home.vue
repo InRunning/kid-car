@@ -105,6 +105,14 @@ const goToSearch = () => {
 };
 
 /**
+ * 导航到下载页面
+ */
+// 导航到下载页面
+const goToDownload = () => {
+  router.push('/download');
+};
+
+/**
  * 处理键盘事件，支持左右箭头键切换汽车，空格/回车键播放音频
  * @param e - KeyboardEvent 键盘事件对象
  */
@@ -145,10 +153,16 @@ onUnmounted(() => {
     <!-- 包含标题和搜索按钮 -->
     <div class="header">
       <h1>儿童早教学习卡片</h1>
-      <button class="search-btn" @click="goToSearch">
-        <span class="search-icon">🔍</span>
-        搜索
-      </button>
+      <div class="header-buttons">
+        <button class="search-btn" @click="goToSearch">
+          <span class="search-icon">🔍</span>
+          搜索
+        </button>
+        <button class="download-btn" @click="goToDownload">
+          <span class="download-icon">⬇️</span>
+          下载
+        </button>
+      </div>
     </div>
     <!-- #endregion -->
     
@@ -266,7 +280,12 @@ onUnmounted(() => {
     margin: 0;
   }
   
-  .search-btn {
+  .header-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .search-btn, .download-btn {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -287,7 +306,7 @@ onUnmounted(() => {
       transform: scale(0.95);
     }
     
-    .search-icon {
+    .search-icon, .download-icon {
       font-size: 16px;
     }
   }
@@ -496,11 +515,11 @@ onUnmounted(() => {
       font-size: 18px;
     }
     
-    .search-btn {
+    .search-btn, .download-btn {
       font-size: 12px;
       padding: 6px 12px;
       
-      .search-icon {
+      .search-icon, .download-icon {
         font-size: 14px;
       }
     }

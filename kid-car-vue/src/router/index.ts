@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Search from '@/views/Search.vue'
+import Download from '@/views/Download.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -19,6 +20,14 @@ const router = createRouter({
       component: Search,
       meta: {
         title: '搜索汽车'
+      }
+    },
+    {
+      path: '/download',
+      name: 'download',
+      component: Download,
+      meta: {
+        title: '下载应用'
       }
     },
     {
