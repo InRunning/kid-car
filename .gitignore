@@ -86,3 +86,4 @@ __pycache__/
 *$py.class
 local.yaml
 ref-docs/
+*.apk
