@@ -86,4 +86,13 @@ __pycache__/
 *$py.class
 local.yaml
 ref-docs/
+
+# Python virtual environments
+venv/
+.venv/
+
+# Flutter build artifacts
+kid_car_flutter/*.ipa
+kid_car_flutter/KidCarFlutter_unzip/
+kid_car_flutter/ios/ExportOptions.plist
 *.apk
